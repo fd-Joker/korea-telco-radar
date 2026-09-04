@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-04",
+  "title": "Korea Telco Advanced Technology Radar",
+  "top5": [
+    {
+      "title": "等待首次自动发布",
+      "summary": "仓库已经初始化。下一次 Korea Telco 技术雷达任务运行后，这里会被当天真实 Top 5 替换。",
+      "importance": "常规动态"
+    }
+  ],
+  "trends": {
+    "AI-RAN": {
+      "status": "Pending",
+      "summary": "等待首次自动任务生成真实趋势。"
+    },
+    "6G": {
+      "status": "Pending",
+      "summary": "等待首次自动任务生成真实趋势。"
+    },
+    "Ambient IoT": {
+      "status": "Pending",
+      "summary": "等待首次自动任务生成真实趋势。"
+    }
+  },
+  "vendors": {},
+  "operators": {},
+  "ai_companies": {},
+  "timeline15d": [],
+  "sources": []
+}
