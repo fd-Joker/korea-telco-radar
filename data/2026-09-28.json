@@ -1,0 +1,288 @@
+{
+  "date": "2026-09-28",
+  "title": "Korea Telco Advanced Technology Radar",
+  "top5": [
+    {
+      "title": "Samsung / KT / SKT Hyper AI Network：韩国AI-RAN本周主线保持不变",
+      "date": "2026-09-23",
+      "source_name": "Samsung Electronics",
+      "source_url": "https://news.samsung.com/global/samsung-at-the-forefront-of-koreas-ai-ran-projects-with-kt-and-sk-telecom",
+      "source_type": "官方新闻稿",
+      "importance": "重大更新",
+      "summary": "Samsung成为KT项目唯一全球设备商、SKT项目主设备商，项目计划10月在造船厂和石化设施部署5G SA专网，验证AI-RAN、Edge AI、机器人与自治运维。",
+      "technical_significance": "韩国AI-RAN已从单一无线算法优化走向Connectivity + Edge Compute + Physical AI的系统级工业验证。",
+      "impact_for_korean_telco": "10月现场应重点追踪UL吞吐、P95/P99时延、可靠性、RAN/AI资源隔离、GPU利用率、功耗、机器人任务成功率和单位场景TCO。",
+      "topic": "AI-RAN / Physical AI / Private 5G",
+      "company_or_org": "Samsung / KT / SK Telecom"
+    },
+    {
+      "title": "Ericsson Intelligent Fabric：Physical AI、异构算力、可编程网络与自治闭环开始收敛",
+      "date": "2026-09-24",
+      "source_name": "Ericsson",
+      "source_url": "https://www.ericsson.com/en/news/2026/9/ericsson-cto-technology-and-telecoms-trends-2026-report",
+      "source_type": "官方技术趋势报告",
+      "importance": "重大更新",
+      "summary": "Ericsson CTO将未来网络描述为支撑AI规模化的Intelligent Fabric，重点覆盖Physical AI、AI-native/量子韧性安全、Programmable World和Heterogeneous Compute。",
+      "technical_significance": "AI-RAN、ISAC、Physical AI和Autonomous Network正在从分散技术点收敛为connect + sense + compute + act的系统架构。",
+      "impact_for_korean_telco": "与韩国Hyper AI Network、LG U+ AION和ISAC方向高度匹配，可作为韩国6G前置验证的统一架构框架。",
+      "topic": "AI-RAN / 6G / Physical AI",
+      "company_or_org": "Ericsson"
+    },
+    {
+      "title": "Ericsson 6G AI Domain：Agent身份、Intent与AI服务进入Core原生架构讨论",
+      "date": "2026-09-23",
+      "source_name": "Ericsson",
+      "source_url": "https://www.ericsson.com/en/blog/2026/9/ai-domain-6g-core-network",
+      "source_type": "官方技术博客/6G架构观点",
+      "importance": "重大更新",
+      "summary": "Ericsson提出在演进5GC PS Domain之外增加可选AI Domain，面向AI Agent身份授权、Intent、Agent协作、网络能力暴露以及AI推理/训练服务。",
+      "technical_significance": "AI-native 6G开始从“网络内部用AI优化”扩展为“网络原生服务AI Agent”；但这仍是厂商架构观点和标准讨论方向，不是已批准3GPP Work Item、CR或规范正文。",
+      "impact_for_korean_telco": "韩国运营商可研究AI Domain与5GC/NEF/CAPIF/Network API/AN的分工，以及Connectivity + Compute + AI Capability的新商业计价维度。",
+      "topic": "6G Core / Agentic AI / Network API",
+      "company_or_org": "Ericsson"
+    },
+    {
+      "title": "LG U+ AION：生产网络应用继续作为韩国Autonomous Network本地基线",
+      "date": "2026-09-18",
+      "source_name": "LG U+",
+      "source_url": "https://news.lguplus.com/22870",
+      "source_type": "运营商官方新闻稿",
+      "importance": "重大更新",
+      "summary": "AION已用于韩国节假日高流量生产网络保障，覆盖高速公路、KTX/SRT车站和机场等重点区域。",
+      "technical_significance": "韩国Autonomous Network已越过纯PoC，但公开信息仍缺少闭环率、人工介入率等关键生产KPI。",
+      "impact_for_korean_telco": "继续追踪自动动作比例、人工介入率、MTTR、错误动作率和rollback，形成韩国L4 AN本地benchmark。",
+      "topic": "Autonomous Network / AI-RAN",
+      "company_or_org": "LG U+"
+    },
+    {
+      "title": "3GPP Ambient IoT：过去24小时未发现冻结、完成或Approved CR级新拐点",
+      "date": "2026-09-28",
+      "source_name": "3GPP",
+      "source_url": "https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=5530",
+      "source_type": "3GPP规范门户核验",
+      "importance": "常规动态",
+      "summary": "过去24小时的一手来源检索未发现Rel-20 Ambient IoT新的冻结、完成或Approved CR级状态变化；TS 23.370继续按Draft规范正文处理。",
+      "technical_significance": "Ambient IoT已进入正式TS编制，但Rel-20 Phase 2仍在演进；必须区分Study Item、Work Item、单份TDoc/CR、Approved CR、Draft TS与冻结规范。",
+      "impact_for_korean_telco": "韩国运营商现阶段更适合做制造、物流和资产管理的Tag-RAN-Platform-API-Application端到端PoC，不宜按最终冻结规范做规模商用承诺。",
+      "topic": "Ambient IoT / 3GPP",
+      "company_or_org": "3GPP"
+    }
+  ],
+  "trends": {
+    "AI-RAN": {
+      "direction": "↑↑↑",
+      "summary": "过去24小时未发现覆盖厂商/运营商的一手AI-RAN重大新增。本周主线仍是Samsung/KT/SKT Hyper AI Network：韩国AI-RAN正从无线算法增益走向RAN算力、Edge AI和Physical AI系统工程。",
+      "key_change": "较上一期无新的技术拐点；下一观察窗口转向10月韩国工业现场验证的量化KPI。",
+      "sources": [
+        {
+          "date": "2026-09-23",
+          "name": "Samsung / KT / SKT",
+          "url": "https://news.samsung.com/global/samsung-at-the-forefront-of-koreas-ai-ran-projects-with-kt-and-sk-telecom"
+        },
+        {
+          "date": "2026-09-24",
+          "name": "Ericsson Intelligent Fabric",
+          "url": "https://www.ericsson.com/en/news/2026/9/ericsson-cto-technology-and-telecoms-trends-2026-report"
+        }
+      ]
+    },
+    "6G": {
+      "direction": "↑↑↑",
+      "summary": "过去24小时未发现新的3GPP 6G规范性里程碑。Ericsson AI Domain与Intelligent Fabric仍是本周最重要架构信号，但均不能表述为已批准3GPP规范。",
+      "key_change": "较上一期无新的标准状态变化；重点继续从技术清单转向Agent身份、Intent、AI服务暴露、异构算力和Physical AI业务映射。",
+      "sources": [
+        {
+          "date": "2026-09-23",
+          "name": "Ericsson 6G AI Domain",
+          "url": "https://www.ericsson.com/en/blog/2026/9/ai-domain-6g-core-network"
+        },
+        {
+          "date": "2026-09-24",
+          "name": "Ericsson Intelligent Fabric",
+          "url": "https://www.ericsson.com/en/news/2026/9/ericsson-cto-technology-and-telecoms-trends-2026-report"
+        }
+      ]
+    },
+    "Ambient IoT": {
+      "direction": "→",
+      "summary": "过去24小时未发现Rel-20 Ambient IoT冻结、完成或Approved CR级变化；继续按Draft/进行中口径处理。",
+      "key_change": "无变化。",
+      "sources": [
+        {
+          "date": "2026-09-28核验",
+          "name": "3GPP TS 23.370",
+          "url": "https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=5530"
+        }
+      ]
+    }
+  },
+  "vendors": [
+    {
+      "title": "Samsung / KT / SKT Hyper AI Network：韩国AI-RAN本周主线保持不变",
+      "date": "2026-09-23",
+      "source_name": "Samsung Electronics",
+      "source_url": "https://news.samsung.com/global/samsung-at-the-forefront-of-koreas-ai-ran-projects-with-kt-and-sk-telecom",
+      "source_type": "官方新闻稿",
+      "importance": "重大更新",
+      "summary": "Samsung成为KT项目唯一全球设备商、SKT项目主设备商，项目计划10月在造船厂和石化设施部署5G SA专网，验证AI-RAN、Edge AI、机器人与自治运维。",
+      "technical_significance": "韩国AI-RAN已从单一无线算法优化走向Connectivity + Edge Compute + Physical AI的系统级工业验证。",
+      "impact_for_korean_telco": "10月现场应重点追踪UL吞吐、P95/P99时延、可靠性、RAN/AI资源隔离、GPU利用率、功耗、机器人任务成功率和单位场景TCO。",
+      "topic": "AI-RAN / Physical AI / Private 5G",
+      "company_or_org": "Samsung / KT / SK Telecom"
+    },
+    {
+      "title": "Ericsson Intelligent Fabric：Physical AI、异构算力、可编程网络与自治闭环开始收敛",
+      "date": "2026-09-24",
+      "source_name": "Ericsson",
+      "source_url": "https://www.ericsson.com/en/news/2026/9/ericsson-cto-technology-and-telecoms-trends-2026-report",
+      "source_type": "官方技术趋势报告",
+      "importance": "重大更新",
+      "summary": "Ericsson CTO将未来网络描述为支撑AI规模化的Intelligent Fabric，重点覆盖Physical AI、AI-native/量子韧性安全、Programmable World和Heterogeneous Compute。",
+      "technical_significance": "AI-RAN、ISAC、Physical AI和Autonomous Network正在从分散技术点收敛为connect + sense + compute + act的系统架构。",
+      "impact_for_korean_telco": "与韩国Hyper AI Network、LG U+ AION和ISAC方向高度匹配，可作为韩国6G前置验证的统一架构框架。",
+      "topic": "AI-RAN / 6G / Physical AI",
+      "company_or_org": "Ericsson"
+    },
+    {
+      "title": "Ericsson 6G AI Domain：Agent身份、Intent与AI服务进入Core原生架构讨论",
+      "date": "2026-09-23",
+      "source_name": "Ericsson",
+      "source_url": "https://www.ericsson.com/en/blog/2026/9/ai-domain-6g-core-network",
+      "source_type": "官方技术博客/6G架构观点",
+      "importance": "重大更新",
+      "summary": "Ericsson提出在演进5GC PS Domain之外增加可选AI Domain，面向AI Agent身份授权、Intent、Agent协作、网络能力暴露以及AI推理/训练服务。",
+      "technical_significance": "AI-native 6G开始从“网络内部用AI优化”扩展为“网络原生服务AI Agent”；但这仍是厂商架构观点和标准讨论方向，不是已批准3GPP Work Item、CR或规范正文。",
+      "impact_for_korean_telco": "韩国运营商可研究AI Domain与5GC/NEF/CAPIF/Network API/AN的分工，以及Connectivity + Compute + AI Capability的新商业计价维度。",
+      "topic": "6G Core / Agentic AI / Network API",
+      "company_or_org": "Ericsson"
+    }
+  ],
+  "operators": [
+    {
+      "title": "Samsung / KT / SKT Hyper AI Network：韩国AI-RAN本周主线保持不变",
+      "date": "2026-09-23",
+      "source_name": "Samsung Electronics",
+      "source_url": "https://news.samsung.com/global/samsung-at-the-forefront-of-koreas-ai-ran-projects-with-kt-and-sk-telecom",
+      "source_type": "官方新闻稿",
+      "importance": "重大更新",
+      "summary": "Samsung成为KT项目唯一全球设备商、SKT项目主设备商，项目计划10月在造船厂和石化设施部署5G SA专网，验证AI-RAN、Edge AI、机器人与自治运维。",
+      "technical_significance": "韩国AI-RAN已从单一无线算法优化走向Connectivity + Edge Compute + Physical AI的系统级工业验证。",
+      "impact_for_korean_telco": "10月现场应重点追踪UL吞吐、P95/P99时延、可靠性、RAN/AI资源隔离、GPU利用率、功耗、机器人任务成功率和单位场景TCO。",
+      "topic": "AI-RAN / Physical AI / Private 5G",
+      "company_or_org": "Samsung / KT / SK Telecom"
+    },
+    {
+      "title": "LG U+ AION：生产网络应用继续作为韩国Autonomous Network本地基线",
+      "date": "2026-09-18",
+      "source_name": "LG U+",
+      "source_url": "https://news.lguplus.com/22870",
+      "source_type": "运营商官方新闻稿",
+      "importance": "重大更新",
+      "summary": "AION已用于韩国节假日高流量生产网络保障，覆盖高速公路、KTX/SRT车站和机场等重点区域。",
+      "technical_significance": "韩国Autonomous Network已越过纯PoC，但公开信息仍缺少闭环率、人工介入率等关键生产KPI。",
+      "impact_for_korean_telco": "继续追踪自动动作比例、人工介入率、MTTR、错误动作率和rollback，形成韩国L4 AN本地benchmark。",
+      "topic": "Autonomous Network / AI-RAN",
+      "company_or_org": "LG U+"
+    }
+  ],
+  "ai_companies": [],
+  "timeline15d": [
+    {
+      "title": "Ericsson Intelligent Fabric：Physical AI、异构算力、可编程网络与自治闭环开始收敛",
+      "date": "2026-09-24",
+      "source_name": "Ericsson",
+      "source_url": "https://www.ericsson.com/en/news/2026/9/ericsson-cto-technology-and-telecoms-trends-2026-report",
+      "source_type": "官方技术趋势报告",
+      "importance": "重大更新",
+      "summary": "Ericsson CTO将未来网络描述为支撑AI规模化的Intelligent Fabric，重点覆盖Physical AI、AI-native/量子韧性安全、Programmable World和Heterogeneous Compute。",
+      "technical_significance": "AI-RAN、ISAC、Physical AI和Autonomous Network正在从分散技术点收敛为connect + sense + compute + act的系统架构。",
+      "impact_for_korean_telco": "与韩国Hyper AI Network、LG U+ AION和ISAC方向高度匹配，可作为韩国6G前置验证的统一架构框架。",
+      "topic": "AI-RAN / 6G / Physical AI",
+      "company_or_org": "Ericsson"
+    },
+    {
+      "title": "Ericsson 6G AI Domain：Agent身份、Intent与AI服务进入Core原生架构讨论",
+      "date": "2026-09-23",
+      "source_name": "Ericsson",
+      "source_url": "https://www.ericsson.com/en/blog/2026/9/ai-domain-6g-core-network",
+      "source_type": "官方技术博客/6G架构观点",
+      "importance": "重大更新",
+      "summary": "Ericsson提出在演进5GC PS Domain之外增加可选AI Domain，面向AI Agent身份授权、Intent、Agent协作、网络能力暴露以及AI推理/训练服务。",
+      "technical_significance": "AI-native 6G开始从“网络内部用AI优化”扩展为“网络原生服务AI Agent”；但这仍是厂商架构观点和标准讨论方向，不是已批准3GPP Work Item、CR或规范正文。",
+      "impact_for_korean_telco": "韩国运营商可研究AI Domain与5GC/NEF/CAPIF/Network API/AN的分工，以及Connectivity + Compute + AI Capability的新商业计价维度。",
+      "topic": "6G Core / Agentic AI / Network API",
+      "company_or_org": "Ericsson"
+    },
+    {
+      "title": "Samsung / KT / SKT Hyper AI Network：韩国AI-RAN本周主线保持不变",
+      "date": "2026-09-23",
+      "source_name": "Samsung Electronics",
+      "source_url": "https://news.samsung.com/global/samsung-at-the-forefront-of-koreas-ai-ran-projects-with-kt-and-sk-telecom",
+      "source_type": "官方新闻稿",
+      "importance": "重大更新",
+      "summary": "Samsung成为KT项目唯一全球设备商、SKT项目主设备商，项目计划10月在造船厂和石化设施部署5G SA专网，验证AI-RAN、Edge AI、机器人与自治运维。",
+      "technical_significance": "韩国AI-RAN已从单一无线算法优化走向Connectivity + Edge Compute + Physical AI的系统级工业验证。",
+      "impact_for_korean_telco": "10月现场应重点追踪UL吞吐、P95/P99时延、可靠性、RAN/AI资源隔离、GPU利用率、功耗、机器人任务成功率和单位场景TCO。",
+      "topic": "AI-RAN / Physical AI / Private 5G",
+      "company_or_org": "Samsung / KT / SK Telecom"
+    },
+    {
+      "title": "LG U+ AION：生产网络应用继续作为韩国Autonomous Network本地基线",
+      "date": "2026-09-18",
+      "source_name": "LG U+",
+      "source_url": "https://news.lguplus.com/22870",
+      "source_type": "运营商官方新闻稿",
+      "importance": "重大更新",
+      "summary": "AION已用于韩国节假日高流量生产网络保障，覆盖高速公路、KTX/SRT车站和机场等重点区域。",
+      "technical_significance": "韩国Autonomous Network已越过纯PoC，但公开信息仍缺少闭环率、人工介入率等关键生产KPI。",
+      "impact_for_korean_telco": "继续追踪自动动作比例、人工介入率、MTTR、错误动作率和rollback，形成韩国L4 AN本地benchmark。",
+      "topic": "Autonomous Network / AI-RAN",
+      "company_or_org": "LG U+"
+    },
+    {
+      "title": "3GPP Ambient IoT：过去24小时未发现冻结、完成或Approved CR级新拐点",
+      "date": "2026-09-27",
+      "source_name": "3GPP",
+      "source_url": "https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=5530",
+      "source_type": "3GPP规范门户核验",
+      "importance": "常规动态",
+      "summary": "本轮一手来源检索未发现过去24小时新的Rel-20 Ambient IoT冻结、完成或Approved CR级状态变化；TS 23.370继续按Draft规范正文处理。",
+      "technical_significance": "Ambient IoT已进入正式TS编制，但Rel-20 Phase 2仍在演进；必须区分Study Item、Work Item、单份TDoc/CR、Approved CR、Draft TS与冻结规范。",
+      "impact_for_korean_telco": "韩国运营商现阶段更适合做制造、物流和资产管理的Tag-RAN-Platform-API-Application端到端PoC，不宜按最终冻结规范做规模商用承诺。",
+      "topic": "Ambient IoT / 3GPP",
+      "company_or_org": "3GPP"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Ericsson",
+      "url": "https://www.ericsson.com/en/news/2026/9/ericsson-cto-technology-and-telecoms-trends-2026-report",
+      "date": "2026-09-24",
+      "type": "官方技术趋势报告"
+    },
+    {
+      "name": "Ericsson",
+      "url": "https://www.ericsson.com/en/blog/2026/9/ai-domain-6g-core-network",
+      "date": "2026-09-23",
+      "type": "官方技术博客/6G架构观点"
+    },
+    {
+      "name": "Samsung Electronics",
+      "url": "https://news.samsung.com/global/samsung-at-the-forefront-of-koreas-ai-ran-projects-with-kt-and-sk-telecom",
+      "date": "2026-09-23",
+      "type": "官方新闻稿"
+    },
+    {
+      "name": "LG U+",
+      "url": "https://news.lguplus.com/22870",
+      "date": "2026-09-18",
+      "type": "运营商官方新闻稿"
+    },
+    {
+      "name": "3GPP",
+      "url": "https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=5530",
+      "date": "2026-09-27核验",
+      "type": "规范门户"
+    }
+  ]
+}
