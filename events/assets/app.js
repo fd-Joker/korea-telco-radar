@@ -51,8 +51,10 @@ function badges(e){
     ...(e.insights?.length?[`<span class="badge insight">已有洞察 / Insight Available</span>`]:[])
   ].join('');
 }
+function speakerInterest(e){return (e.speakers||[]).some(s=>/Jaehyun Ahn|안재현|Sangheon Lee|Sang-heon Lee|이상헌|Lee Sang-heon/i.test(String(s)));}
 function card(e){
-  return `<a class="event-card" href="${eventHref(e)}">
+  const interest=speakerInterest(e);
+  return `<a class="event-card${interest?' speaker-interest':''}" data-speaker-interest="${interest?'true':'false'}" href="${eventHref(e)}">
     <div class="event-top"><div>
       <div class="event-date">${esc(e.startDate||'TBD')}${e.endDate&&e.endDate!==e.startDate?` — ${esc(e.endDate)}`:''}</div>
       ${bilingualTitleHtml(e)}

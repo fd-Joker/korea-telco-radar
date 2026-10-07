@@ -1,6 +1,62 @@
 {
-  "updatedAt": "2026-09-26T09:18:00+09:00",
+  "updatedAt": "2026-10-08T08:15:32+09:00",
   "events": [
+    {
+      "id": "eu-korea-digital-partnership-2026",
+      "title": "EU–Korea Digital Partnership: From Vision to Delivery",
+      "titleKo": "한-EU 디지털 파트너십: 비전에서 실행으로",
+      "titleZh": "韩欧数字伙伴关系：从愿景到落地",
+      "summary": "EU–Korea Digital Days 旗舰活动，围绕 6G 与 AI-native Networks、Physical AI、AI/Data、网络安全、量子与标准化开展政策和技术合作；9月15日至17日在首尔举行。",
+      "topics": [
+        "6G",
+        "AI-native Networks",
+        "Physical AI",
+        "AI/Data",
+        "Standardization",
+        "Cybersecurity",
+        "Quantum"
+      ],
+      "organizer": [
+        "EU–Korea Digital Partnership",
+        "INPACE"
+      ],
+      "participants": [
+        "Delegation of the European Union to the Republic of Korea",
+        "IITP",
+        "TTA",
+        "ETSI",
+        "Sejong University",
+        "Daejeon University"
+      ],
+      "speakers": [],
+      "startDate": "2026-09-15",
+      "endDate": "2026-09-17",
+      "location": "14 Sejong-daero, Jung-gu, Seoul, Korea",
+      "language": "English / Korean",
+      "status": "completed",
+      "registrationUrl": "https://inpacehub.eu/event/eu-korea-digital-partnership-from-vision-to-delivery/",
+      "registrationEligibility": "Research, industry, policy and standardisation stakeholders; advance registration required.",
+      "fee": "Free",
+      "officialUrl": "https://www.eeas.europa.eu/delegations/south-korea/eu-korea-digital-partnership-vision-delivery-event-be-hosted-seoul_en",
+      "publishedAt": "2026-07-24",
+      "sourceType": "confirmed · official · completed",
+      "priority": "S",
+      "operatorRelevance": "high",
+      "whyItMatters": "直接覆盖 6G、AI-native Networks 与 Physical AI，并连接 IITP/TTA/ETSI 等政策和标准化生态；对韩国运营商先进技术团队具有高价值。",
+      "agenda": [
+        {
+          "time": "2026-09-15 09:30-18:00",
+          "title": "EU–Korea Tech Frontier Workshop: Shaping the Digital Future Together",
+          "speaker": "EU/Korea experts in 6G, Physical AI, cybersecurity and quantum"
+        },
+        {
+          "time": "2026-09-15 to 2026-09-17",
+          "title": "AI Ready Data Challenge and EU–Korea Digital Partnership sessions",
+          "speaker": "EU–Korea Digital Partnership ecosystem"
+        }
+      ],
+      "insights": []
+    },
     {
       "id": "ainex-2026",
       "title": "AI Infrastructure Nexus Conference (AINEX 2026)",
@@ -62,62 +118,6 @@
           "time": "15:40-15:55",
           "title": "Evolution toward AI-based Autonomous Networks",
           "speaker": "Lee Sang-heon, LG U+"
-        }
-      ],
-      "insights": []
-    },
-    {
-      "id": "eu-korea-digital-partnership-2026",
-      "title": "EU–Korea Digital Partnership: From Vision to Delivery",
-      "titleKo": "한-EU 디지털 파트너십: 비전에서 실행으로",
-      "titleZh": "韩欧数字伙伴关系：从愿景到落地",
-      "summary": "EU–Korea Digital Days 旗舰活动，围绕 6G 与 AI-native Networks、Physical AI、AI/Data、网络安全、量子与标准化开展政策和技术合作；9月15日至17日在首尔举行。",
-      "topics": [
-        "6G",
-        "AI-native Networks",
-        "Physical AI",
-        "AI/Data",
-        "Standardization",
-        "Cybersecurity",
-        "Quantum"
-      ],
-      "organizer": [
-        "EU–Korea Digital Partnership",
-        "INPACE"
-      ],
-      "participants": [
-        "Delegation of the European Union to the Republic of Korea",
-        "IITP",
-        "TTA",
-        "ETSI",
-        "Sejong University",
-        "Daejeon University"
-      ],
-      "speakers": [],
-      "startDate": "2026-09-15",
-      "endDate": "2026-09-17",
-      "location": "14 Sejong-daero, Jung-gu, Seoul, Korea",
-      "language": "English / Korean",
-      "status": "completed",
-      "registrationUrl": "https://inpacehub.eu/event/eu-korea-digital-partnership-from-vision-to-delivery/",
-      "registrationEligibility": "Research, industry, policy and standardisation stakeholders; advance registration required.",
-      "fee": "Free",
-      "officialUrl": "https://www.eeas.europa.eu/delegations/south-korea/eu-korea-digital-partnership-vision-delivery-event-be-hosted-seoul_en",
-      "publishedAt": "2026-07-24",
-      "sourceType": "confirmed · official · completed",
-      "priority": "S",
-      "operatorRelevance": "high",
-      "whyItMatters": "直接覆盖 6G、AI-native Networks 与 Physical AI，并连接 IITP/TTA/ETSI 等政策和标准化生态；对韩国运营商先进技术团队具有高价值。",
-      "agenda": [
-        {
-          "time": "2026-09-15 09:30-18:00",
-          "title": "EU–Korea Tech Frontier Workshop: Shaping the Digital Future Together",
-          "speaker": "EU/Korea experts in 6G, Physical AI, cybersecurity and quantum"
-        },
-        {
-          "time": "2026-09-15 to 2026-09-17",
-          "title": "AI Ready Data Challenge and EU–Korea Digital Partnership sessions",
-          "speaker": "EU–Korea Digital Partnership ecosystem"
         }
       ],
       "insights": []
@@ -245,6 +245,52 @@
       "insights": []
     },
     {
+      "id": "ai-cloud-big-tech-2026",
+      "title": "AI-Cloud Big Tech 2026",
+      "titleKo": "AI-Cloud Big Tech 2026",
+      "titleZh": "AI-Cloud Big Tech 2026",
+      "summary": "KACI 主办的 AI/Cloud 技术活动，覆盖 AIDC、Private Cloud AI、AI Factory、AI-PaaS、AIOps 与 AI-MDC。",
+      "topics": [
+        "AIDC",
+        "AI Factory",
+        "AI Infrastructure",
+        "Cloud AI",
+        "Edge AI"
+      ],
+      "organizer": [
+        "Korea Artificial Intelligence Cloud Industry Association (KACI)"
+      ],
+      "participants": [
+        "kt cloud",
+        "HPE",
+        "Naver Cloud",
+        "ETRI",
+        "SK Shieldus"
+      ],
+      "speakers": [
+        "Gong Yong-jun (kt cloud)",
+        "Park Woon-young (HPE)",
+        "Kim Ji-hoon (Naver Cloud)",
+        "Yeo Jun-gi (ETRI)"
+      ],
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-01",
+      "location": "EL Tower Grand Hall 7F, Seoul",
+      "language": "Korean",
+      "status": "completed",
+      "registrationUrl": "https://cloud-big-tech.com/",
+      "registrationEligibility": "Pre-registration required; attendance only after confirmation email due to limited seats.",
+      "fee": "Free / no fee stated",
+      "officialUrl": "https://cloud-big-tech.com/",
+      "publishedAt": "2026-09-23",
+      "sourceType": "confirmed · official · registration open · limited seats",
+      "priority": "B",
+      "operatorRelevance": "high",
+      "whyItMatters": "GPU→AIDC、AI Factory、AI-PaaS 与 AI-MDC 对韩国运营商 AI Cloud/AIDC 基础设施规划有较高参考价值。",
+      "agenda": [],
+      "insights": []
+    },
+    {
       "id": "smart-life-week-2026",
       "title": "Smart Life Week 2026",
       "titleKo": "스마트라이프위크 2026",
@@ -274,7 +320,7 @@
       "endDate": "2026-10-08",
       "location": "COEX Halls A/B and conference rooms, Seoul",
       "language": "Korean / English",
-      "status": "registration_open",
+      "status": "ongoing",
       "registrationOpen": "2026-08-10",
       "registrationUrl": "https://smartlifeweek.seoul.kr/eng/pre/apply/write.do?mid=1051",
       "registrationEligibility": "Public pre-registration.",
@@ -325,7 +371,7 @@
       "endDate": "2026-10-08",
       "location": "COEX 1F Hall B, Seoul",
       "language": "Korean / English",
-      "status": "registration_open",
+      "status": "ongoing",
       "registrationUrl": "https://www.seoulairobot.com/en",
       "registrationEligibility": "Public / business participants; some meetup programs may require separate application.",
       "fee": "See official registration page",
@@ -364,7 +410,7 @@
       "endDate": "2026-10-08",
       "location": "COEX Hall C, Seoul",
       "language": "Korean",
-      "status": "registration_open",
+      "status": "ongoing",
       "registrationUrl": "https://www.aifesta.kr/",
       "registrationEligibility": "Public visitor pre-registration available.",
       "fee": "Free",
@@ -373,6 +419,85 @@
       "priority": "A",
       "operatorRelevance": "medium",
       "whyItMatters": "MSIT 官方 AI Week 的产业聚合平台，Physical AI/机器人/AI Infrastructure 是独立重点板块；适合运营商寻找 AI Factory、边缘算力和产业合作伙伴。",
+      "agenda": [],
+      "insights": []
+    },
+    {
+      "id": "nairl-innovation-showcase-2026",
+      "title": "NAIRL Innovation Showcase 2026",
+      "titleKo": "NAIRL Innovation Showcase 2026",
+      "titleZh": "NAIRL 创新展示会 2026",
+      "summary": "41 个实验室现场展示 45 项 AI 技术，其中 15 项属于 Physical AI；企业可预选技术与研究团队会谈，后续支持 PoC、联合研究和技术转移。",
+      "topics": [
+        "Physical AI",
+        "Robotics",
+        "AI Research",
+        "PoC",
+        "Technology Transfer"
+      ],
+      "organizer": [
+        "National AI Research Lab (NAIRL)"
+      ],
+      "participants": [
+        "KAIST",
+        "Korea University",
+        "POSTECH",
+        "Yonsei University"
+      ],
+      "speakers": [],
+      "startDate": "2026-10-06",
+      "endDate": "2026-10-06",
+      "location": "Seocho AICT, Seoul",
+      "language": "Korean / English",
+      "status": "completed",
+      "registrationDeadline": "2026-10-02",
+      "registrationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeV9h9IZmLhRC7cx5hOyEJYsBuhjmt_dAtaZo0k7ood-GWf-g/viewform",
+      "registrationEligibility": "Companies and investors; free pre-registration through Oct 2. On-site registration also available.",
+      "fee": "Free",
+      "officialUrl": "https://nairl.kr/news/nairl-innovation-showcase-2026/",
+      "publishedAt": "2026-09-11",
+      "sourceType": "confirmed · official · registration closing",
+      "priority": "A",
+      "operatorRelevance": "high",
+      "whyItMatters": "15 项 Physical AI 技术与企业 matchmaking、PoC/联合研发/技术转移直接相连，适合运营商寻找 Edge inference、机器人连接、Digital Twin 与 AI Factory 潜在 B2B 项目。",
+      "agenda": [],
+      "insights": []
+    },
+    {
+      "id": "kt-ai-innovation-day-26",
+      "title": "KT AI Innovation Day 26",
+      "titleKo": "KT AI Innovation Day 26",
+      "titleZh": "KT AI Innovation Day 26",
+      "summary": "KT面向约100名B2B客户举办的企业AI技术交流，围绕AX Infrastructure、Agentic AI、Physical AI与企业落地策略，并安排展区体验和企业별 AX咨询。",
+      "topics": [
+        "Physical AI",
+        "AI Infrastructure",
+        "Agentic AI",
+        "Edge AI",
+        "MEC",
+        "B2B AX"
+      ],
+      "organizer": [
+        "KT"
+      ],
+      "participants": [
+        "KT",
+        "KT B2B customers"
+      ],
+      "speakers": [],
+      "startDate": "2026-10-07",
+      "endDate": "2026-10-07",
+      "location": "COEX Conference Room 402, Seoul",
+      "language": "Korean",
+      "status": "completed",
+      "registrationEligibility": "B2B customer invitation; public registration channel not found.",
+      "fee": "Invitation only",
+      "officialUrl": "https://www.kt.com/",
+      "publishedAt": "2026-10-07",
+      "sourceType": "confirmed · customer event · invitation only · public registration not found",
+      "priority": "A",
+      "operatorRelevance": "high",
+      "whyItMatters": "KT把AI基础设施、国产NPU、Agentic AI、Physical AI和企业AX咨询放进同一客户闭环，是观察运营商如何把Physical AI从展示转为B2B方案的高价值窗口。",
       "agenda": [],
       "insights": []
     },
@@ -418,6 +543,46 @@
       "insights": []
     },
     {
+      "id": "agentic-enterprise-connect-2026",
+      "title": "Agentic Enterprise Connect 2026",
+      "titleKo": "에이전틱 엔터프라이즈 커넥트 2026",
+      "titleZh": "Agentic Enterprise Connect 2026",
+      "summary": "Siemens面向产业企业举办的Industrial AI活动，展示Intelligence Center X、工业Ontology、AI Studio、Agentic workflow与Human-in-the-loop。",
+      "topics": [
+        "Industrial AI",
+        "Agentic AI",
+        "AI Factory",
+        "Smart Factory",
+        "Physical AI"
+      ],
+      "organizer": [
+        "Siemens Korea"
+      ],
+      "participants": [
+        "Siemens",
+        "KAIST"
+      ],
+      "speakers": [
+        "Dae-sik Kim (KAIST)"
+      ],
+      "startDate": "2026-10-13",
+      "endDate": "2026-10-13",
+      "location": "Josun Palace Seoul Gangnam, The Great Hall 3F",
+      "language": "Korean",
+      "status": "registration_open",
+      "registrationUrl": "https://www.mendixconnect.com/icx",
+      "registrationEligibility": "Industry leaders, data/AI, operational innovation and IT stakeholders.",
+      "fee": "Free / not publicly stated",
+      "officialUrl": "https://www.mendixconnect.com/icx",
+      "publishedAt": "2026-09-23",
+      "sourceType": "confirmed · organizer page · registration open",
+      "priority": "B",
+      "operatorRelevance": "medium",
+      "whyItMatters": "工业AI和Agentic workflow可延伸到智能工厂Edge AI与机器人控制，但当前未披露具体5G/MEC网络指标。",
+      "agenda": [],
+      "insights": []
+    },
+    {
       "id": "ictc-2026",
       "title": "The 17th International Conference on ICT Convergence (ICTC 2026)",
       "titleKo": "제17회 ICT 융합 국제 컨퍼런스 (ICTC 2026)",
@@ -453,7 +618,7 @@
       "language": "English",
       "status": "registration_open",
       "registrationOpen": "2026-09-08",
-      "registrationDeadline": "2026-10-13",
+      "registrationDeadline": "2026-10-16",
       "registrationUrl": "https://ictc.org/",
       "registrationEligibility": "Researchers, industry professionals, academics; registration required.",
       "fee": "Paid; category-dependent. Confirm current non-author/attendee fee on official registration page.",
@@ -463,6 +628,43 @@
       "priority": "A",
       "operatorRelevance": "high",
       "whyItMatters": "通信技术含量高，尤其是 NTN digital twin、spectrum sensing、AI-enhanced PHY、semantic communication/world models，适合 6G/AI-RAN 前沿技术团队。",
+      "agenda": [],
+      "insights": []
+    },
+    {
+      "id": "the-next-ai-smatof-2026",
+      "title": "THE NEXT AI × SMATOF 2026",
+      "titleKo": "THE NEXT AI × SMATOF 2026",
+      "titleZh": "THE NEXT AI × SMATOF 2026",
+      "summary": "面向制造业和工业场景的 Physical AI 与 Smart Factory 展会，覆盖 AI 制造、工业机器人与智能工厂解决方案。",
+      "topics": [
+        "Physical AI",
+        "Smart Factory",
+        "AI Factory",
+        "Robotics",
+        "Industrial AI",
+        "Edge AI"
+      ],
+      "organizer": [
+        "THE NEXT AI / SMATOF organizers"
+      ],
+      "participants": [
+        "Manufacturing AI and smart factory ecosystem"
+      ],
+      "speakers": [],
+      "startDate": "2026-10-14",
+      "endDate": "2026-10-16",
+      "location": "CECO, Changwon, Korea",
+      "language": "Korean",
+      "status": "registration_open",
+      "registrationUrl": "https://www.nextaikorea.com/en",
+      "registrationEligibility": "Visitor pre-registration available.",
+      "fee": "暂未公布",
+      "officialUrl": "https://www.nextaikorea.com/en",
+      "sourceType": "confirmed · official",
+      "priority": "A",
+      "operatorRelevance": "high",
+      "whyItMatters": "制造业 Physical AI 是运营商 Private 5G/5G-A、MEC、Edge AI 最直接的 B2B 场景之一，适合观察机器人+网络+工业 AI 的可落地组合。",
       "agenda": [],
       "insights": []
     },
@@ -502,39 +704,201 @@
       "insights": []
     },
     {
-      "id": "the-next-ai-smatof-2026",
-      "title": "THE NEXT AI × SMATOF 2026",
-      "titleKo": "THE NEXT AI × SMATOF 2026",
-      "titleZh": "THE NEXT AI × SMATOF 2026",
-      "summary": "面向制造业和工业场景的 Physical AI 与 Smart Factory 展会，覆盖 AI 制造、工业机器人与智能工厂解决方案。",
+      "id": "ai-autonomous-manufacturing-changwon-2026",
+      "title": "2026 AI Autonomous Manufacturing Innovation Conference in Changwon",
+      "titleKo": "2026 AI자율제조혁신 컨퍼런스 in 창원",
+      "titleZh": "2026 AI自主制造创新大会·昌原",
+      "summary": "聚焦制造现场Physical AI、3D Vision、Smart Logistics、Agentic AI、Ontology、AI Agent与自动化检测，讨论自主制造实际应用。",
       "topics": [
         "Physical AI",
         "Smart Factory",
-        "AI Factory",
         "Robotics",
-        "Industrial AI",
+        "AI Vision",
+        "Agentic AI"
+      ],
+      "organizer": [
+        "DUBIZ"
+      ],
+      "participants": [
+        "Manufacturing AI ecosystem"
+      ],
+      "speakers": [],
+      "startDate": "2026-10-15",
+      "endDate": "2026-10-16",
+      "location": "Changwon Convention Center (CECO), Changwon, Korea",
+      "language": "Korean",
+      "status": "registration_open",
+      "registrationUrl": "https://dubiz.co.kr/Event/541",
+      "registrationEligibility": "Pre-registration; confirmation email provides participation details.",
+      "fee": "Free / not publicly stated",
+      "officialUrl": "https://dubiz.co.kr/Event/541",
+      "publishedAt": "2026-10-08",
+      "sourceType": "confirmed · organizer listing · registration open",
+      "priority": "A",
+      "operatorRelevance": "medium",
+      "whyItMatters": "Physical AI与自主制造的真实工业场景密度高，可观察机器人、视觉、物流和Agent如何形成边缘计算与确定性连接需求。",
+      "agenda": [],
+      "insights": []
+    },
+    {
+      "id": "its-world-congress-2026",
+      "title": "ITS World Congress 2026",
+      "titleKo": "ITS World Congress 2026",
+      "titleZh": "2026世界智能交通大会",
+      "summary": "韩国江陵举办的全球ITS大会；5GAA专场明确讨论5G-Advanced/6G支撑Connected & Automated Mobility，并有LG Electronics等组织的C-V2X与Connected Mobility专题。",
+      "topics": [
+        "5G-Advanced",
+        "6G",
+        "C-V2X",
+        "Autonomous Driving",
+        "Connected Mobility",
         "Edge AI"
       ],
       "organizer": [
-        "THE NEXT AI / SMATOF organizers"
+        "ITS Korea"
       ],
       "participants": [
-        "Manufacturing AI and smart factory ecosystem"
+        "5GAA",
+        "LG Electronics",
+        "DENSO",
+        "Verizon",
+        "HARMAN",
+        "CATT"
       ],
-      "speakers": [],
-      "startDate": "2026-10-14",
-      "endDate": "2026-10-16",
-      "location": "CECO, Changwon, Korea",
-      "language": "Korean",
+      "speakers": [
+        "Maxime Flament (5GAA)",
+        "Suman Sehra (HARMAN)",
+        "Li Zhao (CATT)",
+        "Tim Leinmueller (DENSO)",
+        "Jyoti Sharma (Verizon)"
+      ],
+      "startDate": "2026-10-19",
+      "endDate": "2026-10-23",
+      "location": "Gangneung Olympic Park / Convention Centre, Gangneung, Korea",
+      "language": "English / Korean",
       "status": "registration_open",
-      "registrationUrl": "https://www.nextaikorea.com/en",
-      "registrationEligibility": "Visitor pre-registration available.",
-      "fee": "暂未公布",
-      "officialUrl": "https://www.nextaikorea.com/en",
-      "sourceType": "confirmed · official",
+      "registrationEligibility": "Public/industry conference registration; specific sessions may have capacity limits.",
+      "fee": "See official registration",
+      "officialUrl": "https://2026itsworldcongress.org/ITS/120002/index.do",
+      "publishedAt": "2026-10-08",
+      "sourceType": "confirmed · official/5GAA program",
       "priority": "A",
       "operatorRelevance": "high",
-      "whyItMatters": "制造业 Physical AI 是运营商 Private 5G/5G-A、MEC、Edge AI 最直接的 B2B 场景之一，适合观察机器人+网络+工业 AI 的可落地组合。",
+      "whyItMatters": "是当前韩国少数把5G-A/6G connectivity requirements与自动驾驶服务、C-V2X和Connected Mobility直接放在同一议程的活动。",
+      "agenda": [
+        {
+          "time": "2026-10-20 16:00-17:30",
+          "title": "Shaping the Next Generation of Connected & Automated Services for Automotive",
+          "speaker": "5GAA experts"
+        }
+      ],
+      "insights": []
+    },
+    {
+      "id": "srexperts-apac-2026",
+      "title": "Nokia SReXperts APAC 2026",
+      "titleKo": "Nokia SReXperts APAC 2026",
+      "titleZh": "Nokia SReXperts APAC 2026 首尔",
+      "summary": "Nokia 面向亚太 IP 客户与合作伙伴的邀请制技术大会，覆盖 AI-ready IP/optical/data-center networks、network automation、AIOps、NSP、Digital Twin、AI-driven observability，并包含 Hackathon、hands-on labs 与技术展示。",
+      "topics": [
+        "AI-ready Networks",
+        "IP Networking",
+        "Optical Networking",
+        "Data Center Networks",
+        "AIOps",
+        "Autonomous Networks",
+        "Digital Twin",
+        "AI Infrastructure"
+      ],
+      "organizer": [
+        "Nokia"
+      ],
+      "participants": [
+        "Nokia IP customers and partners",
+        "Network operators",
+        "Enterprises"
+      ],
+      "speakers": [],
+      "startDate": "2026-10-20",
+      "endDate": "2026-10-22",
+      "location": "The Westin Seoul Parnas, 524 Bongeunsa-ro, Gangnam-gu, Seoul",
+      "language": "English",
+      "status": "registration_open",
+      "registrationUrl": "https://www.nokia.com/events/srexperts/apac/registration/",
+      "registrationEligibility": "Exclusive invitation-only event for Nokia IP customers and partners; registration is open and free for eligible Nokia customers and partners.",
+      "fee": "Free for eligible Nokia customers and partners; optional spouse/partner networking ticket €250",
+      "officialUrl": "https://www.nokia.com/events/srexperts/apac/",
+      "publishedAt": "2026-09-17",
+      "sourceType": "confirmed · Nokia official · invitation-only · registration open",
+      "priority": "A",
+      "operatorRelevance": "high",
+      "whyItMatters": "补齐 AI-RAN/AI Factory 背后的 IP Transport、Data Center Fabric 与 Autonomous Operations 层；对运营商 AI DC、AI Factory、AIOps 和自主网络团队价值高。",
+      "agenda": [
+        {
+          "time": "2026-10-20 09:00-12:00",
+          "title": "Network Operating Systems knowledge primer",
+          "speaker": "Nokia IP experts"
+        },
+        {
+          "time": "2026-10-20 to 2026-10-22",
+          "title": "Conference tracks, exhibition, hackathon and hands-on learning",
+          "speaker": "Nokia thought leaders and customer speakers"
+        }
+      ],
+      "insights": []
+    },
+    {
+      "id": "physical-ai-robot-world-model-rfm-2026",
+      "title": "Physical AI Robot Technology & Industrial Applications: VLA, RFM and World Models",
+      "titleKo": "VLA에서 RFM·월드모델까지 피지컬 AI 로봇 기술과 산업 적용",
+      "titleZh": "从 VLA、RFM 到世界模型：Physical AI 机器人技术与产业应用",
+      "summary": "专业技术研讨会，覆盖 humanoid robot foundation model、RFM、World Model、VLA、Sim2Real、AGV/AMR 多机器人编排、Digital Twin 与工业自主化。",
+      "topics": [
+        "Physical AI",
+        "Robotics",
+        "VLA",
+        "Robot Foundation Model",
+        "World Model",
+        "Digital Twin",
+        "Sim2Real",
+        "Multi-Robot Coordination"
+      ],
+      "organizer": [
+        "Korea Future Technology Education Research Institute"
+      ],
+      "participants": [
+        "ETRI",
+        "KIMM",
+        "KETI",
+        "TESOLLO",
+        "DAIM Research",
+        "Gachon University",
+        "Sogang University"
+      ],
+      "speakers": [
+        "Han Byeong-ok (ETRI)",
+        "Ryu Woo-seok (TESOLLO CTO)",
+        "Hwang Il-hoe (DAIM Research CTO)",
+        "Baek Seung-hyeok (KIMM)",
+        "Shin Dong-in (KETI)",
+        "Choi Jae-yong (Gachon University)",
+        "Nam Chang-joo (Sogang University / Vertical Labs)"
+      ],
+      "startDate": "2026-10-20",
+      "endDate": "2026-10-20",
+      "location": "FKI Tower Conference Center 2F Ruby Hall, Yeouido, Seoul / Online",
+      "language": "Korean",
+      "status": "registration_open",
+      "registrationDeadline": "2026-10-20T10:00:00+09:00",
+      "registrationUrl": "https://www.onoffmix.com/event/348792",
+      "registrationEligibility": "Robot, AI, manufacturing companies and research organizations; paid online/offline participation.",
+      "fee": "KRW 396,000; Early Bird KRW 363,000 through 2026-09-30.",
+      "officialUrl": "https://www.kism.or.kr/bbs/board.php?bo_table=AL06000000&wr_id=665",
+      "publishedAt": "2026-09-10",
+      "sourceType": "confirmed · association listing · registration open",
+      "priority": "A",
+      "operatorRelevance": "high",
+      "whyItMatters": "直接覆盖多机器人编排、Digital Twin、远程操作数据、RFM、VLA、Sim2Real 和机器人数据工厂，是评估 Physical AI 对 Edge AI、低时延连接和 AI Factory 网络需求的高价值活动。",
       "agenda": [],
       "insights": []
     },
@@ -577,6 +941,184 @@
       "agenda": [],
       "insights": [],
       "registrationDeadline": "2026-10-16"
+    },
+    {
+      "id": "woowa-tech-conference-2026",
+      "title": "Woowa Tech Conference 2026",
+      "titleKo": "우아한테크콘퍼런스 2026",
+      "titleZh": "Woowa Tech Conference 2026",
+      "summary": "배달의민족年度技术大会，约40个session覆盖AI、robotics、data、security与实际自主配送机器人技术和运营经验。",
+      "topics": [
+        "Robotics",
+        "Autonomous Delivery",
+        "AI",
+        "Edge AI",
+        "Autonomous Systems"
+      ],
+      "organizer": [
+        "Woowa Brothers"
+      ],
+      "participants": [
+        "Baemin",
+        "Autonomous delivery robot ecosystem"
+      ],
+      "speakers": [
+        "Ko Myeong-seok (Woowa Brothers CTO)"
+      ],
+      "startDate": "2026-10-28",
+      "endDate": "2026-10-28",
+      "location": "Grand InterContinental Seoul Parnas, Seoul",
+      "language": "Korean",
+      "status": "registration_open",
+      "registrationDeadline": "2026-10-13",
+      "registrationUrl": "https://techblog.woowahan.com/",
+      "registrationEligibility": "Public application; on-site attendance selected by lottery.",
+      "fee": "Free",
+      "officialUrl": "https://techblog.woowahan.com/",
+      "publishedAt": "2026-09-22",
+      "sourceType": "confirmed · organizer announcement · application by 2026-10-13",
+      "priority": "A",
+      "operatorRelevance": "high",
+      "whyItMatters": "直接分享实际配送现场的自主机器人技术与运营经验，可用于反推机器人fleet connectivity、remote operations、Edge AI与低时延网络需求。",
+      "agenda": [],
+      "insights": []
+    },
+    {
+      "id": "gisc-2026",
+      "title": "GISC 2026 — Global ICT Standards Conference",
+      "titleKo": "글로벌 ICT 표준 컨퍼런스 2026",
+      "titleZh": "GISC 2026 全球ICT标准大会",
+      "summary": "以“ICT Standards and Intellectual Property: Shaping the Physical AI”为主题，聚焦Physical AI、量子、卫星通信及ICT标准与SEP。",
+      "topics": [
+        "Physical AI",
+        "6G",
+        "ICT Standards",
+        "Satellite Communications",
+        "Interoperability",
+        "Standardization"
+      ],
+      "organizer": [
+        "MSIT",
+        "Ministry of Intellectual Property",
+        "RRA",
+        "TTA",
+        "IITP",
+        "KEA",
+        "KISTA",
+        "ETRI"
+      ],
+      "participants": [
+        "TTA",
+        "ETRI",
+        "IITP",
+        "RRA",
+        "Industry/academia/standards bodies"
+      ],
+      "speakers": [],
+      "startDate": "2026-11-02",
+      "endDate": "2026-11-04",
+      "location": "EL Tower, Seoul",
+      "language": "Korean / English",
+      "status": "registration_open",
+      "registrationUrl": "https://gisc.or.kr/en",
+      "registrationEligibility": "Industry, academia, research and standards stakeholders.",
+      "fee": "Free / not publicly stated",
+      "officialUrl": "https://gisc.or.kr/en",
+      "publishedAt": "2026-10-02",
+      "sourceType": "confirmed · official · registration open",
+      "priority": "A",
+      "operatorRelevance": "high",
+      "whyItMatters": "11月3日设置Physical AI ICT融合标准框架公听会，直接观察Physical AI进入ICT标准体系的路径；对6G/AI-RAN架构团队尤其重要。",
+      "agenda": [],
+      "insights": []
+    },
+    {
+      "id": "aiot-week-korea-2026",
+      "title": "AIoT Week Korea 2026",
+      "titleKo": "AIoT 국제전시회 / AIoT Week Korea 2026",
+      "titleZh": "AIoT Week Korea 2026",
+      "summary": "韩国AIoT专业展会与国际会议，覆盖AI+IoT、Digital Twin、Cellular/5G、NB-IoT、e-Um 5G、通信设备、芯片/模块/网关与安全。",
+      "topics": [
+        "5G",
+        "Private 5G",
+        "AIoT",
+        "Digital Twin",
+        "Edge AI",
+        "MEC"
+      ],
+      "organizer": [
+        "MSIT",
+        "Korea IoT Association"
+      ],
+      "participants": [
+        "AIoT ecosystem",
+        "5G/private network vendors"
+      ],
+      "speakers": [],
+      "startDate": "2026-11-03",
+      "endDate": "2026-11-05",
+      "location": "COEX 3F Hall D / Conference Rooms E1-E4, Seoul",
+      "language": "Korean / English",
+      "status": "registration_open",
+      "registrationDeadline": "2026-11-02T18:00:00+09:00",
+      "registrationUrl": "https://www.aiotkorea.or.kr/2026/kor/about/information.asp",
+      "registrationEligibility": "Business exhibition; high-school students or younger restricted. Conference registration separate.",
+      "fee": "Exhibition free with online pre-registration; conference paid",
+      "officialUrl": "https://www.aiotkorea.or.kr/2026/kor/about/overview.asp",
+      "publishedAt": "2026-10-08",
+      "sourceType": "confirmed · official · registration open",
+      "priority": "A",
+      "operatorRelevance": "high",
+      "whyItMatters": "官方展品直接包含5G、NB-IoT、e-Um 5G、cellular platforms、gateway、Digital Twin和AI+IoT，是观察运营商Edge/Private 5G与工业AI生态的高价值窗口。",
+      "agenda": [
+        {
+          "time": "2026-11-04 10:00-17:00",
+          "title": "AIoT Conference 2026",
+          "speaker": "暂未公布"
+        }
+      ],
+      "insights": []
+    },
+    {
+      "id": "mars-2026",
+      "title": "MARS 2026 — Mega city AI Revolution Summit",
+      "titleKo": "AI EXPO MARS 2026",
+      "titleZh": "MARS 2026 Mega city AI Revolution Summit",
+      "summary": "华城市主办的AI EXPO，覆盖Mobility、Physical AI、Healthcare、Urban Infrastructure、Space/Aerospace，并与AIoT Week Korea同期在COEX举行。",
+      "topics": [
+        "Physical AI",
+        "Autonomous Driving",
+        "Mobility",
+        "Urban AI",
+        "AI Infrastructure",
+        "Robotics"
+      ],
+      "organizer": [
+        "Hwaseong Special City",
+        "Hwaseong Industry Promotion Agency"
+      ],
+      "participants": [
+        "Hyundai Motor Group",
+        "Innospace",
+        "KAIST",
+        "AI ecosystem"
+      ],
+      "speakers": [],
+      "startDate": "2026-11-03",
+      "endDate": "2026-11-05",
+      "location": "COEX 3F Hall D / Conference Room E, Seoul",
+      "language": "Korean / English",
+      "status": "announced",
+      "registrationEligibility": "Public participation announced; detailed 2026 registration method not yet confirmed.",
+      "fee": "暂未公布",
+      "officialUrl": "https://www.hscity.go.kr/www/user/bbs/BD_selectBbs.do?q_bbsCode=1019&q_bbscttSn=20260826140731869",
+      "publishedAt": "2026-08-26",
+      "sourceType": "confirmed · city official announcement · registration details not yet confirmed",
+      "priority": "A",
+      "operatorRelevance": "medium",
+      "whyItMatters": "Mobility、Physical AI和城市基础设施集中在同一活动，并与AIoT Week Korea同期，适合观察Connected Mobility与城市级Edge/AI基础设施的交叉机会。",
+      "agenda": [],
+      "insights": []
     },
     {
       "id": "nvidia-ai-day-seoul-2026",
@@ -697,96 +1239,36 @@
       "registrationUrl": "https://ai-ran.org/member-meetings"
     },
     {
-      "id": "k-leo-global-summit-2026",
-      "title": "Mobile Korea: K-LEO Global Summit 2026",
-      "titleKo": "Mobile Korea: K-LEO Global Summit 2026",
-      "titleZh": "Mobile Korea：K-LEO Global Summit 2026",
-      "summary": "由卫星通信论坛与 6G Forum 等共同举办，讨论 6G 卫星通信政策、产业战略、频谱、国际标准与技术进展。",
+      "id": "6g-arrow-f2f-seoul-2026",
+      "title": "6G-ARROW F2F Meeting Seoul 2026",
+      "titleKo": "6G-ARROW F2F Meeting Seoul 2026",
+      "titleZh": "6G-ARROW 首尔线下会议 2026",
+      "summary": "6G-ARROW 在 AI-RAN Summit 与 AI-RAN Alliance Seoul 后于延世大学举行内部 F2F，聚焦 6G AI-native networks 国际协作。",
       "topics": [
         "6G",
-        "NTN",
-        "LEO Satellite",
-        "Spectrum",
-        "Standardization"
+        "AI-native Networks",
+        "AI-RAN"
       ],
       "organizer": [
-        "MSIT",
-        "Satellite Communication Forum",
-        "6G Forum",
-        "ETRI",
-        "RAPA"
+        "6G-ARROW"
       ],
       "participants": [
-        "Korean 6G and satellite ecosystem"
+        "6G-ARROW project partners"
       ],
       "speakers": [],
-      "startDate": "2026-12-10",
-      "endDate": "2026-12-10",
-      "location": "Songdo Convensia, Incheon, Korea",
-      "language": "Korean / English",
-      "status": "registration_open",
-      "registrationUrl": "https://satcomforum.org/event3",
-      "registrationEligibility": "Registration link available on official event page.",
-      "fee": "暂未公布",
-      "officialUrl": "https://satcomforum.org/event3",
-      "sourceType": "confirmed · official",
-      "priority": "A",
-      "operatorRelevance": "high",
-      "whyItMatters": "直接面向 6G NTN/LEO、频谱和国际标准化，是韩国运营商 6G 非地面网络路线的重要年底观察窗口。",
-      "agenda": [],
-      "insights": []
-    },
-    {
-      "id": "srexperts-apac-2026",
-      "title": "Nokia SReXperts APAC 2026",
-      "titleKo": "Nokia SReXperts APAC 2026",
-      "titleZh": "Nokia SReXperts APAC 2026 首尔",
-      "summary": "Nokia 面向亚太 IP 客户与合作伙伴的邀请制技术大会，覆盖 AI-ready IP/optical/data-center networks、network automation、AIOps、NSP、Digital Twin、AI-driven observability，并包含 Hackathon、hands-on labs 与技术展示。",
-      "topics": [
-        "AI-ready Networks",
-        "IP Networking",
-        "Optical Networking",
-        "Data Center Networks",
-        "AIOps",
-        "Autonomous Networks",
-        "Digital Twin",
-        "AI Infrastructure"
-      ],
-      "organizer": [
-        "Nokia"
-      ],
-      "participants": [
-        "Nokia IP customers and partners",
-        "Network operators",
-        "Enterprises"
-      ],
-      "speakers": [],
-      "startDate": "2026-10-20",
-      "endDate": "2026-10-22",
-      "location": "The Westin Seoul Parnas, 524 Bongeunsa-ro, Gangnam-gu, Seoul",
+      "startDate": "2026-11-17",
+      "endDate": "2026-11-19",
+      "location": "Yonsei University, Seoul, Korea",
       "language": "English",
-      "status": "registration_open",
-      "registrationUrl": "https://www.nokia.com/events/srexperts/apac/registration/",
-      "registrationEligibility": "Exclusive invitation-only event for Nokia IP customers and partners; registration is open and free for eligible Nokia customers and partners.",
-      "fee": "Free for eligible Nokia customers and partners; optional spouse/partner networking ticket €250",
-      "officialUrl": "https://www.nokia.com/events/srexperts/apac/",
-      "publishedAt": "2026-09-17",
-      "sourceType": "confirmed · Nokia official · invitation-only · registration open",
+      "status": "announced",
+      "registrationEligibility": "Internal face-to-face meeting; no public registration channel found.",
+      "fee": "Not publicly announced",
+      "officialUrl": "https://6garrow.com/events/6g-arrow-f2f-meeting/",
+      "sourceType": "confirmed · official · internal meeting",
       "priority": "A",
       "operatorRelevance": "high",
-      "whyItMatters": "补齐 AI-RAN/AI Factory 背后的 IP Transport、Data Center Fabric 与 Autonomous Operations 层；对运营商 AI DC、AI Factory、AIOps 和自主网络团队价值高。",
-      "agenda": [
-        {
-          "time": "2026-10-20 09:00-12:00",
-          "title": "Network Operating Systems knowledge primer",
-          "speaker": "Nokia IP experts"
-        },
-        {
-          "time": "2026-10-20 to 2026-10-22",
-          "title": "Conference tracks, exhibition, hackathon and hands-on learning",
-          "speaker": "Nokia thought leaders and customer speakers"
-        }
-      ],
+      "whyItMatters": "紧接 AI-RAN Summit 与 Alliance Seoul，适合观察欧洲 6G AI-native network 与韩国 AI-RAN 生态衔接。",
+      "agenda": [],
       "insights": []
     },
     {
@@ -846,177 +1328,42 @@
       "insights": []
     },
     {
-      "id": "nairl-innovation-showcase-2026",
-      "title": "NAIRL Innovation Showcase 2026",
-      "titleKo": "NAIRL Innovation Showcase 2026",
-      "titleZh": "NAIRL 创新展示会 2026",
-      "summary": "41 个实验室现场展示 45 项 AI 技术，其中 15 项属于 Physical AI；企业可预选技术与研究团队会谈，后续支持 PoC、联合研究和技术转移。",
-      "topics": [
-        "Physical AI",
-        "Robotics",
-        "AI Research",
-        "PoC",
-        "Technology Transfer"
-      ],
-      "organizer": [
-        "National AI Research Lab (NAIRL)"
-      ],
-      "participants": [
-        "KAIST",
-        "Korea University",
-        "POSTECH",
-        "Yonsei University"
-      ],
-      "speakers": [],
-      "startDate": "2026-10-06",
-      "endDate": "2026-10-06",
-      "location": "Seocho AICT, Seoul",
-      "language": "Korean / English",
-      "status": "registration_closing",
-      "registrationDeadline": "2026-10-02",
-      "registrationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeV9h9IZmLhRC7cx5hOyEJYsBuhjmt_dAtaZo0k7ood-GWf-g/viewform",
-      "registrationEligibility": "Companies and investors; free pre-registration through Oct 2. On-site registration also available.",
-      "fee": "Free",
-      "officialUrl": "https://nairl.kr/news/nairl-innovation-showcase-2026/",
-      "publishedAt": "2026-09-11",
-      "sourceType": "confirmed · official · registration closing",
-      "priority": "A",
-      "operatorRelevance": "high",
-      "whyItMatters": "15 项 Physical AI 技术与企业 matchmaking、PoC/联合研发/技术转移直接相连，适合运营商寻找 Edge inference、机器人连接、Digital Twin 与 AI Factory 潜在 B2B 项目。",
-      "agenda": [],
-      "insights": []
-    },
-    {
-      "id": "ai-cloud-big-tech-2026",
-      "title": "AI-Cloud Big Tech 2026",
-      "titleKo": "AI-Cloud Big Tech 2026",
-      "titleZh": "AI-Cloud Big Tech 2026",
-      "summary": "KACI 主办的 AI/Cloud 技术活动，覆盖 AIDC、Private Cloud AI、AI Factory、AI-PaaS、AIOps 与 AI-MDC。",
-      "topics": [
-        "AIDC",
-        "AI Factory",
-        "AI Infrastructure",
-        "Cloud AI",
-        "Edge AI"
-      ],
-      "organizer": [
-        "Korea Artificial Intelligence Cloud Industry Association (KACI)"
-      ],
-      "participants": [
-        "kt cloud",
-        "HPE",
-        "Naver Cloud",
-        "ETRI",
-        "SK Shieldus"
-      ],
-      "speakers": [
-        "Gong Yong-jun (kt cloud)",
-        "Park Woon-young (HPE)",
-        "Kim Ji-hoon (Naver Cloud)",
-        "Yeo Jun-gi (ETRI)"
-      ],
-      "startDate": "2026-10-01",
-      "endDate": "2026-10-01",
-      "location": "EL Tower Grand Hall 7F, Seoul",
-      "language": "Korean",
-      "status": "registration_open",
-      "registrationUrl": "https://cloud-big-tech.com/",
-      "registrationEligibility": "Pre-registration required; attendance only after confirmation email due to limited seats.",
-      "fee": "Free / no fee stated",
-      "officialUrl": "https://cloud-big-tech.com/",
-      "publishedAt": "2026-09-23",
-      "sourceType": "confirmed · official · registration open · limited seats",
-      "priority": "B",
-      "operatorRelevance": "high",
-      "whyItMatters": "GPU→AIDC、AI Factory、AI-PaaS 与 AI-MDC 对韩国运营商 AI Cloud/AIDC 基础设施规划有较高参考价值。",
-      "agenda": [],
-      "insights": []
-    },
-    {
-      "id": "physical-ai-robot-world-model-rfm-2026",
-      "title": "Physical AI Robot Technology & Industrial Applications: VLA, RFM and World Models",
-      "titleKo": "VLA에서 RFM·월드모델까지 피지컬 AI 로봇 기술과 산업 적용",
-      "titleZh": "从 VLA、RFM 到世界模型：Physical AI 机器人技术与产业应用",
-      "summary": "专业技术研讨会，覆盖 humanoid robot foundation model、RFM、World Model、VLA、Sim2Real、AGV/AMR 多机器人编排、Digital Twin 与工业自主化。",
-      "topics": [
-        "Physical AI",
-        "Robotics",
-        "VLA",
-        "Robot Foundation Model",
-        "World Model",
-        "Digital Twin",
-        "Sim2Real",
-        "Multi-Robot Coordination"
-      ],
-      "organizer": [
-        "Korea Future Technology Education Research Institute"
-      ],
-      "participants": [
-        "ETRI",
-        "KIMM",
-        "KETI",
-        "TESOLLO",
-        "DAIM Research",
-        "Gachon University",
-        "Sogang University"
-      ],
-      "speakers": [
-        "Han Byeong-ok (ETRI)",
-        "Ryu Woo-seok (TESOLLO CTO)",
-        "Hwang Il-hoe (DAIM Research CTO)",
-        "Baek Seung-hyeok (KIMM)",
-        "Shin Dong-in (KETI)",
-        "Choi Jae-yong (Gachon University)",
-        "Nam Chang-joo (Sogang University / Vertical Labs)"
-      ],
-      "startDate": "2026-10-20",
-      "endDate": "2026-10-20",
-      "location": "FKI Tower Conference Center 2F Ruby Hall, Yeouido, Seoul / Online",
-      "language": "Korean",
-      "status": "registration_open",
-      "registrationDeadline": "2026-10-20T10:00:00+09:00",
-      "registrationUrl": "https://www.onoffmix.com/event/348792",
-      "registrationEligibility": "Robot, AI, manufacturing companies and research organizations; paid online/offline participation.",
-      "fee": "KRW 396,000; Early Bird KRW 363,000 through 2026-09-30.",
-      "officialUrl": "https://www.kism.or.kr/bbs/board.php?bo_table=AL06000000&wr_id=665",
-      "publishedAt": "2026-09-10",
-      "sourceType": "confirmed · association listing · registration open",
-      "priority": "A",
-      "operatorRelevance": "high",
-      "whyItMatters": "直接覆盖多机器人编排、Digital Twin、远程操作数据、RFM、VLA、Sim2Real 和机器人数据工厂，是评估 Physical AI 对 Edge AI、低时延连接和 AI Factory 网络需求的高价值活动。",
-      "agenda": [],
-      "insights": []
-    },
-    {
-      "id": "6g-arrow-f2f-seoul-2026",
-      "title": "6G-ARROW F2F Meeting Seoul 2026",
-      "titleKo": "6G-ARROW F2F Meeting Seoul 2026",
-      "titleZh": "6G-ARROW 首尔线下会议 2026",
-      "summary": "6G-ARROW 在 AI-RAN Summit 与 AI-RAN Alliance Seoul 后于延世大学举行内部 F2F，聚焦 6G AI-native networks 国际协作。",
+      "id": "k-leo-global-summit-2026",
+      "title": "Mobile Korea: K-LEO Global Summit 2026",
+      "titleKo": "Mobile Korea: K-LEO Global Summit 2026",
+      "titleZh": "Mobile Korea：K-LEO Global Summit 2026",
+      "summary": "由卫星通信论坛与 6G Forum 等共同举办，讨论 6G 卫星通信政策、产业战略、频谱、国际标准与技术进展。",
       "topics": [
         "6G",
-        "AI-native Networks",
-        "AI-RAN"
+        "NTN",
+        "LEO Satellite",
+        "Spectrum",
+        "Standardization"
       ],
       "organizer": [
-        "6G-ARROW"
+        "MSIT",
+        "Satellite Communication Forum",
+        "6G Forum",
+        "ETRI",
+        "RAPA"
       ],
       "participants": [
-        "6G-ARROW project partners"
+        "Korean 6G and satellite ecosystem"
       ],
       "speakers": [],
-      "startDate": "2026-11-17",
-      "endDate": "2026-11-19",
-      "location": "Yonsei University, Seoul, Korea",
-      "language": "English",
-      "status": "announced",
-      "registrationEligibility": "Internal face-to-face meeting; no public registration channel found.",
-      "fee": "Not publicly announced",
-      "officialUrl": "https://6garrow.com/events/6g-arrow-f2f-meeting/",
-      "sourceType": "confirmed · official · internal meeting",
+      "startDate": "2026-12-10",
+      "endDate": "2026-12-10",
+      "location": "Songdo Convensia, Incheon, Korea",
+      "language": "Korean / English",
+      "status": "registration_open",
+      "registrationUrl": "https://satcomforum.org/event3",
+      "registrationEligibility": "Registration link available on official event page.",
+      "fee": "暂未公布",
+      "officialUrl": "https://satcomforum.org/event3",
+      "sourceType": "confirmed · official",
       "priority": "A",
       "operatorRelevance": "high",
-      "whyItMatters": "紧接 AI-RAN Summit 与 Alliance Seoul，适合观察欧洲 6G AI-native network 与韩国 AI-RAN 生态衔接。",
+      "whyItMatters": "直接面向 6G NTN/LEO、频谱和国际标准化，是韩国运营商 6G 非地面网络路线的重要年底观察窗口。",
       "agenda": [],
       "insights": []
     }
