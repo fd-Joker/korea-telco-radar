@@ -228,19 +228,6 @@
       "company_or_org": "3GPP SA6"
     },
     {
-      "title": "Samsung与KT、SKT的Hyper AI Network转入10月工业现场验证窗口",
-      "date": "2026-09-23",
-      "source_name": "Samsung Electronics",
-      "source_url": "https://news.samsung.com/global/samsung-at-the-forefront-of-koreas-ai-ran-projects-with-kt-and-sk-telecom",
-      "source_type": "设备商官方新闻稿",
-      "importance": "重大更新",
-      "summary": "Samsung宣布与KT、SKT签署AI-RAN项目合同，计划2026年10月在造船与石化工厂部署5G SA专网，验证Physical AI和自治运维；截至本期未见可核实的公开现场量化KPI。",
-      "technical_significance": "AI-RAN已经由算法演示扩展为vRAN、5G SA Core、边缘计算和机器人任务的系统验证。",
-      "impact_for_korean_telco": "重点观察UL吞吐、P95/P99时延、可靠性、GPU使用与隔离、能耗、机器人任务成功率及TCO。",
-      "topic": "AI-RAN / Physical AI",
-      "company_or_org": "Samsung / KT / SK Telecom"
-    },
-    {
       "title": "Ericsson IMC 2026：展示AI、差异化连接、Network Sensing与6G愿景",
       "date": "2026-10-07",
       "source_name": "Ericsson",
