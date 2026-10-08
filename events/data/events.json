@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T08:15:32+09:00",
+  "updatedAt": "2026-10-09T08:40:33+09:00",
   "events": [
     {
       "id": "eu-korea-digital-partnership-2026",
@@ -320,7 +320,7 @@
       "endDate": "2026-10-08",
       "location": "COEX Halls A/B and conference rooms, Seoul",
       "language": "Korean / English",
-      "status": "ongoing",
+      "status": "completed",
       "registrationOpen": "2026-08-10",
       "registrationUrl": "https://smartlifeweek.seoul.kr/eng/pre/apply/write.do?mid=1051",
       "registrationEligibility": "Public pre-registration.",
@@ -371,7 +371,7 @@
       "endDate": "2026-10-08",
       "location": "COEX 1F Hall B, Seoul",
       "language": "Korean / English",
-      "status": "ongoing",
+      "status": "completed",
       "registrationUrl": "https://www.seoulairobot.com/en",
       "registrationEligibility": "Public / business participants; some meetup programs may require separate application.",
       "fee": "See official registration page",
@@ -410,7 +410,7 @@
       "endDate": "2026-10-08",
       "location": "COEX Hall C, Seoul",
       "language": "Korean",
-      "status": "ongoing",
+      "status": "completed",
       "registrationUrl": "https://www.aifesta.kr/",
       "registrationEligibility": "Public visitor pre-registration available.",
       "fee": "Free",
@@ -616,7 +616,7 @@
       "endDate": "2026-10-16",
       "location": "Sheraton Jeju, Jeju Island, Korea",
       "language": "English",
-      "status": "registration_open",
+      "status": "registration_closing",
       "registrationOpen": "2026-09-08",
       "registrationDeadline": "2026-10-16",
       "registrationUrl": "https://ictc.org/",
@@ -907,7 +907,7 @@
       "title": "Industrial AI EXPO 2026",
       "titleKo": "산업AI EXPO 2026",
       "titleZh": "2026 产业 AI EXPO",
-      "summary": "韩国制造与全产业 AI 转型展会，覆盖工业 AI 核心技术、垂直应用方案与 AX 商业模式，并同期举办 Global Industrial AI Conference。",
+      "summary": "韩国制造业 AI/Physical AI 展会，10/21–23 AI-Tech Seminar 官方议程现已公开：FuriosaAI、Tenstorrent、HyperAccel 推理算力，Physical AI 数据与机器人合成数据、触觉智能操作等。",
       "topics": [
         "Industrial AI",
         "AI Factory",
@@ -923,22 +923,62 @@
         "Microsoft",
         "FuriosaAI",
         "Hyundai Rotem",
-        "Schaeffler Korea"
+        "Schaeffler Korea",
+        "Tenstorrent",
+        "HyperAccel",
+        "ROBOTIQ",
+        "VisionSpace"
       ],
       "speakers": [],
       "startDate": "2026-10-21",
       "endDate": "2026-10-23",
       "location": "KINTEX Exhibition Center 1, Goyang, Korea",
       "language": "Korean",
-      "status": "registration_open",
+      "status": "registration_closing",
       "registrationEligibility": "Visitor registration details暂未公布",
       "fee": "暂未公布",
       "officialUrl": "https://koiia.or.kr/page/?M2_IDX=21980",
-      "sourceType": "confirmed · official / conference lineup published",
+      "sourceType": "confirmed · official full agenda verified 2026-10-09",
       "priority": "A",
       "operatorRelevance": "high",
       "whyItMatters": "工业 AI/AI Factory 是 5G 专网和 MEC 的核心变现场景，建议重点跟踪后续参展商与 Global Industrial AI Conference 议程。",
-      "agenda": [],
+      "agenda": [
+        {
+          "time": "2026-10-21 13:20–13:40 KST",
+          "title": "AI Ready Data: Before Physical AI — dark factory starts with data",
+          "speaker": "UBC"
+        },
+        {
+          "time": "2026-10-22 11:00–11:20 KST",
+          "title": "Efficient AI inference optimization and performance validation",
+          "speaker": "FuriosaAI"
+        },
+        {
+          "time": "2026-10-22 11:20–11:40 KST",
+          "title": "Ultra-fast AI inference: Agentic AI to Physical AI",
+          "speaker": "Tenstorrent"
+        },
+        {
+          "time": "2026-10-22 11:40–12:00 KST",
+          "title": "Low-power LPU inference infrastructure for industrial AI",
+          "speaker": "HyperAccel"
+        },
+        {
+          "time": "2026-10-22 14:20–14:40 KST",
+          "title": "Manufacturing Physical AI data and model strategy",
+          "speaker": "IBEX"
+        },
+        {
+          "time": "2026-10-22 15:20–15:40 KST",
+          "title": "Manufacturing/logistics simulation and synthetic data for Physical AI robots",
+          "speaker": "VisionSpace"
+        },
+        {
+          "time": "2026-10-22 16:20–16:40 KST",
+          "title": "Tactile-intelligent Physical AI for precise robot manipulation",
+          "speaker": "ROBOTIQ"
+        }
+      ],
       "insights": [],
       "registrationDeadline": "2026-10-16"
     },
@@ -969,7 +1009,7 @@
       "endDate": "2026-10-28",
       "location": "Grand InterContinental Seoul Parnas, Seoul",
       "language": "Korean",
-      "status": "registration_open",
+      "status": "registration_closing",
       "registrationDeadline": "2026-10-13",
       "registrationUrl": "https://techblog.woowahan.com/",
       "registrationEligibility": "Public application; on-site attendance selected by lottery.",
@@ -1364,6 +1404,237 @@
       "priority": "A",
       "operatorRelevance": "high",
       "whyItMatters": "直接面向 6G NTN/LEO、频谱和国际标准化，是韩国运营商 6G 非地面网络路线的重要年底观察窗口。",
+      "agenda": [],
+      "insights": []
+    },
+    {
+      "id": "nature-kaist-autonomous-robotics-2026",
+      "title": "Nature Conference: Autonomous Robotics 2026",
+      "titleKo": "2026 네이처 컨퍼런스: 자율 로보틱스",
+      "titleZh": "Nature × KAIST 自主机器人国际会议",
+      "summary": "Nature × KAIST 国际学术会议：Physical AI、Embodied Intelligence、机器人学习、神经形态感知、野外机器人与类人机器人。10/13 含接待活动，10/14–15 为主要学术议程。",
+      "topics": [
+        "Physical AI",
+        "Embodied AI",
+        "Autonomous Robotics",
+        "Humanoids",
+        "Multi-Robot"
+      ],
+      "organizer": [
+        "Nature Conferences",
+        "KAIST"
+      ],
+      "participants": [
+        "Google DeepMind",
+        "EPFL",
+        "KIST",
+        "KAIST"
+      ],
+      "speakers": [
+        "Aude Billard (EPFL)",
+        "In-So Kweon (KIST)",
+        "Francesco Nori (Google DeepMind)",
+        "Cecilia Laschi (NUS)"
+      ],
+      "startDate": "2026-10-13",
+      "endDate": "2026-10-15",
+      "location": "KAIST Academic Cultural Complex E9, Daejeon, South Korea",
+      "language": "English",
+      "status": "upcoming",
+      "registrationDeadline": "2026-10-06T18:00:00+09:00",
+      "registrationUrl": "https://event-us.kr/natureconference/event/121447",
+      "registrationEligibility": "Online registration closed; waitlist shown for some ticket categories",
+      "fee": "KRW 250,000–1,600,000 depending on ticket category",
+      "officialUrl": "https://natureconferences.streamgo.live/autonomous-robotics/lobby",
+      "publishedAt": "2026-06-26",
+      "sourceType": "confirmed · official · registration closed",
+      "priority": "A",
+      "operatorRelevance": "medium",
+      "whyItMatters": "前沿机器人本地智能、分布式协作与网络依赖分析；不是直接的 5G/6G 技术活动。",
+      "agenda": [
+        {
+          "time": "2026-10-14 14:00 KST",
+          "title": "Physical AI: Challenges and Limitations",
+          "speaker": "In-So Kweon"
+        }
+      ],
+      "insights": []
+    },
+    {
+      "id": "robotworld-2026",
+      "title": "ROBOTWORLD 2026",
+      "titleKo": "2026 로보월드",
+      "titleZh": "2026 韩国机器人世界展",
+      "summary": "大型机器人产业展，工业/服务机器人、AI 软件、机器人零部件、智能制造、无人系统；KINTEX 第一展馆 3–5 厅。",
+      "topics": [
+        "Robotics",
+        "Physical AI",
+        "Smart Manufacturing",
+        "Robot Components"
+      ],
+      "organizer": [
+        "MOTIE",
+        "Korea Association of Robot Industry"
+      ],
+      "participants": [],
+      "speakers": [],
+      "startDate": "2026-11-04",
+      "endDate": "2026-11-07",
+      "location": "KINTEX Exhibition Center 1, Halls 3–5, Goyang, South Korea",
+      "language": "暂未公布",
+      "status": "registration_open",
+      "registrationUrl": "https://www.robotworld.or.kr/",
+      "registrationEligibility": "Preregistration / exhibitor invitation QR; cutoff not independently confirmed",
+      "fee": "Free with preregistration or exhibitor invitation; on-site fee to verify",
+      "officialUrl": "https://www.robotworld.or.kr/",
+      "sourceType": "confirmed · organizer and exhibitor official pages",
+      "priority": "A",
+      "operatorRelevance": "high",
+      "whyItMatters": "发现多机器人协同、远程运维、Private 5G 与 MEC 的实际 B2B 客户。",
+      "agenda": [],
+      "insights": []
+    },
+    {
+      "id": "fix-conference-daegu-2026",
+      "title": "FIX Conference 2026 — Future Innovation Tech Expo",
+      "titleKo": "2026 미래혁신기술박람회 컨퍼런스",
+      "titleZh": "2026 大邱未来创新技术大会",
+      "summary": "大邱 EXCO 举办，10/22 Physical AI: The Next Wave of Mobility 专场，覆盖机器人、智能车、自主驾驶商业化、制造 AX。",
+      "topics": [
+        "Physical AI",
+        "Autonomous Driving",
+        "Mobility",
+        "Robotics",
+        "AI Factory"
+      ],
+      "organizer": [
+        "Daegu Metropolitan City",
+        "Korea Intelligent Automotive Parts Promotion Institute",
+        "EXCO"
+      ],
+      "participants": [
+        "GM Technical Center Korea",
+        "PAL Robotics",
+        "KETI",
+        "Hyundai Mobis",
+        "AWS",
+        "ETRI"
+      ],
+      "speakers": [
+        "Cho Kyu-jin (SNU)",
+        "Brian McMurray (GM Korea)",
+        "Francesco Ferro (PAL Robotics)",
+        "Tetsuya Ogata (Waseda)"
+      ],
+      "startDate": "2026-10-21",
+      "endDate": "2026-10-23",
+      "location": "EXCO 3F, Daegu, South Korea",
+      "language": "Korean; international sessions may differ",
+      "status": "registration_closing",
+      "registrationOpen": "2026-08-01",
+      "registrationDeadline": "2026-10-14",
+      "registrationUrl": "https://difa-forum.or.kr/p3/c2/",
+      "registrationEligibility": "Public preregistration; on-site registration 10/21–23",
+      "fee": "Free",
+      "officialUrl": "https://difa-forum.or.kr/p1/c1/",
+      "sourceType": "confirmed · official agenda and registration",
+      "priority": "A",
+      "operatorRelevance": "high",
+      "whyItMatters": "Physical AI × autonomous mobility 产业落地及 ETRI 技术商业化；可识别 5G-A/6G、MEC 和低时延业务需求。",
+      "agenda": [
+        {
+          "time": "2026-10-22 13:30–15:30 KST",
+          "title": "Physical AI: The Next Wave of Mobility",
+          "speaker": "Tetsuya Ogata; KETI; industry"
+        },
+        {
+          "time": "2026-10-22 15:40–17:40 KST",
+          "title": "Mobility and autonomous driving commercialization",
+          "speaker": "Industry speakers"
+        }
+      ],
+      "insights": []
+    },
+    {
+      "id": "daegu-global-robot-business-forum-2026",
+      "title": "Daegu Global Robot Business Forum 2026",
+      "titleKo": "2026 대구 글로벌 로봇 비즈니스 포럼",
+      "titleZh": "2026 大邱全球机器人商业论坛",
+      "summary": "与 FIX 同期举办的机器人产业合作论坛；全球机器人集群交流、机器人趋势、制造 AI 转型和技术参访，部分议程与 FIX 重叠。",
+      "topics": [
+        "Robotics",
+        "Robot Cluster",
+        "Physical AI",
+        "Business Partnerships"
+      ],
+      "organizer": [
+        "Daegu robotics industry organizations"
+      ],
+      "participants": [
+        "Global Robot Cluster"
+      ],
+      "speakers": [
+        "Cho Kyu-jin (SNU)"
+      ],
+      "startDate": "2026-10-21",
+      "endDate": "2026-10-23",
+      "location": "EXCO, Daegu, South Korea",
+      "language": "暂未公布",
+      "status": "registration_open",
+      "registrationUrl": "https://dgrobotforum.com/",
+      "registrationEligibility": "Official site advertises registration; criteria not verified",
+      "fee": "暂未公布",
+      "officialUrl": "https://dgrobotforum.com/",
+      "sourceType": "confirmed · official agenda",
+      "priority": "B",
+      "operatorRelevance": "medium",
+      "whyItMatters": "机器人产业 B2B 合作与生态观察，网络技术深度较低。",
+      "agenda": [
+        {
+          "time": "2026-10-22 13:00–17:00 KST",
+          "title": "Global Robot Cluster sessions",
+          "speaker": "GRC representatives"
+        }
+      ],
+      "insights": []
+    },
+    {
+      "id": "smart-construction-safety-ai-expo-2026",
+      "title": "Smart Construction, Safety & AI Expo 2026 (SCX)",
+      "titleKo": "2026 스마트건설·안전·AI 엑스포",
+      "titleZh": "2026 智慧施工、安全与 AI 博览会",
+      "summary": "国土交通部主办，施工机器人、无人工程机械、远程操控、机器人车队管理、AI 视频安全、数字孪生及 AI 数据中心设施。",
+      "topics": [
+        "Physical AI",
+        "Construction Robotics",
+        "Remote Control",
+        "Edge AI",
+        "Digital Twin",
+        "Robot Fleet"
+      ],
+      "organizer": [
+        "MOLIT",
+        "Korea Expressway Corporation"
+      ],
+      "participants": [
+        "KICT",
+        "KAIA",
+        "Korea National Railway"
+      ],
+      "speakers": [],
+      "startDate": "2026-11-25",
+      "endDate": "2026-11-27",
+      "location": "KINTEX Exhibition Center 1, Halls 3–4, Goyang, South Korea",
+      "language": "暂未公布",
+      "status": "registration_open",
+      "registrationUrl": "https://smartconexpo.com/eng/",
+      "registrationEligibility": "Visitor preregistration advertised; details not published",
+      "fee": "暂未公布",
+      "officialUrl": "https://smartconexpo.com/eng/",
+      "sourceType": "confirmed · official organizer",
+      "priority": "B",
+      "operatorRelevance": "high",
+      "whyItMatters": "施工机械远程控制、视频上行和机器人车队是 Private 5G、MEC 与可靠低时延网络潜在 B2B 场景。",
       "agenda": [],
       "insights": []
     }
