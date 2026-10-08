@@ -1,1 +1,353 @@
-{"date":"2026-09-24","title":"Korea Telco Advanced Technology Radar","top5":[{"title":"Samsung获KT与SKT韩国Hyper AI Network AI-RAN项目合同","date":"2026-09-23","source_name":"Samsung Electronics","source_url":"https://news.samsung.com/global/samsung-at-the-forefront-of-koreas-ai-ran-projects-with-kt-and-sk-telecom","source_type":"官方新闻稿","importance":"重大更新","summary":"Samsung成为KT项目唯一全球设备商、SKT项目主设备商；10月起在造船厂和石化设施部署5G SA专网，验证AI-RAN与Physical AI。","technical_significance":"韩国AI-RAN从算法验证走向5G SA专网、Edge AI、机器人和自治运维的系统级验证；NIS整合vRAN、AI Core和AI应用并可按需加入GPU。","impact_for_korean_telco":"KT将在HD Hyundai Samho验证焊接/喷涂机器人，SKT将在SK Incheon Petrochem验证巡检机器人和视频AI；应重点量化上行吞吐、P95时延、可靠性、GPU利用率、资源隔离和TCO。","topic":"AI-RAN / Physical AI / Private 5G","company_or_org":"Samsung / KT / SK Telecom"},{"title":"LG U+ AION进入中秋高流量保障生产环境","date":"2026-09-18","source_name":"LG U+","source_url":"https://news.lguplus.com/22870","source_type":"运营商官方新闻稿","importance":"重大更新","summary":"AION用于节假日实时流量应对，并覆盖高速公路、KTX/SRT车站、机场等重点区域。","technical_significance":"韩国Autonomous Network由PoC进入真实生产场景，但尚无自动闭环率等量化数据。","impact_for_korean_telco":"重点追踪预测准确率、自动动作比例、人工介入率、MTTR和rollback。","topic":"Autonomous Network / AI-RAN","company_or_org":"LG U+"},{"title":"Samsung/Verizon AI-powered ISAC over vRAN","date":"2026-09-14","source_name":"Samsung Electronics","source_url":"https://news.samsung.com/global/samsung-and-verizon-complete-successful-isac-trial-over-virtualized-network-at-global-sports-event","source_type":"官方新闻稿","importance":"重大更新","summary":"以商用AI-powered vRAN/vCore、NIS边缘AI平台和40MHz CBRS链路实时生成人群密度热力图，无需新增独立感知设备。","technical_significance":"证明6G sensing能力可先在5G vRAN和Edge AI上工程验证。","impact_for_korean_telco":"LG U+后续韩国ISAC PoC应重点测Detection Accuracy、False Alarm、Multi-site Fusion、Edge Compute Load和通信KPI影响。","topic":"6G / ISAC / AI-RAN","company_or_org":"Samsung / Verizon"},{"title":"Nokia/NVIDIA多运营商AI-RAN验证","date":"2026-09-16","source_name":"Nokia","source_url":"https://www.nokia.com/newsroom/nokia-accelerates-ai-ran-adoption-as-global-operators-embrace-ai-native-network-evolution-on-nvidia-platforms/","source_type":"官方新闻稿","importance":"值得关注","summary":"Nokia AI-native anyRAN与NVIDIA Aerial RAN Computer进入多运营商PoC/lab/live trial；Nokia披露平台级AI radio innovation实现超过20%频谱效率提升。","technical_significance":"AI-RAN竞争从单算法增益转向RAN软件、GPU/加速器、运行时、功耗和TCO的系统竞争。","impact_for_korean_telco":"可与Samsung NIS/AMD/GPU弹性扩展、Ericsson专用RAN Compute做同条件AB。","topic":"AI-RAN / Accelerated RAN","company_or_org":"Nokia / NVIDIA"},{"title":"3GPP Ambient IoT Rel-20 TS 23.370仍为Draft","date":"2026-09-24","source_name":"3GPP","source_url":"https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=5530","source_type":"3GPP规范门户核验","importance":"常规动态","summary":"TS 23.370仍为Rel-20 Draft并关联AmbientIoT_Ph2-APP工作项目；过去24小时未发现冻结或Approved CR级状态拐点。","technical_significance":"Ambient IoT已进入TS正文编制，但Rel-20 Phase 2仍在演进；必须区分Study Item、Work Item、TDoc/CR、Approved CR和规范正文/冻结。","impact_for_korean_telco":"适合做Tag-RAN-Platform-API-Application端到端PoC，不宜按最终冻结规范做规模商用承诺。","topic":"Ambient IoT / 3GPP","company_or_org":"3GPP"}],"trends":{"AI-RAN":{"direction":"↑↑↑","summary":"Samsung同时进入KT与SKT Hyper AI Network AI-RAN项目，10月将在造船厂和石化设施把5G SA专网、vRAN/AI Core、Edge AI和Physical AI机器人放到同一系统验证。","key_change":"较上一期从全球AI-RAN平台进一步转向韩国本地工业现场系统级验证；Physical AI成为需求牵引。","sources":[{"date":"2026-09-23","name":"Samsung / KT / SKT","url":"https://news.samsung.com/global/samsung-at-the-forefront-of-koreas-ai-ran-projects-with-kt-and-sk-telecom"}]},"6G":{"direction":"↑↑","summary":"过去24小时无新的3GPP 6G规范性里程碑；韩国Hyper AI Network把AI-RAN+Physical AI作为AI-native 6G前置验证路径。","key_change":"无标准状态拐点，但韩国6G准备从研究走向工业场景数据积累。","sources":[{"date":"2026-09-23","name":"Samsung / KT / SKT","url":"https://news.samsung.com/global/samsung-at-the-forefront-of-koreas-ai-ran-projects-with-kt-and-sk-telecom"}]},"Ambient IoT":{"direction":"→","summary":"过去24小时未发现Rel-20 Ambient IoT冻结、完成或Approved CR级变化；TS 23.370仍为Draft。","key_change":"无变化。","sources":[{"date":"2026-09-24","name":"3GPP TS 23.370","url":"https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=5530"}]}},"vendors":[{"title":"Samsung获KT与SKT韩国Hyper AI Network AI-RAN项目合同","date":"2026-09-23","source_name":"Samsung Electronics","source_url":"https://news.samsung.com/global/samsung-at-the-forefront-of-koreas-ai-ran-projects-with-kt-and-sk-telecom","source_type":"官方新闻稿","importance":"重大更新","summary":"Samsung成为KT项目唯一全球设备商、SKT项目主设备商。","technical_significance":"韩国AI-RAN进入工业现场系统级验证。","impact_for_korean_telco":"重点测Physical AI网络KPI和TCO。","topic":"AI-RAN / Physical AI","company_or_org":"Samsung"}],"operators":[{"title":"KT与SKT启动Hyper AI Network AI-RAN工业验证","date":"2026-09-23","source_name":"Samsung Electronics","source_url":"https://news.samsung.com/global/samsung-at-the-forefront-of-koreas-ai-ran-projects-with-kt-and-sk-telecom","source_type":"官方新闻稿","importance":"重大更新","summary":"KT与SKT将在韩国工业现场验证AI-RAN与Physical AI。","technical_significance":"5G SA专网成为AI-native 6G前置验证平台。","impact_for_korean_telco":"韩国三大运营商AI-RAN竞争进入场景化阶段。","topic":"AI-RAN / Physical AI","company_or_org":"KT / SK Telecom"},{"title":"LG U+ AION进入生产网络保障","date":"2026-09-18","source_name":"LG U+","source_url":"https://news.lguplus.com/22870","source_type":"运营商官方新闻稿","importance":"重大更新","summary":"AION用于中秋高流量保障。","technical_significance":"Autonomous Network由PoC进入生产场景。","impact_for_korean_telco":"重点追踪闭环率、人工介入率、MTTR和rollback。","topic":"Autonomous Network","company_or_org":"LG U+"}],"ai_companies":[{"title":"NVIDIA Aerial继续作为韩国AI-RAN加速计算对标路线","date":"2026-09-16","source_name":"Nokia","source_url":"https://www.nokia.com/newsroom/nokia-accelerates-ai-ran-adoption-as-global-operators-embrace-ai-native-network-evolution-on-nvidia-platforms/","source_type":"官方新闻稿","importance":"值得关注","summary":"NVIDIA Aerial RAN Computer进入多运营商验证。","technical_significance":"GPU路线推动RAN与AI工作负载共平台。","impact_for_korean_telco":"可与Samsung NIS和专用RAN Compute比较实时性、功耗和TCO。","topic":"AI-RAN / Accelerated RAN","company_or_org":"NVIDIA"}],"timeline15d":[{"title":"Samsung/KT/SKT Hyper AI Network AI-RAN项目","date":"2026-09-23","source_name":"Samsung Electronics","source_url":"https://news.samsung.com/global/samsung-at-the-forefront-of-koreas-ai-ran-projects-with-kt-and-sk-telecom","source_type":"官方新闻稿","importance":"重大更新","summary":"韩国AI-RAN进入造船与石化Physical AI现场验证。","technical_significance":"AI-RAN从算法走向系统级工业验证。","impact_for_korean_telco":"形成韩国本地AI-RAN/Physical AI benchmark。","topic":"AI-RAN / Physical AI","company_or_org":"Samsung / KT / SKT"},{"title":"LG U+ AION生产保障","date":"2026-09-18","source_name":"LG U+","source_url":"https://news.lguplus.com/22870","source_type":"官方新闻稿","importance":"重大更新","summary":"AION用于中秋高流量保障。","technical_significance":"AN进入生产网络。","impact_for_korean_telco":"追踪闭环率与rollback。","topic":"Autonomous Network","company_or_org":"LG U+"},{"title":"Nokia/NVIDIA AI-RAN多运营商验证","date":"2026-09-16","source_name":"Nokia","source_url":"https://www.nokia.com/newsroom/nokia-accelerates-ai-ran-adoption-as-global-operators-embrace-ai-native-network-evolution-on-nvidia-platforms/","source_type":"官方新闻稿","importance":"值得关注","summary":"Aerial RAN Computer进入多运营商验证。","technical_significance":"GPU加速RAN规模验证。","impact_for_korean_telco":"作为Samsung/Ericsson路线对标。","topic":"AI-RAN","company_or_org":"Nokia / NVIDIA"},{"title":"Samsung/Verizon ISAC over vRAN","date":"2026-09-14","source_name":"Samsung Electronics","source_url":"https://news.samsung.com/global/samsung-and-verizon-complete-successful-isac-trial-over-virtualized-network-at-global-sports-event","source_type":"官方新闻稿","importance":"重大更新","summary":"vRAN+Edge AI实现实时人群感知。","technical_significance":"6G sensing可在5G平台提前验证。","impact_for_korean_telco":"直接参考LG U+ ISAC验证。","topic":"6G / ISAC","company_or_org":"Samsung / Verizon"}],"sources":[{"name":"Samsung Electronics","url":"https://news.samsung.com/global/samsung-at-the-forefront-of-koreas-ai-ran-projects-with-kt-and-sk-telecom","date":"2026-09-23","type":"官方新闻稿"},{"name":"LG U+","url":"https://news.lguplus.com/22870","date":"2026-09-18","type":"运营商官方新闻稿"},{"name":"Nokia","url":"https://www.nokia.com/newsroom/nokia-accelerates-ai-ran-adoption-as-global-operators-embrace-ai-native-network-evolution-on-nvidia-platforms/","date":"2026-09-16","type":"官方新闻稿"},{"name":"Samsung Electronics","url":"https://news.samsung.com/global/samsung-and-verizon-complete-successful-isac-trial-over-virtualized-network-at-global-sports-event","date":"2026-09-14","type":"官方新闻稿"},{"name":"3GPP","url":"https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=5530","date":"2026-09-24核验","type":"规范门户"}]}
+{
+  "date": "2026-10-08",
+  "title": "Korea Telco Advanced Technology Radar",
+  "top5": [
+    {
+      "title": "Ericsson IMC 2026：展示AI、差异化连接、Network Sensing与6G愿景",
+      "date": "2026-10-07",
+      "source_name": "Ericsson",
+      "source_url": "https://www.ericsson.com/en/press-releases/2/2026/ericsson-showcases-whats-next-in-5g-ai-and-innovation-at-india-mobile-congress-2026",
+      "source_type": "厂商官方新闻稿",
+      "importance": "值得关注",
+      "summary": "Ericsson在India Mobile Congress 2026展示5G、AI、企业无线、任务关键网络、network sensing、自治网络与6G愿景；属于技术展会展示，不是新批准的3GPP规范。",
+      "technical_significance": "面向未来网络的Connect + Sense + Compute + AI能力组合更清晰；需将展示与可量化商用性能区分。",
+      "impact_for_korean_telco": "韩国运营商可逐项验证差异化SLA、上行增强、端到端自治以及ISAC感知精度，避免把展会演示等同正式商用。",
+      "topic": "6G / AI-RAN / Network Sensing",
+      "company_or_org": "Ericsson"
+    },
+    {
+      "title": "Anthropic发布Claude Haiku 5.5，强化低成本高频Agent任务",
+      "date": "2026-10-07",
+      "source_name": "Anthropic",
+      "source_url": "https://www.anthropic.com/claude-haiku-5-5",
+      "source_type": "官方模型发布",
+      "importance": "值得关注",
+      "summary": "Anthropic发布Haiku 5.5，强调高频、成本敏感的查询、分类、摘要及子Agent工作；官方称在常见任务口径下平均运行成本比Haiku 4.5低约75%。",
+      "technical_significance": "小模型与大模型的分层Agent架构更加经济；对实时自治网络中的高频但非硬实时辅助任务有价值。",
+      "impact_for_korean_telco": "在韩运营商Network Agent中评估小模型用于告警归类、日志摘要和任务分派，大模型用于复杂根因分析；测试韩语、时延、错误率及单位任务成本。",
+      "topic": "Agentic AI / Network Agent",
+      "company_or_org": "Anthropic"
+    },
+    {
+      "title": "OpenAI与Ironclad合作构建真实企业工作流Agent评测",
+      "date": "2026-10-06",
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/index/advancing-computer-use-with-ironclad/",
+      "source_type": "官方研究发布",
+      "importance": "值得关注",
+      "summary": "OpenAI与Ironclad将真实合同工作流转化为多步骤Agent训练与评测任务，强调规则理解、执行与验收；属于合同场景研究结果，不可直接类比网络控制效果。",
+      "technical_significance": "从单次回答或工具调用评分走向多步骤业务任务成功率和安全约束检查。",
+      "impact_for_korean_telco": "韩国运营商应建设网络工单、拥塞诊断、参数审批和回滚的真实任务集，测Task Success、Wrong Action、Human Takeover及MTTR。",
+      "topic": "Agentic AI / Network Agent",
+      "company_or_org": "OpenAI"
+    },
+    {
+      "title": "Samsung与KT、SKT的Hyper AI Network转入10月工业现场验证窗口",
+      "date": "2026-09-23",
+      "source_name": "Samsung Electronics",
+      "source_url": "https://news.samsung.com/global/samsung-at-the-forefront-of-koreas-ai-ran-projects-with-kt-and-sk-telecom",
+      "source_type": "设备商官方新闻稿",
+      "importance": "重大更新",
+      "summary": "Samsung宣布与KT、SKT签署AI-RAN项目合同，计划2026年10月在造船与石化工厂部署5G SA专网，验证Physical AI和自治运维；截至本期未见可核实的公开现场量化KPI。",
+      "technical_significance": "AI-RAN已经由算法演示扩展为vRAN、5G SA Core、边缘计算和机器人任务的系统验证。",
+      "impact_for_korean_telco": "重点观察UL吞吐、P95/P99时延、可靠性、GPU使用与隔离、能耗、机器人任务成功率及TCO。",
+      "topic": "AI-RAN / Physical AI",
+      "company_or_org": "Samsung / KT / SK Telecom"
+    },
+    {
+      "title": "3GPP TS 23.370进入Under Change Control：Ambient IoT应用使能规范",
+      "date": "2026-09-24",
+      "source_name": "3GPP",
+      "source_url": "https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=5530",
+      "source_type": "3GPP规范状态记录",
+      "importance": "重大更新",
+      "summary": "3GPP门户显示Rel-20 TS 23.370《Application enablement for Ambient IoT services》于9月24日进入Under Change Control。此状态属于具体规范，不代表整个Release 20冻结。",
+      "technical_significance": "应用使能阶段规范有版本化基础，但与安全、核心网、接入网等其他子领域进展不能混为一谈。",
+      "impact_for_korean_telco": "韩国运营商可围绕Tag→RAN→Core/Platform→API→应用搭建PoC，重点核实Identity、Security、API和设备生命周期。",
+      "topic": "Ambient IoT / 3GPP Rel-20",
+      "company_or_org": "3GPP SA6"
+    }
+  ],
+  "trends": {
+    "AI-RAN": {
+      "direction": "↑",
+      "summary": "10月8日未确认韩国AI-RAN新公开现场KPI；Samsung+KT+SKT 9月23日宣布的工业验证计划进入10月观察期。重点由项目宣布转向工业现场的UL、时延、能效与机器人业务成果。",
+      "key_change": "相比前期，新增AI模型成本优化和真实Agent评测方法；AI-RAN无线性能没有新的可核验量化结论。",
+      "sources": [
+        {
+          "date": "2026-09-23",
+          "name": "Samsung/KT/SKT",
+          "url": "https://news.samsung.com/global/samsung-at-the-forefront-of-koreas-ai-ran-projects-with-kt-and-sk-telecom"
+        },
+        {
+          "date": "2026-09-28",
+          "name": "Samsung/SKT/Hana企业专网",
+          "url": "https://news.samsung.com/global/samsung-sk-telecom-and-hana-financial-group-buildkoreas-first-private-5g-smart-office-in-the-financial-sector"
+        }
+      ]
+    },
+    "6G": {
+      "direction": "→",
+      "summary": "过去24小时未核实到3GPP 6G新批准CR或Release规范性拐点。Ericsson 10月7日IMC展示AI、network sensing和未来自优化网络，但这属于厂商展会信息。",
+      "key_change": "与上一期相比，新增IMC 2026公开展示，未出现3GPP 6G规范状态改变。",
+      "sources": [
+        {
+          "date": "2026-10-07",
+          "name": "Ericsson IMC 2026",
+          "url": "https://www.ericsson.com/en/press-releases/2/2026/ericsson-showcases-whats-next-in-5g-ai-and-innovation-at-india-mobile-congress-2026"
+        }
+      ]
+    },
+    "Ambient IoT": {
+      "direction": "→",
+      "summary": "Rel-20 TS 23.370在9月24日进入Under Change Control；APP WI于9月28日从70%变为100%。两者不能推出整个Ambient IoT Phase 2或Rel-20冻结。",
+      "key_change": "今天未发现新的经核实标准状态事件，维持前期判断。",
+      "sources": [
+        {
+          "date": "2026-09-24",
+          "name": "3GPP TS 23.370",
+          "url": "https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=5530"
+        },
+        {
+          "date": "2026-09-28",
+          "name": "3GPP AmbientIoT_Ph2-APP WI",
+          "url": "https://portal.3gpp.org/desktopmodules/WorkItem/WorkItemDetails.aspx?workitemId=1110048"
+        }
+      ]
+    }
+  },
+  "vendors": [
+    {
+      "title": "Ericsson IMC 2026：展示AI、差异化连接、Network Sensing与6G愿景",
+      "date": "2026-10-07",
+      "source_name": "Ericsson",
+      "source_url": "https://www.ericsson.com/en/press-releases/2/2026/ericsson-showcases-whats-next-in-5g-ai-and-innovation-at-india-mobile-congress-2026",
+      "source_type": "厂商官方新闻稿",
+      "importance": "值得关注",
+      "summary": "Ericsson在India Mobile Congress 2026展示5G、AI、企业无线、任务关键网络、network sensing、自治网络与6G愿景；属于技术展会展示，不是新批准的3GPP规范。",
+      "technical_significance": "面向未来网络的Connect + Sense + Compute + AI能力组合更清晰；需将展示与可量化商用性能区分。",
+      "impact_for_korean_telco": "韩国运营商可逐项验证差异化SLA、上行增强、端到端自治以及ISAC感知精度，避免把展会演示等同正式商用。",
+      "topic": "6G / AI-RAN / Network Sensing",
+      "company_or_org": "Ericsson"
+    },
+    {
+      "title": "Samsung与KT、SKT的Hyper AI Network转入10月工业现场验证窗口",
+      "date": "2026-09-23",
+      "source_name": "Samsung Electronics",
+      "source_url": "https://news.samsung.com/global/samsung-at-the-forefront-of-koreas-ai-ran-projects-with-kt-and-sk-telecom",
+      "source_type": "设备商官方新闻稿",
+      "importance": "重大更新",
+      "summary": "Samsung宣布与KT、SKT签署AI-RAN项目合同，计划2026年10月在造船与石化工厂部署5G SA专网，验证Physical AI和自治运维；截至本期未见可核实的公开现场量化KPI。",
+      "technical_significance": "AI-RAN已经由算法演示扩展为vRAN、5G SA Core、边缘计算和机器人任务的系统验证。",
+      "impact_for_korean_telco": "重点观察UL吞吐、P95/P99时延、可靠性、GPU使用与隔离、能耗、机器人任务成功率及TCO。",
+      "topic": "AI-RAN / Physical AI",
+      "company_or_org": "Samsung / KT / SK Telecom"
+    },
+    {
+      "title": "Samsung、SKT和Hana金融集团部署4.7GHz企业专用5G SA与切片",
+      "date": "2026-09-28",
+      "source_name": "Samsung Electronics",
+      "source_url": "https://news.samsung.com/global/samsung-sk-telecom-and-hana-financial-group-buildkoreas-first-private-5g-smart-office-in-the-financial-sector",
+      "source_type": "设备商官方新闻稿",
+      "importance": "值得关注",
+      "summary": "三星披露与SKT、Hana金融集团在仁川总部16层办公楼部署企业专用5G，采用韩国4.7GHz专网频段与5G SA Core网络切片，为金融集团多关联公司提供隔离的运行环境。",
+      "technical_significance": "这是网络切片与企业专网B2B的具体部署案例，但没有披露业务级SLA实测值。",
+      "impact_for_korean_telco": "韩国运营商可建立slice隔离、终端体验、企业专网安全、运维成本和可复制行业方案的基准。",
+      "topic": "5G SA / Network Slicing / Enterprise AI",
+      "company_or_org": "Samsung / SK Telecom / Hana Financial Group"
+    }
+  ],
+  "operators": [
+    {
+      "title": "Samsung与KT、SKT的Hyper AI Network转入10月工业现场验证窗口",
+      "date": "2026-09-23",
+      "source_name": "Samsung Electronics",
+      "source_url": "https://news.samsung.com/global/samsung-at-the-forefront-of-koreas-ai-ran-projects-with-kt-and-sk-telecom",
+      "source_type": "设备商官方新闻稿",
+      "importance": "重大更新",
+      "summary": "Samsung宣布与KT、SKT签署AI-RAN项目合同，计划2026年10月在造船与石化工厂部署5G SA专网，验证Physical AI和自治运维；截至本期未见可核实的公开现场量化KPI。",
+      "technical_significance": "AI-RAN已经由算法演示扩展为vRAN、5G SA Core、边缘计算和机器人任务的系统验证。",
+      "impact_for_korean_telco": "重点观察UL吞吐、P95/P99时延、可靠性、GPU使用与隔离、能耗、机器人任务成功率及TCO。",
+      "topic": "AI-RAN / Physical AI",
+      "company_or_org": "Samsung / KT / SK Telecom"
+    },
+    {
+      "title": "Samsung、SKT和Hana金融集团部署4.7GHz企业专用5G SA与切片",
+      "date": "2026-09-28",
+      "source_name": "Samsung Electronics",
+      "source_url": "https://news.samsung.com/global/samsung-sk-telecom-and-hana-financial-group-buildkoreas-first-private-5g-smart-office-in-the-financial-sector",
+      "source_type": "设备商官方新闻稿",
+      "importance": "值得关注",
+      "summary": "三星披露与SKT、Hana金融集团在仁川总部16层办公楼部署企业专用5G，采用韩国4.7GHz专网频段与5G SA Core网络切片，为金融集团多关联公司提供隔离的运行环境。",
+      "technical_significance": "这是网络切片与企业专网B2B的具体部署案例，但没有披露业务级SLA实测值。",
+      "impact_for_korean_telco": "韩国运营商可建立slice隔离、终端体验、企业专网安全、运维成本和可复制行业方案的基准。",
+      "topic": "5G SA / Network Slicing / Enterprise AI",
+      "company_or_org": "Samsung / SK Telecom / Hana Financial Group"
+    }
+  ],
+  "ai_companies": [
+    {
+      "title": "Anthropic发布Claude Haiku 5.5，强化低成本高频Agent任务",
+      "date": "2026-10-07",
+      "source_name": "Anthropic",
+      "source_url": "https://www.anthropic.com/claude-haiku-5-5",
+      "source_type": "官方模型发布",
+      "importance": "值得关注",
+      "summary": "Anthropic发布Haiku 5.5，强调高频、成本敏感的查询、分类、摘要及子Agent工作；官方称在常见任务口径下平均运行成本比Haiku 4.5低约75%。",
+      "technical_significance": "小模型与大模型的分层Agent架构更加经济；对实时自治网络中的高频但非硬实时辅助任务有价值。",
+      "impact_for_korean_telco": "在韩运营商Network Agent中评估小模型用于告警归类、日志摘要和任务分派，大模型用于复杂根因分析；测试韩语、时延、错误率及单位任务成本。",
+      "topic": "Agentic AI / Network Agent",
+      "company_or_org": "Anthropic"
+    },
+    {
+      "title": "OpenAI与Ironclad合作构建真实企业工作流Agent评测",
+      "date": "2026-10-06",
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/index/advancing-computer-use-with-ironclad/",
+      "source_type": "官方研究发布",
+      "importance": "值得关注",
+      "summary": "OpenAI与Ironclad将真实合同工作流转化为多步骤Agent训练与评测任务，强调规则理解、执行与验收；属于合同场景研究结果，不可直接类比网络控制效果。",
+      "technical_significance": "从单次回答或工具调用评分走向多步骤业务任务成功率和安全约束检查。",
+      "impact_for_korean_telco": "韩国运营商应建设网络工单、拥塞诊断、参数审批和回滚的真实任务集，测Task Success、Wrong Action、Human Takeover及MTTR。",
+      "topic": "Agentic AI / Network Agent",
+      "company_or_org": "OpenAI"
+    }
+  ],
+  "timeline15d": [
+    {
+      "title": "3GPP TS 23.370进入Under Change Control：Ambient IoT应用使能规范",
+      "date": "2026-09-24",
+      "source_name": "3GPP",
+      "source_url": "https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=5530",
+      "source_type": "3GPP规范状态记录",
+      "importance": "重大更新",
+      "summary": "3GPP门户显示Rel-20 TS 23.370《Application enablement for Ambient IoT services》于9月24日进入Under Change Control。此状态属于具体规范，不代表整个Release 20冻结。",
+      "technical_significance": "应用使能阶段规范有版本化基础，但与安全、核心网、接入网等其他子领域进展不能混为一谈。",
+      "impact_for_korean_telco": "韩国运营商可围绕Tag→RAN→Core/Platform→API→应用搭建PoC，重点核实Identity、Security、API和设备生命周期。",
+      "topic": "Ambient IoT / 3GPP Rel-20",
+      "company_or_org": "3GPP SA6"
+    },
+    {
+      "title": "Samsung与KT、SKT的Hyper AI Network转入10月工业现场验证窗口",
+      "date": "2026-09-23",
+      "source_name": "Samsung Electronics",
+      "source_url": "https://news.samsung.com/global/samsung-at-the-forefront-of-koreas-ai-ran-projects-with-kt-and-sk-telecom",
+      "source_type": "设备商官方新闻稿",
+      "importance": "重大更新",
+      "summary": "Samsung宣布与KT、SKT签署AI-RAN项目合同，计划2026年10月在造船与石化工厂部署5G SA专网，验证Physical AI和自治运维；截至本期未见可核实的公开现场量化KPI。",
+      "technical_significance": "AI-RAN已经由算法演示扩展为vRAN、5G SA Core、边缘计算和机器人任务的系统验证。",
+      "impact_for_korean_telco": "重点观察UL吞吐、P95/P99时延、可靠性、GPU使用与隔离、能耗、机器人任务成功率及TCO。",
+      "topic": "AI-RAN / Physical AI",
+      "company_or_org": "Samsung / KT / SK Telecom"
+    },
+    {
+      "title": "Ericsson IMC 2026：展示AI、差异化连接、Network Sensing与6G愿景",
+      "date": "2026-10-07",
+      "source_name": "Ericsson",
+      "source_url": "https://www.ericsson.com/en/press-releases/2/2026/ericsson-showcases-whats-next-in-5g-ai-and-innovation-at-india-mobile-congress-2026",
+      "source_type": "厂商官方新闻稿",
+      "importance": "值得关注",
+      "summary": "Ericsson在India Mobile Congress 2026展示5G、AI、企业无线、任务关键网络、network sensing、自治网络与6G愿景；属于技术展会展示，不是新批准的3GPP规范。",
+      "technical_significance": "面向未来网络的Connect + Sense + Compute + AI能力组合更清晰；需将展示与可量化商用性能区分。",
+      "impact_for_korean_telco": "韩国运营商可逐项验证差异化SLA、上行增强、端到端自治以及ISAC感知精度，避免把展会演示等同正式商用。",
+      "topic": "6G / AI-RAN / Network Sensing",
+      "company_or_org": "Ericsson"
+    },
+    {
+      "title": "Anthropic发布Claude Haiku 5.5，强化低成本高频Agent任务",
+      "date": "2026-10-07",
+      "source_name": "Anthropic",
+      "source_url": "https://www.anthropic.com/claude-haiku-5-5",
+      "source_type": "官方模型发布",
+      "importance": "值得关注",
+      "summary": "Anthropic发布Haiku 5.5，强调高频、成本敏感的查询、分类、摘要及子Agent工作；官方称在常见任务口径下平均运行成本比Haiku 4.5低约75%。",
+      "technical_significance": "小模型与大模型的分层Agent架构更加经济；对实时自治网络中的高频但非硬实时辅助任务有价值。",
+      "impact_for_korean_telco": "在韩运营商Network Agent中评估小模型用于告警归类、日志摘要和任务分派，大模型用于复杂根因分析；测试韩语、时延、错误率及单位任务成本。",
+      "topic": "Agentic AI / Network Agent",
+      "company_or_org": "Anthropic"
+    },
+    {
+      "title": "OpenAI与Ironclad合作构建真实企业工作流Agent评测",
+      "date": "2026-10-06",
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/index/advancing-computer-use-with-ironclad/",
+      "source_type": "官方研究发布",
+      "importance": "值得关注",
+      "summary": "OpenAI与Ironclad将真实合同工作流转化为多步骤Agent训练与评测任务，强调规则理解、执行与验收；属于合同场景研究结果，不可直接类比网络控制效果。",
+      "technical_significance": "从单次回答或工具调用评分走向多步骤业务任务成功率和安全约束检查。",
+      "impact_for_korean_telco": "韩国运营商应建设网络工单、拥塞诊断、参数审批和回滚的真实任务集，测Task Success、Wrong Action、Human Takeover及MTTR。",
+      "topic": "Agentic AI / Network Agent",
+      "company_or_org": "OpenAI"
+    },
+    {
+      "title": "3GPP AmbientIoT_Ph2-APP Work Item进度记录达到100%",
+      "date": "2026-09-28",
+      "source_name": "3GPP",
+      "source_url": "https://portal.3gpp.org/desktopmodules/WorkItem/WorkItemDetails.aspx?workitemId=1110048",
+      "source_type": "3GPP Work Item进度记录",
+      "importance": "值得关注",
+      "summary": "3GPP WI 1110048门户记录9月28日将APP工作项完成度从70%更新为100%，状态为PCG approved；不是单独Approved CR，也不等于Phase 2其他工作项全部结束。",
+      "technical_significance": "工作项进度、技术规范正文、提案及正式批准的CR属于不同粒度，需分别跟踪。",
+      "impact_for_korean_telco": "对照TS 23.370并独立跟踪Phase 2 CT/SEC等工作项，不宜对外宣称Rel-20全部冻结。",
+      "topic": "Ambient IoT / 3GPP Rel-20",
+      "company_or_org": "3GPP SA6"
+    },
+    {
+      "title": "Samsung、SKT和Hana金融集团部署4.7GHz企业专用5G SA与切片",
+      "date": "2026-09-28",
+      "source_name": "Samsung Electronics",
+      "source_url": "https://news.samsung.com/global/samsung-sk-telecom-and-hana-financial-group-buildkoreas-first-private-5g-smart-office-in-the-financial-sector",
+      "source_type": "设备商官方新闻稿",
+      "importance": "值得关注",
+      "summary": "三星披露与SKT、Hana金融集团在仁川总部16层办公楼部署企业专用5G，采用韩国4.7GHz专网频段与5G SA Core网络切片，为金融集团多关联公司提供隔离的运行环境。",
+      "technical_significance": "这是网络切片与企业专网B2B的具体部署案例，但没有披露业务级SLA实测值。",
+      "impact_for_korean_telco": "韩国运营商可建立slice隔离、终端体验、企业专网安全、运维成本和可复制行业方案的基准。",
+      "topic": "5G SA / Network Slicing / Enterprise AI",
+      "company_or_org": "Samsung / SK Telecom / Hana Financial Group"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Ericsson",
+      "url": "https://www.ericsson.com/en/press-releases/2/2026/ericsson-showcases-whats-next-in-5g-ai-and-innovation-at-india-mobile-congress-2026",
+      "date": "2026-10-07",
+      "type": "厂商官方新闻稿"
+    },
+    {
+      "name": "Anthropic",
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "date": "2026-10-07",
+      "type": "官方模型发布"
+    },
+    {
+      "name": "OpenAI",
+      "url": "https://openai.com/index/advancing-computer-use-with-ironclad/",
+      "date": "2026-10-06",
+      "type": "官方研究发布"
+    },
+    {
+      "name": "Samsung Electronics",
+      "url": "https://news.samsung.com/global/samsung-at-the-forefront-of-koreas-ai-ran-projects-with-kt-and-sk-telecom",
+      "date": "2026-09-23",
+      "type": "设备商官方新闻稿"
+    },
+    {
+      "name": "3GPP",
+      "url": "https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=5530",
+      "date": "2026-09-24",
+      "type": "3GPP规范状态记录"
+    },
+    {
+      "name": "Samsung Electronics",
+      "url": "https://news.samsung.com/global/samsung-sk-telecom-and-hana-financial-group-buildkoreas-first-private-5g-smart-office-in-the-financial-sector",
+      "date": "2026-09-28",
+      "type": "设备商官方新闻稿"
+    },
+    {
+      "name": "3GPP",
+      "url": "https://portal.3gpp.org/desktopmodules/WorkItem/WorkItemDetails.aspx?workitemId=1110048",
+      "date": "2026-09-28",
+      "type": "3GPP Work Item进度记录"
+    }
+  ]
+}
