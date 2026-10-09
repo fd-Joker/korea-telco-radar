@@ -935,8 +935,8 @@
       "location": "KINTEX Exhibition Center 1, Goyang, Korea",
       "language": "Korean",
       "status": "registration_closing",
-      "registrationEligibility": "Visitor registration details暂未公布",
-      "fee": "暂未公布",
+      "registrationEligibility": "Two separate deadlines: AI-Tech seminar preregistration Oct 16 18:00 KST; exhibition visitor registration Oct 19 23:30 KST. Check seminar-specific organizer announcement separately; exhibition ticket does not guarantee seminar seat.",
+      "fee": "Free exhibition registration; AI-Tech seminar announced as free.",
       "officialUrl": "https://koiia.or.kr/page/?M2_IDX=21980",
       "sourceType": "confirmed · official full agenda verified 2026-10-09",
       "priority": "A",
@@ -980,7 +980,8 @@
         }
       ],
       "insights": [],
-      "registrationDeadline": "2026-10-16"
+      "registrationDeadline": "2026-10-16T18:00:00+09:00",
+      "registrationUrl": "https://event-us.kr/koiia1/event/126389"
     },
     {
       "id": "woowa-tech-conference-2026",
@@ -1778,6 +1779,236 @@
       "operatorRelevance": "high",
       "whyItMatters": "与Industrial AI EXPO同期可观察机械自动化、AGV、协作机器人及工业数字孪生如何使用无线专网和Edge AI；避免将共同展区误算为两个独立技术成果。",
       "agenda": [],
+      "insights": []
+    },
+    {
+      "id": "canada-korea-physical-ai-innovation-forum-2026",
+      "title": "Canada–Korea Physical AI Innovation Forum 2026",
+      "titleKo": "2026 캐나다-한국 피지컬AI 이노베이션 포럼",
+      "titleZh": "2026 加拿大—韩国 Physical AI 创新论坛",
+      "summary": "加拿大驻韩大使馆邀请9家加拿大Physical AI企业进行技术路演、韩加联合研发资助介绍及预先配对1:1商务会谈。10/21报名截止，场地有限可能提前关闭。",
+      "topics": [
+        "Physical AI",
+        "Robotics",
+        "Robot Components",
+        "Industrial AI",
+        "Joint R&D",
+        "B2B"
+      ],
+      "organizer": [
+        "Embassy of Canada to the Republic of Korea"
+      ],
+      "participants": [
+        "Daanaa Resolution",
+        "H4 Lab",
+        "M2M Tech",
+        "Mecademic",
+        "OVA",
+        "Robotiq",
+        "Sarcomere Dynamics",
+        "TetraGen Robotics",
+        "ZeroKey"
+      ],
+      "speakers": [],
+      "startDate": "2026-11-03",
+      "endDate": "2026-11-03",
+      "location": "Embassy of Canada, 21 Jeongdong-gil, Jung-gu, Seoul",
+      "language": "Korean / English (simultaneous interpretation in morning only)",
+      "status": "registration_open",
+      "registrationDeadline": "2026-10-21",
+      "registrationUrl": "https://koraia.org/base/mp5/sub2.php?com_board_basic=read_form&com_board_category_code=c2&com_board_id=11&com_board_idx=1136&sub=02",
+      "registrationEligibility": "Korean industry stakeholders seeking Physical AI partnerships with Canadian companies; advance application and pre-matched B2B meetings.",
+      "fee": "暂未公布",
+      "officialUrl": "https://koraia.org/base/mp5/sub2.php?com_board_basic=read_form&com_board_category_code=c2&com_board_id=11&com_board_idx=1136&sub=02",
+      "publishedAt": "2026-10-07",
+      "sourceType": "confirmed · Embassy event announced via Korean AI Association · registration deadline verified",
+      "priority": "A",
+      "operatorRelevance": "medium",
+      "whyItMatters": "Physical AI机器人/工业合作与联合R&D融资，适合寻找Edge AI/专网/机器人远程运维合作伙伴；活动未披露具体5G/6G技术议程。",
+      "agenda": [
+        {
+          "time": "2026-11-03 09:30–12:30 KST",
+          "title": "Physical AI ecosystem introductions, nine Canadian company pitches, bilateral R&D funding",
+          "speaker": "Canada/Korea delegates"
+        },
+        {
+          "time": "2026-11-03 14:00–17:00 KST",
+          "title": "Pre-matched 1:1 business meetings (20 minutes each)",
+          "speaker": "Canadian Physical AI companies and Korean partners"
+        }
+      ],
+      "insights": []
+    },
+    {
+      "id": "israel-ai-unleashed-mobility-physical-ai-2026",
+      "title": "AI Unleashed — Israeli AI Solutions for Mobility, Physical AI and Smart Manufacturing",
+      "titleKo": "이스라엘 AI Unleashed 세미나: 모빌리티·피지컬AI·스마트제조",
+      "titleZh": "以色列 AI Unleashed：移动出行、Physical AI与智能制造技术交流",
+      "summary": "以色列驻韩大使馆贸易投资代表处举办8家以色列企业技术介绍与预匹配B2B会谈，涵盖自动驾驶仿真、3D视觉、机器人视觉质检、基础模型、神经形态边缘AI芯片。必须预登记，未登记不可入场。",
+      "topics": [
+        "Physical AI",
+        "Autonomous Driving",
+        "Robotics",
+        "Edge AI",
+        "Neuromorphic Chips",
+        "Smart Manufacturing",
+        "Simulation",
+        "B2B"
+      ],
+      "organizer": [
+        "Embassy of Israel Trade Mission in Korea (TradeIL Korea)",
+        "Israel Export Institute"
+      ],
+      "participants": [
+        "Actasys",
+        "Cognata",
+        "Foresight",
+        "Kitov.ai",
+        "LTX",
+        "Mobilion",
+        "Polyn Technologies",
+        "Tensorleap"
+      ],
+      "speakers": [],
+      "startDate": "2026-10-14",
+      "endDate": "2026-10-14",
+      "location": "COEX 2F Startup Branch, Seoul",
+      "language": "暂未公布",
+      "status": "registration_open",
+      "registrationUrl": "https://teo.koraia.org/default/mp5/sub2.php?com_board_basic=read_form&com_board_category_code=c2&com_board_id=11&com_board_idx=1129&com_board_page=1",
+      "registrationEligibility": "Relevant companies in mobility, Physical AI, smart manufacturing and AI; advance registration mandatory, B2B meetings require pre-application.",
+      "fee": "暂未公布",
+      "officialUrl": "https://teo.koraia.org/default/mp5/sub2.php?com_board_basic=read_form&com_board_category_code=c2&com_board_id=11&com_board_idx=1129&com_board_page=1",
+      "publishedAt": "2026-09-18",
+      "sourceType": "confirmed · embassy trade mission notice via Korean AI Association · advance registration mandatory",
+      "priority": "A",
+      "operatorRelevance": "medium",
+      "whyItMatters": "8家以色列企业展示自动驾驶仿真、机器人视觉和神经形态Edge AI芯片，适合研究端侧AI计算与车路协同及制造业B2B合作；未公布通信网络KPI。",
+      "agenda": [
+        {
+          "time": "2026-10-14 13:00–17:00 KST",
+          "title": "Israeli AI technology presentations: mobility, Physical AI, smart manufacturing",
+          "speaker": "Eight Israeli technology companies"
+        },
+        {
+          "time": "2026-10-14 (afternoon)",
+          "title": "Pre-arranged 1:1 B2B meetings",
+          "speaker": "Israel delegation and Korean businesses"
+        }
+      ],
+      "insights": []
+    },
+    {
+      "id": "if-kakao-26",
+      "title": "if(kakao)26 — Connections Meet Intelligence",
+      "titleKo": "if(kakao)26 — 모든 연결에 지능을",
+      "titleZh": "if(kakao)26 开发者大会：让每一次连接拥有智能",
+      "summary": "Kakao年度开发者大会，约50场AI Agent、Kanana基础模型、A2A、Agentic Search、Hybrid Cloud/FinOps、AI治理与安全技术演讲。线下9/28已结束报名且抽选入场；全部议程线上免费直播。",
+      "topics": [
+        "Agentic AI",
+        "A2A",
+        "AI Infrastructure",
+        "Cloud",
+        "Foundation Models",
+        "AI Safety",
+        "AI Developer Day"
+      ],
+      "organizer": [
+        "Kakao"
+      ],
+      "participants": [
+        "Kakao",
+        "Kakao affiliates"
+      ],
+      "speakers": [
+        "Shina Chung (CEO, Kakao)",
+        "Jaeha Song (CTO, Kakao)",
+        "Byungseok Noh (Kanana)"
+      ],
+      "startDate": "2026-10-13",
+      "endDate": "2026-10-14",
+      "location": "Kakao AI Campus, 7 Hosu-ro 96beon-gil, Suji-gu, Yongin, Gyeonggi-do",
+      "language": "Korean",
+      "status": "upcoming",
+      "registrationOpen": "2026-09-07",
+      "registrationDeadline": "2026-09-28T12:00:00+09:00",
+      "registrationUrl": "https://if.kakao.com/2026",
+      "registrationEligibility": "Offline participation: selected applicants aged 18+ only, lottery registration closed; online livestream free.",
+      "fee": "Free",
+      "officialUrl": "https://if.kakao.com/2026",
+      "publishedAt": "2026-09-07",
+      "sourceType": "confirmed · official agenda · offline application closed",
+      "priority": "B",
+      "operatorRelevance": "medium",
+      "whyItMatters": "关注Agentic Search/A2A与超大规模AI服务的网络及算力架构；不属于Physical AI或6G核心活动，线下不可再报名。",
+      "agenda": [
+        {
+          "time": "2026-10-13",
+          "title": "Connections for Everyone, Intelligence for One Person",
+          "speaker": "Shina Chung, Kakao CEO"
+        },
+        {
+          "time": "2026-10-13",
+          "title": "Kanana model roadmap, agentic AI and service intelligence",
+          "speaker": "Byungseok Noh, Kakao"
+        },
+        {
+          "time": "2026-10-14",
+          "title": "AI governance, safety, infrastructure and AI-driven development lifecycle",
+          "speaker": "Jaeha Song, Kakao CTO"
+        }
+      ],
+      "insights": []
+    },
+    {
+      "id": "coontec-ai-security-seminar-2026",
+      "title": "Coontec AI Security Seminar — Secure AI in the AX Era",
+      "titleKo": "쿤텍 AI 보안 세미나: AX 시대의 AI 보안과 안전한 사용",
+      "titleZh": "Coontec AI安全研讨会：AX时代的AI安全与可信使用",
+      "summary": "Coontec举办AI Agent安全、Physical AI安全威胁、Security Harness、SBOM及供应链安全研讨会，含Soongsil大学Physical AI安全主题演讲。免费预登记。",
+      "topics": [
+        "Physical AI Security",
+        "Agentic AI",
+        "Security Harness",
+        "SBOM",
+        "AI Governance"
+      ],
+      "organizer": [
+        "Coontec"
+      ],
+      "participants": [
+        "Coontec",
+        "Soongsil University",
+        "Yonsei University"
+      ],
+      "speakers": [
+        "Jung Soo-hwan (Soongsil University)",
+        "Seo Won-jun (Coontec)",
+        "Jo Su-yeol (Coontec)"
+      ],
+      "startDate": "2026-10-27",
+      "endDate": "2026-10-27",
+      "location": "EL Tower B1 Gold Hall, 213 Gangnam-daero, Seocho-gu, Seoul",
+      "language": "Korean",
+      "status": "registration_open",
+      "registrationOpen": "2026-09-16T00:00:00+09:00",
+      "registrationDeadline": "2026-10-27T17:00:00+09:00",
+      "registrationUrl": "https://event-us.kr/coontec/event/133762",
+      "registrationEligibility": "Public advance registration; business email requested on organizer form.",
+      "fee": "Free",
+      "officialUrl": "https://itknowledgezone.com/kr/event/coontec-ai-security-seminar/",
+      "publishedAt": "2026-10-06",
+      "sourceType": "confirmed · organizer registration and 2026-10-06 press coverage",
+      "priority": "B",
+      "operatorRelevance": "medium",
+      "whyItMatters": "机器人/AI Agent在生产网络中执行真实动作时需要安全控制、权限边界与软件供应链保障；通信网络细节暂未披露。",
+      "agenda": [
+        {
+          "time": "2026-10-27 13:00–17:00 KST",
+          "title": "Physical AI security threats and responses; Agent security harness; software supply-chain security",
+          "speaker": "Jung Soo-hwan; Coontec experts"
+        }
+      ],
       "insights": []
     }
   ]
