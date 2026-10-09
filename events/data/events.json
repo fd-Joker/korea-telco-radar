@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T08:40:33+09:00",
+  "updatedAt": "2026-10-10T08:19:24+09:00",
   "events": [
     {
       "id": "eu-korea-digital-partnership-2026",
@@ -1635,6 +1635,111 @@
       "priority": "B",
       "operatorRelevance": "high",
       "whyItMatters": "施工机械远程控制、视频上行和机器人车队是 Private 5G、MEC 与可靠低时延网络潜在 B2B 场景。",
+      "agenda": [],
+      "insights": []
+    },
+    {
+      "id": "yongin-physical-ai-open-innovation-2026",
+      "title": "Yongin Open Innovation Exchange #5: Semiconductors & Physical AI",
+      "titleKo": "2026 용인 오픈이노베이션 교류회 5회차 (반도체/피지컬AI)",
+      "titleZh": "龙仁开放创新交流会第5期：半导体与Physical AI",
+      "summary": "龙仁产业振兴院组织半导体/Physical AI产业开放创新交流。LG Electronics、HL Holdings、Solum、Kakao Mobility、Samik Mets Ventures等五家需求企业进行Reverse Pitching与1:1商务对接。10/13 00:00 KST截止，先到先得。",
+      "topics": [
+        "Physical AI",
+        "Robotics",
+        "Semiconductors",
+        "Autonomous Mobility",
+        "Open Innovation",
+        "B2B"
+      ],
+      "organizer": [
+        "Yongin Industry Promotion Agency",
+        "Yongin City",
+        "Alpha Brothers"
+      ],
+      "participants": [
+        "LG Electronics",
+        "HL Holdings",
+        "Samik Mets Ventures",
+        "SOLUM",
+        "Kakao Mobility"
+      ],
+      "speakers": [
+        "Kim Kyung-jin (Gyeonggi Center for Creative Economy & Innovation)"
+      ],
+      "startDate": "2026-10-13",
+      "endDate": "2026-10-13",
+      "location": "Yongin Media Center 1F Studio Dae, 509 Dongbaekjukjeon-daero, Giheung-gu, Yongin, Gyeonggi-do",
+      "language": "Korean",
+      "status": "registration_closing",
+      "registrationOpen": "2026-09-30T00:00:00+09:00",
+      "registrationDeadline": "2026-10-13T00:00:00+09:00",
+      "registrationUrl": "https://event-us.kr/alphabrothers/event/136341",
+      "registrationEligibility": "Open to Physical AI/semiconductor innovation participants; first-come-first-served; 1:1 meetings require selecting the meetup option during registration.",
+      "fee": "Free",
+      "officialUrl": "https://event-us.kr/alphabrothers/event/136341",
+      "publishedAt": "2026-09-29",
+      "sourceType": "confirmed · organizer event page · registration open",
+      "priority": "B",
+      "operatorRelevance": "medium",
+      "whyItMatters": "可直接获取机器人、Mobility、半导体等企业需求并寻找5G专网/MEC/Edge AI协作机会；目前属于商业对接而非AI-RAN深度技术会议。",
+      "agenda": [
+        {
+          "time": "2026-10-13 13:10–13:40 KST",
+          "title": "Open innovation expert talk",
+          "speaker": "Kim Kyung-jin, Gyeonggi CCEI"
+        },
+        {
+          "time": "2026-10-13 14:30–15:30 KST",
+          "title": "Reverse pitching: corporate innovation needs",
+          "speaker": "HL Holdings; LG Electronics; Samik Mets Ventures; SOLUM; Kakao Mobility"
+        },
+        {
+          "time": "2026-10-13 16:00–18:00 KST",
+          "title": "One-to-one corporate/startup meetings and networking",
+          "speaker": "Participating companies"
+        }
+      ],
+      "insights": []
+    },
+    {
+      "id": "amxpo-korea-2026",
+      "title": "Asia Machinery & Manufacturing Expo Korea 2026 (AMXPO)",
+      "titleKo": "2026 아시아 기계 & 제조 산업전 (AMXPO)",
+      "titleZh": "2026 亚洲机械与制造产业展 AMXPO",
+      "summary": "10/21–23 KINTEX 1馆制造机械、自动化与智能工厂展，与Industrial AI EXPO同期联合举办但有独立主办及登记入口；覆盖Embodied AI、Physical AI、AGV/协作机器人、AI/IoT与数字孪生。",
+      "topics": [
+        "Physical AI",
+        "Embodied AI",
+        "AI Factory",
+        "Smart Factory",
+        "Industrial Automation",
+        "Robotics",
+        "Digital Twin",
+        "Industrial IoT"
+      ],
+      "organizer": [
+        "Informa Markets Korea",
+        "KOAMI"
+      ],
+      "participants": [],
+      "speakers": [],
+      "startDate": "2026-10-21",
+      "endDate": "2026-10-23",
+      "location": "KINTEX Exhibition Center 1, Goyang, Gyeonggi-do, South Korea",
+      "language": "Korean / English",
+      "status": "registration_open",
+      "registrationOpen": "2026-07-10T00:00:00+09:00",
+      "registrationDeadline": "2026-10-23T16:00:00+09:00",
+      "registrationUrl": "https://event-us.kr/amxpo/event/130394",
+      "registrationEligibility": "Public exhibition visitor registration; separate from co-organized Industrial AI EXPO seminars.",
+      "fee": "Free",
+      "officialUrl": "https://www.amxpo.org/",
+      "publishedAt": "暂未公布",
+      "sourceType": "confirmed · official event website and organizer registration",
+      "priority": "B",
+      "operatorRelevance": "high",
+      "whyItMatters": "与Industrial AI EXPO同期可观察机械自动化、AGV、协作机器人及工业数字孪生如何使用无线专网和Edge AI；避免将共同展区误算为两个独立技术成果。",
       "agenda": [],
       "insights": []
     }
