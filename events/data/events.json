@@ -1054,7 +1054,13 @@
         "RRA",
         "Industry/academia/standards bodies"
       ],
-      "speakers": [],
+      "speakers": [
+        "Koo Se-wan (LG Electronics)",
+        "Kim Yoon-sun (Samsung Electronics)",
+        "Yoon Ji-wook (ETRI)",
+        "Lee Chang-gyu (ETRI)",
+        "Yoon Ju-sang (Dong-eui University)"
+      ],
       "startDate": "2026-11-02",
       "endDate": "2026-11-04",
       "location": "EL Tower, Seoul",
@@ -1065,11 +1071,42 @@
       "fee": "Free / not publicly stated",
       "officialUrl": "https://gisc.or.kr/en",
       "publishedAt": "2026-10-02",
-      "sourceType": "confirmed · official · registration open",
+      "sourceType": "confirmed · official agenda and registration open",
       "priority": "A",
       "operatorRelevance": "high",
-      "whyItMatters": "11月3日设置Physical AI ICT融合标准框架公听会，直接观察Physical AI进入ICT标准体系的路径；对6G/AI-RAN架构团队尤其重要。",
-      "agenda": [],
+      "whyItMatters": "11/3 13:30 AI-RAN标准/SEP、15:30机器人智能分割执行、16:00 LG电子多机器人Multi-Agent实证、16:30 ETRI Physical AI ICT标准框架；11/4 Samsung 6G与ETRI AI DC智能网络并行议程。",
+      "agenda": [
+        {
+          "time": "2026-11-03 13:30–14:00 KST",
+          "title": "AI-RAN standards trends and standards-essential patent filing strategies",
+          "speaker": "Park Gyu-tae, Cox Patent Law"
+        },
+        {
+          "time": "2026-11-03 15:30–16:00 KST",
+          "title": "Split Execution Technology for Robot Intelligence",
+          "speaker": "Prof. Yoon Ju-sang, Dong-eui University"
+        },
+        {
+          "time": "2026-11-03 16:00–16:30 KST",
+          "title": "Development and Validation of Multi-Agent Systems for Multi-Robot Control",
+          "speaker": "Koo Se-wan, LG Electronics"
+        },
+        {
+          "time": "2026-11-03 16:30–17:20 KST",
+          "title": "Physical AI ICT Convergence Standards Framework",
+          "speaker": "Lee Chang-gyu, ETRI"
+        },
+        {
+          "time": "2026-11-04 13:30–14:00 KST",
+          "title": "6G International Standardization Trends and Future Mobile Networks",
+          "speaker": "Kim Yoon-sun, Samsung Electronics"
+        },
+        {
+          "time": "2026-11-04 13:30–14:00 KST (parallel track)",
+          "title": "Intelligent Network Standard Technologies for the AI Data Center Era",
+          "speaker": "Yoon Ji-wook, ETRI"
+        }
+      ],
       "insights": []
     },
     {
