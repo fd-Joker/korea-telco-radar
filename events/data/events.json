@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T08:38:34+09:00",
+  "updatedAt": "2026-10-12T08:14:30+09:00",
   "events": [
     {
       "id": "eu-korea-digital-partnership-2026",
@@ -1460,8 +1460,8 @@
       "location": "Songdo Convensia, Exhibition Halls 1 & 2 / Premier Ballroom, Incheon, Korea",
       "language": "Korean / English",
       "status": "announced",
-      "registrationUrl": "https://www.6gvisionfest.org/apply",
-      "registrationEligibility": "Exhibitor/company application is open; general attendee registration has not been confirmed. Public exhibition access is confirmed for Dec 9-11.",
+      "registrationUrl": "https://www.6gvisionfest.org/generaladvanceregistration",
+      "registrationEligibility": "Visitor preregistration page published; whether actual form is open and registration deadline are not independently confirmed. Public exhibition Dec 9–11.",
       "fee": "暂未公布",
       "officialUrl": "https://www.6gvisionfest.org/overview",
       "publishedAt": "2026-09-13",
@@ -1474,6 +1474,11 @@
           "time": "2026-12-08 to 2026-12-11",
           "title": "6G Technology Exhibition / 6G Service Demonstrations / International Conference (VIP Summit)",
           "speaker": "暂未公布"
+        },
+        {
+          "time": "2026-12-08 to 2026-12-10",
+          "title": "Mobile Korea 6G Global: 6G Vendors, T&M, AI Network, AI Usecases, NTN and ISAC",
+          "speaker": "6G Forum / international speakers"
         }
       ],
       "insights": []
@@ -2303,6 +2308,354 @@
           "time": "2026-10-21 14:00–17:40 KST",
           "title": "Quantum technology, ICT security and network futures",
           "speaker": "暂未公布"
+        }
+      ],
+      "insights": []
+    },
+    {
+      "id": "3gpp-ran-jeju-2026-october",
+      "title": "3GPP RAN Working Group Meetings — Jeju (October 2026)",
+      "titleKo": "3GPP RAN 워킹그룹 회의 (제주)",
+      "titleZh": "3GPP RAN四工作组济州会议",
+      "topics": [
+        "6G",
+        "3GPP R20",
+        "AI-RAN",
+        "ISAC",
+        "NTN",
+        "6G Spectrum"
+      ],
+      "organizer": [
+        "3GPP"
+      ],
+      "startDate": "2026-10-12",
+      "endDate": "2026-10-16",
+      "location": "Jeju, South Korea",
+      "language": "English",
+      "status": "ongoing",
+      "priority": "S",
+      "operatorRelevance": "high",
+      "registrationEligibility": "3GPP registered delegates and authorized participants only; no public registration",
+      "fee": "暂未公布",
+      "officialUrl": "https://portal.3gpp.org/?SubTB=373%2C379%2C380%2C381%2C382%2C657%2C843%2C383&tbid=373",
+      "sourceType": "confirmed · official 3GPP meeting calendar",
+      "summary": "3GPP官方确认RAN1#126-bis、RAN2#135-bis、RAN3#133-bis和RAN4#120-bis在济州10/12–16举行。覆盖6G R20空口、RAN架构、AI/ML、ISAC、NTN、RRM及约7GHz共存研究。讨论提案不是已冻结规范。",
+      "whyItMatters": "R20 6G研究重要工作组会议，特别关注6G空口、AI/ML、ISAC、RAN3架构与7GHz共存；非公众开放会议。",
+      "speakers": [],
+      "agenda": [
+        {
+          "time": "2026-10-12 to 2026-10-16",
+          "title": "RAN1#126-bis: 6G radio, ISAC, AI/ML and NTN",
+          "speaker": "3GPP RAN1 delegates"
+        },
+        {
+          "time": "2026-10-12 to 2026-10-16",
+          "title": "RAN3#133-bis: 6G RAN-CN interfaces, sensing information and AI/ML",
+          "speaker": "3GPP RAN3 delegates"
+        },
+        {
+          "time": "2026-10-12 to 2026-10-16",
+          "title": "RAN4#120-bis: 6G RF/RRM and ~7 GHz coexistence",
+          "speaker": "3GPP RAN4 delegates"
+        }
+      ],
+      "insights": []
+    },
+    {
+      "id": "mobile-korea-ax-network-summit-2026",
+      "title": "Mobile Korea 2026 — AX Network Summit",
+      "titleKo": "모바일코리아 2026 AX 네트워크 서밋",
+      "titleZh": "Mobile Korea 2026 AX网络峰会",
+      "topics": [
+        "AI-RAN",
+        "Agentic AI Network",
+        "6G",
+        "Network AX PoC",
+        "Physical AI",
+        "Robotics"
+      ],
+      "organizer": [
+        "6G Forum",
+        "Mobile Korea 2026"
+      ],
+      "participants": [
+        "LG U+",
+        "SK Telecom",
+        "KT",
+        "NVIDIA",
+        "KDDI Research",
+        "KETI",
+        "GSMA",
+        "Autonomous A2Z"
+      ],
+      "speakers": [
+        "Sangheon Lee (LG U+)",
+        "CC Chong (NVIDIA)",
+        "Satoshi Konishi (KDDI Research)",
+        "Jihye Lee (KT)",
+        "Dongwook Kim (SKT)",
+        "Youngouk Kim (KETI)"
+      ],
+      "startDate": "2026-12-11",
+      "endDate": "2026-12-11",
+      "location": "Songdo Convensia M01, Incheon",
+      "language": "English / Korean (interpretation 暂未公布)",
+      "status": "announced",
+      "priority": "S",
+      "operatorRelevance": "high",
+      "registrationEligibility": "Official programme released; registration conditions and deadline 暂未公布.",
+      "fee": "暂未公布",
+      "officialUrl": "https://www.mobilekorea.org/",
+      "sourceType": "confirmed · Mobile Korea official programme",
+      "summary": "12月11日专题包含AI-RAN & Agentic AI Network、Network AX Proof of Concept、Physical AI and Robotics over 6G Networks；LG U+、SKT、KT、NVIDIA、KDDI、KETI等参会。",
+      "whyItMatters": "韩国运营商、NVIDIA、KDDI的AI-RAN及Network AX PoC直接交流，且专设6G+机器人应用议题。",
+      "agenda": [
+        {
+          "time": "2026-12-11 11:15–12:25",
+          "title": "AI-RAN & Agentic AI Network",
+          "speaker": "Satoshi Konishi (KDDI); CC Chong (NVIDIA); Sangheon Lee (LG U+)"
+        },
+        {
+          "time": "2026-12-11 13:35–14:55",
+          "title": "Network AX Proof of Concept",
+          "speaker": "Jihye Lee (KT); Dongwook Kim (SKT); Kyusoon Hwang (Wizcore); Jihong Park (SUTD)"
+        },
+        {
+          "time": "2026-12-11 16:10–16:30",
+          "title": "Physical AI and Robotics over 6G Networks",
+          "speaker": "Youngouk Kim (KETI)"
+        }
+      ],
+      "insights": []
+    },
+    {
+      "id": "mobile-korea-regional-workshop-2026",
+      "title": "Mobile Korea 2026 — Regional Workshop",
+      "titleKo": "모바일코리아 2026 지역 워크숍",
+      "titleZh": "Mobile Korea 2026 区域通信技术研讨会",
+      "topics": [
+        "6G",
+        "5G-Advanced",
+        "AI-native Networks",
+        "GPU-based CU/DU",
+        "Network Monetization"
+      ],
+      "organizer": [
+        "6G Forum",
+        "Mobile Korea 2026"
+      ],
+      "participants": [
+        "LG U+",
+        "TTA",
+        "SOLiD",
+        "Nokia",
+        "ITRI",
+        "SUTD"
+      ],
+      "speakers": [
+        "Jaehyun Ahn (LG U+)",
+        "Hyeyoung Esthel Lee (TTA)",
+        "Seungjoo Maeng (SOLiD)",
+        "Youngsoo Yuk (Nokia)",
+        "Wilson Wang (ITRI)"
+      ],
+      "startDate": "2026-12-11",
+      "endDate": "2026-12-11",
+      "location": "Songdo Convensia M01, Incheon",
+      "language": "English / Korean (interpretation 暂未公布)",
+      "status": "announced",
+      "priority": "A",
+      "operatorRelevance": "high",
+      "registrationEligibility": "Official programme released; registration conditions and deadline 暂未公布.",
+      "fee": "暂未公布",
+      "officialUrl": "https://www.mobilekorea.org/",
+      "sourceType": "confirmed · Mobile Korea official programme",
+      "summary": "12月11日独立Regional Workshop聚焦网络演进与变现、6G AI-native Network、GPU-based CU/DU架构及全球5G-A/6G进展。",
+      "whyItMatters": "运营商6G AI-native网络视角、GPU-based CU/DU实现挑战与5G-A/6G标准演进结合。",
+      "agenda": [
+        {
+          "time": "2026-12-11 11:35–11:50",
+          "title": "6G AI-Native Network: An Operator's Perspective",
+          "speaker": "Jaehyun Ahn (LG U+)"
+        },
+        {
+          "time": "2026-12-11 11:50–12:05",
+          "title": "Beyond AI for Networks: AI-Native 6G Standardization",
+          "speaker": "Hyeyoung Esthel Lee (TTA)"
+        },
+        {
+          "time": "2026-12-11 12:05–12:20",
+          "title": "Toward 6G AI-Native RAN: GPU-Based CU/DU Architecture and Implementation Challenges",
+          "speaker": "Seungjoo Maeng (SOLiD)"
+        },
+        {
+          "time": "2026-12-11 15:50–16:10",
+          "title": "6G-FORMOSA Testbed and ITRI's 5G-A/6G Progress",
+          "speaker": "Wilson Wang (ITRI)"
+        }
+      ],
+      "insights": []
+    },
+    {
+      "id": "smart-vision-manufacturing-ai-conference-2026",
+      "title": "AI@Smart Vision Korea 2026 — Manufacturing AI & Smart Vision Conference",
+      "titleKo": "2026 스마트비전과 제조AI 융합 및 활용 전략 컨퍼런스",
+      "titleZh": "智能视觉与制造AI融合应用大会",
+      "topics": [
+        "Physical AI",
+        "Edge AI",
+        "Robot Vision",
+        "Manufacturing AI",
+        "Machine Vision"
+      ],
+      "organizer": [
+        "Smart Manufacturing AI Korea Organization Committee"
+      ],
+      "participants": [
+        "Superb AI",
+        "Cognex",
+        "Mitsubishi Electric Automation",
+        "SNUAILAB",
+        "ETRI"
+      ],
+      "speakers": [
+        "Lee Hyeon-dong (Superb AI)",
+        "Kim Chang-mo (Cognex)",
+        "Kim Won-jong (ETRI)"
+      ],
+      "startDate": "2026-11-02",
+      "endDate": "2026-11-02",
+      "location": "COEX South Conference Rooms 4F, Seoul",
+      "language": "Korean",
+      "status": "announced",
+      "priority": "A",
+      "operatorRelevance": "medium",
+      "registrationEligibility": "Industry practitioners; registration details/deadline 暂未公布.",
+      "fee": "KRW 220,000 (VAT included)",
+      "officialUrl": "https://www.coex.co.kr/exhibitions/2026-%EC%8A%A4%EB%A7%88%ED%8A%B8%EB%B9%84%EC%A0%84%EA%B3%BC-%EC%A0%9C%EC%A1%B0ai-%EC%9C%B5%ED%95%A9-%EB%B0%8F-%ED%99%9C%EC%9A%A9-%EC%A0%84%EB%9E%B5-%EC%BB%A8%ED%8D%BC%EB%9F%B0%EC%8A%A4/",
+      "sourceType": "confirmed · COEX official agenda",
+      "summary": "11月2日COEX，议程包含Edge Vision Foundation Models、机器人3D视觉、工业AI视觉检测和ETRI LLM图像分析技术。",
+      "whyItMatters": "通过端侧视觉基础模型、机器人视觉及制造业应用案例识别MEC与本地推理的实际分工。",
+      "agenda": [
+        {
+          "time": "2026-11-02 11:20–12:00",
+          "title": "Edge Vision Foundation Models: From Seeing to Acting",
+          "speaker": "Lee Hyeon-dong (Superb AI)"
+        },
+        {
+          "time": "2026-11-02 13:30–14:10",
+          "title": "Cognex One Vision and 3D Vision for Robot Guidance",
+          "speaker": "Kim Chang-mo (Cognex)"
+        },
+        {
+          "time": "2026-11-02 15:50–16:30",
+          "title": "LLM-based Image Analysis for Industrial Machine Vision",
+          "speaker": "Kim Won-jong (ETRI)"
+        }
+      ],
+      "insights": []
+    },
+    {
+      "id": "k-tech-festival-2026",
+      "title": "K-Tech Festival 2026",
+      "titleKo": "2026 코리아 테크 페스티벌",
+      "titleZh": "2026 韩国K-Tech产业技术节",
+      "topics": [
+        "Physical AI",
+        "AI Factory",
+        "Robotics",
+        "Digital Twin",
+        "AI Infrastructure",
+        "AI Semiconductors"
+      ],
+      "organizer": [
+        "Ministry of Trade, Industry and Resources (MOTIR)"
+      ],
+      "participants": [
+        "KEIT",
+        "KIAT",
+        "KOTRA",
+        "KTL",
+        "KITA"
+      ],
+      "speakers": [],
+      "startDate": "2026-12-09",
+      "endDate": "2026-12-11",
+      "location": "COEX Hall B, Seoul",
+      "language": "Korean",
+      "status": "announced",
+      "priority": "A",
+      "operatorRelevance": "high",
+      "registrationEligibility": "Public exhibition; visitor preregistration method and deadline 暂未公布.",
+      "fee": "Free",
+      "officialUrl": "https://www.coex.co.kr/exhibitions/2026-%EC%BD%94%EB%A6%AC%EC%95%84-%ED%85%8C%ED%81%AC-%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C/",
+      "sourceType": "confirmed · COEX official listing",
+      "summary": "12月9–11日COEX Hall B，展示AI数据中心、AI半导体、Physical AI（机器人/移动出行/数字孪生）、AI工厂、康复机器人与无人配送。",
+      "whyItMatters": "政府工业R&D成果集中展示，适合寻找Physical AI与Private 5G、MEC和工业AI B2B验证场景。",
+      "agenda": [],
+      "insights": []
+    },
+    {
+      "id": "seminarhub-ai-factory-autonomous-manufacturing-2026",
+      "title": "Physical AI Era — AI Factory & Autonomous Manufacturing Technologies",
+      "titleKo": "피지컬 AI 시대를 여는 AI팩토리·자율제조 핵심 기술과 산업 적용 방안",
+      "titleZh": "Physical AI时代：AI工厂与自主制造技术研讨会",
+      "topics": [
+        "Physical AI",
+        "AI Factory",
+        "Autonomous Manufacturing",
+        "Robotics",
+        "Sim2Real",
+        "Digital Twin"
+      ],
+      "organizer": [
+        "SeminarHub"
+      ],
+      "participants": [
+        "PwC Consulting",
+        "KITECH",
+        "KIRIA",
+        "Neuromeka",
+        "IBEX",
+        "Nota AI",
+        "E8"
+      ],
+      "speakers": [
+        "Heo Young-jin (Neuromeka CTO)",
+        "Oh Jiwoo (Nota AI)",
+        "Ryu Jae-hyeong (E8 CTO)",
+        "Nam Kyung-tae (KITECH)"
+      ],
+      "startDate": "2026-10-20",
+      "endDate": "2026-10-20",
+      "location": "FKI Tower Conference Center 2F Sapphire Hall, Yeouido, Seoul",
+      "language": "Korean",
+      "status": "registration_closing",
+      "registrationDeadline": "2026-10-19T23:30:00+09:00",
+      "registrationUrl": "https://seminarhub1616.cafe24.com/product/item.php?it_id=1786515415&st=ing",
+      "registrationEligibility": "Manufacturing/robotics professionals; discounted preregistration ends Oct 16 17:00 (KRW 396,000); Event-us applications listed until Oct 19 23:30, late price increases KRW 33,000.",
+      "fee": "KRW 396,000 discounted preregistration until Oct 16 17:00; late surcharge KRW 33,000",
+      "officialUrl": "https://seminarhub1616.cafe24.com/product/item.php?it_id=1786515415&st=ing",
+      "sourceType": "confirmed · organizer full agenda + Event-us registration",
+      "priority": "A",
+      "operatorRelevance": "high",
+      "summary": "10月20日FKI Tower，技术议程覆盖机器人实证、Humanoid、Digital Twin、Foundation Model/Sim2Real、VLM工业监控及制造业AI Agent。",
+      "whyItMatters": "以真实制造场景推导边缘AI推理、机器人协同和工业专网的可验证需求。",
+      "agenda": [
+        {
+          "time": "2026-10-20 10:40–11:20",
+          "title": "Physical AI Robot Processes and Industrial Demonstrations",
+          "speaker": "Nam Kyung-tae (KITECH)"
+        },
+        {
+          "time": "2026-10-20 14:00–14:35",
+          "title": "Foundation Model and Sim2Real for Robot Automation",
+          "speaker": "Heo Young-jin (Neuromeka CTO)"
+        },
+        {
+          "time": "2026-10-20 15:55–16:30",
+          "title": "VLM-based Industrial AI Monitoring",
+          "speaker": "Oh Jiwoo (Nota AI)"
         }
       ],
       "insights": []
