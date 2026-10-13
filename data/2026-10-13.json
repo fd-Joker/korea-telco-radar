@@ -1,0 +1,534 @@
+{
+  "date": "2026-10-13",
+  "title": "Korea Telco Advanced Technology Radar",
+  "subtitle": "2026年10月13日｜中国語・5分钟阅读版",
+  "editorial_note": "过去24小时新增：HCLTech/Anthropic企业Agent合作、SKT A.电话/KISA反诈闭环。三大核心专题未发现新的规范性或现场KPI突破；Top 5含近7天延续信号。",
+  "top5": [
+    {
+      "title": "SKT发布Growth Gear与Token Gateway战略",
+      "date": "2026-10-08",
+      "source_name": "SK Telecom Newsroom",
+      "source_url": "https://news.sktelecom.com/231883",
+      "source_type": "运营商官方战略公告",
+      "importance": "重大更新",
+      "summary": "SKT提出连接通信、AI服务、AI基础设施的Growth Gear战略，并探索模型和基础设施匹配的Token Gateway；目前属于战略规划。",
+      "technical_significance": "运营商价值链由带宽/GPU资源扩展到模型路由、推理服务调度和Token计量。",
+      "impact_for_korean_telco": "优先研究Tokens/s/GPU、每百万Token成本、模型质量与SLA，明确Token Gateway是否形成可计费产品和客户。",
+      "topic": "Network for AI / Token Economy",
+      "company_or_org": "SK Telecom"
+    },
+    {
+      "title": "SpaceX宣布拟取得美国800MHz低频频谱以融合卫星D2D与地面网络",
+      "date": "2026-10-08",
+      "source_name": "SpaceX",
+      "source_url": "https://www.spacex.com/updates/starship-2025-report",
+      "source_type": "企业官方公告（交易待审批）",
+      "importance": "重大更新",
+      "summary": "SpaceX宣布拟收购美国全国性800MHz低频牌照组合，计划在FCC批准后以低频地面层与卫星直连网络协同改善遮挡和室内连接。",
+      "technical_significance": "NTN与地面移动网络的频谱/覆盖/终端协同商业化正在推进；这不是6G标准或韩国频谱决定。",
+      "impact_for_korean_telco": "韩国运营商应跟踪D2D频谱协调、终端射频兼容、漫游/计费与低频部署经济性；不得把美国授权直接套用于韩国。",
+      "topic": "6G / NTN / Spectrum",
+      "company_or_org": "SpaceX"
+    },
+    {
+      "title": "Anthropic与HCLTech合作：面向企业推出受治理的Agentic AI",
+      "date": "2026-10-12",
+      "source_name": "HCLTech（合作方一手公告）",
+      "source_url": "https://www.hcltech.com/ja-jp/press-releases/hcltech-and-anthropic-sign-global-premier-partnership-scale-governed-agentic-ai",
+      "source_type": "合作双方一手新闻稿",
+      "importance": "值得关注",
+      "summary": "HCLTech宣布与Anthropic建立Global Premier Partnership，将设立专门业务单元和CoE，围绕Claude、Claude Code、企业沙箱、策略护栏、异常处理与高影响操作人工监督推进部署；这是合作计划，不是运营商网络商用成果。",
+      "technical_significance": "Agent从通用对话转向具备工具权限、沙箱、变更审批和人类监督的企业级执行体系。",
+      "impact_for_korean_telco": "韩国运营商可将Agent安全沙箱、变更审批、回滚与独立审计纳入Network Agent PoC验收；暂不能外推为RAN实时控制能力。",
+      "topic": "Agentic AI / Network Agent",
+      "company_or_org": "Anthropic / HCLTech"
+    },
+    {
+      "title": "LG U+与OptAI推进Token优化，特定GPU负载最高4倍吞吐",
+      "date": "2026-10-06",
+      "source_name": "LG U+ Newsroom",
+      "source_url": "https://news.lguplus.com/22976",
+      "source_type": "运营商官方技术合作公告",
+      "importance": "值得关注",
+      "summary": "LG U+与OptAI扩展模型轻量化和GPU推理优化合作；初步研究在特定条件下同一GPU的Token处理量最高为原来的4倍，计划逐步验证应用。",
+      "technical_significance": "竞争量纲从GPU数量转向受模型质量和延迟约束的有效推理吞吐；属于Network for AI而非无线AI-RAN增益。",
+      "impact_for_korean_telco": "建议统一评测吞吐、P95首Token时延、质量回归、能耗和每百万Token成本，避免将最高值泛化。",
+      "topic": "Network for AI / Inference",
+      "company_or_org": "LG U+"
+    },
+    {
+      "title": "Ericsson IMC 2026展示AI内生RAN、网络感知与企业智能连接",
+      "date": "2026-10-07",
+      "source_name": "Ericsson",
+      "source_url": "https://www.ericsson.com/en/press-releases/2/2026/ericsson-showcases-whats-next-in-5g-ai-and-innovation-at-india-mobile-congress-2026",
+      "source_type": "设备商官方展会新闻稿",
+      "importance": "值得关注",
+      "summary": "Ericsson展示AI辅助无线优化、自动化、任务关键通信、企业网络及6G愿景；主要是能力展示，没有披露新的韩国工业现场KPI。",
+      "technical_significance": "AI-RAN和6G演进方向强调连接、自治、感知与企业场景融合；不能把展会演示等同规范批准或商用。",
+      "impact_for_korean_telco": "将AI-RAN空口增益、网络感知精度、企业SLA和部署TCO分开评测，避免跨指标混淆。",
+      "topic": "AI-RAN / 6G / Network Sensing",
+      "company_or_org": "Ericsson"
+    }
+  ],
+  "trends": {
+    "AI-RAN": {
+      "direction": "→ 现场KPI待核实",
+      "summary": "过去24小时没有核实到KT/SKT Hyper AI Network的新增工业现场量化KPI。Ericsson 10月7日展示AI内生RAN与企业场景，但仍需区分技术演示和商用数据。",
+      "key_change": "相较10月12日，无新的AI-RAN实测突破；10月12日HCLTech/Anthropic合作为Network Agent治理提供新参考，但不是空口AI-RAN结果。",
+      "sources": [
+        {
+          "name": "Ericsson IMC 2026",
+          "url": "https://www.ericsson.com/en/press-releases/2/2026/ericsson-showcases-whats-next-in-5g-ai-and-innovation-at-india-mobile-congress-2026",
+          "date": "2026-10-07"
+        },
+        {
+          "name": "Samsung韩国Hyper AI Network基线",
+          "url": "https://news.samsung.com/global/samsung-at-the-forefront-of-koreas-ai-ran-projects-with-kt-and-sk-telecom",
+          "date": "2026-09-23"
+        }
+      ]
+    },
+    "6G": {
+      "direction": "→ 标准无新批准",
+      "summary": "未核实到过去24小时3GPP 6G新增Approved CR或规范性冻结；SpaceX 800MHz交易是NTN/地面融合产业信号，不能当作6G标准批准。NGMN计划10月14日讨论5G向6G可持续演进，尚未举行。",
+      "key_change": "相较上一期无新的3GPP批准节点；重点仍是迁移架构、频谱共存、AI-native网络与ISAC成本。",
+      "sources": [
+        {
+          "name": "SpaceX 800MHz公告",
+          "url": "https://www.spacex.com/updates/starship-2025-report",
+          "date": "2026-10-08"
+        },
+        {
+          "name": "3GPP RAN#113报告（研究阶段基线）",
+          "url": "https://www.3gpp.org/news-events/3gpp-news/ran113-reports",
+          "date": "2026-09-14"
+        },
+        {
+          "name": "NGMN Network X预告（非新标准）",
+          "url": "https://www.ngmn.org/archive/ngmn-events/network-x-2026.html",
+          "date": "2026-07-07"
+        }
+      ]
+    },
+    "Ambient IoT": {
+      "direction": "→ UCC状态维持",
+      "summary": "TS 23.370为Rel-20规范正文，9月24日进入Under Change Control、9月28日上传20.0.0；AmbientIoT_Ph2-APP WI的9月28日历史备注为70%→100%。本期未发现新的Approved CR或Release冻结证据。",
+      "key_change": "相较上一期无新增标准状态；APP工作项进度不等于Phase 2所有架构/安全工作完成。",
+      "sources": [
+        {
+          "name": "3GPP TS 23.370",
+          "url": "https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=5530",
+          "date": "2026-09-28"
+        },
+        {
+          "name": "3GPP AmbientIoT_Ph2-APP Work Item",
+          "url": "https://portal.3gpp.org/desktopmodules/WorkItem/WorkItemDetails.aspx?workitemId=1110048",
+          "date": "2026-09-28"
+        }
+      ]
+    }
+  },
+  "vendors": [
+    {
+      "title": "Ericsson IMC 2026展示AI内生RAN、网络感知与企业智能连接",
+      "date": "2026-10-07",
+      "source_name": "Ericsson",
+      "source_url": "https://www.ericsson.com/en/press-releases/2/2026/ericsson-showcases-whats-next-in-5g-ai-and-innovation-at-india-mobile-congress-2026",
+      "source_type": "设备商官方展会新闻稿",
+      "importance": "值得关注",
+      "summary": "Ericsson展示AI辅助无线优化、自动化、任务关键通信、企业网络及6G愿景；主要是能力展示，没有披露新的韩国工业现场KPI。",
+      "technical_significance": "AI-RAN和6G演进方向强调连接、自治、感知与企业场景融合；不能把展会演示等同规范批准或商用。",
+      "impact_for_korean_telco": "将AI-RAN空口增益、网络感知精度、企业SLA和部署TCO分开评测，避免跨指标混淆。",
+      "topic": "AI-RAN / 6G / Network Sensing",
+      "company_or_org": "Ericsson"
+    },
+    {
+      "title": "三星集团宣布向Helix AI基础设施投资合计10亿美元",
+      "date": "2026-09-29",
+      "source_name": "Samsung Global Newsroom",
+      "source_url": "https://news.samsung.com/global/samsung-to-invest-usd-1-billion-in-ai-infrastructure-company-helix",
+      "source_type": "企业官方投资公告",
+      "importance": "值得关注",
+      "summary": "Samsung Electronics及五家关联公司宣布向Helix Digital Infrastructure投资合计10亿美元，覆盖数据中心、电力、网络和冷却等产业链。",
+      "technical_significance": "AI基础设施扩张的关键约束不止GPU，还包括电力、冷却、光纤和建设周期；属于算力产业而非RAN产品发布。",
+      "impact_for_korean_telco": "韩国运营商AIDC投资评估需同步比较供电、PUE、网络接入和长期利用率。",
+      "topic": "AI Infrastructure / Network for AI",
+      "company_or_org": "Samsung Electronics"
+    }
+  ],
+  "operators": [
+    {
+      "title": "SKT发布Growth Gear与Token Gateway战略",
+      "date": "2026-10-08",
+      "source_name": "SK Telecom Newsroom",
+      "source_url": "https://news.sktelecom.com/231883",
+      "source_type": "运营商官方战略公告",
+      "importance": "重大更新",
+      "summary": "SKT提出连接通信、AI服务、AI基础设施的Growth Gear战略，并探索模型和基础设施匹配的Token Gateway；目前属于战略规划。",
+      "technical_significance": "运营商价值链由带宽/GPU资源扩展到模型路由、推理服务调度和Token计量。",
+      "impact_for_korean_telco": "优先研究Tokens/s/GPU、每百万Token成本、模型质量与SLA，明确Token Gateway是否形成可计费产品和客户。",
+      "topic": "Network for AI / Token Economy",
+      "company_or_org": "SK Telecom"
+    },
+    {
+      "title": "LG U+与OptAI推进Token优化，特定GPU负载最高4倍吞吐",
+      "date": "2026-10-06",
+      "source_name": "LG U+ Newsroom",
+      "source_url": "https://news.lguplus.com/22976",
+      "source_type": "运营商官方技术合作公告",
+      "importance": "值得关注",
+      "summary": "LG U+与OptAI扩展模型轻量化和GPU推理优化合作；初步研究在特定条件下同一GPU的Token处理量最高为原来的4倍，计划逐步验证应用。",
+      "technical_significance": "竞争量纲从GPU数量转向受模型质量和延迟约束的有效推理吞吐；属于Network for AI而非无线AI-RAN增益。",
+      "impact_for_korean_telco": "建议统一评测吞吐、P95首Token时延、质量回归、能耗和每百万Token成本，避免将最高值泛化。",
+      "topic": "Network for AI / Inference",
+      "company_or_org": "LG U+"
+    },
+    {
+      "title": "SKT与Upstage等11家机构成立AI网络安全协作体系",
+      "date": "2026-10-08",
+      "source_name": "SK Telecom Newsroom",
+      "source_url": "https://news.sktelecom.com/231797",
+      "source_type": "运营商官方合作公告",
+      "importance": "值得关注",
+      "summary": "SKT与Upstage、安全厂商及高校共建行业AI安全协作，利用安全数据训练模型，并开展相互红队测试和独立评估。",
+      "technical_significance": "领域模型落地需要数据、测试、独立验证和业务闭环，而非仅增加参数规模。",
+      "impact_for_korean_telco": "为Network Agent引入第三方红队、误操作测试、访问审计和高风险操作人工审批。",
+      "topic": "Autonomous Network / AI Security",
+      "company_or_org": "SK Telecom / Upstage"
+    },
+    {
+      "title": "SKT A.电话与KISA打通语音垃圾电话举报",
+      "date": "2026-10-12",
+      "source_name": "SK Telecom Newsroom",
+      "source_url": "https://news.sktelecom.com/231872",
+      "source_type": "运营商官方服务公告",
+      "importance": "常规动态",
+      "summary": "SKT与KISA合作在A.电话中加入一键举报，通话录音及号码可提交分析；官方同时披露2026年1—9月约1.1亿次疑似诈骗/垃圾来电拦截及约390万次通话中提醒。",
+      "technical_significance": "AI语音安全产品从模型检测延伸到用户举报、监管反馈与闭环治理；公布数字是服务侧处理量，不是模型准确率。",
+      "impact_for_korean_telco": "韩国运营商可评估诈骗检测精确率、误报、用户申诉、隐私授权与监管联动；不应把拦截次数当作网络AI-RAN KPI。",
+      "topic": "Mobile AI / Voice Security",
+      "company_or_org": "SK Telecom / KISA"
+    }
+  ],
+  "ai_companies": [
+    {
+      "title": "Anthropic与HCLTech合作：面向企业推出受治理的Agentic AI",
+      "date": "2026-10-12",
+      "source_name": "HCLTech（合作方一手公告）",
+      "source_url": "https://www.hcltech.com/ja-jp/press-releases/hcltech-and-anthropic-sign-global-premier-partnership-scale-governed-agentic-ai",
+      "source_type": "合作双方一手新闻稿",
+      "importance": "值得关注",
+      "summary": "HCLTech宣布与Anthropic建立Global Premier Partnership，将设立专门业务单元和CoE，围绕Claude、Claude Code、企业沙箱、策略护栏、异常处理与高影响操作人工监督推进部署；这是合作计划，不是运营商网络商用成果。",
+      "technical_significance": "Agent从通用对话转向具备工具权限、沙箱、变更审批和人类监督的企业级执行体系。",
+      "impact_for_korean_telco": "韩国运营商可将Agent安全沙箱、变更审批、回滚与独立审计纳入Network Agent PoC验收；暂不能外推为RAN实时控制能力。",
+      "topic": "Agentic AI / Network Agent",
+      "company_or_org": "Anthropic / HCLTech"
+    },
+    {
+      "title": "Google Cloud推出Gemini企业Agent，强调工具编排与治理",
+      "date": "2026-10-08",
+      "source_name": "Google Blog",
+      "source_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-at-work/",
+      "source_type": "AI公司官方产品公告",
+      "importance": "值得关注",
+      "summary": "Google宣布Gemini agent可结合企业上下文、技能、工具和业务系统执行任务，并提供模型选择、成本控制、安全与管理能力。",
+      "technical_significance": "Agent平台竞争从模型分数走向企业连接器、成本治理和可审计执行。",
+      "impact_for_korean_telco": "Network Agent平台可参考分层模型路由、工具授权、审计与成本预算，但必须额外满足网络变更的实时性和安全约束。",
+      "topic": "Agentic AI / Enterprise Agent",
+      "company_or_org": "Google"
+    },
+    {
+      "title": "Anthropic发布Claude Haiku 5.5面向高频低成本Agent任务",
+      "date": "2026-10-07",
+      "source_name": "Anthropic",
+      "source_url": "https://www.anthropic.com/claude-haiku-5-5",
+      "source_type": "AI公司官方模型公告",
+      "importance": "值得关注",
+      "summary": "Anthropic推出Haiku 5.5，主打分类、摘要、检索和子Agent等高频任务；官方称平均运行成本较Haiku 4.5降低约75%，需按具体任务验证。",
+      "technical_significance": "轻量模型适用于高频非硬实时辅助任务，复杂网络决策仍需更强模型和确定性控制。",
+      "impact_for_korean_telco": "评估韩语告警分类、工单摘要、工具调用的准确率/时延/成本，不把LLM放进微秒级RAN调度闭环。",
+      "topic": "Agentic AI / Small Models",
+      "company_or_org": "Anthropic"
+    },
+    {
+      "title": "OpenAI与Ironclad使用11项真实业务流程评测Computer-use Agent",
+      "date": "2026-10-06",
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/index/advancing-computer-use-with-ironclad/",
+      "source_type": "AI公司官方研究合作发布",
+      "importance": "值得关注",
+      "summary": "OpenAI与Ironclad以11项合同流程任务和每项8—50条标准评测多步骤Agent，强调最终任务完成与业务规则；时间改善属于模拟估算。",
+      "technical_significance": "Agent评测应从单步工具调用扩展到业务级任务完成、异常处理和合规约束。",
+      "impact_for_korean_telco": "构建Network Agent真实任务集，统一测量Task Success、Wrong Action、Human Takeover、Rollback和MTTR。",
+      "topic": "Agentic AI / Agent Evaluation",
+      "company_or_org": "OpenAI"
+    }
+  ],
+  "timeline15d": [
+    {
+      "title": "SpaceX宣布拟取得美国800MHz低频频谱以融合卫星D2D与地面网络",
+      "date": "2026-10-08",
+      "source_name": "SpaceX",
+      "source_url": "https://www.spacex.com/updates/starship-2025-report",
+      "source_type": "企业官方公告（交易待审批）",
+      "importance": "重大更新",
+      "summary": "SpaceX宣布拟收购美国全国性800MHz低频牌照组合，计划在FCC批准后以低频地面层与卫星直连网络协同改善遮挡和室内连接。",
+      "technical_significance": "NTN与地面移动网络的频谱/覆盖/终端协同商业化正在推进；这不是6G标准或韩国频谱决定。",
+      "impact_for_korean_telco": "韩国运营商应跟踪D2D频谱协调、终端射频兼容、漫游/计费与低频部署经济性；不得把美国授权直接套用于韩国。",
+      "topic": "6G / NTN / Spectrum",
+      "company_or_org": "SpaceX"
+    },
+    {
+      "title": "SKT发布Growth Gear与Token Gateway战略",
+      "date": "2026-10-08",
+      "source_name": "SK Telecom Newsroom",
+      "source_url": "https://news.sktelecom.com/231883",
+      "source_type": "运营商官方战略公告",
+      "importance": "重大更新",
+      "summary": "SKT提出连接通信、AI服务、AI基础设施的Growth Gear战略，并探索模型和基础设施匹配的Token Gateway；目前属于战略规划。",
+      "technical_significance": "运营商价值链由带宽/GPU资源扩展到模型路由、推理服务调度和Token计量。",
+      "impact_for_korean_telco": "优先研究Tokens/s/GPU、每百万Token成本、模型质量与SLA，明确Token Gateway是否形成可计费产品和客户。",
+      "topic": "Network for AI / Token Economy",
+      "company_or_org": "SK Telecom"
+    },
+    {
+      "title": "LG U+与OptAI推进Token优化，特定GPU负载最高4倍吞吐",
+      "date": "2026-10-06",
+      "source_name": "LG U+ Newsroom",
+      "source_url": "https://news.lguplus.com/22976",
+      "source_type": "运营商官方技术合作公告",
+      "importance": "值得关注",
+      "summary": "LG U+与OptAI扩展模型轻量化和GPU推理优化合作；初步研究在特定条件下同一GPU的Token处理量最高为原来的4倍，计划逐步验证应用。",
+      "technical_significance": "竞争量纲从GPU数量转向受模型质量和延迟约束的有效推理吞吐；属于Network for AI而非无线AI-RAN增益。",
+      "impact_for_korean_telco": "建议统一评测吞吐、P95首Token时延、质量回归、能耗和每百万Token成本，避免将最高值泛化。",
+      "topic": "Network for AI / Inference",
+      "company_or_org": "LG U+"
+    },
+    {
+      "title": "Ericsson IMC 2026展示AI内生RAN、网络感知与企业智能连接",
+      "date": "2026-10-07",
+      "source_name": "Ericsson",
+      "source_url": "https://www.ericsson.com/en/press-releases/2/2026/ericsson-showcases-whats-next-in-5g-ai-and-innovation-at-india-mobile-congress-2026",
+      "source_type": "设备商官方展会新闻稿",
+      "importance": "值得关注",
+      "summary": "Ericsson展示AI辅助无线优化、自动化、任务关键通信、企业网络及6G愿景；主要是能力展示，没有披露新的韩国工业现场KPI。",
+      "technical_significance": "AI-RAN和6G演进方向强调连接、自治、感知与企业场景融合；不能把展会演示等同规范批准或商用。",
+      "impact_for_korean_telco": "将AI-RAN空口增益、网络感知精度、企业SLA和部署TCO分开评测，避免跨指标混淆。",
+      "topic": "AI-RAN / 6G / Network Sensing",
+      "company_or_org": "Ericsson"
+    },
+    {
+      "title": "SKT与Upstage等11家机构成立AI网络安全协作体系",
+      "date": "2026-10-08",
+      "source_name": "SK Telecom Newsroom",
+      "source_url": "https://news.sktelecom.com/231797",
+      "source_type": "运营商官方合作公告",
+      "importance": "值得关注",
+      "summary": "SKT与Upstage、安全厂商及高校共建行业AI安全协作，利用安全数据训练模型，并开展相互红队测试和独立评估。",
+      "technical_significance": "领域模型落地需要数据、测试、独立验证和业务闭环，而非仅增加参数规模。",
+      "impact_for_korean_telco": "为Network Agent引入第三方红队、误操作测试、访问审计和高风险操作人工审批。",
+      "topic": "Autonomous Network / AI Security",
+      "company_or_org": "SK Telecom / Upstage"
+    },
+    {
+      "title": "SKT A.电话与KISA打通语音垃圾电话举报",
+      "date": "2026-10-12",
+      "source_name": "SK Telecom Newsroom",
+      "source_url": "https://news.sktelecom.com/231872",
+      "source_type": "运营商官方服务公告",
+      "importance": "常规动态",
+      "summary": "SKT与KISA合作在A.电话中加入一键举报，通话录音及号码可提交分析；官方同时披露2026年1—9月约1.1亿次疑似诈骗/垃圾来电拦截及约390万次通话中提醒。",
+      "technical_significance": "AI语音安全产品从模型检测延伸到用户举报、监管反馈与闭环治理；公布数字是服务侧处理量，不是模型准确率。",
+      "impact_for_korean_telco": "韩国运营商可评估诈骗检测精确率、误报、用户申诉、隐私授权与监管联动；不应把拦截次数当作网络AI-RAN KPI。",
+      "topic": "Mobile AI / Voice Security",
+      "company_or_org": "SK Telecom / KISA"
+    },
+    {
+      "title": "Anthropic与HCLTech合作：面向企业推出受治理的Agentic AI",
+      "date": "2026-10-12",
+      "source_name": "HCLTech（合作方一手公告）",
+      "source_url": "https://www.hcltech.com/ja-jp/press-releases/hcltech-and-anthropic-sign-global-premier-partnership-scale-governed-agentic-ai",
+      "source_type": "合作双方一手新闻稿",
+      "importance": "值得关注",
+      "summary": "HCLTech宣布与Anthropic建立Global Premier Partnership，将设立专门业务单元和CoE，围绕Claude、Claude Code、企业沙箱、策略护栏、异常处理与高影响操作人工监督推进部署；这是合作计划，不是运营商网络商用成果。",
+      "technical_significance": "Agent从通用对话转向具备工具权限、沙箱、变更审批和人类监督的企业级执行体系。",
+      "impact_for_korean_telco": "韩国运营商可将Agent安全沙箱、变更审批、回滚与独立审计纳入Network Agent PoC验收；暂不能外推为RAN实时控制能力。",
+      "topic": "Agentic AI / Network Agent",
+      "company_or_org": "Anthropic / HCLTech"
+    },
+    {
+      "title": "Google Cloud推出Gemini企业Agent，强调工具编排与治理",
+      "date": "2026-10-08",
+      "source_name": "Google Blog",
+      "source_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-at-work/",
+      "source_type": "AI公司官方产品公告",
+      "importance": "值得关注",
+      "summary": "Google宣布Gemini agent可结合企业上下文、技能、工具和业务系统执行任务，并提供模型选择、成本控制、安全与管理能力。",
+      "technical_significance": "Agent平台竞争从模型分数走向企业连接器、成本治理和可审计执行。",
+      "impact_for_korean_telco": "Network Agent平台可参考分层模型路由、工具授权、审计与成本预算，但必须额外满足网络变更的实时性和安全约束。",
+      "topic": "Agentic AI / Enterprise Agent",
+      "company_or_org": "Google"
+    },
+    {
+      "title": "Anthropic发布Claude Haiku 5.5面向高频低成本Agent任务",
+      "date": "2026-10-07",
+      "source_name": "Anthropic",
+      "source_url": "https://www.anthropic.com/claude-haiku-5-5",
+      "source_type": "AI公司官方模型公告",
+      "importance": "值得关注",
+      "summary": "Anthropic推出Haiku 5.5，主打分类、摘要、检索和子Agent等高频任务；官方称平均运行成本较Haiku 4.5降低约75%，需按具体任务验证。",
+      "technical_significance": "轻量模型适用于高频非硬实时辅助任务，复杂网络决策仍需更强模型和确定性控制。",
+      "impact_for_korean_telco": "评估韩语告警分类、工单摘要、工具调用的准确率/时延/成本，不把LLM放进微秒级RAN调度闭环。",
+      "topic": "Agentic AI / Small Models",
+      "company_or_org": "Anthropic"
+    },
+    {
+      "title": "OpenAI与Ironclad使用11项真实业务流程评测Computer-use Agent",
+      "date": "2026-10-06",
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/index/advancing-computer-use-with-ironclad/",
+      "source_type": "AI公司官方研究合作发布",
+      "importance": "值得关注",
+      "summary": "OpenAI与Ironclad以11项合同流程任务和每项8—50条标准评测多步骤Agent，强调最终任务完成与业务规则；时间改善属于模拟估算。",
+      "technical_significance": "Agent评测应从单步工具调用扩展到业务级任务完成、异常处理和合规约束。",
+      "impact_for_korean_telco": "构建Network Agent真实任务集，统一测量Task Success、Wrong Action、Human Takeover、Rollback和MTTR。",
+      "topic": "Agentic AI / Agent Evaluation",
+      "company_or_org": "OpenAI"
+    },
+    {
+      "title": "三星集团宣布向Helix AI基础设施投资合计10亿美元",
+      "date": "2026-09-29",
+      "source_name": "Samsung Global Newsroom",
+      "source_url": "https://news.samsung.com/global/samsung-to-invest-usd-1-billion-in-ai-infrastructure-company-helix",
+      "source_type": "企业官方投资公告",
+      "importance": "值得关注",
+      "summary": "Samsung Electronics及五家关联公司宣布向Helix Digital Infrastructure投资合计10亿美元，覆盖数据中心、电力、网络和冷却等产业链。",
+      "technical_significance": "AI基础设施扩张的关键约束不止GPU，还包括电力、冷却、光纤和建设周期；属于算力产业而非RAN产品发布。",
+      "impact_for_korean_telco": "韩国运营商AIDC投资评估需同步比较供电、PUE、网络接入和长期利用率。",
+      "topic": "AI Infrastructure / Network for AI",
+      "company_or_org": "Samsung Electronics"
+    }
+  ],
+  "sources": [
+    {
+      "name": "SpaceX",
+      "date": "2026-10-08",
+      "url": "https://www.spacex.com/updates/starship-2025-report",
+      "type": "企业官方公告（交易待审批）"
+    },
+    {
+      "name": "SK Telecom Newsroom",
+      "date": "2026-10-08",
+      "url": "https://news.sktelecom.com/231883",
+      "type": "运营商官方战略公告"
+    },
+    {
+      "name": "LG U+ Newsroom",
+      "date": "2026-10-06",
+      "url": "https://news.lguplus.com/22976",
+      "type": "运营商官方技术合作公告"
+    },
+    {
+      "name": "Ericsson",
+      "date": "2026-10-07",
+      "url": "https://www.ericsson.com/en/press-releases/2/2026/ericsson-showcases-whats-next-in-5g-ai-and-innovation-at-india-mobile-congress-2026",
+      "type": "设备商官方展会新闻稿"
+    },
+    {
+      "name": "SK Telecom Newsroom",
+      "date": "2026-10-08",
+      "url": "https://news.sktelecom.com/231797",
+      "type": "运营商官方合作公告"
+    },
+    {
+      "name": "SK Telecom Newsroom",
+      "date": "2026-10-12",
+      "url": "https://news.sktelecom.com/231872",
+      "type": "运营商官方服务公告"
+    },
+    {
+      "name": "HCLTech（合作方一手公告）",
+      "date": "2026-10-12",
+      "url": "https://www.hcltech.com/ja-jp/press-releases/hcltech-and-anthropic-sign-global-premier-partnership-scale-governed-agentic-ai",
+      "type": "合作双方一手新闻稿"
+    },
+    {
+      "name": "Google Blog",
+      "date": "2026-10-08",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-at-work/",
+      "type": "AI公司官方产品公告"
+    },
+    {
+      "name": "Anthropic",
+      "date": "2026-10-07",
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "type": "AI公司官方模型公告"
+    },
+    {
+      "name": "OpenAI",
+      "date": "2026-10-06",
+      "url": "https://openai.com/index/advancing-computer-use-with-ironclad/",
+      "type": "AI公司官方研究合作发布"
+    },
+    {
+      "name": "Samsung Global Newsroom",
+      "date": "2026-09-29",
+      "url": "https://news.samsung.com/global/samsung-to-invest-usd-1-billion-in-ai-infrastructure-company-helix",
+      "type": "企业官方投资公告"
+    },
+    {
+      "name": "3GPP TS 23.370",
+      "date": "2026-09-28",
+      "url": "https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=5530",
+      "type": "规范正文与版本历史（15天窗口外基线）"
+    },
+    {
+      "name": "3GPP AmbientIoT_Ph2-APP",
+      "date": "2026-09-28",
+      "url": "https://portal.3gpp.org/desktopmodules/WorkItem/WorkItemDetails.aspx?workitemId=1110048",
+      "type": "Work Item进度（15天窗口外基线）"
+    },
+    {
+      "name": "Samsung Hyper AI Network",
+      "date": "2026-09-23",
+      "url": "https://news.samsung.com/global/samsung-at-the-forefront-of-koreas-ai-ran-projects-with-kt-and-sk-telecom",
+      "type": "官方项目公告（15天窗口外基线）"
+    },
+    {
+      "name": "3GPP RAN#113报告",
+      "date": "2026-09-14",
+      "url": "https://www.3gpp.org/news-events/3gpp-news/ran113-reports",
+      "type": "官方工作组报告（15天窗口外基线）"
+    }
+  ],
+  "coverage": {
+    "vendors": [
+      "Huawei",
+      "ZTE",
+      "Ericsson",
+      "Nokia",
+      "Samsung"
+    ],
+    "operators": [
+      "China Mobile",
+      "LG U+",
+      "SKT",
+      "KT",
+      "SoftBank",
+      "NTT DOCOMO",
+      "Rakuten"
+    ],
+    "ai_companies": [
+      "Anthropic",
+      "OpenAI",
+      "Google",
+      "NVIDIA"
+    ],
+    "note": "监测覆盖不代表每家在24小时内都有值得收录的一级更新；不以旧闻填充。"
+  },
+  "timeline_window": {
+    "start": "2026-09-29",
+    "end": "2026-10-13"
+  },
+  "verification": "厂商公告/合作声明属于事实；推演单独标识；未核实事项不作确认。3GPP Study Item、Work Item、提案、Approved CR与TS严格区分。"
+}
