@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T08:14:30+09:00",
+  "updatedAt": "2026-10-15T09:28:00+09:00",
   "events": [
     {
       "id": "eu-korea-digital-partnership-2026",
@@ -582,7 +582,7 @@
       "endDate": "2026-10-13",
       "location": "Josun Palace Seoul Gangnam, The Great Hall 3F",
       "language": "Korean",
-      "status": "registration_open",
+      "status": "completed",
       "registrationUrl": "https://www.mendixconnect.com/icx",
       "registrationEligibility": "Industry leaders, data/AI, operational innovation and IT stakeholders.",
       "fee": "Free / not publicly stated",
@@ -1787,7 +1787,7 @@
       "endDate": "2026-10-13",
       "location": "Yongin Media Center 1F Studio Dae, 509 Dongbaekjukjeon-daero, Giheung-gu, Yongin, Gyeonggi-do",
       "language": "Korean",
-      "status": "registration_closing",
+      "status": "completed",
       "registrationOpen": "2026-09-30T00:00:00+09:00",
       "registrationDeadline": "2026-10-13T00:00:00+09:00",
       "registrationUrl": "https://event-us.kr/alphabrothers/event/136341",
@@ -1952,7 +1952,7 @@
       "endDate": "2026-10-14",
       "location": "COEX 2F Startup Branch, Seoul",
       "language": "暂未公布",
-      "status": "registration_open",
+      "status": "completed",
       "registrationUrl": "https://teo.koraia.org/default/mp5/sub2.php?com_board_basic=read_form&com_board_category_code=c2&com_board_id=11&com_board_idx=1129&com_board_page=1",
       "registrationEligibility": "Relevant companies in mobility, Physical AI, smart manufacturing and AI; advance registration mandatory, B2B meetings require pre-application.",
       "fee": "暂未公布",
@@ -2007,7 +2007,7 @@
       "endDate": "2026-10-14",
       "location": "Kakao AI Campus, 7 Hosu-ro 96beon-gil, Suji-gu, Yongin, Gyeonggi-do",
       "language": "Korean",
-      "status": "upcoming",
+      "status": "completed",
       "registrationOpen": "2026-09-07",
       "registrationDeadline": "2026-09-28T12:00:00+09:00",
       "registrationUrl": "https://if.kakao.com/2026",
@@ -2658,6 +2658,209 @@
           "speaker": "Oh Jiwoo (Nota AI)"
         }
       ],
+      "insights": []
+    },
+    {
+      "id": "physical-ai-tech-week-2026",
+      "title": "Physical AI Tech Week 2026",
+      "titleKo": "피지컬 AI Tech Week",
+      "titleZh": "Physical AI 技术周",
+      "summary": "韩国 Physical AI 联盟与产业技术活动，覆盖机器人基础模型、AI Factory、机器人协同与产业生态。",
+      "topics": [
+        "Physical AI",
+        "Robotics",
+        "AI Factory",
+        "Edge AI"
+      ],
+      "organizer": [
+        "MSIT",
+        "NIPA",
+        "Physical AI Alliance"
+      ],
+      "participants": [],
+      "speakers": [],
+      "startDate": "2026-10-13",
+      "endDate": "2026-10-14",
+      "location": "COEX, Seoul",
+      "language": "Korean",
+      "status": "completed",
+      "registrationDeadline": "2026-10-14T17:00:00+09:00",
+      "registrationUrl": "https://event-us.kr/physicalaitech/event/136716",
+      "officialUrl": "https://event-us.kr/physicalaitech/event/136716",
+      "fee": "Free",
+      "sourceType": "organizer registration page · completed",
+      "priority": "S",
+      "operatorRelevance": "high",
+      "whyItMatters": "Physical AI 政策、机器人及 AI Factory 生态可映射至工业专网、边缘推理和运营商 B2B。",
+      "agenda": [],
+      "insights": []
+    },
+    {
+      "id": "kics-6g-nextg-system-architecture-2026",
+      "title": "6G/NextG System Architecture Workshop",
+      "titleKo": "6G/NextG 시스템 아키텍처 워크샵",
+      "titleZh": "6G/NextG 系统架构研讨会",
+      "summary": "讨论 6G Computing、AI Agent、AI-RAN 软件实现及 Physical AI on AI-RAN 实证。",
+      "topics": [
+        "6G",
+        "AI-RAN",
+        "6G Computing",
+        "Physical AI",
+        "ISAC"
+      ],
+      "organizer": [
+        "KICS"
+      ],
+      "participants": [
+        "ETRI",
+        "LG U+",
+        "Korea University"
+      ],
+      "speakers": [],
+      "startDate": "2026-10-29",
+      "endDate": "2026-10-30",
+      "location": "Seoul / Online",
+      "language": "Korean",
+      "status": "registration_open",
+      "registrationDeadline": "2026-10-26T18:00:00+09:00",
+      "registrationUrl": "https://event.kics.or.kr/921/registrationInfo",
+      "officialUrl": "https://event.kics.or.kr/921/program",
+      "registrationEligibility": "On-site limited to 20 participants; online attendance offered.",
+      "fee": "Member KRW 250,000; nonmember KRW 300,000 (preregistration)",
+      "sourceType": "organizer program and registration",
+      "priority": "S",
+      "operatorRelevance": "high",
+      "whyItMatters": "覆盖 6G 核网计算协同、AI-RAN GPU 资源管理及端到端实证。",
+      "agenda": [],
+      "insights": []
+    },
+    {
+      "id": "kics-public-safety-convergence-2026",
+      "title": "KICS Public Safety Convergence Technology Workshop 2026",
+      "titleKo": "2026 공공안전융합기술연구회 워크샵",
+      "titleZh": "KICS 公共安全融合技术研讨会",
+      "summary": "LG U+、KT、SKT 分享 Agentic AI 通信、NTN 和 LTE-R AI Vision 案例。",
+      "topics": [
+        "6G",
+        "NTN",
+        "AI Vision",
+        "Private Networks"
+      ],
+      "organizer": [
+        "KICS"
+      ],
+      "participants": [
+        "LG U+",
+        "KT",
+        "SK Telecom",
+        "ETRI"
+      ],
+      "speakers": [],
+      "startDate": "2026-10-22",
+      "endDate": "2026-10-22",
+      "location": "Seoul / Online",
+      "language": "Korean",
+      "status": "registration_closing",
+      "registrationDeadline": "2026-10-19",
+      "registrationUrl": "https://event.kics.or.kr/951/registrationInfo",
+      "officialUrl": "https://event.kics.or.kr/951/program",
+      "registrationEligibility": "On-site limited to 20 participants.",
+      "fee": "Member KRW 250,000 online / 270,000 on-site; nonmember KRW 300,000 online / 320,000 on-site",
+      "sourceType": "organizer program and registration",
+      "priority": "A",
+      "operatorRelevance": "high",
+      "whyItMatters": "三大运营商分享行业网络实证和服务演进。",
+      "agenda": [],
+      "insights": []
+    },
+    {
+      "id": "kaist-physical-ai-korea-2026",
+      "title": "KAIST Physical AI KOREA 2026",
+      "titleKo": "KAIST 피지컬 AI KOREA 2026",
+      "titleZh": "KAIST Physical AI 韩国论坛",
+      "summary": "KAIST 发布 Physical AI 感知、运动和群体智能平台方向。",
+      "topics": [
+        "Physical AI",
+        "Humanoid Robotics",
+        "Collective Intelligence"
+      ],
+      "organizer": [
+        "KAIST"
+      ],
+      "participants": [],
+      "speakers": [],
+      "startDate": "2026-10-13",
+      "endDate": "2026-10-13",
+      "location": "KAIST KI Building, Daejeon",
+      "language": "Korean",
+      "status": "completed",
+      "registrationEligibility": "Advance registration ended 2026-10-12 12:00 KST.",
+      "sourceType": "KAIST official announcement",
+      "priority": "A",
+      "operatorRelevance": "medium",
+      "whyItMatters": "机器人群体智能与边缘推理有潜在连接，但并非已确认的 5G/6G 刚需。",
+      "agenda": [],
+      "insights": []
+    },
+    {
+      "id": "international-robot-business-conference-2026",
+      "title": "International Robot Business Conference 2026",
+      "titleKo": "2026 국제로봇비즈니스 컨퍼런스",
+      "titleZh": "2026 国际机器人商业大会",
+      "summary": "ROBOTWORLD 同期举行，讨论制造 AX、Physical AI Humanoid 和机器人移动性。",
+      "topics": [
+        "Physical AI",
+        "Robotics",
+        "Manufacturing AX",
+        "Mobility"
+      ],
+      "organizer": [
+        "ROBOTWORLD organizers"
+      ],
+      "participants": [],
+      "speakers": [],
+      "startDate": "2026-11-04",
+      "endDate": "2026-11-05",
+      "location": "KINTEX, Goyang",
+      "language": "Not announced",
+      "status": "announced",
+      "officialUrl": "https://www.robotworld.or.kr/",
+      "sourceType": "organizer event announcement · registration not verified",
+      "priority": "A",
+      "operatorRelevance": "high",
+      "whyItMatters": "移动机器人、制造 AX 与 Private 5G/Edge AI 存在潜在 B2B 结合点。",
+      "agenda": [],
+      "insights": []
+    },
+    {
+      "id": "data-center-korea-global-conference-2026",
+      "title": "DATA CENTER KOREA 2026 Global Conference",
+      "titleKo": "데이터센터 코리아 2026 글로벌 컨퍼런스",
+      "titleZh": "DATA CENTER KOREA 2026 全球大会",
+      "summary": "覆盖 AI Factory Infrastructure、AI 数据中心、电力与冷却基础设施。",
+      "topics": [
+        "AIDC",
+        "AI Factory",
+        "AI Infrastructure"
+      ],
+      "organizer": [
+        "DATA CENTER KOREA"
+      ],
+      "participants": [],
+      "speakers": [],
+      "startDate": "2026-11-04",
+      "endDate": "2026-11-06",
+      "location": "aT Center, Seoul",
+      "language": "Not announced",
+      "status": "registration_open",
+      "registrationDeadline": "2026-11-03",
+      "registrationUrl": "https://datacenterkorea.kr/conference-2026/",
+      "officialUrl": "https://datacenterkorea.kr/conference-2026/",
+      "sourceType": "organizer conference page",
+      "priority": "B",
+      "operatorRelevance": "medium",
+      "whyItMatters": "运营商 AIDC、AI Factory 基础设施建设参考。",
+      "agenda": [],
       "insights": []
     }
   ]
