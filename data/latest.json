@@ -1,135 +1,180 @@
 {
-  "date": "2026-10-15",
+  "date": "2026-10-17",
   "title": "Korea Telco Advanced Technology Radar",
-  "subtitle": "2026年10月15日｜08:30 KST｜中文5分钟阅读版",
-  "editorial_note": "过去24小时新增：三星发布硅谷6G/AI-RAN/7GHz/ISAC展示说明，OpenAI公布欧盟企业Agent使用研究；LG U+官网10月14日刊载U+one Actionable Agent公告。ETSI/Google为近7天延续。韩国工业AI-RAN KPI及3GPP规范性冻结仍未核实新增。对上一期Ambient IoT APP“100%”和LG U+“GPU Token吞吐4倍”口径作证据校正。",
   "top5": [
     {
-      "title": "三星展示7GHz、AI-RAN、X-MIMO/D-MIMO与ISAC验证方向",
-      "date": "2026-10-15",
-      "source_name": "Samsung Global Newsroom",
-      "source_url": "https://news.samsung.com/global/samsung-hosts-silicon-valley-future-wireless-summit-2026",
-      "source_type": "设备商官方活动公告",
+      "title": "Nokia与SoftBank计划2027年在日本商用流量环境验证AI-RAN",
+      "date": "2026-10-16",
+      "source_name": "Nokia",
+      "source_url": "https://www.nokia.com/newsroom/nokia-and-softbank-agree-to-conduct-commercial-ai-ran-field-trial-in-japan/",
+      "source_type": "官方新闻稿",
       "importance": "重大更新",
-      "summary": "三星宣布10月14日Partner Day及15日美国硅谷Future Wireless Summit；展示AI-RAN、7GHz候选频段传输、X-MIMO/D-MIMO、ISAC与小区边缘性能验证方向，未公布可复算的统一量化KPI。",
-      "technical_significance": "把6G候选频谱、AI原生RAN、分布式MIMO和感知放在同一系统级验证框架；属于厂商展示和试验披露，不是3GPP规范批准。",
-      "impact_for_korean_telco": "韩国6G团队应要求7GHz链路预算、站间距、小区边缘速率、感知误差与AI-RAN算力成本的统一测试条件，并跟进三星与LG U+/KT/SKT的实测数据。",
-      "topic": "6G / AI-RAN / ISAC",
-      "company_or_org": "Samsung Electronics"
+      "summary": "2027年拟在商用流量下联合测试Nokia anyRAN、SoftBank AITRAS Orchestrator及NVIDIA ARC-Pro（Grace CPU、RTX PRO 4500 GPU、ConnectX-8）；尚未完成试验。",
+      "technical_significance": "跨厂商AI与vRAN共享计算和资源编排将进入现网验证阶段，未公布增益。",
+      "impact_for_korean_telco": "要求韩国KT/SKT试验GPU利用率、RAN隔离、P95时延及TCO。",
+      "topic": "AI-RAN / Shared Compute",
+      "company_or_org": "Nokia / SoftBank / NVIDIA"
     },
     {
-      "title": "OpenAI披露欧盟企业Agent使用强度：样本中Codex与Work占输出Token过半",
-      "date": "2026-10-14",
-      "source_name": "OpenAI",
-      "source_url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic/",
-      "source_type": "AI公司官方经济研究",
-      "importance": "值得关注",
-      "summary": "OpenAI称其欧盟ChatGPT Enterprise样本中Codex与ChatGPT Work贡献超过一半输出Token；欧盟≤200用户的SMB样本中相关工具周活跃用户自5月以来增长超过8倍。样本不能外推为整个欧盟企业市场。",
-      "technical_significance": "Agent服务的网络与算力需求应按任务、Token消耗和长任务执行来建模，不能用普通聊天DAU直接推算流量。",
-      "impact_for_korean_telco": "韩国运营商评估Token Gateway与企业Agent时，建立每成功任务Token、P95执行时长、失败重试率及数据主权指标。",
-      "topic": "Agentic AI / Token Demand",
-      "company_or_org": "OpenAI"
+      "title": "华为公布NG WAN超过60家运营商部署及AN L4指标",
+      "date": "2026-10-16",
+      "source_name": "Huawei",
+      "source_url": "https://www.huawei.com/en/news/2026/10/ubbf-ai-wan-solution",
+      "source_type": "官方新闻稿",
+      "importance": "重大更新",
+      "summary": "华为称NG WAN已在60多家运营商部署，One Map One Brain覆盖故障、变更、优化、安全四类AN L4场景，宣称链路利用率98%、训练推理提升超7%；均为厂商数据。",
+      "technical_significance": "AI WAN从连接保障走向自治与算力效率协同，AN L4仅限所述场景。",
+      "impact_for_korean_telco": "韩国运营商需核查闭环边界、丢包及Token效率，要求第三方对照。",
+      "topic": "Network for AI / Autonomous WAN",
+      "company_or_org": "Huawei"
     },
     {
-      "title": "LG U+ U+one向Actionable Agent演进，漫游购买转化率约翻倍",
-      "date": "2026-10-14",
-      "source_name": "LG U+官方新闻室",
-      "source_url": "https://news.lguplus.com/23043",
-      "source_type": "运营商官方产品新闻稿",
+      "title": "LG U+公布Wi-Fi 8 NPU网关边缘AI PoC",
+      "date": "2026-10-16",
+      "source_name": "LG U+",
+      "source_url": "https://news.lguplus.com/23061",
+      "source_type": "官方新闻稿",
       "importance": "值得关注",
-      "summary": "LG U+官网10月14日刊载U+one升级：8月上线账单支付Agent、9月上线漫游Agent；通过Agent推荐后的漫游商品购买转化率约为原AI搜索跳转方式的2倍；付款前需客户确认。正文称13日对外宣布。",
-      "technical_significance": "从信息查询转向推荐、授权与交易闭环，是ToC Agent商业化指标，并非Network Agent或无线性能提升。",
-      "impact_for_korean_telco": "将任务完成率、转化率、误操作、审批确认、重复扣费与投诉率纳入运营商Agent KPI。",
-      "topic": "Operator AI / Actionable Agent",
+      "summary": "LG U+展示6GHz Wi-Fi 7商用经验及Wi-Fi 8方向NPU网关本地分析和优化PoC；未公开量化KPI。",
+      "technical_significance": "家庭网络自治从云端下沉至CPE端侧AI，Wi-Fi 8尚非商用。",
+      "impact_for_korean_telco": "制定CPE功耗、预测准确率、MTTR及QoE的对照测试。",
+      "topic": "Network Intelligence / Wi-Fi Edge AI",
       "company_or_org": "LG U+"
     },
     {
-      "title": "ETSI TC NET成立四个AI原生网络工作组",
-      "date": "2026-10-13",
-      "source_name": "ETSI",
-      "source_url": "https://www.etsi.org/newsroom/press-releases/etsis-new-committee-starts-building-next-generation-of-ai-native-networks/",
-      "source_type": "标准组织官方新闻稿",
-      "importance": "重大更新",
-      "summary": "ETSI公布10月7—9日TC NET启动会议成果，设立连续体基础设施与控制、能力开放与服务、Agentic自治网络、生态协同验证四个工作组。",
-      "technical_significance": "网络、云、边缘和AI算力联邦化进入专门标准化组织分工；此为工作组设立，不是已批准规范或3GPP CR。",
-      "impact_for_korean_telco": "跟踪与3GPP SA5、ETSI MEC/NFV、O-RAN的接口边界，提前形成多厂商Agent编排和资源隔离需求。",
-      "topic": "6G / AI-native Standards",
-      "company_or_org": "ETSI"
+      "title": "中兴提出AI家庭Wi-Fi体验保障技术路线",
+      "date": "2026-10-16",
+      "source_name": "ZTE",
+      "source_url": "https://www.zte.com.cn/global/about/news/zte-advances-the-shift-toward-intelligent-home-experiences-through-ai-and-wi-fi-innovation.html",
+      "source_type": "官方新闻稿",
+      "importance": "值得关注",
+      "summary": "中兴提出AI持续监控家庭Wi-Fi、预测质量劣化、优化韧性及网关边缘智能；未发布量化试验结果。",
+      "technical_significance": "宽带竞争从峰值速率转向体验可靠性和主动保障。",
+      "impact_for_korean_telco": "与LG U+的Wi-Fi 8 PoC比较端侧AI成本与实际故障改善。",
+      "topic": "Network Intelligence / Smart Home",
+      "company_or_org": "ZTE"
     },
     {
-      "title": "Google Gemini 4 Argon开放企业API，强调长任务与Agent安全",
-      "date": "2026-10-13",
-      "source_name": "Google Cloud",
-      "source_url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-4-argon-available-on-google-cloud",
-      "source_type": "AI公司官方产品发布",
-      "importance": "值得关注",
-      "summary": "Google发布Gemini 4 Argon；至11月30日每百万输入/输出Token为2/10美元，之后标准价4/20美元；官方强调多步骤任务和安全边界，性能数字属厂商评测。",
-      "technical_significance": "长程任务可靠性、权限控制和Token定价共同决定企业Agent TCO。",
-      "impact_for_korean_telco": "对Network Agent候选模型统一评测成本/成功任务、P95延迟、误变更、注入攻击抵抗和回滚成功率。",
-      "topic": "Agentic AI / Token Economics",
-      "company_or_org": "Google"
+      "title": "Ericsson与Verizon完成7GHz、400MHz预标准6G室外呼叫",
+      "date": "2026-10-15",
+      "source_name": "Ericsson",
+      "source_url": "https://www.ericsson.com/en/press-releases/6/2026/verizon-and-ericsson-accelerate-6g-development",
+      "source_type": "设备商与运营商联合官方实地验证",
+      "importance": "重大更新",
+      "summary": "在加州Concord现网商用站址部署6G PoC设备，使用7GHz频段、400MHz载波完成预标准室外呼叫；移动小屋支持后续室外到室内穿透测试。未公布精确频点、EIRP、吞吐或站间距。",
+      "technical_significance": "7GHz候选频段进入真实站址室外验证；不是已完成室内覆盖验证，更不是3GPP批准或6G商用。",
+      "impact_for_korean_telco": "与韩国3.5GHz基线对比7GHz链路预算、站间距、穿透损耗和连续400MHz频谱可用性。",
+      "topic": "6G / 7GHz Spectrum",
+      "company_or_org": "Ericsson / Verizon"
     }
   ],
   "trends": {
     "AI-RAN": {
-      "direction": "↑ 三星公布系统级验证范围；韩国工业KPI仍缺",
-      "summary": "三星10月15日披露7GHz候选频段、AI-RAN、X-MIMO/D-MIMO和ISAC的验证展示方向，但未提供可比较的量化参数。KT/SKT工业现场尚无新的公开P95/P99时延、UL吞吐或共享算力KPI。",
-      "key_change": "相比10月14日，新增三星系统级展示线索；不把展示当作已批准标准或韩国现场结果。",
+      "direction": "↑ 新增跨厂商商用流量试验计划",
+      "summary": "Nokia/SoftBank计划2027年在商用网络流量下验证anyRAN+AITRAS+ARC-Pro；10月15日SKT已完成停车场AI-RAN应用演示，但两者均无可比较的GPU/无线KPI。",
+      "key_change": "相较上一期SKT单点Physical AI演示，新增2027年跨厂商AI/vRAN共享算力试验计划。",
       "sources": [
         {
-          "name": "Samsung",
-          "url": "https://news.samsung.com/global/samsung-hosts-silicon-valley-future-wireless-summit-2026",
-          "date": "2026-10-15"
+          "name": "Nokia",
+          "url": "https://www.nokia.com/newsroom/nokia-and-softbank-agree-to-conduct-commercial-ai-ran-field-trial-in-japan/",
+          "date": "2026-10-16"
         },
         {
-          "name": "Samsung Hyper AI Network基线",
-          "url": "https://news.samsung.com/global/samsung-at-the-forefront-of-koreas-ai-ran-projects-with-kt-and-sk-telecom",
-          "date": "2026-09-23"
+          "name": "SKT",
+          "url": "https://news.sktelecom.com/231994",
+          "date": "2026-10-15"
         }
       ]
     },
     "6G": {
-      "direction": "↑ 7GHz/ISAC展示与ETSI跨域架构并行；3GPP无新冻结",
-      "summary": "三星披露7GHz传输、分布式MIMO及感知验证方向；ETSI TC NET已建立四个工作组。3GPP官方日历显示RAN1—RAN4于10月12—16日在济州开会，尚不能将会议中的单份提案视为已批准CR或规范正文。",
-      "key_change": "相比10月14日，新增三星对7GHz和ISAC的公开验证展示；ETSI组织进展属于延续信号。",
+      "direction": "→ 无新7GHz结果或已批准CR",
+      "summary": "Ericsson/Verizon 10月15日7GHz、400MHz室外呼叫仍是最新可核实无线验证；10月16日3GPP济州/布拉格工作组会议结束，未确认正式批准CR。",
+      "key_change": "无线实测没有新增；AI-RAN共享计算路线新增2027年试验计划。",
       "sources": [
         {
-          "name": "Samsung",
-          "url": "https://news.samsung.com/global/samsung-hosts-silicon-valley-future-wireless-summit-2026",
+          "name": "Ericsson",
+          "url": "https://www.ericsson.com/en/press-releases/6/2026/verizon-and-ericsson-accelerate-6g-development",
           "date": "2026-10-15"
         },
         {
-          "name": "ETSI",
-          "url": "https://www.etsi.org/newsroom/press-releases/etsis-new-committee-starts-building-next-generation-of-ai-native-networks/",
-          "date": "2026-10-13"
-        },
-        {
-          "name": "3GPP会议日历",
-          "url": "https://portal.3gpp.org/?SubTB=&tbid=All",
-          "date": "2026-10-12"
+          "name": "3GPP",
+          "url": "https://portal.3gpp.org/",
+          "date": "2026-10-16"
         }
       ]
     },
     "Ambient IoT": {
-      "direction": "→ 无新规范性批准；APP进度需修正核验",
-      "summary": "3GPP TS 23.370为Rel-20应用使能正式TS，9月24日进入UCC、9月28日上传20.0.0。AmbientIoT_Ph2-APP工作项当前可访问页面只显示6月4日“0%→70%”备注；此前日报的“9月28日100%”缺少同页可核验证据，故标记待核实。",
-      "key_change": "相比10月14日，主动纠正APP完成度口径；不据此认定整个Phase 2完成或Rel-20冻结。",
+      "direction": "→ 无新批准CR或Rel-20冻结",
+      "summary": "TS 23.370是Under Change Control的Rel-20正式TS；AmbientIoT_Ph2-APP工作项9月28日进度备注100%，不能推断整个Phase 2完成。",
+      "key_change": "与上一期相比无规范性变化。",
       "sources": [
         {
           "name": "3GPP TS 23.370",
           "url": "https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=5530",
-          "date": "2026-09-28"
+          "date": "2026-09-24"
         },
         {
-          "name": "3GPP AmbientIoT_Ph2-APP WI",
+          "name": "3GPP WI",
           "url": "https://portal.3gpp.org/desktopmodules/WorkItem/WorkItemDetails.aspx?workitemId=1110048",
-          "date": "2026-06-04"
+          "date": "2026-09-28"
         }
       ]
     }
   },
   "vendors": [
     {
+      "title": "Nokia与SoftBank计划2027年在日本商用流量环境验证AI-RAN",
+      "date": "2026-10-16",
+      "source_name": "Nokia",
+      "source_url": "https://www.nokia.com/newsroom/nokia-and-softbank-agree-to-conduct-commercial-ai-ran-field-trial-in-japan/",
+      "source_type": "官方新闻稿",
+      "importance": "重大更新",
+      "summary": "2027年拟在商用流量下联合测试Nokia anyRAN、SoftBank AITRAS Orchestrator及NVIDIA ARC-Pro（Grace CPU、RTX PRO 4500 GPU、ConnectX-8）；尚未完成试验。",
+      "technical_significance": "跨厂商AI与vRAN共享计算和资源编排将进入现网验证阶段，未公布增益。",
+      "impact_for_korean_telco": "要求韩国KT/SKT试验GPU利用率、RAN隔离、P95时延及TCO。",
+      "topic": "AI-RAN / Shared Compute",
+      "company_or_org": "Nokia / SoftBank / NVIDIA"
+    },
+    {
+      "title": "华为公布NG WAN超过60家运营商部署及AN L4指标",
+      "date": "2026-10-16",
+      "source_name": "Huawei",
+      "source_url": "https://www.huawei.com/en/news/2026/10/ubbf-ai-wan-solution",
+      "source_type": "官方新闻稿",
+      "importance": "重大更新",
+      "summary": "华为称NG WAN已在60多家运营商部署，One Map One Brain覆盖故障、变更、优化、安全四类AN L4场景，宣称链路利用率98%、训练推理提升超7%；均为厂商数据。",
+      "technical_significance": "AI WAN从连接保障走向自治与算力效率协同，AN L4仅限所述场景。",
+      "impact_for_korean_telco": "韩国运营商需核查闭环边界、丢包及Token效率，要求第三方对照。",
+      "topic": "Network for AI / Autonomous WAN",
+      "company_or_org": "Huawei"
+    },
+    {
+      "title": "中兴提出AI家庭Wi-Fi体验保障技术路线",
+      "date": "2026-10-16",
+      "source_name": "ZTE",
+      "source_url": "https://www.zte.com.cn/global/about/news/zte-advances-the-shift-toward-intelligent-home-experiences-through-ai-and-wi-fi-innovation.html",
+      "source_type": "官方新闻稿",
+      "importance": "值得关注",
+      "summary": "中兴提出AI持续监控家庭Wi-Fi、预测质量劣化、优化韧性及网关边缘智能；未发布量化试验结果。",
+      "technical_significance": "宽带竞争从峰值速率转向体验可靠性和主动保障。",
+      "impact_for_korean_telco": "与LG U+的Wi-Fi 8 PoC比较端侧AI成本与实际故障改善。",
+      "topic": "Network Intelligence / Smart Home",
+      "company_or_org": "ZTE"
+    },
+    {
+      "title": "Ericsson与Verizon完成7GHz、400MHz预标准6G室外呼叫",
+      "date": "2026-10-15",
+      "source_name": "Ericsson",
+      "source_url": "https://www.ericsson.com/en/press-releases/6/2026/verizon-and-ericsson-accelerate-6g-development",
+      "source_type": "设备商与运营商联合官方实地验证",
+      "importance": "重大更新",
+      "summary": "在加州Concord现网商用站址部署6G PoC设备，使用7GHz频段、400MHz载波完成预标准室外呼叫；移动小屋支持后续室外到室内穿透测试。未公布精确频点、EIRP、吞吐或站间距。",
+      "technical_significance": "7GHz候选频段进入真实站址室外验证；不是已完成室内覆盖验证，更不是3GPP批准或6G商用。",
+      "impact_for_korean_telco": "与韩国3.5GHz基线对比7GHz链路预算、站间距、穿透损耗和连续400MHz频谱可用性。",
+      "topic": "6G / 7GHz Spectrum",
+      "company_or_org": "Ericsson / Verizon"
+    },
+    {
       "title": "三星展示7GHz、AI-RAN、X-MIMO/D-MIMO与ISAC验证方向",
       "date": "2026-10-15",
       "source_name": "Samsung Global Newsroom",
@@ -141,60 +186,47 @@
       "impact_for_korean_telco": "韩国6G团队应要求7GHz链路预算、站间距、小区边缘速率、感知误差与AI-RAN算力成本的统一测试条件，并跟进三星与LG U+/KT/SKT的实测数据。",
       "topic": "6G / AI-RAN / ISAC",
       "company_or_org": "Samsung Electronics"
-    },
-    {
-      "title": "华为提出AI-Centric UBB的AIDC、承载与接入协同架构",
-      "date": "2026-10-13",
-      "source_name": "Huawei",
-      "source_url": "https://www.huawei.com/en/news/2026/10/ubbf2026-aicentric",
-      "source_type": "设备商官方大会演讲",
-      "importance": "值得关注",
-      "summary": "华为UBBF提出数据中心网络、800G/OXC全光承载、50G PON与Wi-Fi 7协同，宣称1-3-5毫秒算力接入圈等方案目标；非韩国实网验收数据。",
-      "technical_significance": "把AI业务的跨域算力调度、广域传输SLA和确定性接入联系起来。",
-      "impact_for_korean_telco": "韩国运营商需独立核算AIDC—边缘—RAN端到端时延与建设成本，不把厂商设计目标等同商用实测。",
-      "topic": "Network for AI / Bearer",
-      "company_or_org": "Huawei"
-    },
-    {
-      "title": "Ericsson CTO强调5G智能底座与6G感知/分布式AI协同",
-      "date": "2026-10-13",
-      "source_name": "Ericsson",
-      "source_url": "https://www.ericsson.com/en/blog/2026/10/enterprise-ai-strategy-intelligent-fabric",
-      "source_type": "设备商CTO官方技术博客",
-      "importance": "常规动态",
-      "summary": "文章提出开放可编程Intelligent Fabric，将云、边缘、终端AI与5G连接结合，未来6G增加感知与空间信息能力；属于架构观点而非新实证。",
-      "technical_significance": "Network for AI需同时解决计算位置、上行传输、网络能力开放和可预测QoS。",
-      "impact_for_korean_telco": "针对Physical AI明确上行视频、移动性、定位/感知、算力卸载与应用SLA的映射。",
-      "topic": "6G / Intelligent Fabric",
-      "company_or_org": "Ericsson"
-    },
-    {
-      "title": "Ericsson在IMC展示AI RAN、Agentic OSS与Physical AI",
-      "date": "2026-10-07",
-      "source_name": "Ericsson",
-      "source_url": "https://www.ericsson.com/en/press-releases/2/2026/ericsson-showcases-whats-next-in-5g-ai-and-innovation-at-india-mobile-congress-2026",
-      "source_type": "设备商官方展会新闻稿",
-      "importance": "值得关注",
-      "summary": "Ericsson展示AI驱动无线网络、rApps、Agentic OSS与网络感知和机器人等应用组合；展会展示不是韩国现场KPI。",
-      "technical_significance": "AI-RAN、网络管理Agent和边缘Physical AI正在形成端到端系统组合。",
-      "impact_for_korean_telco": "要求分离AI for RAN与Network for AI性能指标，验证SMO闭环及共享计算资源隔离。",
-      "topic": "AI-RAN / Physical AI",
-      "company_or_org": "Ericsson"
     }
   ],
   "operators": [
     {
-      "title": "LG U+ U+one向Actionable Agent演进，漫游购买转化率约翻倍",
-      "date": "2026-10-14",
-      "source_name": "LG U+官方新闻室",
-      "source_url": "https://news.lguplus.com/23043",
-      "source_type": "运营商官方产品新闻稿",
+      "title": "Nokia与SoftBank计划2027年在日本商用流量环境验证AI-RAN",
+      "date": "2026-10-16",
+      "source_name": "Nokia",
+      "source_url": "https://www.nokia.com/newsroom/nokia-and-softbank-agree-to-conduct-commercial-ai-ran-field-trial-in-japan/",
+      "source_type": "官方新闻稿",
+      "importance": "重大更新",
+      "summary": "2027年拟在商用流量下联合测试Nokia anyRAN、SoftBank AITRAS Orchestrator及NVIDIA ARC-Pro（Grace CPU、RTX PRO 4500 GPU、ConnectX-8）；尚未完成试验。",
+      "technical_significance": "跨厂商AI与vRAN共享计算和资源编排将进入现网验证阶段，未公布增益。",
+      "impact_for_korean_telco": "要求韩国KT/SKT试验GPU利用率、RAN隔离、P95时延及TCO。",
+      "topic": "AI-RAN / Shared Compute",
+      "company_or_org": "Nokia / SoftBank / NVIDIA"
+    },
+    {
+      "title": "LG U+公布Wi-Fi 8 NPU网关边缘AI PoC",
+      "date": "2026-10-16",
+      "source_name": "LG U+",
+      "source_url": "https://news.lguplus.com/23061",
+      "source_type": "官方新闻稿",
       "importance": "值得关注",
-      "summary": "LG U+官网10月14日刊载U+one升级：8月上线账单支付Agent、9月上线漫游Agent；通过Agent推荐后的漫游商品购买转化率约为原AI搜索跳转方式的2倍；付款前需客户确认。正文称13日对外宣布。",
-      "technical_significance": "从信息查询转向推荐、授权与交易闭环，是ToC Agent商业化指标，并非Network Agent或无线性能提升。",
-      "impact_for_korean_telco": "将任务完成率、转化率、误操作、审批确认、重复扣费与投诉率纳入运营商Agent KPI。",
-      "topic": "Operator AI / Actionable Agent",
+      "summary": "LG U+展示6GHz Wi-Fi 7商用经验及Wi-Fi 8方向NPU网关本地分析和优化PoC；未公开量化KPI。",
+      "technical_significance": "家庭网络自治从云端下沉至CPE端侧AI，Wi-Fi 8尚非商用。",
+      "impact_for_korean_telco": "制定CPE功耗、预测准确率、MTTR及QoE的对照测试。",
+      "topic": "Network Intelligence / Wi-Fi Edge AI",
       "company_or_org": "LG U+"
+    },
+    {
+      "title": "SKT AI-RAN无人移车实地演示获Network X奖",
+      "date": "2026-10-15",
+      "source_name": "SK Telecom",
+      "source_url": "https://news.sktelecom.com/231994",
+      "source_type": "运营商官方实证及获奖公告",
+      "importance": "重大更新",
+      "summary": "SKT在真实停车设施验证AI-RAN基站接收LiDAR点云、构建数字孪生、规划避碰路线并向普通汽车下发控制指令，完成无人泊车；计划2027年在整车工厂继续实证。未披露P95时延或规模化KPI。",
+      "technical_significance": "网络侧感知、AI推理与车辆控制形成Physical AI闭环；奖项和演示不是工业商用。",
+      "impact_for_korean_telco": "韩国运营商应核实P95/P99、上行点云流量、控制可靠性、车辆成功率、RAN/AI算力隔离与工厂部署成本。",
+      "topic": "AI-RAN / Physical AI",
+      "company_or_org": "SK Telecom"
     },
     {
       "title": "SKT Growth Gear与Token Gateway战略面向Token经济",
@@ -210,59 +242,33 @@
       "company_or_org": "SK Telecom"
     },
     {
-      "title": "LG U+用基站覆盖与连接记录将模拟搜救范围缩小约99%",
-      "date": "2026-10-12",
-      "source_name": "LG集团官方",
-      "source_url": "https://www.lg.co.kr/media/release/30656",
-      "source_type": "运营商官方模拟验证新闻稿",
-      "importance": "值得关注",
-      "summary": "LG U+与Solvit System在山区模拟场景中将估计搜索面积从706.86平方公里缩至4.13平方公里；99%是面积缩减比例，不是定位精度或真实救援成功率。",
-      "technical_significance": "运营商无线覆盖与连接历史可构成公共安全位置服务，但需实际精度和隐私合规验证。",
-      "impact_for_korean_telco": "推动地形/多基站融合定位PoC，测量定位误差分布、误报、授权流程及应急部门集成。",
-      "topic": "Network Intelligence / Public Safety",
-      "company_or_org": "LG U+"
-    },
-    {
-      "title": "LG U+与OptAI推进Token与端侧模型优化",
-      "date": "2026-10-06",
+      "title": "LG U+ U+one向Actionable Agent演进，漫游购买转化率约翻倍",
+      "date": "2026-10-14",
       "source_name": "LG U+官方新闻室",
-      "source_url": "https://news.lguplus.com/22976",
-      "source_type": "运营商官方技术合作新闻稿",
-      "importance": "值得关注",
-      "summary": "LG U+与OptAI扩大模型优化合作；官方披露其此前端侧sLM优化可在保持同级性能下减少78%功耗、82%模型大小。该新闻稿未提供GPU Token吞吐4倍的可核实数据。",
-      "technical_significance": "轻量化可降低终端/服务器推理资源需求，但端侧功耗指标不能直接换算GPU吞吐或AI-RAN增益。",
-      "impact_for_korean_telco": "以模型质量为约束对比Tokens/s/W、P95延迟和设备功耗，避免跨平台数据混用。",
-      "topic": "Network for AI / Inference Efficiency",
-      "company_or_org": "LG U+ / OptAI"
-    },
-    {
-      "title": "SKT与Upstage等11家机构建立AI安全评测协作",
-      "date": "2026-10-08",
-      "source_name": "SK Telecom",
-      "source_url": "https://news.sktelecom.com/231797",
-      "source_type": "运营商官方合作新闻稿",
-      "importance": "值得关注",
-      "summary": "SKT与Upstage、六家安全企业和三所大学共11家机构建立安全AI协作，规划行业数据训练、交叉红队测试和独立评估。",
-      "technical_significance": "将行业真实数据、模型训练、第三方评价与安全产品落地形成闭环。",
-      "impact_for_korean_telco": "借鉴用于Network Agent安全评测：权限边界、幻觉、变更风险与第三方测试。",
-      "topic": "Operator AI / Security",
-      "company_or_org": "SK Telecom / Upstage"
-    },
-    {
-      "title": "LG U+在ChatGPT中提供Nugget套餐搜索插件",
-      "date": "2026-10-07",
-      "source_name": "LG U+官方新闻室",
-      "source_url": "https://news.lguplus.com/22987",
+      "source_url": "https://news.lguplus.com/23043",
       "source_type": "运营商官方产品新闻稿",
-      "importance": "常规动态",
-      "summary": "LG U+于10月7日介绍其9月16日上线的ChatGPT插件：可查询Nugget套餐，实名及开通仍跳转运营商官方渠道。",
-      "technical_significance": "运营商将商品能力开放到外部AI入口，同时保留身份验证与交易边界。",
-      "impact_for_korean_telco": "研究套餐查询API、报价一致性、渠道归因和转化漏斗；不误写为已实现ChatGPT内完整开通。",
-      "topic": "Operator AI / Distribution",
+      "importance": "值得关注",
+      "summary": "LG U+官网10月14日刊载U+one升级：8月上线账单支付Agent、9月上线漫游Agent；通过Agent推荐后的漫游商品购买转化率约为原AI搜索跳转方式的2倍；付款前需客户确认。正文称13日对外宣布。",
+      "technical_significance": "从信息查询转向推荐、授权与交易闭环，是ToC Agent商业化指标，并非Network Agent或无线性能提升。",
+      "impact_for_korean_telco": "将任务完成率、转化率、误操作、审批确认、重复扣费与投诉率纳入运营商Agent KPI。",
+      "topic": "Operator AI / Actionable Agent",
       "company_or_org": "LG U+"
     }
   ],
   "ai_companies": [
+    {
+      "title": "NVIDIA推出Nemotron 3.5 Super VL及Bolt边缘Agent模型",
+      "date": "2026-10-15",
+      "source_name": "NVIDIA Blog",
+      "source_url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
+      "source_type": "AI公司官方模型发布",
+      "importance": "值得关注",
+      "summary": "NVIDIA发布120B参数Super VL和24GB本地运行的Bolt 74B-A9B；4GB级Bolt E4B计划10月23日推出。厂商宣称特定测试速度快5倍、Dynamo配置用户数8倍、延迟降低85%。",
+      "technical_significance": "开放多模态Agent从数据中心延伸到边缘；厂商性能不等于韩国网络现场实测。",
+      "impact_for_korean_telco": "比较网络Agent、现场视觉AI和机器人任务的成功任务成本、P95时延、功耗及数据主权。",
+      "topic": "Agentic AI / Edge Inference",
+      "company_or_org": "NVIDIA"
+    },
     {
       "title": "OpenAI披露欧盟企业Agent使用强度：样本中Codex与Work占输出Token过半",
       "date": "2026-10-14",
@@ -290,43 +296,299 @@
       "company_or_org": "Google"
     },
     {
-      "title": "Anthropic与HCLTech推进有治理约束的企业Agent",
-      "date": "2026-10-12",
-      "source_name": "HCLTech（Anthropic合作方）",
-      "source_url": "https://www.hcltech.com/press-releases/hcltech-and-anthropic-sign-global-premier-partnership-scale-governed-agentic-ai",
-      "source_type": "合作方官方新闻稿",
+      "title": "Anthropic向METR开放近员工级独立安全评测访问",
+      "date": "2026-10-15",
+      "source_name": "Anthropic",
+      "source_url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+      "source_type": "AI公司官方安全治理公告",
       "importance": "值得关注",
-      "summary": "双方宣布企业Agent合作，强调安全沙箱、策略护栏、异常处理以及高影响操作人工监督。",
-      "technical_significance": "Agent从建议走向执行后，审计与变更控制成为生产级要求。",
-      "impact_for_korean_telco": "将网络配置变更的授权、预演、回滚和证据链列入Network Agent验收。",
+      "summary": "Anthropic向6名METR评测人员提供近员工级访问并允许独立发布风险结论；与SecureBio、Accenture分层合作。",
+      "technical_significance": "高风险Agent模型治理向第三方可审计评测演进，尚非电信安全认证。",
+      "impact_for_korean_telco": "对网络配置Agent建立独立评测、授权审批、审计证据和自动回滚。",
       "topic": "Agentic AI / Governance",
-      "company_or_org": "Anthropic / HCLTech"
+      "company_or_org": "Anthropic"
+    }
+  ],
+  "timeline15d": [
+    {
+      "title": "Ericsson与Verizon完成7GHz、400MHz预标准6G室外呼叫",
+      "date": "2026-10-15",
+      "source_name": "Ericsson",
+      "source_url": "https://www.ericsson.com/en/press-releases/6/2026/verizon-and-ericsson-accelerate-6g-development",
+      "source_type": "设备商与运营商联合官方实地验证",
+      "importance": "重大更新",
+      "summary": "在加州Concord现网商用站址部署6G PoC设备，使用7GHz频段、400MHz载波完成预标准室外呼叫；移动小屋支持后续室外到室内穿透测试。未公布精确频点、EIRP、吞吐或站间距。",
+      "technical_significance": "7GHz候选频段进入真实站址室外验证；不是已完成室内覆盖验证，更不是3GPP批准或6G商用。",
+      "impact_for_korean_telco": "与韩国3.5GHz基线对比7GHz链路预算、站间距、穿透损耗和连续400MHz频谱可用性。",
+      "topic": "6G / 7GHz Spectrum",
+      "company_or_org": "Ericsson / Verizon"
     },
     {
-      "title": "Anthropic发布Claude Haiku 5.5用于高频Agent任务",
-      "date": "2026-10-07",
-      "source_name": "Anthropic",
-      "source_url": "https://www.anthropic.com/claude-haiku-5-5",
+      "title": "ETSI TC NET成立四个AI原生网络工作组",
+      "date": "2026-10-13",
+      "source_name": "ETSI",
+      "source_url": "https://www.etsi.org/newsroom/press-releases/etsis-new-committee-starts-building-next-generation-of-ai-native-networks/",
+      "source_type": "标准组织官方新闻稿",
+      "importance": "重大更新",
+      "summary": "ETSI公布10月7—9日TC NET启动会议成果，设立连续体基础设施与控制、能力开放与服务、Agentic自治网络、生态协同验证四个工作组。",
+      "technical_significance": "网络、云、边缘和AI算力联邦化进入专门标准化组织分工；此为工作组设立，不是已批准规范或3GPP CR。",
+      "impact_for_korean_telco": "跟踪与3GPP SA5、ETSI MEC/NFV、O-RAN的接口边界，提前形成多厂商Agent编排和资源隔离需求。",
+      "topic": "6G / AI-native Standards",
+      "company_or_org": "ETSI"
+    },
+    {
+      "title": "三星展示7GHz、AI-RAN、X-MIMO/D-MIMO与ISAC验证方向",
+      "date": "2026-10-15",
+      "source_name": "Samsung Global Newsroom",
+      "source_url": "https://news.samsung.com/global/samsung-hosts-silicon-valley-future-wireless-summit-2026",
+      "source_type": "设备商官方活动公告",
+      "importance": "重大更新",
+      "summary": "三星宣布10月14日Partner Day及15日美国硅谷Future Wireless Summit；展示AI-RAN、7GHz候选频段传输、X-MIMO/D-MIMO、ISAC与小区边缘性能验证方向，未公布可复算的统一量化KPI。",
+      "technical_significance": "把6G候选频谱、AI原生RAN、分布式MIMO和感知放在同一系统级验证框架；属于厂商展示和试验披露，不是3GPP规范批准。",
+      "impact_for_korean_telco": "韩国6G团队应要求7GHz链路预算、站间距、小区边缘速率、感知误差与AI-RAN算力成本的统一测试条件，并跟进三星与LG U+/KT/SKT的实测数据。",
+      "topic": "6G / AI-RAN / ISAC",
+      "company_or_org": "Samsung Electronics"
+    },
+    {
+      "title": "NVIDIA推出Nemotron 3.5 Super VL及Bolt边缘Agent模型",
+      "date": "2026-10-15",
+      "source_name": "NVIDIA Blog",
+      "source_url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
       "source_type": "AI公司官方模型发布",
       "importance": "值得关注",
-      "summary": "Anthropic推出Haiku 5.5，强调轻量、高频调用的Agent任务经济性；厂商任务评测不等于电信场景实测。",
-      "technical_significance": "分层模型路由可能降低重复性网络运营任务的推理成本。",
-      "impact_for_korean_telco": "对比小模型和大模型在告警归因、配置审查和工单处理上的成本/成功任务。",
-      "topic": "Agentic AI / Model Efficiency",
+      "summary": "NVIDIA发布120B参数Super VL和24GB本地运行的Bolt 74B-A9B；4GB级Bolt E4B计划10月23日推出。厂商宣称特定测试速度快5倍、Dynamo配置用户数8倍、延迟降低85%。",
+      "technical_significance": "开放多模态Agent从数据中心延伸到边缘；厂商性能不等于韩国网络现场实测。",
+      "impact_for_korean_telco": "比较网络Agent、现场视觉AI和机器人任务的成功任务成本、P95时延、功耗及数据主权。",
+      "topic": "Agentic AI / Edge Inference",
+      "company_or_org": "NVIDIA"
+    },
+    {
+      "title": "Anthropic向METR开放近员工级独立安全评测访问",
+      "date": "2026-10-15",
+      "source_name": "Anthropic",
+      "source_url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+      "source_type": "AI公司官方安全治理公告",
+      "importance": "值得关注",
+      "summary": "Anthropic向6名METR评测人员提供近员工级访问并允许独立发布风险结论；与SecureBio、Accenture分层合作。",
+      "technical_significance": "高风险Agent模型治理向第三方可审计评测演进，尚非电信安全认证。",
+      "impact_for_korean_telco": "对网络配置Agent建立独立评测、授权审批、审计证据和自动回滚。",
+      "topic": "Agentic AI / Governance",
       "company_or_org": "Anthropic"
     },
     {
-      "title": "OpenAI与Ironclad利用真实业务工作流训练/评估Agent",
-      "date": "2026-10-06",
+      "title": "OpenAI披露欧盟企业Agent使用强度：样本中Codex与Work占输出Token过半",
+      "date": "2026-10-14",
       "source_name": "OpenAI",
-      "source_url": "https://openai.com/index/advancing-computer-use-with-ironclad/",
-      "source_type": "AI公司官方案例文章",
+      "source_url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic/",
+      "source_type": "AI公司官方经济研究",
       "importance": "值得关注",
-      "summary": "OpenAI与Ironclad围绕真实企业工作流构建计算机操作Agent任务与评价方法。",
-      "technical_significance": "长链路Agent评测应衡量端到端完成率，而非只看单次回答准确率。",
-      "impact_for_korean_telco": "在网络运维沙箱建立跨系统工单、告警与配置操作的可复现测试集。",
-      "topic": "Agentic AI / Evaluation",
+      "summary": "OpenAI称其欧盟ChatGPT Enterprise样本中Codex与ChatGPT Work贡献超过一半输出Token；欧盟≤200用户的SMB样本中相关工具周活跃用户自5月以来增长超过8倍。样本不能外推为整个欧盟企业市场。",
+      "technical_significance": "Agent服务的网络与算力需求应按任务、Token消耗和长任务执行来建模，不能用普通聊天DAU直接推算流量。",
+      "impact_for_korean_telco": "韩国运营商评估Token Gateway与企业Agent时，建立每成功任务Token、P95执行时长、失败重试率及数据主权指标。",
+      "topic": "Agentic AI / Token Demand",
       "company_or_org": "OpenAI"
+    },
+    {
+      "title": "Google Gemini 4 Argon开放企业API，强调长任务与Agent安全",
+      "date": "2026-10-13",
+      "source_name": "Google Cloud",
+      "source_url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-4-argon-available-on-google-cloud",
+      "source_type": "AI公司官方产品发布",
+      "importance": "值得关注",
+      "summary": "Google发布Gemini 4 Argon；至11月30日每百万输入/输出Token为2/10美元，之后标准价4/20美元；官方强调多步骤任务和安全边界，性能数字属厂商评测。",
+      "technical_significance": "长程任务可靠性、权限控制和Token定价共同决定企业Agent TCO。",
+      "impact_for_korean_telco": "对Network Agent候选模型统一评测成本/成功任务、P95延迟、误变更、注入攻击抵抗和回滚成功率。",
+      "topic": "Agentic AI / Token Economics",
+      "company_or_org": "Google"
+    },
+    {
+      "title": "SKT AI-RAN无人移车实地演示获Network X奖",
+      "date": "2026-10-15",
+      "source_name": "SK Telecom",
+      "source_url": "https://news.sktelecom.com/231994",
+      "source_type": "运营商官方实证及获奖公告",
+      "importance": "重大更新",
+      "summary": "SKT在真实停车设施验证AI-RAN基站接收LiDAR点云、构建数字孪生、规划避碰路线并向普通汽车下发控制指令，完成无人泊车；计划2027年在整车工厂继续实证。未披露P95时延或规模化KPI。",
+      "technical_significance": "网络侧感知、AI推理与车辆控制形成Physical AI闭环；奖项和演示不是工业商用。",
+      "impact_for_korean_telco": "韩国运营商应核实P95/P99、上行点云流量、控制可靠性、车辆成功率、RAN/AI算力隔离与工厂部署成本。",
+      "topic": "AI-RAN / Physical AI",
+      "company_or_org": "SK Telecom"
+    },
+    {
+      "title": "Nokia与SoftBank计划2027年在日本商用流量环境验证AI-RAN",
+      "date": "2026-10-16",
+      "source_name": "Nokia",
+      "source_url": "https://www.nokia.com/newsroom/nokia-and-softbank-agree-to-conduct-commercial-ai-ran-field-trial-in-japan/",
+      "source_type": "官方新闻稿",
+      "importance": "重大更新",
+      "summary": "2027年拟在商用流量下联合测试Nokia anyRAN、SoftBank AITRAS Orchestrator及NVIDIA ARC-Pro（Grace CPU、RTX PRO 4500 GPU、ConnectX-8）；尚未完成试验。",
+      "technical_significance": "跨厂商AI与vRAN共享计算和资源编排将进入现网验证阶段，未公布增益。",
+      "impact_for_korean_telco": "要求韩国KT/SKT试验GPU利用率、RAN隔离、P95时延及TCO。",
+      "topic": "AI-RAN / Shared Compute",
+      "company_or_org": "Nokia / SoftBank / NVIDIA"
+    },
+    {
+      "title": "华为公布NG WAN超过60家运营商部署及AN L4指标",
+      "date": "2026-10-16",
+      "source_name": "Huawei",
+      "source_url": "https://www.huawei.com/en/news/2026/10/ubbf-ai-wan-solution",
+      "source_type": "官方新闻稿",
+      "importance": "重大更新",
+      "summary": "华为称NG WAN已在60多家运营商部署，One Map One Brain覆盖故障、变更、优化、安全四类AN L4场景，宣称链路利用率98%、训练推理提升超7%；均为厂商数据。",
+      "technical_significance": "AI WAN从连接保障走向自治与算力效率协同，AN L4仅限所述场景。",
+      "impact_for_korean_telco": "韩国运营商需核查闭环边界、丢包及Token效率，要求第三方对照。",
+      "topic": "Network for AI / Autonomous WAN",
+      "company_or_org": "Huawei"
+    },
+    {
+      "title": "SKT Growth Gear与Token Gateway战略面向Token经济",
+      "date": "2026-10-08",
+      "source_name": "SK Telecom",
+      "source_url": "https://news.sktelecom.com/231883",
+      "source_type": "运营商官方战略新闻稿",
+      "importance": "重大更新",
+      "summary": "SKT提出融合通信、AI服务与AI基础设施的增长战略，Token Gateway拟根据用户AI使用需求匹配模型和基础设施；尚非已验证商用收入。",
+      "technical_significance": "运营商从带宽/GPU资源售卖走向AI模型路由与服务质量管理。",
+      "impact_for_korean_telco": "重点跟踪Token Gateway上线时间、模型路由、单位Token成本、网络SLA与结算接口。",
+      "topic": "Network for AI / Token Gateway",
+      "company_or_org": "SK Telecom"
+    },
+    {
+      "title": "中兴提出AI家庭Wi-Fi体验保障技术路线",
+      "date": "2026-10-16",
+      "source_name": "ZTE",
+      "source_url": "https://www.zte.com.cn/global/about/news/zte-advances-the-shift-toward-intelligent-home-experiences-through-ai-and-wi-fi-innovation.html",
+      "source_type": "官方新闻稿",
+      "importance": "值得关注",
+      "summary": "中兴提出AI持续监控家庭Wi-Fi、预测质量劣化、优化韧性及网关边缘智能；未发布量化试验结果。",
+      "technical_significance": "宽带竞争从峰值速率转向体验可靠性和主动保障。",
+      "impact_for_korean_telco": "与LG U+的Wi-Fi 8 PoC比较端侧AI成本与实际故障改善。",
+      "topic": "Network Intelligence / Smart Home",
+      "company_or_org": "ZTE"
+    },
+    {
+      "title": "LG U+公布Wi-Fi 8 NPU网关边缘AI PoC",
+      "date": "2026-10-16",
+      "source_name": "LG U+",
+      "source_url": "https://news.lguplus.com/23061",
+      "source_type": "官方新闻稿",
+      "importance": "值得关注",
+      "summary": "LG U+展示6GHz Wi-Fi 7商用经验及Wi-Fi 8方向NPU网关本地分析和优化PoC；未公开量化KPI。",
+      "technical_significance": "家庭网络自治从云端下沉至CPE端侧AI，Wi-Fi 8尚非商用。",
+      "impact_for_korean_telco": "制定CPE功耗、预测准确率、MTTR及QoE的对照测试。",
+      "topic": "Network Intelligence / Wi-Fi Edge AI",
+      "company_or_org": "LG U+"
+    },
+    {
+      "title": "LG U+ U+one向Actionable Agent演进，漫游购买转化率约翻倍",
+      "date": "2026-10-14",
+      "source_name": "LG U+官方新闻室",
+      "source_url": "https://news.lguplus.com/23043",
+      "source_type": "运营商官方产品新闻稿",
+      "importance": "值得关注",
+      "summary": "LG U+官网10月14日刊载U+one升级：8月上线账单支付Agent、9月上线漫游Agent；通过Agent推荐后的漫游商品购买转化率约为原AI搜索跳转方式的2倍；付款前需客户确认。正文称13日对外宣布。",
+      "technical_significance": "从信息查询转向推荐、授权与交易闭环，是ToC Agent商业化指标，并非Network Agent或无线性能提升。",
+      "impact_for_korean_telco": "将任务完成率、转化率、误操作、审批确认、重复扣费与投诉率纳入运营商Agent KPI。",
+      "topic": "Operator AI / Actionable Agent",
+      "company_or_org": "LG U+"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Ericsson",
+      "url": "https://www.ericsson.com/en/press-releases/6/2026/verizon-and-ericsson-accelerate-6g-development",
+      "date": "2026-10-15",
+      "type": "设备商与运营商联合官方实地验证"
+    },
+    {
+      "name": "ETSI",
+      "url": "https://www.etsi.org/newsroom/press-releases/etsis-new-committee-starts-building-next-generation-of-ai-native-networks/",
+      "date": "2026-10-13",
+      "type": "标准组织官方新闻稿"
+    },
+    {
+      "name": "Samsung Global Newsroom",
+      "url": "https://news.samsung.com/global/samsung-hosts-silicon-valley-future-wireless-summit-2026",
+      "date": "2026-10-15",
+      "type": "设备商官方活动公告"
+    },
+    {
+      "name": "NVIDIA Blog",
+      "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
+      "date": "2026-10-15",
+      "type": "AI公司官方模型发布"
+    },
+    {
+      "name": "Anthropic",
+      "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+      "date": "2026-10-15",
+      "type": "AI公司官方安全治理公告"
+    },
+    {
+      "name": "OpenAI",
+      "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic/",
+      "date": "2026-10-14",
+      "type": "AI公司官方经济研究"
+    },
+    {
+      "name": "Google Cloud",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-4-argon-available-on-google-cloud",
+      "date": "2026-10-13",
+      "type": "AI公司官方产品发布"
+    },
+    {
+      "name": "SK Telecom",
+      "url": "https://news.sktelecom.com/231994",
+      "date": "2026-10-15",
+      "type": "运营商官方实证及获奖公告"
+    },
+    {
+      "name": "Nokia",
+      "url": "https://www.nokia.com/newsroom/nokia-and-softbank-agree-to-conduct-commercial-ai-ran-field-trial-in-japan/",
+      "date": "2026-10-16",
+      "type": "官方新闻稿"
+    },
+    {
+      "name": "Huawei",
+      "url": "https://www.huawei.com/en/news/2026/10/ubbf-ai-wan-solution",
+      "date": "2026-10-16",
+      "type": "官方新闻稿"
+    },
+    {
+      "name": "SK Telecom",
+      "url": "https://news.sktelecom.com/231883",
+      "date": "2026-10-08",
+      "type": "运营商官方战略新闻稿"
+    },
+    {
+      "name": "ZTE",
+      "url": "https://www.zte.com.cn/global/about/news/zte-advances-the-shift-toward-intelligent-home-experiences-through-ai-and-wi-fi-innovation.html",
+      "date": "2026-10-16",
+      "type": "官方新闻稿"
+    },
+    {
+      "name": "LG U+",
+      "url": "https://news.lguplus.com/23061",
+      "date": "2026-10-16",
+      "type": "官方新闻稿"
+    },
+    {
+      "name": "LG U+官方新闻室",
+      "url": "https://news.lguplus.com/23043",
+      "date": "2026-10-14",
+      "type": "运营商官方产品新闻稿"
+    },
+    {
+      "name": "3GPP TS 23.370",
+      "url": "https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=5530",
+      "date": "2026-09-24",
+      "type": "规范状态页"
+    },
+    {
+      "name": "3GPP AmbientIoT_Ph2-APP",
+      "url": "https://portal.3gpp.org/desktopmodules/WorkItem/WorkItemDetails.aspx?workitemId=1110048",
+      "date": "2026-09-28",
+      "type": "工作项状态页"
     }
   ],
   "standards": [
@@ -342,338 +604,6 @@
       "impact_for_korean_telco": "跟踪与3GPP SA5、ETSI MEC/NFV、O-RAN的接口边界，提前形成多厂商Agent编排和资源隔离需求。",
       "topic": "6G / AI-native Standards",
       "company_or_org": "ETSI"
-    }
-  ],
-  "timeline15d": [
-    {
-      "title": "三星展示7GHz、AI-RAN、X-MIMO/D-MIMO与ISAC验证方向",
-      "date": "2026-10-15",
-      "source_name": "Samsung Global Newsroom",
-      "source_url": "https://news.samsung.com/global/samsung-hosts-silicon-valley-future-wireless-summit-2026",
-      "source_type": "设备商官方活动公告",
-      "importance": "重大更新",
-      "summary": "三星宣布10月14日Partner Day及15日美国硅谷Future Wireless Summit；展示AI-RAN、7GHz候选频段传输、X-MIMO/D-MIMO、ISAC与小区边缘性能验证方向，未公布可复算的统一量化KPI。",
-      "technical_significance": "把6G候选频谱、AI原生RAN、分布式MIMO和感知放在同一系统级验证框架；属于厂商展示和试验披露，不是3GPP规范批准。",
-      "impact_for_korean_telco": "韩国6G团队应要求7GHz链路预算、站间距、小区边缘速率、感知误差与AI-RAN算力成本的统一测试条件，并跟进三星与LG U+/KT/SKT的实测数据。",
-      "topic": "6G / AI-RAN / ISAC",
-      "company_or_org": "Samsung Electronics"
-    },
-    {
-      "title": "ETSI TC NET成立四个AI原生网络工作组",
-      "date": "2026-10-13",
-      "source_name": "ETSI",
-      "source_url": "https://www.etsi.org/newsroom/press-releases/etsis-new-committee-starts-building-next-generation-of-ai-native-networks/",
-      "source_type": "标准组织官方新闻稿",
-      "importance": "重大更新",
-      "summary": "ETSI公布10月7—9日TC NET启动会议成果，设立连续体基础设施与控制、能力开放与服务、Agentic自治网络、生态协同验证四个工作组。",
-      "technical_significance": "网络、云、边缘和AI算力联邦化进入专门标准化组织分工；此为工作组设立，不是已批准规范或3GPP CR。",
-      "impact_for_korean_telco": "跟踪与3GPP SA5、ETSI MEC/NFV、O-RAN的接口边界，提前形成多厂商Agent编排和资源隔离需求。",
-      "topic": "6G / AI-native Standards",
-      "company_or_org": "ETSI"
-    },
-    {
-      "title": "Ericsson CTO强调5G智能底座与6G感知/分布式AI协同",
-      "date": "2026-10-13",
-      "source_name": "Ericsson",
-      "source_url": "https://www.ericsson.com/en/blog/2026/10/enterprise-ai-strategy-intelligent-fabric",
-      "source_type": "设备商CTO官方技术博客",
-      "importance": "常规动态",
-      "summary": "文章提出开放可编程Intelligent Fabric，将云、边缘、终端AI与5G连接结合，未来6G增加感知与空间信息能力；属于架构观点而非新实证。",
-      "technical_significance": "Network for AI需同时解决计算位置、上行传输、网络能力开放和可预测QoS。",
-      "impact_for_korean_telco": "针对Physical AI明确上行视频、移动性、定位/感知、算力卸载与应用SLA的映射。",
-      "topic": "6G / Intelligent Fabric",
-      "company_or_org": "Ericsson"
-    },
-    {
-      "title": "华为提出AI-Centric UBB的AIDC、承载与接入协同架构",
-      "date": "2026-10-13",
-      "source_name": "Huawei",
-      "source_url": "https://www.huawei.com/en/news/2026/10/ubbf2026-aicentric",
-      "source_type": "设备商官方大会演讲",
-      "importance": "值得关注",
-      "summary": "华为UBBF提出数据中心网络、800G/OXC全光承载、50G PON与Wi-Fi 7协同，宣称1-3-5毫秒算力接入圈等方案目标；非韩国实网验收数据。",
-      "technical_significance": "把AI业务的跨域算力调度、广域传输SLA和确定性接入联系起来。",
-      "impact_for_korean_telco": "韩国运营商需独立核算AIDC—边缘—RAN端到端时延与建设成本，不把厂商设计目标等同商用实测。",
-      "topic": "Network for AI / Bearer",
-      "company_or_org": "Huawei"
-    },
-    {
-      "title": "Ericsson在IMC展示AI RAN、Agentic OSS与Physical AI",
-      "date": "2026-10-07",
-      "source_name": "Ericsson",
-      "source_url": "https://www.ericsson.com/en/press-releases/2/2026/ericsson-showcases-whats-next-in-5g-ai-and-innovation-at-india-mobile-congress-2026",
-      "source_type": "设备商官方展会新闻稿",
-      "importance": "值得关注",
-      "summary": "Ericsson展示AI驱动无线网络、rApps、Agentic OSS与网络感知和机器人等应用组合；展会展示不是韩国现场KPI。",
-      "technical_significance": "AI-RAN、网络管理Agent和边缘Physical AI正在形成端到端系统组合。",
-      "impact_for_korean_telco": "要求分离AI for RAN与Network for AI性能指标，验证SMO闭环及共享计算资源隔离。",
-      "topic": "AI-RAN / Physical AI",
-      "company_or_org": "Ericsson"
-    },
-    {
-      "title": "SKT Growth Gear与Token Gateway战略面向Token经济",
-      "date": "2026-10-08",
-      "source_name": "SK Telecom",
-      "source_url": "https://news.sktelecom.com/231883",
-      "source_type": "运营商官方战略新闻稿",
-      "importance": "重大更新",
-      "summary": "SKT提出融合通信、AI服务与AI基础设施的增长战略，Token Gateway拟根据用户AI使用需求匹配模型和基础设施；尚非已验证商用收入。",
-      "technical_significance": "运营商从带宽/GPU资源售卖走向AI模型路由与服务质量管理。",
-      "impact_for_korean_telco": "重点跟踪Token Gateway上线时间、模型路由、单位Token成本、网络SLA与结算接口。",
-      "topic": "Network for AI / Token Gateway",
-      "company_or_org": "SK Telecom"
-    },
-    {
-      "title": "LG U+与OptAI推进Token与端侧模型优化",
-      "date": "2026-10-06",
-      "source_name": "LG U+官方新闻室",
-      "source_url": "https://news.lguplus.com/22976",
-      "source_type": "运营商官方技术合作新闻稿",
-      "importance": "值得关注",
-      "summary": "LG U+与OptAI扩大模型优化合作；官方披露其此前端侧sLM优化可在保持同级性能下减少78%功耗、82%模型大小。该新闻稿未提供GPU Token吞吐4倍的可核实数据。",
-      "technical_significance": "轻量化可降低终端/服务器推理资源需求，但端侧功耗指标不能直接换算GPU吞吐或AI-RAN增益。",
-      "impact_for_korean_telco": "以模型质量为约束对比Tokens/s/W、P95延迟和设备功耗，避免跨平台数据混用。",
-      "topic": "Network for AI / Inference Efficiency",
-      "company_or_org": "LG U+ / OptAI"
-    },
-    {
-      "title": "LG U+用基站覆盖与连接记录将模拟搜救范围缩小约99%",
-      "date": "2026-10-12",
-      "source_name": "LG集团官方",
-      "source_url": "https://www.lg.co.kr/media/release/30656",
-      "source_type": "运营商官方模拟验证新闻稿",
-      "importance": "值得关注",
-      "summary": "LG U+与Solvit System在山区模拟场景中将估计搜索面积从706.86平方公里缩至4.13平方公里；99%是面积缩减比例，不是定位精度或真实救援成功率。",
-      "technical_significance": "运营商无线覆盖与连接历史可构成公共安全位置服务，但需实际精度和隐私合规验证。",
-      "impact_for_korean_telco": "推动地形/多基站融合定位PoC，测量定位误差分布、误报、授权流程及应急部门集成。",
-      "topic": "Network Intelligence / Public Safety",
-      "company_or_org": "LG U+"
-    },
-    {
-      "title": "LG U+ U+one向Actionable Agent演进，漫游购买转化率约翻倍",
-      "date": "2026-10-14",
-      "source_name": "LG U+官方新闻室",
-      "source_url": "https://news.lguplus.com/23043",
-      "source_type": "运营商官方产品新闻稿",
-      "importance": "值得关注",
-      "summary": "LG U+官网10月14日刊载U+one升级：8月上线账单支付Agent、9月上线漫游Agent；通过Agent推荐后的漫游商品购买转化率约为原AI搜索跳转方式的2倍；付款前需客户确认。正文称13日对外宣布。",
-      "technical_significance": "从信息查询转向推荐、授权与交易闭环，是ToC Agent商业化指标，并非Network Agent或无线性能提升。",
-      "impact_for_korean_telco": "将任务完成率、转化率、误操作、审批确认、重复扣费与投诉率纳入运营商Agent KPI。",
-      "topic": "Operator AI / Actionable Agent",
-      "company_or_org": "LG U+"
-    },
-    {
-      "title": "SKT与Upstage等11家机构建立AI安全评测协作",
-      "date": "2026-10-08",
-      "source_name": "SK Telecom",
-      "source_url": "https://news.sktelecom.com/231797",
-      "source_type": "运营商官方合作新闻稿",
-      "importance": "值得关注",
-      "summary": "SKT与Upstage、六家安全企业和三所大学共11家机构建立安全AI协作，规划行业数据训练、交叉红队测试和独立评估。",
-      "technical_significance": "将行业真实数据、模型训练、第三方评价与安全产品落地形成闭环。",
-      "impact_for_korean_telco": "借鉴用于Network Agent安全评测：权限边界、幻觉、变更风险与第三方测试。",
-      "topic": "Operator AI / Security",
-      "company_or_org": "SK Telecom / Upstage"
-    },
-    {
-      "title": "LG U+在ChatGPT中提供Nugget套餐搜索插件",
-      "date": "2026-10-07",
-      "source_name": "LG U+官方新闻室",
-      "source_url": "https://news.lguplus.com/22987",
-      "source_type": "运营商官方产品新闻稿",
-      "importance": "常规动态",
-      "summary": "LG U+于10月7日介绍其9月16日上线的ChatGPT插件：可查询Nugget套餐，实名及开通仍跳转运营商官方渠道。",
-      "technical_significance": "运营商将商品能力开放到外部AI入口，同时保留身份验证与交易边界。",
-      "impact_for_korean_telco": "研究套餐查询API、报价一致性、渠道归因和转化漏斗；不误写为已实现ChatGPT内完整开通。",
-      "topic": "Operator AI / Distribution",
-      "company_or_org": "LG U+"
-    },
-    {
-      "title": "OpenAI披露欧盟企业Agent使用强度：样本中Codex与Work占输出Token过半",
-      "date": "2026-10-14",
-      "source_name": "OpenAI",
-      "source_url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic/",
-      "source_type": "AI公司官方经济研究",
-      "importance": "值得关注",
-      "summary": "OpenAI称其欧盟ChatGPT Enterprise样本中Codex与ChatGPT Work贡献超过一半输出Token；欧盟≤200用户的SMB样本中相关工具周活跃用户自5月以来增长超过8倍。样本不能外推为整个欧盟企业市场。",
-      "technical_significance": "Agent服务的网络与算力需求应按任务、Token消耗和长任务执行来建模，不能用普通聊天DAU直接推算流量。",
-      "impact_for_korean_telco": "韩国运营商评估Token Gateway与企业Agent时，建立每成功任务Token、P95执行时长、失败重试率及数据主权指标。",
-      "topic": "Agentic AI / Token Demand",
-      "company_or_org": "OpenAI"
-    },
-    {
-      "title": "Google Gemini 4 Argon开放企业API，强调长任务与Agent安全",
-      "date": "2026-10-13",
-      "source_name": "Google Cloud",
-      "source_url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-4-argon-available-on-google-cloud",
-      "source_type": "AI公司官方产品发布",
-      "importance": "值得关注",
-      "summary": "Google发布Gemini 4 Argon；至11月30日每百万输入/输出Token为2/10美元，之后标准价4/20美元；官方强调多步骤任务和安全边界，性能数字属厂商评测。",
-      "technical_significance": "长程任务可靠性、权限控制和Token定价共同决定企业Agent TCO。",
-      "impact_for_korean_telco": "对Network Agent候选模型统一评测成本/成功任务、P95延迟、误变更、注入攻击抵抗和回滚成功率。",
-      "topic": "Agentic AI / Token Economics",
-      "company_or_org": "Google"
-    },
-    {
-      "title": "Anthropic与HCLTech推进有治理约束的企业Agent",
-      "date": "2026-10-12",
-      "source_name": "HCLTech（Anthropic合作方）",
-      "source_url": "https://www.hcltech.com/press-releases/hcltech-and-anthropic-sign-global-premier-partnership-scale-governed-agentic-ai",
-      "source_type": "合作方官方新闻稿",
-      "importance": "值得关注",
-      "summary": "双方宣布企业Agent合作，强调安全沙箱、策略护栏、异常处理以及高影响操作人工监督。",
-      "technical_significance": "Agent从建议走向执行后，审计与变更控制成为生产级要求。",
-      "impact_for_korean_telco": "将网络配置变更的授权、预演、回滚和证据链列入Network Agent验收。",
-      "topic": "Agentic AI / Governance",
-      "company_or_org": "Anthropic / HCLTech"
-    },
-    {
-      "title": "Anthropic发布Claude Haiku 5.5用于高频Agent任务",
-      "date": "2026-10-07",
-      "source_name": "Anthropic",
-      "source_url": "https://www.anthropic.com/claude-haiku-5-5",
-      "source_type": "AI公司官方模型发布",
-      "importance": "值得关注",
-      "summary": "Anthropic推出Haiku 5.5，强调轻量、高频调用的Agent任务经济性；厂商任务评测不等于电信场景实测。",
-      "technical_significance": "分层模型路由可能降低重复性网络运营任务的推理成本。",
-      "impact_for_korean_telco": "对比小模型和大模型在告警归因、配置审查和工单处理上的成本/成功任务。",
-      "topic": "Agentic AI / Model Efficiency",
-      "company_or_org": "Anthropic"
-    },
-    {
-      "title": "OpenAI与Ironclad利用真实业务工作流训练/评估Agent",
-      "date": "2026-10-06",
-      "source_name": "OpenAI",
-      "source_url": "https://openai.com/index/advancing-computer-use-with-ironclad/",
-      "source_type": "AI公司官方案例文章",
-      "importance": "值得关注",
-      "summary": "OpenAI与Ironclad围绕真实企业工作流构建计算机操作Agent任务与评价方法。",
-      "technical_significance": "长链路Agent评测应衡量端到端完成率，而非只看单次回答准确率。",
-      "impact_for_korean_telco": "在网络运维沙箱建立跨系统工单、告警与配置操作的可复现测试集。",
-      "topic": "Agentic AI / Evaluation",
-      "company_or_org": "OpenAI"
-    }
-  ],
-  "sources": [
-    {
-      "name": "Samsung Global Newsroom",
-      "url": "https://news.samsung.com/global/samsung-hosts-silicon-valley-future-wireless-summit-2026",
-      "date": "2026-10-15",
-      "type": "设备商官方活动公告"
-    },
-    {
-      "name": "OpenAI",
-      "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic/",
-      "date": "2026-10-14",
-      "type": "AI公司官方经济研究"
-    },
-    {
-      "name": "LG U+官方新闻室",
-      "url": "https://news.lguplus.com/23043",
-      "date": "2026-10-14",
-      "type": "运营商官方产品新闻稿"
-    },
-    {
-      "name": "ETSI",
-      "url": "https://www.etsi.org/newsroom/press-releases/etsis-new-committee-starts-building-next-generation-of-ai-native-networks/",
-      "date": "2026-10-13",
-      "type": "标准组织官方新闻稿"
-    },
-    {
-      "name": "Google Cloud",
-      "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-4-argon-available-on-google-cloud",
-      "date": "2026-10-13",
-      "type": "AI公司官方产品发布"
-    },
-    {
-      "name": "Huawei",
-      "url": "https://www.huawei.com/en/news/2026/10/ubbf2026-aicentric",
-      "date": "2026-10-13",
-      "type": "设备商官方大会演讲"
-    },
-    {
-      "name": "Ericsson",
-      "url": "https://www.ericsson.com/en/blog/2026/10/enterprise-ai-strategy-intelligent-fabric",
-      "date": "2026-10-13",
-      "type": "设备商CTO官方技术博客"
-    },
-    {
-      "name": "LG集团官方",
-      "url": "https://www.lg.co.kr/media/release/30656",
-      "date": "2026-10-12",
-      "type": "运营商官方模拟验证新闻稿"
-    },
-    {
-      "name": "HCLTech（Anthropic合作方）",
-      "url": "https://www.hcltech.com/press-releases/hcltech-and-anthropic-sign-global-premier-partnership-scale-governed-agentic-ai",
-      "date": "2026-10-12",
-      "type": "合作方官方新闻稿"
-    },
-    {
-      "name": "SK Telecom",
-      "url": "https://news.sktelecom.com/231883",
-      "date": "2026-10-08",
-      "type": "运营商官方战略新闻稿"
-    },
-    {
-      "name": "SK Telecom",
-      "url": "https://news.sktelecom.com/231797",
-      "date": "2026-10-08",
-      "type": "运营商官方合作新闻稿"
-    },
-    {
-      "name": "LG U+官方新闻室",
-      "url": "https://news.lguplus.com/22976",
-      "date": "2026-10-06",
-      "type": "运营商官方技术合作新闻稿"
-    },
-    {
-      "name": "Ericsson",
-      "url": "https://www.ericsson.com/en/press-releases/2/2026/ericsson-showcases-whats-next-in-5g-ai-and-innovation-at-india-mobile-congress-2026",
-      "date": "2026-10-07",
-      "type": "设备商官方展会新闻稿"
-    },
-    {
-      "name": "Anthropic",
-      "url": "https://www.anthropic.com/claude-haiku-5-5",
-      "date": "2026-10-07",
-      "type": "AI公司官方模型发布"
-    },
-    {
-      "name": "OpenAI",
-      "url": "https://openai.com/index/advancing-computer-use-with-ironclad/",
-      "date": "2026-10-06",
-      "type": "AI公司官方案例文章"
-    },
-    {
-      "name": "LG U+官方新闻室",
-      "url": "https://news.lguplus.com/22987",
-      "date": "2026-10-07",
-      "type": "运营商官方产品新闻稿"
-    },
-    {
-      "name": "Samsung Hyper AI Network基线",
-      "url": "https://news.samsung.com/global/samsung-at-the-forefront-of-koreas-ai-ran-projects-with-kt-and-sk-telecom",
-      "date": "2026-09-23",
-      "type": "标准组织官方记录或设备商官方公告"
-    },
-    {
-      "name": "3GPP会议日历",
-      "url": "https://portal.3gpp.org/?SubTB=&tbid=All",
-      "date": "2026-10-12",
-      "type": "标准组织官方记录或设备商官方公告"
-    },
-    {
-      "name": "3GPP TS 23.370",
-      "url": "https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=5530",
-      "date": "2026-09-28",
-      "type": "标准组织官方记录或设备商官方公告"
-    },
-    {
-      "name": "3GPP AmbientIoT_Ph2-APP WI",
-      "url": "https://portal.3gpp.org/desktopmodules/WorkItem/WorkItemDetails.aspx?workitemId=1110048",
-      "date": "2026-06-04",
-      "type": "标准组织官方记录或设备商官方公告"
     }
   ],
   "coverage": {
@@ -698,12 +628,11 @@
       "OpenAI",
       "Google",
       "NVIDIA"
-    ],
-    "note": "全覆盖检索不代表各主体当天均有新增；不以旧新闻填充。"
+    ]
   },
+  "editorial_note": "过去24小时Nokia/SoftBank公布2027年AI-RAN试验计划；华为发布NG WAN商用和AN L4数据；LG U+披露Wi-Fi 8 NPU PoC；中兴讨论AI家庭网络。6G和Ambient IoT无新的规范性批准。",
   "timeline_window": {
-    "start": "2026-10-01",
-    "end": "2026-10-15"
-  },
-  "verification": "按Study Item/TR、Work Item、单份TDoc、Approved CR、Technical Specification、Release Freeze分层。ETSI工作组设立不等于规范批准。3GPP WI进度100%未在当前可访问官方页面独立确认；LG U+官网10月6日未证实“GPU Token吞吐4倍”，故本期不再引用。"
+    "start": "2026-10-03",
+    "end": "2026-10-17"
+  }
 }
