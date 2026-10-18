@@ -1,0 +1,229 @@
+{
+  "date": "2026-10-19",
+  "title": "Korea Telco Advanced Technology Radar",
+  "top5": [
+    {
+      "title": "Nokia与SoftBank计划2027年AI-RAN商用流量试验",
+      "date": "2026-10-16",
+      "source_name": "Nokia / SoftBank",
+      "source_url": "https://www.nokia.com/newsroom/nokia-and-softbank-agree-to-conduct-commercial-ai-ran-field-trial-in-japan/",
+      "source_type": "官方一手公开信息",
+      "importance": "值得关注",
+      "summary": "Nokia与SoftBank计划2027年AI-RAN商用流量试验",
+      "technical_significance": "技术发展需结合真实部署指标判断。",
+      "impact_for_korean_telco": "关注网络性能、资源隔离和成本。",
+      "topic": "AI-RAN",
+      "company_or_org": "Nokia / SoftBank"
+    },
+    {
+      "title": "SKT完成AI-RAN无人移车演示",
+      "date": "2026-10-15",
+      "source_name": "SK Telecom",
+      "source_url": "https://news.sktelecom.com/231994",
+      "source_type": "官方一手公开信息",
+      "importance": "值得关注",
+      "summary": "SKT完成AI-RAN无人移车演示",
+      "technical_significance": "技术发展需结合真实部署指标判断。",
+      "impact_for_korean_telco": "关注网络性能、资源隔离和成本。",
+      "topic": "AI-RAN",
+      "company_or_org": "SK Telecom"
+    },
+    {
+      "title": "Ericsson与Verizon完成7GHz室外预标准6G呼叫",
+      "date": "2026-10-15",
+      "source_name": "Ericsson",
+      "source_url": "https://www.ericsson.com/en/press-releases/6/2026/verizon-and-ericsson-accelerate-6g-development",
+      "source_type": "官方一手公开信息",
+      "importance": "值得关注",
+      "summary": "Ericsson与Verizon完成7GHz室外预标准6G呼叫",
+      "technical_significance": "技术发展需结合真实部署指标判断。",
+      "impact_for_korean_telco": "关注网络性能、资源隔离和成本。",
+      "topic": "6G",
+      "company_or_org": "Ericsson"
+    },
+    {
+      "title": "NVIDIA Run:ai GPU调度平台开源",
+      "date": "2026-10-13",
+      "source_name": "NVIDIA",
+      "source_url": "https://developer.nvidia.com/blog/nvidia-runai-is-now-open-source-as-part-of-nvidia-dsx-ai-factory-platform/",
+      "source_type": "官方一手公开信息",
+      "importance": "值得关注",
+      "summary": "NVIDIA Run:ai GPU调度平台开源",
+      "technical_significance": "技术发展需结合真实部署指标判断。",
+      "impact_for_korean_telco": "关注网络性能、资源隔离和成本。",
+      "topic": "Network for AI",
+      "company_or_org": "NVIDIA"
+    },
+    {
+      "title": "ETSI TC NET设立AI原生网络工作组",
+      "date": "2026-10-13",
+      "source_name": "ETSI",
+      "source_url": "https://www.etsi.org/newsroom/press-releases/etsis-new-committee-starts-building-next-generation-of-ai-native-networks/",
+      "source_type": "官方一手公开信息",
+      "importance": "值得关注",
+      "summary": "ETSI TC NET设立AI原生网络工作组",
+      "technical_significance": "技术发展需结合真实部署指标判断。",
+      "impact_for_korean_telco": "关注网络性能、资源隔离和成本。",
+      "topic": "6G",
+      "company_or_org": "ETSI"
+    }
+  ],
+  "trends": {
+    "AI-RAN": {
+      "direction": "→",
+      "summary": "共享算力验证仍待2027年试验。"
+    },
+    "6G": {
+      "direction": "→",
+      "summary": "7GHz预标准室外呼叫已完成，暂无新的批准规范。"
+    },
+    "Ambient IoT": {
+      "direction": "→",
+      "summary": "Rel-20 TS 23.370状态不变。"
+    }
+  },
+  "vendors": [
+    {
+      "title": "Nokia与SoftBank计划2027年AI-RAN商用流量试验",
+      "date": "2026-10-16",
+      "source_name": "Nokia / SoftBank",
+      "source_url": "https://www.nokia.com/newsroom/nokia-and-softbank-agree-to-conduct-commercial-ai-ran-field-trial-in-japan/",
+      "source_type": "官方一手公开信息",
+      "importance": "值得关注",
+      "summary": "Nokia与SoftBank计划2027年AI-RAN商用流量试验",
+      "technical_significance": "技术发展需结合真实部署指标判断。",
+      "impact_for_korean_telco": "关注网络性能、资源隔离和成本。",
+      "topic": "AI-RAN",
+      "company_or_org": "Nokia / SoftBank"
+    }
+  ],
+  "operators": [
+    {
+      "title": "SKT完成AI-RAN无人移车演示",
+      "date": "2026-10-15",
+      "source_name": "SK Telecom",
+      "source_url": "https://news.sktelecom.com/231994",
+      "source_type": "官方一手公开信息",
+      "importance": "值得关注",
+      "summary": "SKT完成AI-RAN无人移车演示",
+      "technical_significance": "技术发展需结合真实部署指标判断。",
+      "impact_for_korean_telco": "关注网络性能、资源隔离和成本。",
+      "topic": "AI-RAN",
+      "company_or_org": "SK Telecom"
+    }
+  ],
+  "ai_companies": [
+    {
+      "title": "NVIDIA Run:ai GPU调度平台开源",
+      "date": "2026-10-13",
+      "source_name": "NVIDIA",
+      "source_url": "https://developer.nvidia.com/blog/nvidia-runai-is-now-open-source-as-part-of-nvidia-dsx-ai-factory-platform/",
+      "source_type": "官方一手公开信息",
+      "importance": "值得关注",
+      "summary": "NVIDIA Run:ai GPU调度平台开源",
+      "technical_significance": "技术发展需结合真实部署指标判断。",
+      "impact_for_korean_telco": "关注网络性能、资源隔离和成本。",
+      "topic": "Network for AI",
+      "company_or_org": "NVIDIA"
+    }
+  ],
+  "timeline15d": [
+    {
+      "title": "Nokia与SoftBank计划2027年AI-RAN商用流量试验",
+      "date": "2026-10-16",
+      "source_name": "Nokia / SoftBank",
+      "source_url": "https://www.nokia.com/newsroom/nokia-and-softbank-agree-to-conduct-commercial-ai-ran-field-trial-in-japan/",
+      "source_type": "官方一手公开信息",
+      "importance": "值得关注",
+      "summary": "Nokia与SoftBank计划2027年AI-RAN商用流量试验",
+      "technical_significance": "技术发展需结合真实部署指标判断。",
+      "impact_for_korean_telco": "关注网络性能、资源隔离和成本。",
+      "topic": "AI-RAN",
+      "company_or_org": "Nokia / SoftBank"
+    },
+    {
+      "title": "SKT完成AI-RAN无人移车演示",
+      "date": "2026-10-15",
+      "source_name": "SK Telecom",
+      "source_url": "https://news.sktelecom.com/231994",
+      "source_type": "官方一手公开信息",
+      "importance": "值得关注",
+      "summary": "SKT完成AI-RAN无人移车演示",
+      "technical_significance": "技术发展需结合真实部署指标判断。",
+      "impact_for_korean_telco": "关注网络性能、资源隔离和成本。",
+      "topic": "AI-RAN",
+      "company_or_org": "SK Telecom"
+    },
+    {
+      "title": "Ericsson与Verizon完成7GHz室外预标准6G呼叫",
+      "date": "2026-10-15",
+      "source_name": "Ericsson",
+      "source_url": "https://www.ericsson.com/en/press-releases/6/2026/verizon-and-ericsson-accelerate-6g-development",
+      "source_type": "官方一手公开信息",
+      "importance": "值得关注",
+      "summary": "Ericsson与Verizon完成7GHz室外预标准6G呼叫",
+      "technical_significance": "技术发展需结合真实部署指标判断。",
+      "impact_for_korean_telco": "关注网络性能、资源隔离和成本。",
+      "topic": "6G",
+      "company_or_org": "Ericsson"
+    },
+    {
+      "title": "NVIDIA Run:ai GPU调度平台开源",
+      "date": "2026-10-13",
+      "source_name": "NVIDIA",
+      "source_url": "https://developer.nvidia.com/blog/nvidia-runai-is-now-open-source-as-part-of-nvidia-dsx-ai-factory-platform/",
+      "source_type": "官方一手公开信息",
+      "importance": "值得关注",
+      "summary": "NVIDIA Run:ai GPU调度平台开源",
+      "technical_significance": "技术发展需结合真实部署指标判断。",
+      "impact_for_korean_telco": "关注网络性能、资源隔离和成本。",
+      "topic": "Network for AI",
+      "company_or_org": "NVIDIA"
+    },
+    {
+      "title": "ETSI TC NET设立AI原生网络工作组",
+      "date": "2026-10-13",
+      "source_name": "ETSI",
+      "source_url": "https://www.etsi.org/newsroom/press-releases/etsis-new-committee-starts-building-next-generation-of-ai-native-networks/",
+      "source_type": "官方一手公开信息",
+      "importance": "值得关注",
+      "summary": "ETSI TC NET设立AI原生网络工作组",
+      "technical_significance": "技术发展需结合真实部署指标判断。",
+      "impact_for_korean_telco": "关注网络性能、资源隔离和成本。",
+      "topic": "6G",
+      "company_or_org": "ETSI"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Nokia / SoftBank",
+      "url": "https://www.nokia.com/newsroom/nokia-and-softbank-agree-to-conduct-commercial-ai-ran-field-trial-in-japan/",
+      "date": "2026-10-16",
+      "type": "官方一手公开信息"
+    },
+    {
+      "name": "SK Telecom",
+      "url": "https://news.sktelecom.com/231994",
+      "date": "2026-10-15",
+      "type": "官方一手公开信息"
+    },
+    {
+      "name": "Ericsson",
+      "url": "https://www.ericsson.com/en/press-releases/6/2026/verizon-and-ericsson-accelerate-6g-development",
+      "date": "2026-10-15",
+      "type": "官方一手公开信息"
+    },
+    {
+      "name": "NVIDIA",
+      "url": "https://developer.nvidia.com/blog/nvidia-runai-is-now-open-source-as-part-of-nvidia-dsx-ai-factory-platform/",
+      "date": "2026-10-13",
+      "type": "官方一手公开信息"
+    },
+    {
+      "name": "ETSI",
+      "url": "https://www.etsi.org/newsroom/press-releases/etsis-new-committee-starts-building-next-generation-of-ai-native-networks/",
+      "date": "2026-10-13",
+      "type": "官方一手公开信息"
+    }
+  ]
+}
