@@ -1,7 +1,21 @@
 {
   "date": "2026-10-21",
   "title": "Korea Telco Advanced Technology Radar",
-  "top5": [],
+  "top5": [
+    {
+      "title": "Nokia/SoftBank 2027 AI-RAN现网试验计划",
+      "date": "2026-10-20",
+      "source_name": "Nokia",
+      "source_url": "https://www.nokia.com/newsroom/nokia-and-softbank-corp-agree-to-conduct-commercial-ai-ran-field-trial-in-japan/",
+      "source_type": "官方新闻稿",
+      "importance": "重大更新",
+      "summary": "2027年计划验证anyRAN与AITRAS编排，尚无试验结果。",
+      "technical_significance": "跨厂商AI/RAN共享算力管理接口。",
+      "impact_for_korean_telco": "关注无线SLA、GPU利用率与成本。",
+      "topic": "AI-RAN",
+      "company_or_org": "Nokia / SoftBank"
+    }
+  ],
   "trends": {
     "AI-RAN": {},
     "6G": {},
