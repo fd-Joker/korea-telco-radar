@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T08:13:00+09:00",
+  "updatedAt": "2026-10-24T08:53:13+09:00",
   "events": [
     {
       "id": "eu-korea-digital-partnership-2026",
@@ -824,7 +824,7 @@
       "endDate": "2026-10-23",
       "location": "Gangneung Olympic Park / Convention Centre, Gangneung, Korea",
       "language": "English / Korean",
-      "status": "registration_open",
+      "status": "completed",
       "registrationEligibility": "Public/industry conference registration; specific sessions may have capacity limits.",
       "fee": "See official registration",
       "officialUrl": "https://2026itsworldcongress.org/ITS/120002/index.do",
@@ -847,7 +847,7 @@
       "title": "Nokia SReXperts APAC 2026",
       "titleKo": "Nokia SReXperts APAC 2026",
       "titleZh": "Nokia SReXperts APAC 2026 首尔",
-      "summary": "Nokia 面向亚太 IP 客户与合作伙伴的邀请制技术大会，覆盖 AI-ready IP/optical/data-center networks、network automation、AIOps、NSP、Digital Twin、AI-driven observability，并包含 Hackathon、hands-on labs 与技术展示。",
+      "summary": "Nokia 面向亚太 IP 客户与合作伙伴的邀请制技术大会，覆盖 AI-ready IP/optical/data-center networks、network automation、AIOps、NSP、Digital Twin、AI-driven observability，并包含 Hackathon、hands-on labs 与技术展示。 10月20日正式开幕；官方Agenda含AI-Grid、Token Factory、GPUaaS、MaaS、SRv6和AI Transport，KT核心网研究负责人10月22日演讲。",
       "topics": [
         "AI-ready Networks",
         "IP Networking",
@@ -866,12 +866,18 @@
         "Network operators",
         "Enterprises"
       ],
-      "speakers": [],
+      "speakers": [
+        "Woo Tae Kim (KT VP, Core Network Research)",
+        "Brian Walsh (Nokia)",
+        "Michael Bushong (Nokia)",
+        "Joseph Sulistyo (Blaize)",
+        "Akash Agrawal (Rakuten Mobile)"
+      ],
       "startDate": "2026-10-20",
       "endDate": "2026-10-22",
       "location": "The Westin Seoul Parnas, 524 Bongeunsa-ro, Gangnam-gu, Seoul",
       "language": "English",
-      "status": "registration_open",
+      "status": "completed",
       "registrationUrl": "https://www.nokia.com/events/srexperts/apac/registration/",
       "registrationEligibility": "Exclusive invitation-only event for Nokia IP customers and partners; registration is open and free for eligible Nokia customers and partners.",
       "fee": "Free for eligible Nokia customers and partners; optional spouse/partner networking ticket €250",
@@ -891,6 +897,26 @@
           "time": "2026-10-20 to 2026-10-22",
           "title": "Conference tracks, exhibition, hackathon and hands-on learning",
           "speaker": "Nokia thought leaders and customer speakers"
+        },
+        {
+          "time": "2026-10-21 14:50",
+          "title": "From GPU to Token Factory, Edge AI and Robotics",
+          "speaker": "Nokia and Blaize"
+        },
+        {
+          "time": "2026-10-21 16:00",
+          "title": "From Connectivity to Compute: AI-Grid Ready Network",
+          "speaker": "Brian Walsh (Nokia)"
+        },
+        {
+          "time": "2026-10-22 11:20",
+          "title": "KT Core Network Research leadership session",
+          "speaker": "Woo Tae Kim (KT)"
+        },
+        {
+          "time": "2026-10-22 14:10",
+          "title": "AI-Grid Traffic Engineering and Sovereignty with NSP PCE",
+          "speaker": "Akash Agrawal (Rakuten Mobile)"
         }
       ],
       "insights": []
@@ -936,7 +962,7 @@
       "endDate": "2026-10-20",
       "location": "FKI Tower Conference Center 2F Ruby Hall, Yeouido, Seoul / Online",
       "language": "Korean",
-      "status": "registration_open",
+      "status": "completed",
       "registrationDeadline": "2026-10-20T10:00:00+09:00",
       "registrationUrl": "https://www.onoffmix.com/event/348792",
       "registrationEligibility": "Robot, AI, manufacturing companies and research organizations; paid online/offline participation.",
@@ -982,7 +1008,7 @@
       "endDate": "2026-10-23",
       "location": "KINTEX Exhibition Center 1, Goyang, Korea",
       "language": "Korean",
-      "status": "upcoming",
+      "status": "completed",
       "registrationEligibility": "Two separate deadlines: AI-Tech seminar preregistration Oct 16 18:00 KST; exhibition visitor registration Oct 19 23:30 KST. Check seminar-specific organizer announcement separately; exhibition ticket does not guarantee seminar seat.",
       "fee": "Free exhibition registration; AI-Tech seminar announced as free.",
       "officialUrl": "https://koiia.or.kr/page/?M2_IDX=21980",
@@ -1251,7 +1277,7 @@
       "title": "NVIDIA AI Day Seoul 2026",
       "titleKo": "엔비디아 AI Day Seoul 2026",
       "titleZh": "NVIDIA AI Day Seoul 2026",
-      "summary": "NVIDIA 在首尔举办的 AI 技术活动，包含主会场、Hands-on Workshop 与 Special Event；官方页面明确展示 AI Factory 与 Physical AI 相关技术内容。",
+      "summary": "NVIDIA AI Day Seoul 2026，11月9–10日在COEX举行；官方确认主会场报名满额、停止报名。11月10日含Physical AI Startup Connect等专题。",
       "topics": [
         "AI Factory",
         "Physical AI",
@@ -1280,10 +1306,10 @@
       "endDate": "2026-11-10",
       "location": "COEX, Seoul",
       "language": "Korean",
-      "status": "registration_open",
+      "status": "upcoming",
       "registrationUrl": "https://www.nvidia.com/ko-kr/ai-days/",
-      "registrationEligibility": "Public registration. Nov 10 hands-on workshops are paid; Early Bird pricing through 2026-10-19.",
-      "fee": "Nov 10 hands-on workshop: USD 199 Early Bird through Oct 19, then USD 500.",
+      "registrationEligibility": "Official NVIDIA website says event is at capacity and registration has closed; no verified waitlist.",
+      "fee": "Workshop regular USD 500; Early Bird USD 199 ended Oct 19",
       "officialUrl": "https://www.nvidia.com/ko-kr/ai-days/",
       "sourceType": "confirmed · official NVIDIA agenda and registration",
       "priority": "S",
@@ -1306,8 +1332,7 @@
           "speaker": "NVIDIA instructors"
         }
       ],
-      "insights": [],
-      "registrationDeadline": "2026-10-19"
+      "insights": []
     },
     {
       "id": "ai-ran-summit-2026-seoul",
@@ -1356,7 +1381,7 @@
       "endDate": "2026-11-10",
       "location": "Mondrian Seoul Itaewon, Seoul",
       "language": "English / Korean",
-      "status": "registration_closing",
+      "status": "registration_open",
       "registrationEligibility": "Pre-registration through Oct 18; general registration Oct 19–Nov 4. AINA/AI-RAN Alliance member organizations up to 5 free seats subject to organizer confirmation.",
       "fee": "Members up to 5 free; nonmembers KRW 500,000 on-site / 200,000 online; online students KRW 150,000.",
       "officialUrl": "https://aina.or.kr/board/board_view?code=gallery&no=239",
@@ -1388,9 +1413,9 @@
         }
       ],
       "insights": [],
-      "registrationDeadline": "2026-10-18",
+      "registrationDeadline": "2026-11-04",
       "registrationOpen": "2026-10-19",
-      "registrationUrl": "https://aina.or.kr/board/board_view?code=gallery&no=239"
+      "registrationUrl": "https://ai-ran-summit.org/"
     },
     {
       "id": "ai-ran-alliance-november-2026-seoul",
@@ -1638,9 +1663,9 @@
       "endDate": "2026-11-07",
       "location": "KINTEX Exhibition Center 1, Halls 3–5, Goyang, South Korea",
       "language": "暂未公布",
-      "status": "registration_open",
+      "status": "registration_closing",
       "registrationUrl": "https://www.robotworld.or.kr/",
-      "registrationEligibility": "Preregistration / exhibitor invitation QR; cutoff not independently confirmed",
+      "registrationEligibility": "Free advance registration reportedly through Oct 24 (ITFIND listing); confirm availability on organizer website. On-site ticket pricing may apply.",
       "fee": "Free with preregistration or exhibitor invitation; on-site fee to verify",
       "officialUrl": "https://www.robotworld.or.kr/",
       "sourceType": "confirmed · organizer and exhibitor official pages",
@@ -1648,7 +1673,8 @@
       "operatorRelevance": "high",
       "whyItMatters": "发现多机器人协同、远程运维、Private 5G 与 MEC 的实际 B2B 客户。",
       "agenda": [],
-      "insights": []
+      "insights": [],
+      "registrationDeadline": "2026-10-24"
     },
     {
       "id": "fix-conference-daegu-2026",
@@ -1686,7 +1712,7 @@
       "endDate": "2026-10-23",
       "location": "EXCO 3F, Daegu, South Korea",
       "language": "Korean; international sessions may differ",
-      "status": "upcoming",
+      "status": "completed",
       "registrationOpen": "2026-08-01",
       "registrationDeadline": "2026-10-14",
       "registrationUrl": "https://difa-forum.or.kr/p3/c2/",
@@ -1736,7 +1762,7 @@
       "endDate": "2026-10-23",
       "location": "EXCO, Daegu, South Korea",
       "language": "暂未公布",
-      "status": "registration_open",
+      "status": "completed",
       "registrationUrl": "https://dgrobotforum.com/",
       "registrationEligibility": "Official site advertises registration; criteria not verified",
       "fee": "暂未公布",
@@ -1884,7 +1910,7 @@
       "endDate": "2026-10-23",
       "location": "KINTEX Exhibition Center 1, Goyang, Gyeonggi-do, South Korea",
       "language": "Korean / English",
-      "status": "registration_open",
+      "status": "completed",
       "registrationOpen": "2026-07-10T00:00:00+09:00",
       "registrationDeadline": "2026-10-23T16:00:00+09:00",
       "registrationUrl": "https://event-us.kr/amxpo/event/130394",
@@ -1932,7 +1958,7 @@
       "endDate": "2026-11-03",
       "location": "Embassy of Canada, 21 Jeongdong-gil, Jung-gu, Seoul",
       "language": "Korean / English (simultaneous interpretation in morning only)",
-      "status": "registration_open",
+      "status": "upcoming",
       "registrationDeadline": "2026-10-21",
       "registrationUrl": "https://koraia.org/base/mp5/sub2.php?com_board_basic=read_form&com_board_category_code=c2&com_board_id=11&com_board_idx=1136&sub=02",
       "registrationEligibility": "Korean industry stakeholders seeking Physical AI partnerships with Canadian companies; advance application and pre-matched B2B meetings.",
@@ -2108,7 +2134,7 @@
       "endDate": "2026-10-27",
       "location": "EL Tower B1 Gold Hall, 213 Gangnam-daero, Seocho-gu, Seoul",
       "language": "Korean",
-      "status": "registration_open",
+      "status": "registration_closing",
       "registrationOpen": "2026-09-16T00:00:00+09:00",
       "registrationDeadline": "2026-10-27T17:00:00+09:00",
       "registrationUrl": "https://event-us.kr/coontec/event/133762",
@@ -2155,7 +2181,7 @@
       "endDate": "2026-10-30",
       "location": "TTA Seohyeon 9F, Bundang, Seongnam, Korea",
       "language": "Korean",
-      "status": "registration_open",
+      "status": "upcoming",
       "registrationDeadline": "2026-10-23",
       "registrationUrl": "https://edu.tta.or.kr/edu/educationWebView.do?key=21&prgNo=1339",
       "registrationEligibility": "30 seats; in-person; advance payment; first-come-first-served.",
@@ -2200,7 +2226,7 @@
       "endDate": "2026-11-11",
       "location": "Online (Korean TTA STEP e-learning)",
       "language": "Korean",
-      "status": "registration_open",
+      "status": "upcoming",
       "registrationDeadline": "2026-10-21",
       "registrationUrl": "https://edu.tta.or.kr/edu/educationWebView.do?key=21&prgNo=1421",
       "registrationEligibility": "TTA STEP account; 100 seats; for mobile communications standardization researchers.",
@@ -2247,7 +2273,7 @@
       "endDate": "2026-11-11",
       "location": "Online (Korean TTA STEP e-learning)",
       "language": "Korean",
-      "status": "registration_open",
+      "status": "upcoming",
       "registrationDeadline": "2026-10-21",
       "registrationUrl": "https://edu.tta.or.kr/edu/educationWebView.do?category=CT00000016&key=30&prgNo=1418",
       "registrationEligibility": "TTA STEP account; 100 seats; AI and metaverse standards researchers.",
@@ -2294,7 +2320,7 @@
       "endDate": "2026-11-11",
       "location": "Online (Korean TTA STEP e-learning)",
       "language": "Korean",
-      "status": "registration_open",
+      "status": "upcoming",
       "registrationDeadline": "2026-10-21",
       "registrationUrl": "https://edu.tta.or.kr/edu/educationWebView.do?key=21&prgNo=1422",
       "registrationEligibility": "TTA STEP account; 100 seats; autonomous vehicle standardization researchers.",
@@ -2333,7 +2359,7 @@
       "endDate": "2026-10-21",
       "location": "Online Zoom (Korea-hosted)",
       "language": "Korean",
-      "status": "registration_open",
+      "status": "completed",
       "registrationDeadline": "2026-10-20",
       "registrationUrl": "https://edu.tta.or.kr/edu/educationWebView.do?category=CT00000009&key=26&prgNo=1410",
       "registrationEligibility": "Open to industry, academia, research and interested attendees; 400 seats.",
@@ -2670,7 +2696,7 @@
       "endDate": "2026-10-20",
       "location": "FKI Tower Conference Center 2F Sapphire Hall, Yeouido, Seoul",
       "language": "Korean",
-      "status": "registration_closing",
+      "status": "completed",
       "registrationDeadline": "2026-10-19T23:30:00+09:00",
       "registrationUrl": "https://seminarhub1616.cafe24.com/product/item.php?it_id=1786515415&st=ing",
       "registrationEligibility": "Manufacturing/robotics professionals; discounted preregistration ends Oct 16 17:00 (KRW 396,000); Event-us applications listed until Oct 19 23:30, late price increases KRW 33,000.",
@@ -2761,12 +2787,12 @@
       "endDate": "2026-10-30",
       "location": "Seoul / Online",
       "language": "Korean",
-      "status": "registration_open",
-      "registrationDeadline": "2026-10-26T18:00:00+09:00",
+      "status": "registration_closing",
+      "registrationDeadline": "2026-10-28",
       "registrationUrl": "https://event.kics.or.kr/921/registrationInfo",
       "officialUrl": "https://event.kics.or.kr/921/program",
-      "registrationEligibility": "On-site limited to 20 participants; online attendance offered.",
-      "fee": "Member KRW 250,000; nonmember KRW 300,000 (preregistration)",
+      "registrationEligibility": "Advance registration through Oct 28 (midnight wording on organizer site); on-site first-come-first-served, max 20; online attendance offered; regular registration Oct 29–30 until 17:00.",
+      "fee": "Advance: members KRW 250,000, nonmembers KRW 300,000; regular: members KRW 300,000, nonmembers KRW 350,000.",
       "sourceType": "organizer program and registration",
       "priority": "S",
       "operatorRelevance": "high",
@@ -2800,7 +2826,7 @@
       "endDate": "2026-10-22",
       "location": "Seoul / Online",
       "language": "Korean",
-      "status": "registration_closing",
+      "status": "completed",
       "registrationDeadline": "2026-10-19",
       "registrationUrl": "https://event.kics.or.kr/951/registrationInfo",
       "officialUrl": "https://event.kics.or.kr/951/program",
@@ -2928,7 +2954,7 @@
       "endDate": "2026-10-28",
       "location": "JW Marriott Hotel Seoul, 3F Salon, Seoul",
       "language": "Korean",
-      "status": "registration_open",
+      "status": "registration_closing",
       "priority": "S",
       "operatorRelevance": "high",
       "officialUrl": "https://aina.or.kr/board/board_view?code=gallery&no=238",
@@ -2986,7 +3012,7 @@
       "endDate": "2026-10-21",
       "location": "EL Tower 5F Orce Hall, Seoul",
       "language": "Korean",
-      "status": "upcoming",
+      "status": "completed",
       "priority": "S",
       "operatorRelevance": "high",
       "officialUrl": "https://www.keysight.com/se/en/cmp/keysight-world-tech-day-korea.html",
@@ -3045,7 +3071,7 @@
       "endDate": "2026-10-22",
       "location": "Hotel Inter-Burgo EXCO, B1 Crystal Ballroom, Daegu",
       "language": "Korean",
-      "status": "announced",
+      "status": "completed",
       "priority": "A",
       "operatorRelevance": "high",
       "officialUrl": "https://www.etnews.com/20261014000363",
@@ -3078,7 +3104,7 @@
       "endDate": "2026-11-14",
       "location": "Hanwha Resort, Gyeongju",
       "language": "Korean",
-      "status": "registration_open",
+      "status": "registration_closing",
       "priority": "B",
       "operatorRelevance": "low",
       "officialUrl": "https://cics.kiee.or.kr/",
@@ -3214,7 +3240,7 @@
       "endDate": "2026-10-23",
       "location": "EL Tower 6F Grace Hall, Seoul",
       "language": "Korean",
-      "status": "registration_open",
+      "status": "completed",
       "priority": "B",
       "operatorRelevance": "medium",
       "officialUrl": "https://aiax.etnews.com/",
@@ -3262,6 +3288,486 @@
       "fee": "Paid; amount on ticket platform",
       "sourceType": "confirmed · official community site and ticket platform",
       "whyItMatters": "微软云与 AI 开发者生态观察，运营商和 AI-RAN 直接关联尚未确认。"
+    },
+    {
+      "id": "deep-dive-into-2026-physical-ai",
+      "title": "DEEP DIVE INTO 2026",
+      "titleKo": "DEEP DIVE INTO 2026",
+      "titleZh": "韩国Physical AI深科技论坛",
+      "startDate": "2026-11-10",
+      "endDate": "2026-11-12",
+      "priority": "S",
+      "organizer": [
+        "MSS",
+        "KISED",
+        "PEN Ventures Korea"
+      ],
+      "participants": [
+        "Skild AI",
+        "Unitree Robotics",
+        "KAIST",
+        "LG Sciencepark",
+        "ETRI",
+        "Qualcomm",
+        "DeepX",
+        "MangoBoost",
+        "KETI"
+      ],
+      "speakers": [
+        "Deepak Pathak (Skild AI CEO)",
+        "YuQuing Wang (Unitree)",
+        "Kwon Dong-up (MangoBoost CTO)"
+      ],
+      "topics": [
+        "Physical AI",
+        "Robotics",
+        "Humanoid",
+        "AI Inference",
+        "AI Factory"
+      ],
+      "location": "Grand Hyatt Seoul",
+      "language": "Korean / English",
+      "status": "registration_open",
+      "officialUrl": "https://deepdiveinto.kr/",
+      "registrationUrl": "https://event-us.kr/deto/event/136323",
+      "registrationDeadline": "2026-11-09T18:00:00+09:00",
+      "fee": "Free",
+      "sourceType": "confirmed · organizer official site",
+      "operatorRelevance": "high",
+      "summary": "11月10日Physical AI Day；机器人通用智能、Unitree机器人商业化、AI芯片和推理基础设施，免费报名10月16日开放。",
+      "whyItMatters": "11月10日Physical AI Day；机器人通用智能、Unitree机器人商业化、AI芯片和推理基础设施，免费报名10月16日开放。",
+      "agenda": [
+        {
+          "time": "2026-11-10 10:40–12:00",
+          "title": "Adaptive General Intelligence for the Physical World",
+          "speaker": "Deepak Pathak, Skild AI"
+        },
+        {
+          "time": "2026-11-10 14:40–16:00",
+          "title": "Humanoid and Quadruped Robots",
+          "speaker": "YuQuing Wang, Unitree"
+        },
+        {
+          "time": "2026-11-10 15:50–16:10",
+          "title": "AI Full-stack Infrastructure and Inference Services",
+          "speaker": "MangoBoost CTO"
+        }
+      ],
+      "insights": []
+    },
+    {
+      "id": "gaif-2026-edaily-global-ai-forum",
+      "title": "eDaily Global AI Forum 2026",
+      "titleKo": "이데일리 글로벌 AI 포럼 2026",
+      "titleZh": "GAIF 2026韩国全球AI论坛",
+      "startDate": "2026-11-12",
+      "endDate": "2026-11-12",
+      "priority": "A",
+      "organizer": [
+        "eDaily"
+      ],
+      "participants": [
+        "KT Cloud",
+        "SK Telecom",
+        "Kakao",
+        "NAVER Cloud",
+        "LG Electronics",
+        "SNU"
+      ],
+      "speakers": [
+        "Kim Bong-kyun (KT Cloud CEO)",
+        "Kim Ji-hoon (SKT VP)",
+        "Kim Young-jun (LG Electronics AI Research)",
+        "Noah Goodman (Stanford)",
+        "Cho Kyu-jin (SNU Robotics)"
+      ],
+      "topics": [
+        "AI Factory",
+        "Physical AI",
+        "AI Agents",
+        "AI Infrastructure"
+      ],
+      "location": "JW Marriott Dongdaemun Square Seoul",
+      "language": "Korean / English",
+      "status": "registration_closing",
+      "officialUrl": "https://gaif.edaily.co.kr/",
+      "registrationUrl": "https://gaif.edaily.co.kr/",
+      "registrationDeadline": "2026-10-31",
+      "fee": "Early Bird KRW 250,000 through Oct 31; regular KRW 500,000",
+      "sourceType": "confirmed · organizer official site",
+      "operatorRelevance": "medium",
+      "summary": "AI Agent/机器人、KT Cloud AI Factory、SKT AI战略、NAVER Cloud Sovereign AI及LG电子Physical AI；10月31日前Early Bird。",
+      "whyItMatters": "AI Agent/机器人、KT Cloud AI Factory、SKT AI战略、NAVER Cloud Sovereign AI及LG电子Physical AI；10月31日前Early Bird。",
+      "agenda": [
+        {
+          "time": "2026-11-12 11:10–12:10",
+          "title": "Global AI Factory",
+          "speaker": "Kim Bong-kyun, KT Cloud CEO"
+        },
+        {
+          "time": "2026-11-12 13:30–14:00",
+          "title": "AI for Everyone",
+          "speaker": "Kim Ji-hoon, SKT"
+        },
+        {
+          "time": "2026-11-12 14:30–15:00",
+          "title": "Physical AI with Robots",
+          "speaker": "Kim Young-jun, LG Electronics"
+        }
+      ],
+      "insights": []
+    },
+    {
+      "id": "ai-x-softwave-2026",
+      "title": "AI × SOFTWAVE 2026",
+      "titleKo": "제11회 대한민국 소프트웨어 대전, AI x 소프트웨이브 2026",
+      "titleZh": "AI × SOFTWAVE韩国软件大展",
+      "startDate": "2026-12-02",
+      "endDate": "2026-12-04",
+      "priority": "B",
+      "organizer": [
+        "Softwave Organizing Committee"
+      ],
+      "participants": [],
+      "speakers": [],
+      "topics": [
+        "AI",
+        "Cloud",
+        "Robotics",
+        "Telecom Software",
+        "Smart Factory"
+      ],
+      "location": "COEX Hall A, Seoul",
+      "language": "Korean / English",
+      "status": "registration_open",
+      "officialUrl": "https://k-softwave.com/about.cm",
+      "registrationUrl": "https://k-softwave.com/eng/reg.cm",
+      "fee": "Free",
+      "sourceType": "confirmed · organizer official site",
+      "operatorRelevance": "medium",
+      "summary": "官方确认12月2-4日COEX A馆、350家企业550展位，AI/云/机器人/通信软件领域，展览免费，具体AI-RAN议程暂未公布。",
+      "whyItMatters": "官方确认12月2-4日COEX A馆、350家企业550展位，AI/云/机器人/通信软件领域，展览免费，具体AI-RAN议程暂未公布。",
+      "agenda": [],
+      "insights": []
+    },
+    {
+      "id": "tech-quest-ai-live-2027-seoul-2026",
+      "title": "TECH QUEST — AI LIVE 2027 (held in 2026)",
+      "titleKo": "2027 TECH QUEST - AI LIVE 2027",
+      "titleZh": "TECH QUEST：Physical AI、国产AI芯片与AI Factory",
+      "startDate": "2026-10-22",
+      "endDate": "2026-10-22",
+      "topics": [
+        "Physical AI",
+        "AI Factory",
+        "AI Chips",
+        "Robotics",
+        "Smart Manufacturing"
+      ],
+      "organizer": [
+        "eToday"
+      ],
+      "participants": [
+        "FuriosaAI",
+        "Rebellions",
+        "DeepX",
+        "Samsung Electronics",
+        "HD Hyundai",
+        "Neuromeka"
+      ],
+      "speakers": [
+        "Jang Byung-tak (SNU)",
+        "Baek Jun-ho (FuriosaAI)",
+        "Kim Young-ok (HD Hyundai)",
+        "Lee Young-tak (AI Policy Research Institute / AI DC Task Force)"
+      ],
+      "location": "KBIZ Hall B1F, Seoul",
+      "language": "Korean",
+      "status": "completed",
+      "priority": "A",
+      "operatorRelevance": "medium",
+      "fee": "Pre-registration KRW 10,000; on-site KRW 20,000",
+      "officialUrl": "https://www.techquest.co.kr/2027/",
+      "registrationUrl": "https://www.techquest.co.kr/2027/",
+      "sourceType": "confirmed · organizer official agenda",
+      "summary": "2026年10月22日举行，涵盖Physical AI、韩国AI芯片、工业AI Factory与机器人应用。活动已结束。",
+      "whyItMatters": "工业AI/机器人、算力基础设施与运营商B2B机会的交叉观察；无已确认5G/6G实测数据。",
+      "agenda": [],
+      "insights": []
+    },
+    {
+      "id": "k-cloud-infrastructure-open-source-seminar-2026",
+      "title": "K-Cloud Core Infrastructure & Open Source Software Technology Seminar",
+      "titleKo": "K-클라우드 핵심 인프라 및 오픈소스 SW 기술 세미나",
+      "titleZh": "K-Cloud 核心基础设施与开源软件技术研讨会",
+      "startDate": "2026-10-27",
+      "endDate": "2026-10-27",
+      "topics": [
+        "AI Cloud",
+        "GPU Infrastructure",
+        "LLM Serving",
+        "AI Inference Network",
+        "Open Source"
+      ],
+      "organizer": [
+        "Korea Cloud Computing Research Association"
+      ],
+      "participants": [
+        "KETI",
+        "Korea University",
+        "Hanyang University",
+        "Netlox",
+        "Gluesys"
+      ],
+      "speakers": [],
+      "location": "COEX South Conference Room 307, Seoul",
+      "language": "Korean",
+      "status": "registration_closing",
+      "registrationOpen": "2026-09-30T13:00:00+09:00",
+      "registrationDeadline": "2026-10-26T14:00:00+09:00",
+      "registrationUrl": "https://event-us.kr/cccr/event/136368",
+      "officialUrl": "https://event-us.kr/cccr/event/136368",
+      "fee": "Free",
+      "registrationEligibility": "Registration open; limited capacity (150 reported by organizer).",
+      "sourceType": "confirmed · organizer Event-us registration",
+      "priority": "A",
+      "operatorRelevance": "high",
+      "summary": "10月27日14:00–17:30，聚焦GPU I/O、Kubernetes LLM Serving、LoxiLB-IGW AI推理网关。",
+      "whyItMatters": "直接关联运营商Network for AI、MEC与多租户推理网络的性能、调度与商业化。",
+      "agenda": [],
+      "insights": []
+    },
+    {
+      "id": "fortinet-ot-cybersecurity-summit-korea-2026",
+      "title": "Fortinet OT Cybersecurity Summit 2026 — Korea",
+      "titleKo": "포티넷 OT 사이버 보안 서밋 코리아 2026",
+      "titleZh": "Fortinet 韩国OT网络安全峰会",
+      "startDate": "2026-11-11",
+      "endDate": "2026-11-11",
+      "topics": [
+        "OT Security",
+        "Physical AI",
+        "Agentic AI",
+        "Industrial Network",
+        "Cyber-Physical Systems"
+      ],
+      "organizer": [
+        "Fortinet Korea"
+      ],
+      "participants": [
+        "Fortinet"
+      ],
+      "speakers": [
+        "Rebecca Chen (Fortinet North Asia)",
+        "Van Kon (Fortinet Korea)",
+        "Neo Moon (Fortinet Korea)"
+      ],
+      "location": "JW Marriott Seoul 3F, Seoul",
+      "language": "Korean",
+      "status": "registration_open",
+      "registrationUrl": "https://events.fortinet.com/otsummit2026-kr/home",
+      "officialUrl": "https://events.fortinet.com/otsummit2026-kr/home",
+      "sourceType": "confirmed · official Fortinet event",
+      "priority": "B",
+      "operatorRelevance": "medium",
+      "summary": "11月11日13:30–19:00，聚焦Thinking Factories、Physical AI与OT/CPS网络安全。",
+      "whyItMatters": "适用于工业专网与机器人连接的网络分段、可靠性和安全保障。",
+      "agenda": [],
+      "insights": []
+    },
+    {
+      "id": "azwell-ai-acceleration-day-2026",
+      "title": "Azwell AI Acceleration Day 2026",
+      "titleKo": "에즈웰에이아이 AI Acceleration Day",
+      "titleZh": "Azwell AI 基础设施技术交流日",
+      "startDate": "2026-10-22",
+      "endDate": "2026-10-22",
+      "topics": [
+        "GPU",
+        "LLMOps",
+        "AI Infrastructure",
+        "NVIDIA Ecosystem"
+      ],
+      "organizer": [
+        "Azwell AI"
+      ],
+      "participants": [
+        "KakaoPay AI Platform"
+      ],
+      "speakers": [],
+      "location": "Novotel Ambassador Seoul Gangnam, Bordeaux Hall",
+      "language": "Korean",
+      "status": "completed",
+      "registrationDeadline": "2026-10-20T23:30:00+09:00",
+      "registrationUrl": "https://event-us.kr/azwellai/event/135306",
+      "officialUrl": "https://www.azwell.ai/eng/service/news/li7505845561271693312",
+      "fee": "Free",
+      "registrationEligibility": "Advance application and individual approval; registration closed.",
+      "sourceType": "confirmed · organizer news and Event-us",
+      "priority": "B",
+      "operatorRelevance": "medium",
+      "summary": "10月22日15:00–19:00，分享GPU LLMOps实战、AI基础设施和投资趋势；活动已结束。",
+      "whyItMatters": "可补充运营商GPU/AI Cloud基础设施实践信息。",
+      "agenda": [],
+      "insights": []
+    },
+    {
+      "id": "ptc-innovation-exchange-korea-2026",
+      "title": "PTC Innovation Exchange Korea 2026",
+      "titleKo": "PTC Innovation Exchange Korea 2026",
+      "titleZh": "PTC 韩国Physical AI与工业数字孪生技术日",
+      "startDate": "2026-11-12",
+      "endDate": "2026-11-12",
+      "topics": [
+        "Physical AI",
+        "Industrial AI",
+        "Digital Thread",
+        "Digital Twin",
+        "Software Defined Vehicle"
+      ],
+      "organizer": [
+        "PTC Korea"
+      ],
+      "participants": [
+        "Microsoft Korea",
+        "Hyundai Mobis",
+        "NVIDIA",
+        "KAIST"
+      ],
+      "speakers": [
+        "Robert Dahdah (PTC CRO)",
+        "Joseph June (PTC)",
+        "Kim Deok-jin",
+        "Park Jeong-gyu (KAIST)"
+      ],
+      "location": "Seoul, Korea (venue not specified on official event page)",
+      "language": "Korean / English (specific session languages not published)",
+      "status": "registration_open",
+      "registrationUrl": "https://www.ptc.com/ko/events/innovation-exchange-korea-2026",
+      "officialUrl": "https://www.ptc.com/ko/events/innovation-exchange-korea-2026",
+      "registrationEligibility": "Registration request subject to organizer confirmation.",
+      "sourceType": "confirmed · PTC official agenda",
+      "priority": "A",
+      "operatorRelevance": "medium",
+      "summary": "11月12日，PTC Physical AI Roadmap、Industrial AI、Digital Thread、SDV、Hyundai Mobis案例及NVIDIA合作伙伴专题。",
+      "whyItMatters": "工业AI/机器人与软件定义汽车产业链中云边协同、工业数据及运营商B2B服务的机会。",
+      "agenda": [
+        {
+          "time": "2026-11-12 09:40–10:10",
+          "title": "PTC's Roadmap for the Era of Physical AI",
+          "speaker": "Robert Dahdah"
+        },
+        {
+          "time": "2026-11-12 10:10–10:50",
+          "title": "PTC's AI Strategy and Vision",
+          "speaker": "Joseph June"
+        }
+      ],
+      "insights": []
+    },
+    {
+      "id": "fortinet-ai-cybersecurity-summit-apac-korea-2026",
+      "title": "Fortinet AI Cybersecurity Summit APAC 2026 — Korea Edition",
+      "titleKo": "포티넷 AI 사이버보안 서밋 APAC 2026 코리아",
+      "titleZh": "Fortinet 韩国AI网络安全峰会",
+      "startDate": "2026-11-24",
+      "endDate": "2026-11-24",
+      "topics": [
+        "AI Security",
+        "Agentic AI",
+        "AI Infrastructure",
+        "API Security",
+        "Shadow AI"
+      ],
+      "organizer": [
+        "Fortinet Korea"
+      ],
+      "participants": [
+        "Fortinet"
+      ],
+      "speakers": [
+        "Van Kon",
+        "Daniel Kwong",
+        "Hyunhee Park"
+      ],
+      "location": "Grand InterContinental Seoul Parnas, 2F Magnolia Room",
+      "language": "Korean",
+      "status": "registration_open",
+      "registrationUrl": "https://events.fortinet.com/ai-summit-apac-26-kr",
+      "officialUrl": "https://events.fortinet.com/ai-summit-apac-26-kr",
+      "sourceType": "confirmed · Fortinet official event",
+      "priority": "B",
+      "operatorRelevance": "medium",
+      "summary": "11月24日13:30–18:30，聚焦Agentic AI、API、AI基础设施、数据保护和AI SecOps。",
+      "whyItMatters": "面向运营商AI平台、MEC及企业Agent服务的安全治理。",
+      "agenda": [],
+      "insights": []
+    },
+    {
+      "id": "cae-conference-2026-physical-ai-suwon",
+      "title": "CAE Conference 2026 — Physical AI, Simulation & Digital Twin",
+      "titleKo": "제16회 CAE 컨퍼런스 2026",
+      "titleZh": "第16届CAE大会：Physical AI与数字孪生驱动制造创新",
+      "startDate": "2026-11-20",
+      "endDate": "2026-11-20",
+      "topics": [
+        "Physical AI",
+        "Digital Twin",
+        "CAE",
+        "Agentic AI",
+        "Robotics",
+        "Autonomous Construction"
+      ],
+      "organizer": [
+        "CAD&Graphics"
+      ],
+      "participants": [
+        "KAIST",
+        "Synopsys Ansys",
+        "Dell Technologies",
+        "Dassault Systèmes Korea",
+        "HD Hyundai Heavy Industries",
+        "HD Hyundai Site Solution",
+        "LG Electronics"
+      ],
+      "speakers": [
+        "Lee Seung-cheol (KAIST)",
+        "Kang Tae-shin (Ansys/Synopsys)",
+        "Jang Yeon-se (FactoryLab.ai)",
+        "Seo Min-sik (Narnia Labs CTO)",
+        "Lee Cheol-hun (HD Hyundai Site Solution)"
+      ],
+      "location": "Suwon Convention Center, Gwanggyo, Gyeonggi-do, Korea",
+      "language": "Korean",
+      "status": "registration_open",
+      "registrationUrl": "https://moaform.com/q/O3MHls",
+      "officialUrl": "https://caeconference.wordpress.com/",
+      "fee": "Free early-registration promotion (first come, first served); other ticket pricing not announced",
+      "registrationEligibility": "Organizer early registration form; limited free promotional slots.",
+      "publishedAt": "2026-10-19",
+      "sourceType": "confirmed · organizer site, 2026 agenda and registration notice",
+      "priority": "A",
+      "operatorRelevance": "medium",
+      "summary": "11月20日09:30–17:30；Physical AI、Agentic AI、Counterfactual Twin、工业CAE自动化与自主施工设备。",
+      "whyItMatters": "Physical AI数字孪生/仿真到工厂部署的技术链，对工业专网、边缘推理与运营商ToB有间接价值，尚无5G/6G专题确认。",
+      "agenda": [
+        {
+          "time": "2026-11-20 12:00–12:30",
+          "title": "Agentic AI in CAE and manufacturing: physics knowledge + data",
+          "speaker": "Lee Seung-cheol (KAIST)"
+        },
+        {
+          "time": "2026-11-20 13:30–14:00",
+          "title": "Digital Twin and Counterfactual Twin collaborating with Physical AI",
+          "speaker": "Jang Yeon-se (FactoryLab.ai)"
+        },
+        {
+          "time": "2026-11-20 16:20–16:45",
+          "title": "CAE for autonomous construction equipment with Physical AI",
+          "speaker": "Lee Cheol-hun (HD Hyundai Site Solution)"
+        }
+      ],
+      "insights": []
     }
   ]
 }
