@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T08:53:13+09:00",
+  "updatedAt": "2026-10-25T08:36:03+09:00",
   "events": [
     {
       "id": "eu-korea-digital-partnership-2026",
@@ -1277,7 +1277,7 @@
       "title": "NVIDIA AI Day Seoul 2026",
       "titleKo": "엔비디아 AI Day Seoul 2026",
       "titleZh": "NVIDIA AI Day Seoul 2026",
-      "summary": "NVIDIA AI Day Seoul 2026，11月9–10日在COEX举行；官方确认主会场报名满额、停止报名。11月10日含Physical AI Startup Connect等专题。",
+      "summary": "NVIDIA AI Day Seoul, Nov 9–10 at COEX; official site confirms general registration full. Nov 10 Physical AI Startup Connect, AI for Science Forum and Agentic AI 10x Bootcamp are invitation-only special events.",
       "topics": [
         "AI Factory",
         "Physical AI",
@@ -1308,7 +1308,7 @@
       "language": "Korean",
       "status": "upcoming",
       "registrationUrl": "https://www.nvidia.com/ko-kr/ai-days/",
-      "registrationEligibility": "Official NVIDIA website says event is at capacity and registration has closed; no verified waitlist.",
+      "registrationEligibility": "NVIDIA official site says main AI Day Seoul event is at capacity and registration closed. Nov 10 special events (including Physical AI Startup Connect) are invitation-only; no verified public waitlist.",
       "fee": "Workshop regular USD 500; Early Bird USD 199 ended Oct 19",
       "officialUrl": "https://www.nvidia.com/ko-kr/ai-days/",
       "sourceType": "confirmed · official NVIDIA agenda and registration",
@@ -1663,9 +1663,9 @@
       "endDate": "2026-11-07",
       "location": "KINTEX Exhibition Center 1, Halls 3–5, Goyang, South Korea",
       "language": "暂未公布",
-      "status": "registration_closing",
+      "status": "upcoming",
       "registrationUrl": "https://www.robotworld.or.kr/",
-      "registrationEligibility": "Free advance registration reportedly through Oct 24 (ITFIND listing); confirm availability on organizer website. On-site ticket pricing may apply.",
+      "registrationEligibility": "Reported free advance registration deadline Oct 24 has passed; organizer website must be checked for any extended or alternate registration. Onsite admission may be available.",
       "fee": "Free with preregistration or exhibitor invitation; on-site fee to verify",
       "officialUrl": "https://www.robotworld.or.kr/",
       "sourceType": "confirmed · organizer and exhibitor official pages",
@@ -2903,31 +2903,67 @@
       "title": "DATA CENTER KOREA 2026 Global Conference",
       "titleKo": "데이터센터 코리아 2026 글로벌 컨퍼런스",
       "titleZh": "DATA CENTER KOREA 2026 全球大会",
-      "summary": "覆盖 AI Factory Infrastructure、AI 数据中心、电力与冷却基础设施。",
+      "summary": "11月4–6日在首尔aT Center举办，含AI Factory Infrastructure、KT Cloud、LG CNS、300kW–MW级机柜基础设施、液冷与AI DC数字孪生；主办方公布完整分轨议程和收费。",
       "topics": [
         "AIDC",
         "AI Factory",
         "AI Infrastructure"
       ],
       "organizer": [
-        "DATA CENTER KOREA"
+        "Korea Building Services Convergence Association",
+        "Messe Esang"
       ],
-      "participants": [],
-      "speakers": [],
+      "participants": [
+        "KT Cloud",
+        "LG CNS",
+        "Supermicro",
+        "Schneider Electric",
+        "Vertiv",
+        "HPE"
+      ],
+      "speakers": [
+        "Jo Hyeon-je (KT Cloud)",
+        "Chae Min-young (LG CNS)",
+        "Kim Seong-min (Supermicro)",
+        "Shim Jae-cheol (Schneider Electric)"
+      ],
       "startDate": "2026-11-04",
       "endDate": "2026-11-06",
       "location": "aT Center, Seoul",
-      "language": "Not announced",
+      "language": "Korean (selected English/Japanese sessions)",
       "status": "registration_open",
       "registrationDeadline": "2026-11-03",
       "registrationUrl": "https://datacenterkorea.kr/conference-2026/",
       "officialUrl": "https://datacenterkorea.kr/conference-2026/",
-      "sourceType": "organizer conference page",
+      "sourceType": "confirmed · organizer agenda updated Oct 21 and official registration",
       "priority": "B",
       "operatorRelevance": "medium",
       "whyItMatters": "运营商 AIDC、AI Factory 基础设施建设参考。",
-      "agenda": [],
-      "insights": []
+      "agenda": [
+        {
+          "time": "2026-11-04 15:10–15:50 KST",
+          "title": "New Paradigm of Data Centers in the AI Factory Era",
+          "speaker": "Chae Min-young (LG CNS)"
+        },
+        {
+          "time": "2026-11-05 09:00–09:30 KST",
+          "title": "How AI Changes Data Center Boundaries",
+          "speaker": "Jo Hyeon-je (KT Cloud)"
+        },
+        {
+          "time": "2026-11-05 09:30–10:00 KST",
+          "title": "Next-generation 300kW–MW Rack-Scale Infrastructure",
+          "speaker": "Kim Seong-min (Supermicro)"
+        },
+        {
+          "time": "2026-11-05 11:10–11:40 KST",
+          "title": "AI Data Center Digital Twin and Integrated Engineering",
+          "speaker": "Shim Jae-cheol (Schneider Electric)"
+        }
+      ],
+      "insights": [],
+      "registrationEligibility": "Paid conference preregistration through Nov 3, first come first served; exhibition visitor registration included; onsite subject to remaining seats.",
+      "fee": "Engineering/Strategy Track: KRW 550,000 per track preregistration (VAT included); Academy Track KRW 880,000 preregistration; onsite fees differ."
     },
     {
       "id": "physical-ai-ai-network-vertical-ax-forum-2026",
@@ -3767,6 +3803,48 @@
           "speaker": "Lee Cheol-hun (HD Hyundai Site Solution)"
         }
       ],
+      "insights": []
+    },
+    {
+      "id": "krs-korea-radiocommunication-show-2026",
+      "title": "Korea Radiocommunication Show 2026 (KRS 2026)",
+      "titleKo": "2026 대한민국전파산업대전",
+      "titleZh": "2026 韩国无线电通信产业展（KRS 2026）",
+      "summary": "11月18–20日在首尔COEX THE PLATZ举行的无线电通信产业展，设B5G/6G、卫星通信、RF/天线与计测、雷达感知、V2X和无线充电专题；同期预告电波广播产业技术论坛，详细议程尚未公布。",
+      "topics": [
+        "6G",
+        "B5G",
+        "RF",
+        "Antenna",
+        "Spectrum",
+        "Satellite Communications",
+        "RF Sensing",
+        "V2X",
+        "Wireless Power Transfer"
+      ],
+      "organizer": [
+        "Korea Radio Promotion Association (RAPA)",
+        "Korea E&EX"
+      ],
+      "participants": [
+        "RIGOL Korea"
+      ],
+      "speakers": [],
+      "startDate": "2026-11-18",
+      "endDate": "2026-11-20",
+      "location": "COEX THE PLATZ, Seoul, Korea",
+      "language": "Korean (other languages not announced)",
+      "status": "registration_open",
+      "registrationDeadline": "2026-11-17T18:00:00+09:00",
+      "registrationUrl": "https://krshow.co.kr/kor/enroll/regist_form.asp",
+      "registrationEligibility": "Online advance visitor registration: one attendee per identity; university students and older, minors may enter with guardian. Conference admission terms not separately announced.",
+      "fee": "Exhibition free with preregistration by Nov 17 18:00 KST; onsite KRW 20,000 (university students KRW 10,000). Conference fee not announced.",
+      "officialUrl": "https://krshow.co.kr/kor/index.asp",
+      "sourceType": "confirmed · official organizer exhibition and registration pages (verified 2026-10-25)",
+      "priority": "A",
+      "operatorRelevance": "high",
+      "whyItMatters": "6G候选频段射频前端、滤波器、天线、RF计测、卫星与V2X技术的韩国本土供应链观察；应重点跟踪官方同期电波广播产业论坛议程。",
+      "agenda": [],
       "insights": []
     }
   ]
