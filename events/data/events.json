@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T08:36:03+09:00",
+  "updatedAt": "2026-10-26T08:40:48+09:00",
   "events": [
     {
       "id": "eu-korea-digital-partnership-2026",
@@ -1211,7 +1211,7 @@
       "endDate": "2026-11-05",
       "location": "COEX 3F Hall D / Conference Rooms E1-E4, Seoul",
       "language": "Korean / English",
-      "status": "registration_open",
+      "status": "registration_closing",
       "registrationDeadline": "2026-11-02T18:00:00+09:00",
       "registrationUrl": "https://www.aiotkorea.or.kr/2026/kor/about/information.asp",
       "registrationEligibility": "Business exhibition; high-school students or younger restricted. Conference registration separate.",
@@ -3845,6 +3845,207 @@
       "operatorRelevance": "high",
       "whyItMatters": "6G候选频段射频前端、滤波器、天线、RF计测、卫星与V2X技术的韩国本土供应链观察；应重点跟踪官方同期电波广播产业论坛议程。",
       "agenda": [],
+      "insights": []
+    },
+    {
+      "id": "seoul-future-conference-2026-ax-city-6g",
+      "title": "Seoul Future Conference 2026 — AX City & 6G Forum",
+      "titleKo": "2026 서울미래컨퍼런스 — AX시티와 6G, 한국형 미래도시 포럼",
+      "titleZh": "2026 首尔未来大会——AX 城市与 6G 韩国未来城市论坛",
+      "summary": "10月28日首尔新罗酒店举办；Topaz厅10:20–12:20专设AX City与6G论坛。LG U+技术战略负责人李慧珍11:30–11:45演讲《AI时代的6G，AI Native通信基础设施》。",
+      "topics": [
+        "6G",
+        "AI-native Network",
+        "AX City",
+        "Smart City",
+        "Autonomous Infrastructure"
+      ],
+      "organizer": [
+        "Seoul Shinmun (서울신문)"
+      ],
+      "participants": [
+        "LG U+",
+        "Hyundai Motor Group",
+        "Yonsei University",
+        "K-Water"
+      ],
+      "speakers": [
+        "Hyejin Lee / 이혜진 (LG U+ Technology Strategy)",
+        "Heo Hyun-suk / 허현숙 (Hyundai Motor Group)",
+        "Kim Gap-sung / 김갑성 (Yonsei University)"
+      ],
+      "startDate": "2026-10-28",
+      "endDate": "2026-10-28",
+      "location": "The Shilla Seoul, Topaz Hall (Yeongbin-gwan 1F), Seoul, Korea",
+      "language": "Korean",
+      "status": "registration_closing",
+      "registrationDeadline": "2026-10-28",
+      "registrationUrl": "https://www.seoulfuture.co.kr/register",
+      "registrationEligibility": "General registration, students (free), invited guests (free), groups of 5+ by organizer enquiry; 50 designated seats first-come-first-served, applications continue within registration window after designated seats fill.",
+      "fee": "General KRW 200,000; students free; invited guests free; group rate by enquiry.",
+      "officialUrl": "https://www.seoulfuture.co.kr/program?category=topaz-hall",
+      "sourceType": "confirmed · official agenda and registration",
+      "priority": "A",
+      "operatorRelevance": "high",
+      "whyItMatters": "LG U+技术战略负责人明确介绍AI-native 6G基础设施，适合获取韩国运营商6G与智能城市业务路线；论坛并非AI-RAN验证大会，未披露PoC指标。",
+      "agenda": [
+        {
+          "time": "2026-10-28 10:20-12:20",
+          "title": "AX City and 6G: Korean Future City Forum",
+          "speaker": "Seoul Future Conference speakers"
+        },
+        {
+          "time": "2026-10-28 11:30-11:45",
+          "title": "6G in the AI Era: AI-Native Communications Infrastructure",
+          "speaker": "Hyejin Lee (LG U+ Technology Strategy)"
+        }
+      ],
+      "insights": []
+    },
+    {
+      "id": "fisita-world-mobility-summit-2026-hwaseong",
+      "title": "FISITA World Mobility Summit 2026",
+      "titleKo": "FISITA 월드 모빌리티 서밋 2026",
+      "titleZh": "FISITA 2026 世界智能出行技术领袖峰会",
+      "summary": "FISITA与韩国汽车工程师学会合作，在华城举办汽车与智能出行高层闭门交流，涵盖软件定义汽车、AI、自动驾驶、能源基础设施和技术路线。",
+      "topics": [
+        "Software Defined Vehicle",
+        "Autonomous Driving",
+        "Mobility AI",
+        "Physical AI",
+        "Automotive Computing"
+      ],
+      "organizer": [
+        "FISITA",
+        "Korean Society of Automotive Engineers (KSAE)"
+      ],
+      "participants": [
+        "Hyundai Motor Group",
+        "Bosch Korea",
+        "Toyota",
+        "Xiaomi Auto",
+        "Denso",
+        "Horizon Robotics",
+        "Changan Automobile"
+      ],
+      "speakers": [
+        "ChangHwan Kim (FISITA President; Hyundai Motor Company EVP)",
+        "Manfred Harrer (Hyundai Motor Company R&D President)",
+        "Xiaoyu Zhang (Changan Automobile CTO)",
+        "Zhengnan Hu (Xiaomi Auto CTO)"
+      ],
+      "startDate": "2026-11-04",
+      "endDate": "2026-11-05",
+      "location": "Rolling Hills Hotel, 290 Sicheong-ro, Namyang-eup, Hwaseong-si, Gyeonggi-do, Korea",
+      "language": "English (other languages not announced)",
+      "status": "registration_open",
+      "registrationUrl": "https://events.fisita.com/event/5f19ae83-a2b0-41b6-a2bd-8d57502f7861/summary",
+      "registrationEligibility": "Exclusive invitational leadership forum; registration/request through FISITA event page or organiser; admission eligibility subject to organiser.",
+      "fee": "Official summit fee on registration page not independently confirmed; contact organiser (member society discounts may apply).",
+      "officialUrl": "https://fisita.com/events/fisita-world-mobility-summit/",
+      "publishedAt": "2026-09-02",
+      "sourceType": "confirmed · official · exclusive/invitational",
+      "priority": "A",
+      "operatorRelevance": "medium",
+      "whyItMatters": "全球车企研发高管讨论AI定义汽车与自动驾驶，有助于运营商识别车路云协同、车联网边缘推理需求；暂无5G/6G/MEC性能数据议程。",
+      "agenda": [
+        {
+          "time": "2026-11-04 to 2026-11-05 (detailed timing not announced)",
+          "title": "Software-defined vehicles, AI and autonomous driving; mobility leadership panels",
+          "speaker": "FISITA leadership and global automaker CTO/R&D executives"
+        }
+      ],
+      "insights": []
+    },
+    {
+      "id": "korea-c-uas-expo-2026-cheongju",
+      "title": "KOREA C-UAS 2026 — Korea Counter-UAS Exhibition & Summit",
+      "titleKo": "2026 대한민국 대드론박람회 · KOREA C-UAS Summit",
+      "titleZh": "2026 韩国反无人机展及 C-UAS 峰会",
+      "summary": "12月1–3日清州OSCO举行，涵盖RF/雷达/光电传感融合、AI视频与RF信号分析、通信网络与指挥控制、Edge Computing、数字孪生及无人机感知系统；论坛讨论政策、标准与测试认证。",
+      "topics": [
+        "Autonomous Drones",
+        "AI Sensor Fusion",
+        "RF Sensing",
+        "Edge AI",
+        "C2 Network",
+        "Digital Twin",
+        "UAS/C-UAS"
+      ],
+      "organizer": [
+        "Korea Counter-UAS Industry Association",
+        "Messe Esang"
+      ],
+      "participants": [],
+      "speakers": [],
+      "startDate": "2026-12-01",
+      "endDate": "2026-12-03",
+      "location": "Cheongju OSCO, 250 Osongsaengmyeong-ro, Osong-eup, Cheongju, Chungcheongbuk-do, Korea",
+      "language": "Korean (other languages not announced)",
+      "status": "registration_open",
+      "registrationDeadline": "2026-11-30",
+      "registrationUrl": "https://c-uas.ai.kr/registration/",
+      "registrationEligibility": "Individual free visitor pre-registration until Nov 30; group pre-registration for 10+ people; military, public officials, veterans and partner staff may qualify for free entry with proof.",
+      "fee": "Free with advance visitor registration; KRW 10,000 onsite admission.",
+      "officialUrl": "https://c-uas.ai.kr/",
+      "sourceType": "confirmed · official exhibition and visitor registration",
+      "priority": "B",
+      "operatorRelevance": "medium",
+      "whyItMatters": "面向公共安全与无人机感知的AI、RF传感、边缘计算与通信网络，可能关联运营商专网和融合感知业务；非已确认6G ISAC PoC。",
+      "agenda": [
+        {
+          "time": "2026-12-01 to 2026-12-03 10:00-17:00",
+          "title": "C-UAS Exhibition: AI sensor fusion, RF sensing, Edge Computing and Command & Control",
+          "speaker": "Not announced"
+        },
+        {
+          "time": "Date/time not yet announced",
+          "title": "KOREA C-UAS Summit — policy, standards, testing and R&D",
+          "speaker": "Not announced"
+        }
+      ],
+      "insights": []
+    },
+    {
+      "id": "aiot-international-conference-2026-coex",
+      "title": "AIoT International Conference 2026",
+      "titleKo": "2026 AIoT 국제컨퍼런스",
+      "titleZh": "2026 韩国 AIoT 国际技术大会",
+      "summary": "11月4日COEX E1–E4举办，与AIoT Korea展览同期但单独付费登记；主题围绕AI与IoT融合、工业智能与连接技术，详细讲者议程需以官方图片议程核验。",
+      "topics": [
+        "AIoT",
+        "Edge AI",
+        "IoT Networks",
+        "Smart Manufacturing",
+        "AI Infrastructure"
+      ],
+      "organizer": [
+        "Korea AI IoT Association"
+      ],
+      "participants": [],
+      "speakers": [],
+      "startDate": "2026-11-04",
+      "endDate": "2026-11-04",
+      "location": "COEX 3F Conference Rooms E1–E4, Seoul, Korea",
+      "language": "Korean (other languages not announced)",
+      "status": "registration_closing",
+      "registrationDeadline": "2026-10-30",
+      "registrationUrl": "https://www.aiotkorea.or.kr/2026/kor/conference/preregistration.asp",
+      "registrationEligibility": "Member discount applies to Korea AI IoT Association and IoT Convergence Forum member organisations; pre-registration discount requires payment by Oct 30.",
+      "fee": "Pre-registration: member KRW 150,000, nonmember KRW 200,000; onsite: member KRW 200,000, nonmember KRW 250,000.",
+      "officialUrl": "https://www.aiotkorea.or.kr/2026/kor/conference/preregistration.asp",
+      "publishedAt": "2026-09-15",
+      "sourceType": "confirmed · official registration",
+      "priority": "A",
+      "operatorRelevance": "medium",
+      "whyItMatters": "面向韩国AIoT与Edge AI产业落地的技术交流，与免费展览是不同报名入口；可观察5G专网、IoT与AI边缘部署，但具体网络议题尚未逐项核实。",
+      "agenda": [
+        {
+          "time": "2026-11-04 10:00-17:00",
+          "title": "AIoT International Conference — parallel tracks in E1–E4",
+          "speaker": "Detailed speakers not yet verified in machine-readable official agenda"
+        }
+      ],
       "insights": []
     }
   ]
