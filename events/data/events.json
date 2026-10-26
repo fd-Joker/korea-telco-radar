@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T08:40:48+09:00",
+  "updatedAt": "2026-10-27T08:58:25.790+09:00",
   "events": [
     {
       "id": "eu-korea-digital-partnership-2026",
@@ -1339,7 +1339,7 @@
       "title": "AI-RAN Summit 2026",
       "titleKo": "AI-RAN Summit 2026",
       "titleZh": "AI-RAN Summit 2026 首尔峰会",
-      "summary": "AINA、Yonsei、NIA、ETRI 等共同组织的 AI-RAN 国际峰会，官方 10 月 16 日发布注册安排和完整专题：Government、AI-x-RAN、Open Source、Platform/Testbed、OCUDU、Hyper AI-RAN/Campus AI-RAN、K-Consortium。",
+      "summary": "AI-RAN Summit 2026于11月9–10日首尔Mondrian举办，现行官网细化Government、AI-x-RAN、Open Source、Platform/Testbed、OCUDU WG、AI Networks in Action和K-Consortium专题；11月10日下午SKT/KT/Newgens/WIZCORE实证专题及三星、SKT、KT、LGU+、ETRI、NVIDIA联合讨论。",
       "topics": [
         "AI-RAN",
         "6G",
@@ -1375,41 +1375,64 @@
         "Tony Quek (SUTD)",
         "Alex Keller (NVIDIA)",
         "Balaji Raghothaman (Keysight)",
-        "Seong-Lyun Kim (Yonsei)"
+        "Seong-Lyun Kim (Yonsei)",
+        "Tim O'Shea (DeepSig)",
+        "Tommaso Melodia (Northeastern University)",
+        "Eng Wei Koo (Keysight)",
+        "Howard Thomas (Viavi)",
+        "Ben Coffin (NI/Emerson)",
+        "Je-Min Jeong (KT)",
+        "Hoon Lee (ETRI)",
+        "Kuntal Chowdhury (NVIDIA)"
       ],
       "startDate": "2026-11-09",
       "endDate": "2026-11-10",
       "location": "Mondrian Seoul Itaewon, Seoul",
       "language": "English / Korean",
       "status": "registration_open",
-      "registrationEligibility": "Pre-registration through Oct 18; general registration Oct 19–Nov 4. AINA/AI-RAN Alliance member organizations up to 5 free seats subject to organizer confirmation.",
+      "registrationEligibility": "Registration until Nov 4 (may close early); no onsite registration. AINA/AI-RAN Alliance member organizations up to 5 free seats subject to organizer confirmation; paid registration requires emailed payment link and payment.",
       "fee": "Members up to 5 free; nonmembers KRW 500,000 on-site / 200,000 online; online students KRW 150,000.",
-      "officialUrl": "https://aina.or.kr/board/board_view?code=gallery&no=239",
+      "officialUrl": "https://ai-ran-summit.org/",
       "publishedAt": "2026-06-11",
-      "sourceType": "confirmed · AINA official notice Oct 16 and 6G-ARROW agenda",
+      "sourceType": "confirmed · official summit live agenda and registration, rechecked 2026-10-27",
       "priority": "S",
       "operatorRelevance": "high",
       "whyItMatters": "这是韩国 2026 年最核心的 AI-RAN 技术活动之一，直接连接 6G、AI Infrastructure 与 Physical AI，并由韩国运营商/设备商/ETRI/NVIDIA 生态支撑。",
       "agenda": [
         {
-          "time": "2026-11-09 12:40–16:50",
-          "title": "AI-x-RAN I/II",
-          "speaker": "SoftBank, Nokia, Ericsson, Qualcomm, DeepSig, SUTD and universities"
+          "time": "2026-11-09 12:40–14:40",
+          "title": "AI-x-RAN (1)",
+          "speaker": "SoftBank, Nokia, Ericsson, Qualcomm"
         },
         {
-          "time": "2026-11-10 08:30–11:40",
-          "title": "Platform/Testbed and OCUDU WG",
-          "speaker": "Keysight, Viavi, Linux Foundation, Yonsei and SUTD"
+          "time": "2026-11-09 14:50–16:50",
+          "title": "AI-x-RAN (2)",
+          "speaker": "DeepSig, Northeastern, Tokyo Science, SUTD"
         },
         {
-          "time": "2026-11-10 12:40–14:10",
-          "title": "Hyper AI-RAN / Campus AI-RAN",
-          "speaker": "SKT Consortium, KT Consortium, Newgens Consortium"
+          "time": "2026-11-09 17:00–18:30",
+          "title": "Open Source",
+          "speaker": "BubbleRAN/Eurecom, NVIDIA, Hallym"
         },
         {
-          "time": "2026-11-10 14:20–17:50",
+          "time": "2026-11-10 09:00–10:30",
+          "title": "Platform / Testbed",
+          "speaker": "Keysight, Viavi, NI/Emerson"
+        },
+        {
+          "time": "2026-11-10 10:40–12:40",
+          "title": "OCUDU Working Group",
+          "speaker": "FutureG/QinetiQ, SUTD, Linux Foundation, Yonsei"
+        },
+        {
+          "time": "2026-11-10 13:40–15:40",
+          "title": "AI Networks in Action",
+          "speaker": "SKT Consortium, KT Consortium, Newgens Consortium, WIZCORE Consortium"
+        },
+        {
+          "time": "2026-11-10 15:50–17:50",
           "title": "K-Consortium",
-          "speaker": "Samsung, SKT, KT, LG U+, ETRI, NVIDIA"
+          "speaker": "Samsung, SKT, KT, LGU+, ETRI, NVIDIA, Yonsei"
         }
       ],
       "insights": [],
@@ -1422,7 +1445,7 @@
       "title": "AI-RAN Alliance 2026 November All Member Meeting",
       "titleKo": "AI-RAN Alliance 2026년 11월 총회",
       "titleZh": "AI-RAN Alliance 2026 年 11 月全体成员会议",
-      "summary": "AI-RAN Alliance 2026 年 11 月成员会议在首尔举行，聚焦工作组进展、技术协作、AI-powered RAN 与产业路线。",
+      "summary": "AI-RAN Alliance 2026 年 11 月成员会议在首尔举行，聚焦工作组进展、技术协作、AI-powered RAN 与产业路线。 11月11–12日展示14项AI-RAN系统演示，含SKT合作的Physical AI语义通信、Samsung/TMYTEK FR3分布式MIMO、OCUDU商用5G Physical AI OTA、CPU/GPU基带加速与共享GPU调度。11月13日另有联盟Board Meeting（不属于11–12日普通会员会议）。",
       "topics": [
         "AI-RAN",
         "6G",
@@ -1450,7 +1473,13 @@
       "priority": "S",
       "operatorRelevance": "high",
       "whyItMatters": "亚洲首次重要 AI-RAN Alliance 成员会议窗口，预计集中出现 working group 路线、PoC/Blueprint、AI-for-RAN/RAN-for-AI 与产业协同信息。对韩国三大运营商和设备商意义最高。",
-      "agenda": [],
+      "agenda": [
+        {
+          "time": "2026-11-11 to 2026-11-12",
+          "title": "14 AI-RAN System Demonstrations: Physical AI Semantic Communications, FR3 Distributed MIMO, Shared GPU Scheduling, 5G OTA on OCUDU",
+          "speaker": "Yonsei, SKT, Samsung, NVIDIA, ETRI and collaborators"
+        }
+      ],
       "insights": [],
       "registrationUrl": "https://ai-ran.org/member-meetings"
     },
@@ -2889,14 +2918,18 @@
       "endDate": "2026-11-05",
       "location": "KINTEX, Goyang",
       "language": "Not announced",
-      "status": "announced",
-      "officialUrl": "https://www.robotworld.or.kr/",
-      "sourceType": "organizer event announcement · registration not verified",
+      "status": "upcoming",
+      "officialUrl": "https://event-us.kr/irbc2026/event/137772",
+      "sourceType": "confirmed · organizer Event-us event and closed application, checked 2026-10-27",
       "priority": "A",
       "operatorRelevance": "high",
       "whyItMatters": "移动机器人、制造 AX 与 Private 5G/Edge AI 存在潜在 B2B 结合点。",
       "agenda": [],
-      "insights": []
+      "insights": [],
+      "registrationDeadline": "2026-10-25T00:00:00+09:00",
+      "registrationUrl": "https://event-us.kr/irbc2026/event/137772",
+      "fee": "Free pre-registration (closed); onsite paid entry mentioned in organizer notice; exact onsite fee not independently confirmed.",
+      "registrationEligibility": "Event-us registration was Oct 16–Oct 25 00:00 and is now closed; check organizer for onsite paid admission."
     },
     {
       "id": "data-center-korea-global-conference-2026",
@@ -3558,13 +3591,13 @@
       "speakers": [],
       "location": "COEX South Conference Room 307, Seoul",
       "language": "Korean",
-      "status": "registration_closing",
+      "status": "upcoming",
       "registrationOpen": "2026-09-30T13:00:00+09:00",
       "registrationDeadline": "2026-10-26T14:00:00+09:00",
       "registrationUrl": "https://event-us.kr/cccr/event/136368",
       "officialUrl": "https://event-us.kr/cccr/event/136368",
       "fee": "Free",
-      "registrationEligibility": "Registration open; limited capacity (150 reported by organizer).",
+      "registrationEligibility": "Official Event-us registration closed on Oct 26 at 14:00 KST; no public new registration confirmed.",
       "sourceType": "confirmed · organizer Event-us registration",
       "priority": "A",
       "operatorRelevance": "high",
@@ -4044,6 +4077,214 @@
           "time": "2026-11-04 10:00-17:00",
           "title": "AIoT International Conference — parallel tracks in E1–E4",
           "speaker": "Detailed speakers not yet verified in machine-readable official agenda"
+        }
+      ],
+      "insights": []
+    },
+    {
+      "id": "etnews-tech-summit-2026-6g-physical-ai-npu",
+      "title": "Electronic Times TECH SUMMIT 2026 — AI Semiconductors, 6G & Physical AI",
+      "titleKo": "전자신문 TECH SUMMIT 2026 — 차세대 반도체로 가속화하는 AI 혁명",
+      "titleZh": "电子新闻 TECH SUMMIT 2026：6G端边云智能与Physical AI NPU",
+      "summary": "10月28–29日在首尔Conrad Seoul举办；10/28 Mobilint讨论下一代NPU推理性能与系统扩展，10/29 DEEPX讨论Physical AI与韩国NPU，Qualcomm讨论6G如何赋能设备-边缘-云智能。重点是AI芯片和推理平台，非运营商专场。",
+      "topics": [
+        "6G",
+        "Physical AI",
+        "Edge AI",
+        "AI Inference",
+        "NPU",
+        "AI Infrastructure",
+        "Semiconductors"
+      ],
+      "organizer": [
+        "Electronic Times (전자신문)"
+      ],
+      "participants": [
+        "Qualcomm Technologies Korea",
+        "Mobilint",
+        "DEEPX",
+        "Samsung Electronics",
+        "Intel Korea",
+        "SK hynix",
+        "Synopsys Korea",
+        "ASML Korea"
+      ],
+      "speakers": [
+        "Myung Gi-seong / 명기성 (Qualcomm Technologies Korea)",
+        "Shin Dong-joo / 신동주 (Mobilint CEO)",
+        "Cho Jae-hong / 조재홍 (DEEPX)",
+        "Cho Min-seong / 조민성 (Intel Korea)",
+        "Kim Kyung-ryun / 김경륜 (Samsung Electronics)"
+      ],
+      "startDate": "2026-10-28",
+      "endDate": "2026-10-29",
+      "location": "Conrad Seoul, 5F Park Ballroom, 10 Gukjegeumyung-ro, Yeongdeungpo-gu, Seoul",
+      "language": "Korean / English talk titles (delivery languages not announced)",
+      "status": "registration_closing",
+      "registrationDeadline": "2026-10-27T16:00:00+09:00",
+      "registrationUrl": "https://www.sek.co.kr/2026/techsummit",
+      "officialUrl": "https://www.sek.co.kr/2026/techsummit",
+      "registrationEligibility": "Free preregistration; attendance only after organizer approval email; first 300 seats. No guaranteed entry without confirmation.",
+      "fee": "Free (organizer confirmation required)",
+      "sourceType": "confirmed · organizer official live agenda and registration, checked 2026-10-27",
+      "priority": "A",
+      "operatorRelevance": "high",
+      "whyItMatters": "Qualcomm 6G端-边-云智能路线与DEEPX/Mobilint推理芯片能力可帮助评估韩国运营商MEC/Edge AI、Physical AI推理及6G设备端AI需求；尚未披露运营商PoC指标。",
+      "agenda": [
+        {
+          "time": "2026-10-28 15:15–15:45",
+          "title": "Next-Generation NPU for Accelerated AI Inference — Effective Performance and System Scaling",
+          "speaker": "Shin Dong-joo (Mobilint CEO)"
+        },
+        {
+          "time": "2026-10-29 11:00–11:30",
+          "title": "Rising Physical AI: Opportunities for Korean NPUs",
+          "speaker": "Cho Jae-hong (DEEPX)"
+        },
+        {
+          "time": "2026-10-29 14:00–14:30",
+          "title": "Year of Agentic AI — How 6G Empowers Intelligence from Device to Edge and Cloud",
+          "speaker": "Myung Gi-seong (Qualcomm Technologies Korea)"
+        }
+      ],
+      "insights": []
+    },
+    {
+      "id": "k-opensource-ax-2026-seoul",
+      "title": "K-Open Source AX 2026 — Open-Source AI Infrastructure & Observability",
+      "titleKo": "2026 K-opensource AX — 오픈소스 AX 실전 도입과 산업확장 전략",
+      "titleZh": "2026 韩国开源AX技术日：AI基础设施、可观测性与Agent",
+      "summary": "10月28日首尔科学技术会馆举办，政府AI政策、AI-Ready数据平台、开源数据库、全栈Observability和多Agent安全专题。不是AI-RAN或6G专题。",
+      "topics": [
+        "Open Source",
+        "AI Infrastructure",
+        "Observability",
+        "Agentic AI",
+        "Cloud Native",
+        "Cybersecurity"
+      ],
+      "organizer": [
+        "Electronic Times (전자신문)"
+      ],
+      "participants": [
+        "MSIT",
+        "S-Core",
+        "INZENT",
+        "CUBRID",
+        "NeoClova",
+        "TmaxTibero",
+        "DevStack"
+      ],
+      "speakers": [
+        "Lee Jin-soo / 이진수 (MSIT)",
+        "Lee Jun-hee / 이준희 (NeoClova)",
+        "Park Jung-kwon / 박정권 (INZENT)",
+        "Jang Seung-wook / 장승욱 (DevStack)"
+      ],
+      "startDate": "2026-10-28",
+      "endDate": "2026-10-28",
+      "location": "Korea Science and Technology Center, B1 Grand Conference Hall, 22 Teheran-ro 7-gil, Gangnam-gu, Seoul",
+      "language": "Korean",
+      "status": "registration_closing",
+      "registrationDeadline": "2026-10-27T17:00:00+09:00",
+      "registrationUrl": "https://old.sek.co.kr/2026/open-ax",
+      "officialUrl": "https://old.sek.co.kr/2026/open-ax",
+      "registrationEligibility": "Free, first 300 registrants subject to final organizer confirmation email; in-person only; may close early.",
+      "fee": "Free (approval required)",
+      "sourceType": "confirmed · organizer official agenda and registration, checked 2026-10-27",
+      "priority": "B",
+      "operatorRelevance": "medium",
+      "whyItMatters": "AI网络和MEC平台可借鉴开源可观测性、Agent安全与AI-Ready数据架构，但活动无确认RAN/5G/6G技术议程。",
+      "agenda": [
+        {
+          "time": "2026-10-28 10:10–10:30",
+          "title": "Policy Direction for AI Leadership",
+          "speaker": "Lee Jin-soo (MSIT)"
+        },
+        {
+          "time": "2026-10-28 14:00–14:30",
+          "title": "Next-Generation Full-Stack Open Source Observability Platform",
+          "speaker": "Lee Jun-hee (NeoClova)"
+        },
+        {
+          "time": "2026-10-28 15:50–16:20",
+          "title": "Multi-Agent LLM for Zero-Day Threat Response",
+          "speaker": "Jang Seung-wook (DevStack)"
+        }
+      ],
+      "insights": []
+    },
+    {
+      "id": "seminarhub-physical-ai-ai-factory-2026-dec08",
+      "title": "Physical AI Era — AI Factory & Autonomous Manufacturing Seminar (Dec 8 Edition)",
+      "titleKo": "[12.8] 피지컬 AI 시대를 여는 AI팩토리·자율제조 핵심 기술과 산업 적용 방안",
+      "titleZh": "12月8日 Physical AI工厂与自主制造技术研讨会",
+      "summary": "SeminarHub当前官方活动页面显示12月8日09:50–17:10、首尔汝矣岛FKI Tower。包含Neuromeka CTO的Foundation Model/Sim2Real、KIRIA Humanoid实证、KITECH机器人流程、Nota AI VLM工业监控、数字孪生与制造Agent等。主办方复用原10月20日活动商品页面；是否改期或另开场次未明，故单独记录本次明确公布的12月日期并保留旧历史记录。",
+      "topics": [
+        "Physical AI",
+        "Robotics",
+        "Humanoid",
+        "AI Factory",
+        "Sim2Real",
+        "Digital Twin",
+        "VLM",
+        "Edge AI"
+      ],
+      "organizer": [
+        "SeminarHub (세미나허브)"
+      ],
+      "participants": [
+        "Neuromeka",
+        "Nota AI",
+        "KITECH",
+        "KIRIA",
+        "Korea University",
+        "PwC Consulting",
+        "E8",
+        "IBEX"
+      ],
+      "speakers": [
+        "Heo Young-jin / 허영진 (Neuromeka CTO)",
+        "Nam Kyung-tae / 남경태 (KITECH)",
+        "Ryu Yo-el / 류요엘 (KIRIA Humanoid Center)",
+        "Seo Seung-ho / 서승호 (Korea University)",
+        "Oh Ji-woo / 오지우 (Nota AI)",
+        "Ryu Jae-hyeong / 류제형 (E8 CTO)"
+      ],
+      "startDate": "2026-12-08",
+      "endDate": "2026-12-08",
+      "location": "FKI Tower Conference Center 2F, Yeouido, Seoul (specific hall not announced on current page)",
+      "language": "Korean",
+      "status": "registration_open",
+      "registrationDeadline": "2026-12-03T17:00:00+09:00",
+      "registrationUrl": "https://seminarhub.co.kr/product/item.php?it_id=1786515415",
+      "officialUrl": "https://seminarhub.co.kr/product/item.php?it_id=1786515415",
+      "registrationEligibility": "Manufacturing/automation, robotics, AI and digital-twin R&D professionals; online/offline options shown on organizer homepage. Early-registration discount through Dec 3 17:00.",
+      "fee": "KRW 396,000 early registration (VAT included); KRW 33,000 surcharge after early deadline; lunch/materials included.",
+      "sourceType": "confirmed · organizer current Dec 8 agenda; legacy Oct 20 Event-us page remains and postponement vs repeat is not explicitly clarified",
+      "priority": "A",
+      "operatorRelevance": "medium",
+      "whyItMatters": "韩国机器人制造与AI工厂部署的Physical AI/Sim2Real/VLM/数字孪生实证，适合寻找Private 5G、MEC推理、多机器人协同及工业B2B的可量化需求；未确认网络KPI。",
+      "agenda": [
+        {
+          "time": "2026-12-08 10:40–11:20",
+          "title": "Physical AI Robot Processes and Industrial Demonstrations",
+          "speaker": "Nam Kyung-tae (KITECH)"
+        },
+        {
+          "time": "2026-12-08 11:30–12:10",
+          "title": "Humanoid Robot Demonstrations and Adoption Strategy",
+          "speaker": "Ryu Yo-el (KIRIA)"
+        },
+        {
+          "time": "2026-12-08 14:00–14:35",
+          "title": "Foundation Model and Sim2Real for Robot Automation",
+          "speaker": "Heo Young-jin (Neuromeka CTO)"
+        },
+        {
+          "time": "2026-12-08 15:55–16:30",
+          "title": "VLM-based Industrial AI Monitoring",
+          "speaker": "Oh Ji-woo (Nota AI)"
         }
       ],
       "insights": []
