@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T08:58:25.790+09:00",
+  "updatedAt": "2026-10-28T08:33:40+09:00",
   "events": [
     {
       "id": "eu-korea-digital-partnership-2026",
@@ -1389,7 +1389,7 @@
       "endDate": "2026-11-10",
       "location": "Mondrian Seoul Itaewon, Seoul",
       "language": "English / Korean",
-      "status": "registration_open",
+      "status": "registration_closing",
       "registrationEligibility": "Registration until Nov 4 (may close early); no onsite registration. AINA/AI-RAN Alliance member organizations up to 5 free seats subject to organizer confirmation; paid registration requires emailed payment link and payment.",
       "fee": "Members up to 5 free; nonmembers KRW 500,000 on-site / 200,000 online; online students KRW 150,000.",
       "officialUrl": "https://ai-ran-summit.org/",
@@ -1445,7 +1445,7 @@
       "title": "AI-RAN Alliance 2026 November All Member Meeting",
       "titleKo": "AI-RAN Alliance 2026년 11월 총회",
       "titleZh": "AI-RAN Alliance 2026 年 11 月全体成员会议",
-      "summary": "AI-RAN Alliance 2026 年 11 月成员会议在首尔举行，聚焦工作组进展、技术协作、AI-powered RAN 与产业路线。 11月11–12日展示14项AI-RAN系统演示，含SKT合作的Physical AI语义通信、Samsung/TMYTEK FR3分布式MIMO、OCUDU商用5G Physical AI OTA、CPU/GPU基带加速与共享GPU调度。11月13日另有联盟Board Meeting（不属于11–12日普通会员会议）。",
+      "summary": "AI-RAN Alliance 2026 年 11 月成员会议在首尔举行，聚焦工作组进展、技术协作、AI-powered RAN 与产业路线。 11月11–12日展示14项AI-RAN系统演示，含SKT合作的Physical AI语义通信、Samsung/TMYTEK FR3分布式MIMO、OCUDU商用5G Physical AI OTA、CPU/GPU基带加速与共享GPU调度。11月13日另有联盟Board Meeting（不属于11–12日普通会员会议）。 Official registration clarifies Nov 11 public sessions, Nov 12 members-only sessions, and Nov 13 Board meeting (not part of general two-day event).",
       "topics": [
         "AI-RAN",
         "6G",
@@ -1465,11 +1465,11 @@
       "location": "Yonsei University, Seoul, Korea",
       "language": "English",
       "status": "registration_open",
-      "registrationEligibility": "Exclusive to AI-RAN Alliance members; registration is open.",
+      "registrationEligibility": "Nov 11 public sessions accessible to nonmembers (registration required); Nov 12 sessions only for AI-RAN Alliance members; Nov 13 Board meeting restricted to BOD members. Limited capacity, register early. Nonmembers must select Other and provide inviter information.",
       "fee": "暂未公布",
       "officialUrl": "https://ai-ran.org/member-meetings",
       "publishedAt": "2026-08-31",
-      "sourceType": "confirmed · official · registration open · members only",
+      "sourceType": "confirmed · AI-RAN Alliance official registration form rechecked 2026-10-28",
       "priority": "S",
       "operatorRelevance": "high",
       "whyItMatters": "亚洲首次重要 AI-RAN Alliance 成员会议窗口，预计集中出现 working group 路线、PoC/Blueprint、AI-for-RAN/RAN-for-AI 与产业协同信息。对韩国三大运营商和设备商意义最高。",
@@ -2163,7 +2163,7 @@
       "endDate": "2026-10-27",
       "location": "EL Tower B1 Gold Hall, 213 Gangnam-daero, Seocho-gu, Seoul",
       "language": "Korean",
-      "status": "registration_closing",
+      "status": "completed",
       "registrationOpen": "2026-09-16T00:00:00+09:00",
       "registrationDeadline": "2026-10-27T17:00:00+09:00",
       "registrationUrl": "https://event-us.kr/coontec/event/133762",
@@ -3591,7 +3591,7 @@
       "speakers": [],
       "location": "COEX South Conference Room 307, Seoul",
       "language": "Korean",
-      "status": "upcoming",
+      "status": "completed",
       "registrationOpen": "2026-09-30T13:00:00+09:00",
       "registrationDeadline": "2026-10-26T14:00:00+09:00",
       "registrationUrl": "https://event-us.kr/cccr/event/136368",
@@ -4120,7 +4120,7 @@
       "endDate": "2026-10-29",
       "location": "Conrad Seoul, 5F Park Ballroom, 10 Gukjegeumyung-ro, Yeongdeungpo-gu, Seoul",
       "language": "Korean / English talk titles (delivery languages not announced)",
-      "status": "registration_closing",
+      "status": "upcoming",
       "registrationDeadline": "2026-10-27T16:00:00+09:00",
       "registrationUrl": "https://www.sek.co.kr/2026/techsummit",
       "officialUrl": "https://www.sek.co.kr/2026/techsummit",
@@ -4185,7 +4185,7 @@
       "endDate": "2026-10-28",
       "location": "Korea Science and Technology Center, B1 Grand Conference Hall, 22 Teheran-ro 7-gil, Gangnam-gu, Seoul",
       "language": "Korean",
-      "status": "registration_closing",
+      "status": "upcoming",
       "registrationDeadline": "2026-10-27T17:00:00+09:00",
       "registrationUrl": "https://old.sek.co.kr/2026/open-ax",
       "officialUrl": "https://old.sek.co.kr/2026/open-ax",
@@ -4287,6 +4287,460 @@
           "speaker": "Oh Ji-woo (Nota AI)"
         }
       ],
+      "insights": []
+    },
+    {
+      "id": "advantech-edge-ai-day-seoul-2026",
+      "title": "Advantech Edge AI Day 2026 — Physical AI, Robotics & Industrial Autonomy",
+      "titleKo": "2026 어드밴텍 Edge AI Day — The Next Era of Intelligent Autonomous",
+      "titleZh": "2026研华Edge AI Day：Physical AI、机器人与工业自治",
+      "summary": "11月6日首尔举办13+场产业Edge AI/Physical AI专题；Intel Robotics Physical AI Studio、NVIDIA Jetson Agentic AI、Qualcomm工业Physical AI、AMD嵌入式路线图、Twiny机器人技术瓶颈、HyperAccel高效LLM推理、Movensys工业执行层等，含展示和交流。",
+      "topics": [
+        "Physical AI",
+        "Edge AI",
+        "Robotics",
+        "Industrial Automation",
+        "AI Factory",
+        "On-device AI",
+        "NPU",
+        "GPU"
+      ],
+      "organizer": [
+        "Advantech Korea"
+      ],
+      "participants": [
+        "Intel",
+        "NVIDIA",
+        "Qualcomm",
+        "AMD",
+        "Microsoft",
+        "Movensys",
+        "HyperAccel",
+        "Twiny",
+        "AIVEX",
+        "Superb AI",
+        "INTERX"
+      ],
+      "speakers": [
+        "Miller Chang (Advantech)",
+        "Jang Jae-seung / 장재승 (Intel)",
+        "Jung Gu-hyeong / 정구형 (NVIDIA)",
+        "Song Ha-rim / 송하림 (Qualcomm)",
+        "Shin Min-gyu / 신민규 (AMD)",
+        "Oh Gyeong-je / 오경제 (Movensys CTO)",
+        "Cheon Hong-seok / 천홍석 (Twiny CEO)"
+      ],
+      "startDate": "2026-11-06",
+      "endDate": "2026-11-06",
+      "location": "Eliena Hotel Seoul, 3F Imperial Hall, 645 Nonhyeon-ro, Gangnam-gu, Seoul",
+      "language": "Korean (session language not separately specified)",
+      "status": "registration_open",
+      "registrationOpen": "2026-10-12",
+      "registrationDeadline": "2026-11-05T18:00:00+09:00",
+      "registrationUrl": "https://akr-go.advantech.com/EdgeAIDay",
+      "registrationEligibility": "Free preregistration; organizer attendance confirmation email is mandatory; first-come capacity, 300+ expected; early-arrival reward is separate from registration.",
+      "fee": "Free",
+      "officialUrl": "https://akr-go.advantech.com/EdgeAIDay",
+      "sourceType": "confirmed · organizer official agenda and FAQ; deadline additionally from event listing, checked 2026-10-28",
+      "priority": "A",
+      "operatorRelevance": "high",
+      "whyItMatters": "覆盖端侧/边缘Physical AI芯片与工业机器人实际执行，帮助评估运营商Private 5G、MEC、工业Edge AI的边界；活动没有明确运营商5G/6G实测KPI。",
+      "agenda": [
+        {
+          "time": "2026-11-06 10:25–10:45",
+          "title": "Intel Robotics: Physical AI Studio",
+          "speaker": "Jang Jae-seung (Intel)"
+        },
+        {
+          "time": "2026-11-06 10:45–11:05",
+          "title": "NVIDIA Jetson Brings Agentic AI to the Physical World",
+          "speaker": "Jung Gu-hyeong (NVIDIA)"
+        },
+        {
+          "time": "2026-11-06 11:20–11:40",
+          "title": "Physical AI Execution Layer and Factory Ground Truth",
+          "speaker": "Oh Gyeong-je (Movensys CTO)"
+        },
+        {
+          "time": "2026-11-06 14:15–14:35",
+          "title": "Industrial and Physical AI",
+          "speaker": "Song Ha-rim (Qualcomm)"
+        },
+        {
+          "time": "2026-11-06 14:35–14:55",
+          "title": "The Technical Bottleneck of Physical AI",
+          "speaker": "Cheon Hong-seok (Twiny CEO)"
+        }
+      ],
+      "insights": []
+    },
+    {
+      "id": "amd-advancing-ai-devday-seoul-2026",
+      "title": "AMD Advancing AI World Tour + AI DevDay Seoul 2026",
+      "titleKo": "AMD Advancing AI + AI DevDay Seoul 2026",
+      "titleZh": "AMD Advancing AI + AI DevDay 首尔站",
+      "summary": "11月4日AMD首尔AI技术日及开发者实训；Helios/Tokenomics、ROCm、Instinct AI DC、Client/Edge、VLM推理、云到机器人Agentic AI、ROCm认证。与Advancing AI World Tour同期同场，按一场活动入库。",
+      "topics": [
+        "AI Factory",
+        "AI Infrastructure",
+        "GPU",
+        "ROCm",
+        "Edge AI",
+        "Physical AI",
+        "Agentic AI",
+        "VLM"
+      ],
+      "organizer": [
+        "AMD"
+      ],
+      "participants": [
+        "Nota AI",
+        "Lablup",
+        "Mangoboost",
+        "Moreh",
+        "Dell Technologies",
+        "HP",
+        "HPE",
+        "Lenovo",
+        "LG"
+      ],
+      "speakers": [
+        "Keith Strier (AMD SVP Global AI Management)",
+        "Ramine Roane (AMD CVP AI Product Management)",
+        "JeongHee Jang (AMD)",
+        "TaeHo Kim (Nota AI CTO)",
+        "JeongKyu Shin (Lablup CEO)",
+        "Sonya Yang (AMD)",
+        "Kerwin Tsai (AMD)"
+      ],
+      "startDate": "2026-11-04",
+      "endDate": "2026-11-04",
+      "location": "The Westin Seoul Parnas, Harmony Ballroom, 524 Bongeunsa-ro, Gangnam-gu, Seoul",
+      "language": "Korean / English (individual delivery languages not fully specified)",
+      "status": "registration_open",
+      "registrationUrl": "https://amd.cventevents.com/event/75972aa2-6895-437c-b1e3-572c6cc0c4b6/register",
+      "registrationEligibility": "Developer/Customer/Partner/Media categories; company email required; personal email submissions may be denied; workshop and ROCm certification track selection required.",
+      "fee": "Free (event partner and developer listings; organizer form does not show payment at initial step)",
+      "officialUrl": "https://amd-advancing-ai-seoul.com/devDay.html",
+      "sourceType": "confirmed · AMD event website, Cvent registration and partner page checked 2026-10-28",
+      "priority": "A",
+      "operatorRelevance": "medium",
+      "whyItMatters": "适合运营商AI DC与MEC团队评估AMD GPU、ROCm、LLM/VLM推理与AI工厂架构，并关注云端Agentic AI到机器人部署路径。",
+      "agenda": [
+        {
+          "time": "2026-11-04 09:50–10:15",
+          "title": "Agentic Era: Helios, Tokenomics and Product Leadership",
+          "speaker": "Keith Strier (AMD)"
+        },
+        {
+          "time": "2026-11-04 10:40–11:30",
+          "title": "Powering AI Everywhere: Data Centre/Instinct and Client/Edge",
+          "speaker": "Ritesh Rohit Patel / Alexey Navolokin (AMD)"
+        },
+        {
+          "time": "2026-11-04 12:40–12:55",
+          "title": "High-performance LLM/VLM Inference on AMD Halo with MLxcel",
+          "speaker": "JeongKyu Shin (Lablup)"
+        },
+        {
+          "time": "2026-11-04 16:50–17:50",
+          "title": "Train, Simulate, Deploy: Agentic AI from Cloud to Robots",
+          "speaker": "Sonya Yang (AMD)"
+        },
+        {
+          "time": "2026-11-04 13:50–17:50",
+          "title": "ROCm Certified Associate Hands-on Workshop",
+          "speaker": "Kerwin Tsai (AMD)"
+        }
+      ],
+      "insights": []
+    },
+    {
+      "id": "intel-ai-summit-seoul-2026",
+      "title": "Intel AI Summit Seoul 2026 — Edge AI, AI Data Center & Physical AI",
+      "titleKo": "Intel AI Summit Seoul 2026",
+      "titleZh": "Intel AI Summit首尔：边缘AI、AI数据中心与机器人",
+      "summary": "Intel Korea 11月12日COEX免费技术峰会，主题AI Everywhere；三大技术轨道为AI PC/Edge AI、AI/Data Center和Physical AI/Robotics，约40个展示摊位。单场Speaker细目暂未公布。",
+      "topics": [
+        "Edge AI",
+        "Physical AI",
+        "Robotics",
+        "AI Infrastructure",
+        "AI Factory",
+        "On-device AI"
+      ],
+      "organizer": [
+        "Intel Korea"
+      ],
+      "participants": [
+        "Lenovo",
+        "LG Electronics",
+        "MSIT",
+        "ASUS",
+        "Dell Technologies",
+        "HPE",
+        "KTNF",
+        "MegazoneCloud",
+        "Samsung Electronics",
+        "Seagate",
+        "Supermicro"
+      ],
+      "speakers": [],
+      "startDate": "2026-11-12",
+      "endDate": "2026-11-12",
+      "location": "COEX Grand Ballroom 1F & Auditorium 3F, 513 Yeongdong-daero, Gangnam-gu, Seoul",
+      "language": "Korean (individual sessions not confirmed)",
+      "status": "registration_open",
+      "registrationOpen": "2026-09-12",
+      "registrationDeadline": "2026-11-06T09:00:00+09:00",
+      "registrationUrl": "https://event-us.kr/intelseminar/event/131490",
+      "registrationEligibility": "Free preregistration; limited seats may close early. Confirm entry via organizer; full speaker list not yet published.",
+      "fee": "Free",
+      "officialUrl": "https://event-us.kr/intelseminar/event/131490",
+      "sourceType": "organizer Event-us registration link; program/deadline cross-checked with Dev-Event listing 2026-10-28",
+      "priority": "A",
+      "operatorRelevance": "medium",
+      "whyItMatters": "Intel边缘计算、AI DC与机器人硬件生态，可评估MEC推理、工业边缘部署和AI工厂基础设施；无确认的5G/6G专项。",
+      "agenda": [
+        {
+          "time": "2026-11-12 10:00–12:00",
+          "title": "Keynotes: AI Everywhere and Intelligent Future",
+          "speaker": "暂未公布"
+        },
+        {
+          "time": "2026-11-12 13:10–16:30",
+          "title": "Parallel tracks: AI PC & Edge AI / AI & Data Center / Physical AI & Robotics",
+          "speaker": "暂未公布"
+        }
+      ],
+      "insights": []
+    },
+    {
+      "id": "naek-yehs-ai-native-system-forum-2026",
+      "title": "NAEK 23rd Next-Generation Tech Leadership Forum — Spatial AI & AI-RAN/6G",
+      "titleKo": "제23회 차세대 테크 리더십포럼 — AI-Native System: 지능화로 다시 설계되는 공학",
+      "titleZh": "第23届下一代技术领导力论坛：Spatial AI与AI-RAN/6G",
+      "summary": "11月14日宿明女子大学，NAVER Labs CEO讲Spatial AI/机器人/数字孪生，延世大学蔡赞炳教授讲AI-RAN与6G智能网络；面向学生的免费限额论坛，非学生仅限YEHS会员推荐关系。",
+      "topics": [
+        "AI-RAN",
+        "6G",
+        "Spatial AI",
+        "Robotics",
+        "Digital Twin",
+        "AI-Native Network"
+      ],
+      "organizer": [
+        "National Academy of Engineering of Korea (NAEK)",
+        "Young Engineers Honor Society (YEHS)"
+      ],
+      "participants": [
+        "NAVER Labs",
+        "Yonsei University"
+      ],
+      "speakers": [
+        "Seok Sang-ok / 석상옥 (NAVER Labs CEO)",
+        "Chan-Byoung Chae / 채찬병 (Yonsei University)"
+      ],
+      "startDate": "2026-11-14",
+      "endDate": "2026-11-14",
+      "location": "Sookmyung Women's University, Second Foundation Campus, Snowflake Plaza Hall, Yongsan-gu, Seoul",
+      "language": "Korean",
+      "status": "registration_open",
+      "registrationOpen": "2026-10-21T18:00:00+09:00",
+      "registrationDeadline": "2026-11-12T23:59:00+09:00",
+      "registrationUrl": "https://event-us.kr/naekyehs/event/137280",
+      "registrationEligibility": "First-come 170 seats; primarily high school/university/graduate students with student ID verification; nonstudents only if referred by a YEHS member and subject to organizer approval. Not generally open to industry professionals.",
+      "fee": "Free (eligibility restrictions)",
+      "officialUrl": "https://event-us.kr/naekyehs/event/137280",
+      "publishedAt": "2026-10-27",
+      "sourceType": "confirmed · organizer YEHS published detailed agenda and registration, 2026-10-27",
+      "priority": "A",
+      "operatorRelevance": "high",
+      "whyItMatters": "罕见将NAVER Labs Spatial AI/机器人实际场景与AI-RAN/6G架构同场讨论；因参会资格严格，不应视为一般可报名的产业大会。",
+      "agenda": [
+        {
+          "time": "2026-11-14 14:20–15:50",
+          "title": "Spatial AI: How Spaces and Services Become Intelligent",
+          "speaker": "Seok Sang-ok (NAVER Labs CEO)"
+        },
+        {
+          "time": "2026-11-14 16:10–17:40",
+          "title": "AI-Native Network: AI-RAN and 6G",
+          "speaker": "Chan-Byoung Chae (Yonsei University)"
+        }
+      ],
+      "insights": []
+    },
+    {
+      "id": "korea-domestic-npu-demonstration-results-2026",
+      "title": "2026 Korean Domestic NPU Demonstration Results Exchange",
+      "titleKo": "2026 국산 NPU 실증 성과교류회",
+      "titleZh": "2026韩国国产NPU实证成果交流会",
+      "summary": "11月10日杨才aT Center公开展示韩国国产AI半导体的差异化优势及公私部门真实应用实证，讨论NPU需求扩散与产业生态。具体企业演讲名单与硬件性能KPI暂未公布。",
+      "topics": [
+        "NPU",
+        "AI Semiconductors",
+        "Edge AI",
+        "AI Infrastructure",
+        "AI Factory",
+        "Inference"
+      ],
+      "organizer": [
+        "KMAC (event registration host)"
+      ],
+      "participants": [],
+      "speakers": [],
+      "startDate": "2026-11-10",
+      "endDate": "2026-11-10",
+      "location": "Yangjae aT Center, 5F Grand Hall, 27 Gangnam-daero, Seocho-gu, Seoul",
+      "language": "Korean",
+      "status": "registration_open",
+      "registrationOpen": "2026-10-22T08:00:00+09:00",
+      "registrationDeadline": "2026-11-09T19:00:00+09:00",
+      "registrationUrl": "https://event-us.kr/kmacdx/event/137313",
+      "registrationEligibility": "Public/private sector NPU and AI semiconductor interested parties; free registration; detailed qualifications not separately announced.",
+      "fee": "Free",
+      "officialUrl": "https://event-us.kr/kmacdx/event/137313",
+      "sourceType": "confirmed · organizer Event-us registration, checked 2026-10-28",
+      "priority": "A",
+      "operatorRelevance": "medium",
+      "whyItMatters": "国产NPU真实实证与推理成本/性能有助评估运营商边缘AI算力、GPU替代和工业B2B平台，暂未公布具体网络或硬件测试数据。",
+      "agenda": [],
+      "insights": []
+    },
+    {
+      "id": "kexia-physical-ai-industrial-technology-seminar-2026",
+      "title": "KEXIA Physical AI Industrial Technology Seminar 2026",
+      "titleKo": "Physical AI 산업 기술 세미나에 초청합니다 (10/29)",
+      "titleZh": "KEXIA Physical AI产业技术研讨会",
+      "summary": "韩国嵌入式软件与系统产业协会KEXIA组织10月29日板桥免费技术交流，聚焦工业制造Physical AI、机器人、智能工厂和数字孪生的最新技术与落地策略。详细议程和演讲人暂未公布。",
+      "topics": [
+        "Physical AI",
+        "Robotics",
+        "Smart Factory",
+        "Digital Twin",
+        "Embedded AI"
+      ],
+      "organizer": [
+        "KEXIA (Korea Embedded Software and System Industry Association)"
+      ],
+      "participants": [],
+      "speakers": [],
+      "startDate": "2026-10-29",
+      "endDate": "2026-10-29",
+      "location": "Hotel Skypark Central Seoul Pangyo, Art Hall, 36 Hwangsaeul-ro 311beon-gil, Bundang-gu, Seongnam",
+      "language": "Korean",
+      "status": "registration_closing",
+      "registrationDeadline": "2026-10-29T10:00:00+09:00",
+      "registrationUrl": "https://www.onoffmix.com/event/351687",
+      "registrationEligibility": "Free, first-come; application redirects to external Google Form; detailed eligibility not announced.",
+      "fee": "Free",
+      "officialUrl": "https://www.onoffmix.com/event/351687",
+      "sourceType": "confirmed · association-hosted OnOffMix listing published approx Oct 23, checked 2026-10-28",
+      "priority": "B",
+      "operatorRelevance": "medium",
+      "whyItMatters": "工业Physical AI与嵌入式AI可能形成运营商Edge AI/Private 5G合作线索，但暂无确认的通信技术议程或PoC数据。",
+      "agenda": [],
+      "insights": []
+    },
+    {
+      "id": "modulabs-physical-ai-rl-vla-training-2026",
+      "title": "Physical AI Hands-on Training — ROS2, RL, ACT and SmolVLA",
+      "titleKo": "이제는 Physical AI 시대, RL과 VLA로 만나는 Physical AI 무료 교육",
+      "titleZh": "Physical AI实操培训：ROS2、强化学习、模仿学习和SmolVLA",
+      "summary": "11月14日至12月5日每周六安山机器人职业教育中心线下课程：ROS2、HIL-SERL强化学习、ACT模仿学习、VLA/SmolVLA真实机器人抓取。仅限缴纳雇佣保险的企业在职员工，回次各20人。",
+      "topics": [
+        "Physical AI",
+        "Robotics",
+        "VLA",
+        "Robot Foundation Model",
+        "Reinforcement Learning",
+        "ROS2",
+        "Edge AI"
+      ],
+      "organizer": [
+        "Modulabs (모두의연구소)",
+        "Korea Polytechnic University Robot Vocational Education Center"
+      ],
+      "participants": [
+        "CosmoDynamics"
+      ],
+      "speakers": [
+        "Park Cheol / 박철 (CosmoDynamics CEO)"
+      ],
+      "startDate": "2026-11-14",
+      "endDate": "2026-12-05",
+      "location": "Robot Vocational Education Center, Gyeonggi Techno Park Plant 2, 705 Haean-ro, Sangnok-gu, Ansan",
+      "language": "Korean",
+      "status": "registration_open",
+      "registrationDeadline": "2026-11-12T23:59:00+09:00",
+      "registrationUrl": "https://www.onoffmix.com/event/351576",
+      "registrationEligibility": "Only currently employed workers at companies paying employment insurance; excludes freelancers, jobseekers and students. 20 per session. Per-session registration dates may vary; this listing displays Nov 12.",
+      "fee": "Free for eligible workers",
+      "officialUrl": "https://www.onoffmix.com/event/351576",
+      "publishedAt": "2026-10-20",
+      "sourceType": "confirmed · organizer promotion and OnOffMix course listing, checked 2026-10-28",
+      "priority": "B",
+      "operatorRelevance": "low",
+      "whyItMatters": "可了解真实机器人推理、Sim2Real和VLA训练流程，辅助评估端侧/边缘计算需求；不是运营商网络技术活动。",
+      "agenda": [
+        {
+          "time": "2026-11-14 10:00–17:00",
+          "title": "ROS2 Robot Control Fundamentals",
+          "speaker": "Park Cheol"
+        },
+        {
+          "time": "2026-11-21 10:00–17:00",
+          "title": "Reinforcement Learning and HIL-SERL",
+          "speaker": "Park Cheol"
+        },
+        {
+          "time": "2026-11-28 10:00–17:00",
+          "title": "Imitation Learning and ACT",
+          "speaker": "Park Cheol"
+        },
+        {
+          "time": "2026-12-05 10:00–17:00",
+          "title": "Real Robot Picking with VLA and SmolVLA",
+          "speaker": "Park Cheol"
+        }
+      ],
+      "insights": []
+    },
+    {
+      "id": "kiferi-self-driving-lab-robotics-seminar-2026",
+      "title": "AI & Robotics Self-Driving Lab Implementation Seminar",
+      "titleKo": "[11.26] 자율 R&D 완성을 위한 AI·로봇 기반 Self-Driving Lab 구현 세미나",
+      "titleZh": "AI与机器人自主实验室Self-Driving Lab实施研讨会",
+      "summary": "11月26日首尔汝矣岛/线上，研究AI与机器人构建Self-Driving Lab自主实验系统，讨论现有技术可实施范围和分阶段实验室自动化。技术议程与讲者暂未逐项核实。",
+      "topics": [
+        "Robotics",
+        "Physical AI",
+        "AI Automation",
+        "AI Factory",
+        "Autonomous Laboratory"
+      ],
+      "organizer": [
+        "Korea Future Technology Education Research Institute"
+      ],
+      "participants": [],
+      "speakers": [],
+      "startDate": "2026-11-26",
+      "endDate": "2026-11-26",
+      "location": "FKI Conference Center 2F Sapphire Hall, 24 Yeoui-daero, Yeongdeungpo-gu, Seoul / Online",
+      "language": "Korean",
+      "status": "registration_open",
+      "registrationOpen": "2026-10-01",
+      "registrationDeadline": "2026-11-26T17:00:00+09:00",
+      "registrationUrl": "https://event-us.kr/kecft/event/136462",
+      "registrationEligibility": "Paid in-person/online; exact qualification not announced.",
+      "fee": "Paid; amount not verified",
+      "officialUrl": "https://event-us.kr/kecft/event/136462",
+      "sourceType": "confirmed · organizer Event-us page checked 2026-10-28",
+      "priority": "B",
+      "operatorRelevance": "low",
+      "whyItMatters": "自主实验室的机器人编排与数据闭环可为Edge AI/企业AI平台提供技术参考，但无明确5G/6G或运营商应用。",
+      "agenda": [],
       "insights": []
     }
   ]
