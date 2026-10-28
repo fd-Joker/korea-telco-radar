@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T08:33:40+09:00",
+  "updatedAt": "2026-10-29T08:33:08+09:00",
   "events": [
     {
       "id": "eu-korea-digital-partnership-2026",
@@ -1084,7 +1084,7 @@
       "endDate": "2026-10-28",
       "location": "Grand InterContinental Seoul Parnas, Seoul",
       "language": "Korean",
-      "status": "upcoming",
+      "status": "completed",
       "registrationDeadline": "2026-10-13",
       "registrationUrl": "https://techblog.woowahan.com/",
       "registrationEligibility": "Public application; on-site attendance selected by lottery.",
@@ -2255,7 +2255,7 @@
       "endDate": "2026-11-11",
       "location": "Online (Korean TTA STEP e-learning)",
       "language": "Korean",
-      "status": "upcoming",
+      "status": "ongoing",
       "registrationDeadline": "2026-10-21",
       "registrationUrl": "https://edu.tta.or.kr/edu/educationWebView.do?key=21&prgNo=1421",
       "registrationEligibility": "TTA STEP account; 100 seats; for mobile communications standardization researchers.",
@@ -2302,7 +2302,7 @@
       "endDate": "2026-11-11",
       "location": "Online (Korean TTA STEP e-learning)",
       "language": "Korean",
-      "status": "upcoming",
+      "status": "ongoing",
       "registrationDeadline": "2026-10-21",
       "registrationUrl": "https://edu.tta.or.kr/edu/educationWebView.do?category=CT00000016&key=30&prgNo=1418",
       "registrationEligibility": "TTA STEP account; 100 seats; AI and metaverse standards researchers.",
@@ -2349,7 +2349,7 @@
       "endDate": "2026-11-11",
       "location": "Online (Korean TTA STEP e-learning)",
       "language": "Korean",
-      "status": "upcoming",
+      "status": "ongoing",
       "registrationDeadline": "2026-10-21",
       "registrationUrl": "https://edu.tta.or.kr/edu/educationWebView.do?key=21&prgNo=1422",
       "registrationEligibility": "TTA STEP account; 100 seats; autonomous vehicle standardization researchers.",
@@ -2816,7 +2816,7 @@
       "endDate": "2026-10-30",
       "location": "Seoul / Online",
       "language": "Korean",
-      "status": "registration_closing",
+      "status": "upcoming",
       "registrationDeadline": "2026-10-28",
       "registrationUrl": "https://event.kics.or.kr/921/registrationInfo",
       "officialUrl": "https://event.kics.or.kr/921/program",
@@ -3023,7 +3023,7 @@
       "endDate": "2026-10-28",
       "location": "JW Marriott Hotel Seoul, 3F Salon, Seoul",
       "language": "Korean",
-      "status": "registration_closing",
+      "status": "completed",
       "priority": "S",
       "operatorRelevance": "high",
       "officialUrl": "https://aina.or.kr/board/board_view?code=gallery&no=238",
@@ -3911,7 +3911,7 @@
       "endDate": "2026-10-28",
       "location": "The Shilla Seoul, Topaz Hall (Yeongbin-gwan 1F), Seoul, Korea",
       "language": "Korean",
-      "status": "registration_closing",
+      "status": "completed",
       "registrationDeadline": "2026-10-28",
       "registrationUrl": "https://www.seoulfuture.co.kr/register",
       "registrationEligibility": "General registration, students (free), invited guests (free), groups of 5+ by organizer enquiry; 50 designated seats first-come-first-served, applications continue within registration window after designated seats fill.",
@@ -4120,7 +4120,7 @@
       "endDate": "2026-10-29",
       "location": "Conrad Seoul, 5F Park Ballroom, 10 Gukjegeumyung-ro, Yeongdeungpo-gu, Seoul",
       "language": "Korean / English talk titles (delivery languages not announced)",
-      "status": "upcoming",
+      "status": "ongoing",
       "registrationDeadline": "2026-10-27T16:00:00+09:00",
       "registrationUrl": "https://www.sek.co.kr/2026/techsummit",
       "officialUrl": "https://www.sek.co.kr/2026/techsummit",
@@ -4185,7 +4185,7 @@
       "endDate": "2026-10-28",
       "location": "Korea Science and Technology Center, B1 Grand Conference Hall, 22 Teheran-ro 7-gil, Gangnam-gu, Seoul",
       "language": "Korean",
-      "status": "upcoming",
+      "status": "completed",
       "registrationDeadline": "2026-10-27T17:00:00+09:00",
       "registrationUrl": "https://old.sek.co.kr/2026/open-ax",
       "officialUrl": "https://old.sek.co.kr/2026/open-ax",
@@ -4741,6 +4741,312 @@
       "operatorRelevance": "low",
       "whyItMatters": "自主实验室的机器人编排与数据闭环可为Edge AI/企业AI平台提供技术参考，但无明确5G/6G或运营商应用。",
       "agenda": [],
+      "insights": []
+    },
+    {
+      "id": "lguplus-quectel-rtk-physical-ai-webinar-2026",
+      "title": "LG U+ × Quectel RTK Webinar — Precision Positioning for Physical AI",
+      "titleKo": "[LG U+] 피지컬 AI 시대, 정확한 위치가 경쟁력입니다",
+      "titleZh": "LG U+ × 移远通信：Physical AI厘米级精密定位技术研讨会",
+      "summary": "LG U+与Quectel联合举办精密定位RTK技术研讨会，介绍GNSS实时差分改正、厘米级定位服务、机器人/自动驾驶/无人机应用及Quectel GNSS模组演示。活动现场举行并在线直播，公开报名仅针对在线参会，需主办方审核。",
+      "topics": [
+        "Physical AI",
+        "Robotics",
+        "Autonomous Driving",
+        "RTK",
+        "GNSS",
+        "Precision Positioning",
+        "Industrial IoT",
+        "B2B Telecom"
+      ],
+      "organizer": [
+        "LG U+",
+        "Quectel"
+      ],
+      "participants": [
+        "LG U+",
+        "Quectel"
+      ],
+      "speakers": [
+        "Bae Jun-hyeong / 배준형 (LG U+ Mobility Business)",
+        "Lee Dae-sik / 이대식 (LG U+ FMS Solutions)",
+        "Mark Winton (Quectel APAC GNSS Business Development)",
+        "Jeon Byeong-cheol / 전병철 (Quectel Korea GNSS FAE)"
+      ],
+      "startDate": "2026-11-19",
+      "endDate": "2026-11-19",
+      "location": "Online live stream (offline venue not publicly announced)",
+      "language": "暂未公布（韩文活动页）",
+      "status": "registration_open",
+      "registrationOpen": "2026-10-21",
+      "registrationDeadline": "2026-11-18T18:00:00+09:00",
+      "registrationUrl": "https://event-us.kr/lgupluswebinar/event/137697",
+      "registrationEligibility": "Online registration only through Event-us; organizer approval required; relevant industry participants prioritized; business email recommended and personal email may be rejected; may close early.",
+      "fee": "Free",
+      "officialUrl": "https://event-us.kr/lgupluswebinar/event/137697",
+      "sourceType": "confirmed · LG U+ organizer Event-us registration and published agenda; corroborated by Dev-Event listing",
+      "priority": "A",
+      "operatorRelevance": "high",
+      "whyItMatters": "LG U+将运营商RTK精密定位能力直接面向机器人、无人机和自动驾驶企业客户，提供可落地的Physical AI B2B服务案例；RTK基于GNSS改正服务，并非已经验证的6G ISAC。",
+      "agenda": [
+        {
+          "time": "2026-11-19 13:00–13:10",
+          "title": "Opening",
+          "speaker": "Bae Jun-hyeong (LG U+)"
+        },
+        {
+          "time": "2026-11-19 13:20–14:20",
+          "title": "U+ RTK Service: Present and Future — Use Cases and Roadmap",
+          "speaker": "Lee Dae-sik (LG U+)"
+        },
+        {
+          "time": "2026-11-19 14:40–15:25",
+          "title": "Precision Positioning with Quectel GNSS",
+          "speaker": "Mark Winton (Quectel)"
+        },
+        {
+          "time": "2026-11-19 15:40–16:10",
+          "title": "Quectel RTK Module Demo",
+          "speaker": "Jeon Byeong-cheol (Quectel)"
+        }
+      ],
+      "insights": []
+    },
+    {
+      "id": "safetics-physical-ai-beyond-humanoids-seoul-2026",
+      "title": "Physical AI, Beyond Humanoids — Safetics Industry Seminar",
+      "titleKo": "지금, 현장에서 만나보는 피지컬 AI",
+      "titleZh": "超越人形机器人：工业Physical AI现场部署研讨会",
+      "summary": "Safetics联合KAIST国家AI研究基地、斗山机器人、OnRobot Korea、JD和韩国机器人产业振兴院举办工业Physical AI实战研讨会，现场演示机器人单元即插即用部署，讨论机器人平台、制造现场落地、安全验证和政策。",
+      "topics": [
+        "Physical AI",
+        "Industrial Robotics",
+        "Smart Factory",
+        "Robot Deployment",
+        "Robot Safety",
+        "Robot Cell",
+        "Plug and Play",
+        "Embodied AI"
+      ],
+      "organizer": [
+        "Safetics"
+      ],
+      "participants": [
+        "KAIST National AI Research Hub",
+        "Doosan Robotics",
+        "OnRobot Korea",
+        "JD",
+        "Korea Institute for Robot Industry Advancement (KIRIA)"
+      ],
+      "speakers": [
+        "Kim Jong-cheol / 김종철 (KAIST)",
+        "Lee Bu-gi / 이부기 (Doosan Robotics)",
+        "Kim Ju-yeon / 김주연 (OnRobot Korea)",
+        "Choi Hyeok / 최혁 (JD)",
+        "Kim Hwi-yeon / 김휘연 (Safetics)",
+        "Kim So-yeong / 김소영 (KIRIA)"
+      ],
+      "startDate": "2026-11-10",
+      "endDate": "2026-11-10",
+      "location": "POSCO Tower Yeoksam, 3F Event Hall, Seoul",
+      "language": "Korean",
+      "status": "registration_open",
+      "registrationDeadline": "2026-11-06",
+      "registrationUrl": "https://page.stibee.com/subscriptions/524426?groupIds=525002",
+      "registrationEligibility": "Free advance registration; 250-person capacity; industrial robotics professionals prioritized; no on-site registration; may close early; confirmation email sent.",
+      "fee": "Free",
+      "officialUrl": "https://www.safetics.io/seminar/seminar261110",
+      "sourceType": "confirmed · Safetics official seminar page, agenda, speakers and FAQ",
+      "priority": "A",
+      "operatorRelevance": "medium",
+      "whyItMatters": "直接观察工业机器人单元搭建、非结构化作业自动化和安全约束，可反推工业专网/Edge AI需要的真实业务指标；主办方未公布5G/6G网络实证。",
+      "agenda": [
+        {
+          "time": "2026-11-10 13:30",
+          "title": "Physical AI, Beyond Humanoids",
+          "speaker": "Kim Jong-cheol (KAIST)"
+        },
+        {
+          "time": "2026-11-10 13:55",
+          "title": "From Robot to Physical AI Platform",
+          "speaker": "Lee Bu-gi (Doosan Robotics)"
+        },
+        {
+          "time": "2026-11-10 14:40",
+          "title": "Robot Deployment, Simplified: Integration to Plug & Play",
+          "speaker": "Kim Ju-yeon (OnRobot Korea)"
+        },
+        {
+          "time": "2026-11-10 15:05",
+          "title": "Deployment is the Real Challenge",
+          "speaker": "Choi Hyeok (JD)"
+        },
+        {
+          "time": "2026-11-10 15:50",
+          "title": "Digital Risk Assessment for the Robot Life Cycle",
+          "speaker": "Kim Hwi-yeon (Safetics)"
+        },
+        {
+          "time": "2026-11-10 16:15",
+          "title": "AI Robotics Industry Policy and Support",
+          "speaker": "Kim So-yeong (KIRIA)"
+        }
+      ],
+      "insights": []
+    },
+    {
+      "id": "openkcloud-devday-2026-ai-cloud",
+      "title": "openKcloud DevDay 2026 — AI Cloud, AIDC and Scheduling",
+      "titleKo": "openKcloud DevDay 2026 — 모두를 위한 AI, 관측에서 서비스까지 AI로 연결되는 클라우드",
+      "titleZh": "openKcloud开发者日：AI数据中心与云端资源调度",
+      "summary": "openKcloud社区开发者日，讨论AI半导体与云基础设施融合、AIDC服务转型、云可观测性、调度和统一管理技术；对运营商AI Factory软件栈与算力资源管理有参考价值。",
+      "topics": [
+        "AI Factory",
+        "AI Infrastructure",
+        "AI Semiconductors",
+        "Cloud",
+        "GPU Scheduling",
+        "Observability",
+        "AIDC"
+      ],
+      "organizer": [
+        "openKcloud Community"
+      ],
+      "participants": [],
+      "speakers": [],
+      "startDate": "2026-11-10",
+      "endDate": "2026-11-10",
+      "location": "ST Center (Korea Science and Technology Center), Conference Room 3, 22 Teheran-ro 7-gil, Gangnam-gu, Seoul",
+      "language": "暂未公布（韩文活动页）",
+      "status": "registration_open",
+      "registrationOpen": "2026-10-12",
+      "registrationDeadline": "2026-11-10T11:00:00+09:00",
+      "registrationUrl": "https://event-us.kr/openkcloud/event/137324",
+      "registrationEligibility": "Public Event-us preregistration; additional restrictions not announced.",
+      "fee": "Free",
+      "officialUrl": "https://event-us.kr/openkcloud/event/137324",
+      "sourceType": "confirmed · organizer openKcloud Event-us registration",
+      "priority": "B",
+      "operatorRelevance": "medium",
+      "whyItMatters": "AI半导体与AIDC资源调度可能帮助运营商构建GPUaaS、AI Factory管理和Edge AI平台，但无明确RAN/6G专题或现场PoC。",
+      "agenda": [],
+      "insights": []
+    },
+    {
+      "id": "pytorch-day-korea-2026-physical-ai-inference",
+      "title": "PyTorch Day Korea 2026 — Build, Serve & Run",
+      "titleKo": "PyTorch Day Korea 2026",
+      "titleZh": "PyTorch Day Korea：模型推理、部署与Physical AI",
+      "summary": "PyTorch Korea社区首届大型线下技术大会，三条技术轨道Build、Serve、Run，覆盖模型优化、GPU/NPU、vLLM、DeepSpeed、Ray、AI Agent及Physical AI数据采集，活动合作伙伴包括AWS、NIPA，赞助商包括NVIDIA与Nota AI。",
+      "topics": [
+        "Physical AI",
+        "AI Infrastructure",
+        "AI Inference",
+        "GPU",
+        "NPU",
+        "Model Serving",
+        "Edge AI",
+        "PyTorch"
+      ],
+      "organizer": [
+        "PyTorch Korea User Group"
+      ],
+      "participants": [
+        "NVIDIA",
+        "AWS Korea",
+        "NIPA",
+        "Nota AI",
+        "Runpod"
+      ],
+      "speakers": [],
+      "startDate": "2026-11-21",
+      "endDate": "2026-11-21",
+      "location": "Centerfield East, 18F AWS Korea, 231 Teheran-ro, Gangnam-gu, Seoul",
+      "language": "Korean",
+      "status": "registration_open",
+      "registrationOpen": "2026-10-16T09:30:00+09:00",
+      "registrationDeadline": "2026-11-16T23:30:00+09:00",
+      "registrationUrl": "https://event-us.kr/pytorchkr/event/136733",
+      "registrationEligibility": "Public paid preregistration via Event-us; CFP and sponsorship applications closed.",
+      "fee": "KRW 30,000",
+      "officialUrl": "https://pytorchday.kr/",
+      "sourceType": "confirmed · PyTorch Korea official conference and organizer Event-us registration",
+      "priority": "A",
+      "operatorRelevance": "medium",
+      "whyItMatters": "模型部署和GPU/NPU推理实战对运营商AI Factory与Edge AI服务的性能、成本和运维能力有直接参考价值；并非通信专场。",
+      "agenda": [
+        {
+          "time": "2026-11-21 (time not announced)",
+          "title": "Build: Model development and optimization",
+          "speaker": "暂未公布"
+        },
+        {
+          "time": "2026-11-21 (time not announced)",
+          "title": "Serve: GPU/NPU, vLLM, DeepSpeed, Ray and inference",
+          "speaker": "暂未公布"
+        },
+        {
+          "time": "2026-11-21 (time not announced)",
+          "title": "Run: AI applications and edge operations",
+          "speaker": "暂未公布"
+        }
+      ],
+      "insights": []
+    },
+    {
+      "id": "aws-community-day-seoul-2026-agentic-cloud",
+      "title": "AWS Community Day Seoul 2026 — AI Agent Cloud Operations",
+      "titleKo": "AWS Community Day 2026 — AI 에이전트 시대의 클라우드 운영 배우기",
+      "titleZh": "AWS Community Day Seoul：Agentic AI云运营实践",
+      "summary": "AWS韩国用户社区主办的三轨开发者大会，聚焦Agentic AI、EKS容器、无服务器、云安全、DevOps Agent及LLM Gateway，设Strands Agents实操；适合运营商AI云平台与自治运维团队。",
+      "topics": [
+        "Agentic AI",
+        "AI Infrastructure",
+        "Cloud Operations",
+        "Kubernetes",
+        "LLM Gateway",
+        "AIOps",
+        "AI Factory"
+      ],
+      "organizer": [
+        "AWS Korea User Group (AWSKRUG)"
+      ],
+      "participants": [
+        "AWS",
+        "MegazoneCloud",
+        "Snowflake",
+        "New Relic",
+        "KT DS",
+        "Samsung Electronics"
+      ],
+      "speakers": [],
+      "startDate": "2026-11-22",
+      "endDate": "2026-11-22",
+      "location": "SpaceShare Samseong Station Center, B1F, 20 Yeongdong-daero 96-gil, Gangnam-gu, Seoul",
+      "language": "Korean",
+      "status": "registration_open",
+      "registrationOpen": "2026-10-19T18:00:00+09:00",
+      "registrationDeadline": "2026-11-19T18:00:00+09:00",
+      "registrationUrl": "https://event-us.kr/awskrug/event/137627",
+      "registrationEligibility": "Public ticketed registration; hands-on workshops have limited first-come seats; additional networking party optional.",
+      "fee": "KRW 10,000 (optional networking party +KRW 5,000; hands-on no extra charge)",
+      "officialUrl": "https://cday2026.awskr.org/",
+      "sourceType": "confirmed · AWSKRUG organizer LinkedIn announcement and Event-us registration",
+      "priority": "B",
+      "operatorRelevance": "medium",
+      "whyItMatters": "面向AI Agent和云基础设施运营的真实工程经验可支持运营商AI Factory、MEC运维和自治网络软件平台研究，但没有确认的RAN/6G专题。",
+      "agenda": [
+        {
+          "time": "2026-11-22 13:00–18:00",
+          "title": "Three tracks: Agentic AI, EKS, serverless, DevOps and security",
+          "speaker": "AWSKRUG community engineers"
+        },
+        {
+          "time": "2026-11-22 (time not announced)",
+          "title": "Strands Agents hands-on workshop",
+          "speaker": "暂未公布"
+        }
+      ],
       "insights": []
     }
   ]
