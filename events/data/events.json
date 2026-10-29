@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T08:33:08+09:00",
+  "updatedAt": "2026-10-30T08:50:30+09:00",
   "events": [
     {
       "id": "eu-korea-digital-partnership-2026",
@@ -1339,7 +1339,7 @@
       "title": "AI-RAN Summit 2026",
       "titleKo": "AI-RAN Summit 2026",
       "titleZh": "AI-RAN Summit 2026 首尔峰会",
-      "summary": "AI-RAN Summit 2026于11月9–10日首尔Mondrian举办，现行官网细化Government、AI-x-RAN、Open Source、Platform/Testbed、OCUDU WG、AI Networks in Action和K-Consortium专题；11月10日下午SKT/KT/Newgens/WIZCORE实证专题及三星、SKT、KT、LGU+、ETRI、NVIDIA联合讨论。",
+      "summary": "AI-RAN Summit 2026于11月9–10日首尔Mondrian举行；官网最新议程为政府政策、AI-x-RAN、Open Source、Platform/Testbed、OCUDU WG、AI Networks in Action和K-Consortium。11月10日14:50–16:05为SKT/KT/Newgens/WIZCORE/GNTEL联合项目，16:20–17:50为Samsung、SKT、KT、LG U+、ETRI、NVIDIA、Yonsei联合专题；11月11–12日联盟会议官方现列27项AI-RAN系统演示。",
       "topics": [
         "AI-RAN",
         "6G",
@@ -1368,7 +1368,7 @@
         "ETRI"
       ],
       "speakers": [
-        "Alex Junsung Choi (SoftBank)",
+        "Alex Jinsung Choi (SoftBank)",
         "Steph Delvoye (Nokia)",
         "Sibel Tombaz (Ericsson)",
         "Jack Nasielski (Qualcomm)",
@@ -1383,7 +1383,20 @@
         "Ben Coffin (NI/Emerson)",
         "Je-Min Jeong (KT)",
         "Hoon Lee (ETRI)",
-        "Kuntal Chowdhury (NVIDIA)"
+        "Kuntal Chowdhury (NVIDIA)",
+        "Bokyeong Park (MSIT)",
+        "Sarah Skaluba (NTIA)",
+        "Noan Yoshida (MIC Japan)",
+        "Tiffany Lin (ITRI Taiwan)",
+        "Andres Arjona (Nokia)",
+        "Ji-Yun Seol (Samsung Electronics)",
+        "Navid Nikaein (BubbleRAN/EURECOM)",
+        "Jungmihn Jamie Ahn (Hallym University)",
+        "Abhumanyu Gosain (FutureG/QinetiQ)",
+        "Jihong Park (SUTD)",
+        "Ranny Haiby (Linux Foundation)",
+        "Dongwook Kim (SKT Consortium)",
+        "Kwang Soon Kim (Yonsei/Newgens)"
       ],
       "startDate": "2026-11-09",
       "endDate": "2026-11-10",
@@ -1394,45 +1407,50 @@
       "fee": "Members up to 5 free; nonmembers KRW 500,000 on-site / 200,000 online; online students KRW 150,000.",
       "officialUrl": "https://ai-ran-summit.org/",
       "publishedAt": "2026-06-11",
-      "sourceType": "confirmed · official summit live agenda and registration, rechecked 2026-10-27",
+      "sourceType": "confirmed · official summit detailed agenda and registration, rechecked 2026-10-30",
       "priority": "S",
       "operatorRelevance": "high",
       "whyItMatters": "这是韩国 2026 年最核心的 AI-RAN 技术活动之一，直接连接 6G、AI Infrastructure 与 Physical AI，并由韩国运营商/设备商/ETRI/NVIDIA 生态支撑。",
       "agenda": [
         {
-          "time": "2026-11-09 12:40–14:40",
-          "title": "AI-x-RAN (1)",
-          "speaker": "SoftBank, Nokia, Ericsson, Qualcomm"
+          "time": "2026-11-09 08:30–11:00 KST",
+          "title": "Government: Korea, US, Japan, Taiwan and Singapore AI-RAN policies",
+          "speaker": "Bokyeong Park (MSIT), Sarah Skaluba (NTIA), Noan Yoshida (MIC), Tiffany Lin (ITRI), IMDA (TBA)"
         },
         {
-          "time": "2026-11-09 14:50–16:50",
-          "title": "AI-x-RAN (2)",
-          "speaker": "DeepSig, Northeastern, Tokyo Science, SUTD"
+          "time": "2026-11-09 13:00–15:30 KST",
+          "title": "AI-x-RAN (1): AI-native 6G, Nokia AI-RAN, Ericsson real network value, Qualcomm 6G",
+          "speaker": "Alex Jinsung Choi (SoftBank), Andres Arjona (Nokia), Ji-Yun Seol (Samsung), Sibel Tombaz (Ericsson), Jack Nasielski (Qualcomm)"
         },
         {
-          "time": "2026-11-09 17:00–18:30",
-          "title": "Open Source",
-          "speaker": "BubbleRAN/Eurecom, NVIDIA, Hallym"
+          "time": "2026-11-09 15:40–17:40 KST",
+          "title": "AI-x-RAN (2): Neural PHY on OCUDU, Physical AI on Open RAN",
+          "speaker": "Tim O'Shea (DeepSig), Tommaso Melodia (Northeastern), Kei Sakaguchi (Tokyo Science), Tony Quek (SUTD)"
         },
         {
-          "time": "2026-11-10 09:00–10:30",
-          "title": "Platform / Testbed",
-          "speaker": "Keysight, Viavi, NI/Emerson"
+          "time": "2026-11-10 08:30–10:00 KST",
+          "title": "Open Source: BubbleRAN, AI-RAN governance and NVIDIA 6G",
+          "speaker": "Navid Nikaein, Jungmihn Jamie Ahn, Alex Keller"
         },
         {
-          "time": "2026-11-10 10:40–12:40",
-          "title": "OCUDU Working Group",
-          "speaker": "FutureG/QinetiQ, SUTD, Linux Foundation, Yonsei"
+          "time": "2026-11-10 10:10–11:40 KST",
+          "title": "Platform/Testbed: Digital Twin validation, AI-RAN prototyping",
+          "speaker": "Eng Wei Koo (Keysight), Howard Thomas (VIAVI), Ben Coffin (NI/Emerson)"
         },
         {
-          "time": "2026-11-10 13:40–15:40",
-          "title": "AI Networks in Action",
-          "speaker": "SKT Consortium, KT Consortium, Newgens Consortium, WIZCORE Consortium"
+          "time": "2026-11-10 12:40–14:40 KST",
+          "title": "OCUDU WG: AI-RAN orchestration, Networked Physical AI, GPU-accelerated vRAN experimental results",
+          "speaker": "Abhumanyu Gosain, Jihong Park, Ranny Haiby, Seong-Lyun Kim"
         },
         {
-          "time": "2026-11-10 15:50–17:50",
-          "title": "K-Consortium",
-          "speaker": "Samsung, SKT, KT, LGU+, ETRI, NVIDIA, Yonsei"
+          "time": "2026-11-10 14:50–16:05 KST",
+          "title": "AI Networks in Action: Hyper-AI Networks for Physical AI, Campus AI-RAN",
+          "speaker": "Dongwook Kim (SKT), KT (TBA), Kwang Soon Kim (Newgens/Yonsei), WIZCORE (TBA), GNTEL (TBA)"
+        },
+        {
+          "time": "2026-11-10 16:20–17:50 KST",
+          "title": "K-Consortium: Korean AI-RAN industrial and academic initiatives",
+          "speaker": "Kuntal Chowdhury (NVIDIA), Chan-Byoung Chae (Yonsei), Samsung (TBA), SKT (TBA), Je-Min Jeong (KT), LG U+ (TBA), Hoon Lee (ETRI)"
         }
       ],
       "insights": [],
@@ -1445,7 +1463,7 @@
       "title": "AI-RAN Alliance 2026 November All Member Meeting",
       "titleKo": "AI-RAN Alliance 2026년 11월 총회",
       "titleZh": "AI-RAN Alliance 2026 年 11 月全体成员会议",
-      "summary": "AI-RAN Alliance 2026 年 11 月成员会议在首尔举行，聚焦工作组进展、技术协作、AI-powered RAN 与产业路线。 11月11–12日展示14项AI-RAN系统演示，含SKT合作的Physical AI语义通信、Samsung/TMYTEK FR3分布式MIMO、OCUDU商用5G Physical AI OTA、CPU/GPU基带加速与共享GPU调度。11月13日另有联盟Board Meeting（不属于11–12日普通会员会议）。 Official registration clarifies Nov 11 public sessions, Nov 12 members-only sessions, and Nov 13 Board meeting (not part of general two-day event).",
+      "summary": "AI-RAN Alliance November 2026 All Member Meeting于11月11–12日在延世大学举行，官网最新AI-RAN Summit演示清单列出27项系统演示（较此前14项显著增加），覆盖SKT合作Physical AI语义通信、Samsung FR3 Distributed MIMO、OCUDU商用5G Physical AI OTA、GPU共享调度、dApp、RAN数字孪生与LLM rApp。11月11日有非会员可报名公开环节；11月12日仅会员；11月13日董事会仅限董事会成员。",
       "topics": [
         "AI-RAN",
         "6G",
@@ -1476,8 +1494,8 @@
       "agenda": [
         {
           "time": "2026-11-11 to 2026-11-12",
-          "title": "14 AI-RAN System Demonstrations: Physical AI Semantic Communications, FR3 Distributed MIMO, Shared GPU Scheduling, 5G OTA on OCUDU",
-          "speaker": "Yonsei, SKT, Samsung, NVIDIA, ETRI and collaborators"
+          "title": "27 AI-RAN system demonstrations: Semantic Communications for Physical AI (SKT); FR3 Distributed MIMO (Samsung); Private AI-RAN and Commercial 5G OTA for Physical AI; RAN-Aware Adaptive GPU Sharing; RAN-Driven Shared-GPU Scheduling; RAN System Twin; LLM rApp",
+          "speaker": "Yonsei, SKT, Samsung, NVIDIA, NI/Emerson, SUTD and collaborators"
         }
       ],
       "insights": [],
@@ -1521,7 +1539,7 @@
       "title": "6G Vision Fest 2026",
       "titleKo": "6G Vision Fest 2026",
       "titleZh": "6G Vision Fest 2026 韩国 6G 愿景大会",
-      "summary": "韩国国家级 6G 活动，将发布“6G-based Hyper-AI Network”愿景，包含 6G Technology Exhibition、6G Service Demonstrations 和 International Conference / VIP Summit，并面向制造、医疗、自动驾驶等 AX 场景展示未来网络价值。",
+      "summary": "韩国国家级 6G 活动，将发布“6G-based Hyper-AI Network”愿景，包含6G技术展、服务Demo和国际会议/VIP Summit；官方参展商目录已列ETRI、Samsung、SKT、KT、LG U+、Ericsson、Huawei、Keysight、VIAVI、Rohde & Schwarz、RFHIC、HFR等，展商名单不等于确认Speaker。",
       "topics": [
         "6G",
         "Hyper-AI Network",
@@ -1546,7 +1564,30 @@
         "Global 6G research institutes",
         "Academia",
         "Standards bodies",
-        "Industry leaders"
+        "Industry leaders",
+        "ETRI",
+        "Samsung Electronics",
+        "SK Telecom",
+        "KT",
+        "LG U+",
+        "Ericsson",
+        "RFHIC",
+        "Intellian Technologies",
+        "LIG Accuver",
+        "VIAVI Solutions",
+        "HFR",
+        "Keysight",
+        "NI/Emerson",
+        "Rohde & Schwarz",
+        "SOLiD",
+        "WooriNet",
+        "Zaram Technology",
+        "Hanyang Beyond-G Global Innovation Center",
+        "CleverLogic",
+        "Coweaver",
+        "EUCAST",
+        "Huawei",
+        "KETI"
       ],
       "speakers": [],
       "startDate": "2026-12-08",
@@ -2816,7 +2857,7 @@
       "endDate": "2026-10-30",
       "location": "Seoul / Online",
       "language": "Korean",
-      "status": "upcoming",
+      "status": "ongoing",
       "registrationDeadline": "2026-10-28",
       "registrationUrl": "https://event.kics.or.kr/921/registrationInfo",
       "officialUrl": "https://event.kics.or.kr/921/program",
@@ -4120,7 +4161,7 @@
       "endDate": "2026-10-29",
       "location": "Conrad Seoul, 5F Park Ballroom, 10 Gukjegeumyung-ro, Yeongdeungpo-gu, Seoul",
       "language": "Korean / English talk titles (delivery languages not announced)",
-      "status": "ongoing",
+      "status": "completed",
       "registrationDeadline": "2026-10-27T16:00:00+09:00",
       "registrationUrl": "https://www.sek.co.kr/2026/techsummit",
       "officialUrl": "https://www.sek.co.kr/2026/techsummit",
@@ -4630,7 +4671,7 @@
       "endDate": "2026-10-29",
       "location": "Hotel Skypark Central Seoul Pangyo, Art Hall, 36 Hwangsaeul-ro 311beon-gil, Bundang-gu, Seongnam",
       "language": "Korean",
-      "status": "registration_closing",
+      "status": "completed",
       "registrationDeadline": "2026-10-29T10:00:00+09:00",
       "registrationUrl": "https://www.onoffmix.com/event/351687",
       "registrationEligibility": "Free, first-come; application redirects to external Google Form; detailed eligibility not announced.",
@@ -5047,6 +5088,41 @@
           "speaker": "暂未公布"
         }
       ],
+      "insights": []
+    },
+    {
+      "id": "nextgen-hbm-ai-semiconductor-strategy-seminar-2026",
+      "title": "Next-Generation HBM Semiconductor Technology Strategy Seminar for the AI Era",
+      "titleKo": "AI 시대의 차세대 HBM 반도체 기술 전략 세미나",
+      "titleZh": "AI时代下一代HBM半导体技术战略研讨会",
+      "summary": "MICE Innovation组织的收费研讨会，涉及下一代HBM、先进封装和玻璃基板等AI加速器存储技术；与AI Factory硬件带宽瓶颈间接相关，并非RAN/6G技术活动。官方购买页显示SOLD OUT，实际可报名状态待确认。",
+      "topics": [
+        "AI Factory",
+        "AI Infrastructure",
+        "AI Semiconductors",
+        "HBM",
+        "Advanced Packaging"
+      ],
+      "organizer": [
+        "MICE Innovation (마이스이노베이션)"
+      ],
+      "participants": [],
+      "speakers": [],
+      "startDate": "2026-11-24",
+      "endDate": "2026-11-24",
+      "location": "Yangjae aT Center, 3F Segyero Room 3, 27 Gangnam-daero, Seocho-gu, Seoul",
+      "language": "Korean",
+      "status": "announced",
+      "registrationDeadline": "2026-11-24T10:00:00+09:00",
+      "registrationUrl": "https://ann6955.cafe24.com/product/ai-%EC%8B%9C%EB%8C%80%EC%9D%98-%EC%B0%A8%EC%84%B8%EB%8C%80-hbm-%EB%B0%98%EB%8F%84%EC%B2%B4-%EA%B8%B0%EC%88%A0-%EC%A0%84%EB%9E%B5-%EC%84%B8%EB%AF%B8%EB%82%98/24/category/24/display/1/",
+      "registrationEligibility": "Organizer requires payment then email submission of application form; purchase page currently displays SOLD OUT, so availability not verified.",
+      "fee": "KRW 280,000 (organizer purchase page; 3+ group discount indicated)",
+      "officialUrl": "https://www.onoffmix.com/event/352033",
+      "sourceType": "confirmed event date/location/price · organizer sales page and OnOffMix; registration availability not verified",
+      "priority": "B",
+      "operatorRelevance": "low",
+      "whyItMatters": "HBM带宽和封装是AI Factory算力硬件的基础瓶颈，对运营商AI数据中心成本研究有间接参考；无通信网络或Physical AI应用实证议程。",
+      "agenda": [],
       "insights": []
     }
   ]
