@@ -1103,7 +1103,7 @@
       "title": "GISC 2026 — Global ICT Standards Conference",
       "titleKo": "글로벌 ICT 표준 컨퍼런스 2026",
       "titleZh": "GISC 2026 全球ICT标准大会",
-      "summary": "以“ICT Standards and Intellectual Property: Shaping the Physical AI”为主题，聚焦Physical AI、量子、卫星通信及ICT标准与SEP。",
+      "summary": "GISC 2026全球ICT标准与专利大会，主题为Shaping the Physical AI；10月28日发布新版EDM，官网已公布完整三天议程，涵盖KT网络到Physical AI的AIPP标准化、AI-RAN SEP、机器人智能分割执行、ROS2多机器人Agent运行时、6G卫星通信、三星6G标准化、ITU-T Embodied AI及AI基础设施互操作。",
       "topics": [
         "Physical AI",
         "6G",
@@ -1134,7 +1134,13 @@
         "Kim Yoon-sun (Samsung Electronics)",
         "Yoon Ji-wook (ETRI)",
         "Lee Chang-gyu (ETRI)",
-        "Yoon Ju-sang (Dong-eui University)"
+        "Yoon Ju-sang (Dong-eui University)",
+        "Jang Young-jae (KAIST)",
+        "Oh Seung-woo (KT)",
+        "Stefano Polidori (ITU)",
+        "Baek Seung-kwon (ETRI)",
+        "Kim Ha-seong (KT)",
+        "Lee Won-gi (OE Solutions)"
       ],
       "startDate": "2026-11-02",
       "endDate": "2026-11-04",
@@ -1152,6 +1158,21 @@
       "whyItMatters": "11/3 13:30 AI-RAN标准/SEP、15:30机器人智能分割执行、16:00 LG电子多机器人Multi-Agent实证、16:30 ETRI Physical AI ICT标准框架；11/4 Samsung 6G与ETRI AI DC智能网络并行议程。",
       "agenda": [
         {
+          "time": "2026-11-02 09:30–10:00 KST",
+          "title": "Manufacturing Physical AI — Keynote",
+          "speaker": "Jang Young-jae, KAIST"
+        },
+        {
+          "time": "2026-11-02 15:00–15:20 KST",
+          "title": "From Networks to Physical AI: AIPP Standardization Strategy",
+          "speaker": "Oh Seung-woo, KT"
+        },
+        {
+          "time": "2026-11-03 11:10–11:35 KST",
+          "title": "ITU-T Focus Group on Embodied Artificial Intelligence (FG-EAI)",
+          "speaker": "Stefano Polidori, ITU"
+        },
+        {
           "time": "2026-11-03 13:30–14:00 KST",
           "title": "AI-RAN standards trends and standards-essential patent filing strategies",
           "speaker": "Park Gyu-tae, Cox Patent Law"
@@ -1160,6 +1181,11 @@
           "time": "2026-11-03 15:30–16:00 KST",
           "title": "Split Execution Technology for Robot Intelligence",
           "speaker": "Prof. Yoon Ju-sang, Dong-eui University"
+        },
+        {
+          "time": "2026-11-03 15:30–16:00 KST",
+          "title": "Korea 6G LEO Satellite Communication R&D and Standardization",
+          "speaker": "Baek Seung-kwon, ETRI"
         },
         {
           "time": "2026-11-03 16:00–16:30 KST",
@@ -1172,6 +1198,11 @@
           "speaker": "Lee Chang-gyu, ETRI"
         },
         {
+          "time": "2026-11-04 10:30–11:00 KST",
+          "title": "Mobile Communication Standardization Trends and Strategy",
+          "speaker": "Kim Ha-seong, KT"
+        },
+        {
           "time": "2026-11-04 13:30–14:00 KST",
           "title": "6G International Standardization Trends and Future Mobile Networks",
           "speaker": "Kim Yoon-sun, Samsung Electronics"
@@ -1180,6 +1211,11 @@
           "time": "2026-11-04 13:30–14:00 KST (parallel track)",
           "title": "Intelligent Network Standard Technologies for the AI Data Center Era",
           "speaker": "Yoon Ji-wook, ETRI"
+        },
+        {
+          "time": "2026-11-04 15:15–15:40 KST",
+          "title": "Next-Generation Hyperscale AI Infrastructure and Hyper-Service Interoperability Standards",
+          "speaker": "Lee Won-gi, OE Solutions"
         }
       ],
       "insights": []
