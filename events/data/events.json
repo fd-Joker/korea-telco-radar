@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T08:50:30+09:00",
+  "updatedAt": "2026-10-31T08:56:43+09:00",
   "events": [
     {
       "id": "eu-korea-digital-partnership-2026",
@@ -2287,7 +2287,7 @@
       "endDate": "2026-10-30",
       "location": "TTA Seohyeon 9F, Bundang, Seongnam, Korea",
       "language": "Korean",
-      "status": "upcoming",
+      "status": "completed",
       "registrationDeadline": "2026-10-23",
       "registrationUrl": "https://edu.tta.or.kr/edu/educationWebView.do?key=21&prgNo=1339",
       "registrationEligibility": "30 seats; in-person; advance payment; first-come-first-served.",
@@ -2893,7 +2893,7 @@
       "endDate": "2026-10-30",
       "location": "Seoul / Online",
       "language": "Korean",
-      "status": "ongoing",
+      "status": "completed",
       "registrationDeadline": "2026-10-28",
       "registrationUrl": "https://event.kics.or.kr/921/registrationInfo",
       "officialUrl": "https://event.kics.or.kr/921/program",
