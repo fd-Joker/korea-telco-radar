@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "title": "Korea Telco Advanced Technology Radar",
-  "edition_time": "08:30 KST",
-  "editorial_note": "10月29日新增中兴/du商用5G-A U6GHz连接、LG U+端侧sLM成果、ETSI生成式AI安全TS及Lumen电力感知网络合作；补充10月28日华为VitaAAU/UBBPi/RANSpirit。均区分厂商宣称、正式规范、商用网络和未来试验。",
+  "edition_time": "08:33 KST",
+  "editorial_note": "过去24小时核实LG U+隐私教育实践（常规动态）；未核实到AI-RAN、6G、Ambient IoT新的重大一手技术里程碑。Top 5保留10月28—29日重要进展，明确标注原始发布日期。",
   "top5": [
     {
       "title": "中兴与du在商用5G-A网络激活6775—7125MHz U6GHz端到端连接",
@@ -57,24 +57,24 @@
       "company_or_org": "ETSI"
     },
     {
-      "title": "Lumen与Emerald AI研究电力感知的跨站点AI负载路由",
-      "date": "2026-10-29",
-      "source_name": "Lumen",
-      "source_url": "https://ir.lumen.com/news/news-details/2026/Lumen-is-Redefining-Networking-for-the-AI-and-Quantum-Eras/default.aspx",
-      "source_type": "运营商官方合作公告",
-      "importance": "值得关注",
-      "summary": "Lumen与Emerald AI计划结合可编程光网络、边缘节点和电力可用性，动态选择AI推理运行位置，综合考虑时延、安全和成本；目前处于探索试点阶段。",
-      "technical_significance": "Network for AI从网络承载进一步延伸到算力-电力-网络协同调度；尚未提供迁移时间、能耗或推理SLA的实测收益。",
-      "impact_for_korean_telco": "韩国AIDC与城域承载规划可评估跨机房推理路由、P95延迟、电价/电力容量、GPU负载与链路成本联合优化。",
-      "topic": "Network for AI / Energy-aware routing",
-      "company_or_org": "Lumen / Emerald AI"
+      "title": "LG U+介绍用户与员工隐私保护教育实践",
+      "date": "2026-10-30",
+      "source_name": "LG U+",
+      "source_url": "https://news.lguplus.com/23219",
+      "source_type": "运营商官方企业实践文章",
+      "importance": "常规动态",
+      "summary": "LG U+介绍10月8日员工隐私教育活动和用户隐私风险宣传；没有披露新的AI-RAN、6G或Agent技术指标。",
+      "technical_significance": "属于AI服务可信运营的组织实践，不是新网络技术或标准。",
+      "impact_for_korean_telco": "将隐私最小化、权限审计与人员培训纳入Agent上线管理。",
+      "topic": "AI治理 / 隐私保护",
+      "company_or_org": "LG U+"
     }
   ],
   "trends": {
     "AI-RAN": {
-      "direction": "↑ U6GHz设备与AI基带/自治方案披露增加",
+      "direction": "→ 无新增空口性能KPI",
       "summary": "10/28华为披露U6GHz VitaAAU、UBBPi与RANSpirit：覆盖提升约30%、体验约1.3倍及功耗-40%均为厂商自报；10/28中兴AIR RAN超过17万站亦缺独立对照。10/29中兴/du U6GHz商用连接属于5G-A，不是6G。",
-      "key_change": "较10/29：新增华为U6GHz射频与AI基带架构披露；应与中兴部署规模及Nokia GPU共池方案分开对标。",
+      "key_change": "较10月30日：暂无新无线实测；延续华为与中兴厂商口径。",
       "sources": [
         {
           "name": "Huawei",
@@ -89,9 +89,9 @@
       ]
     },
     "6G": {
-      "direction": "↑ U6GHz商用5G-A为6G候选频谱提供现实链路验证",
+      "direction": "→ U6GHz 5G-A验证延续，非6G商用",
       "summary": "中兴/du于10/29披露在6775—7125MHz、350MHz带宽完成5G-A商用CPE端到端连接；华为10/28称VitaAAU U6GHz已在阿联酋等商用。二者均非6G商用，且未公开足够的边缘覆盖数据；韩国7125—7400MHz不与测试频段完全相同。",
-      "key_change": "较10/29：新增U6GHz现网设备/终端连接证据；未核实到6G新Approved CR。",
+      "key_change": "较10月30日：未核实到新的6G批准CR。",
       "sources": [
         {
           "name": "ZTE",
@@ -108,7 +108,7 @@
     "Ambient IoT": {
       "direction": "→ Rel-20规范状态未见新的已核实变化",
       "summary": "继续区分TS 23.370 Rel-20正式规范（2026-09-28 v20.0.0，Under Change Control）、TS 29.568 Stage 3 Draft（已确认2026-09-14 v0.1.0）和AmbientIoT_Ph2-APP已批准Work Item（2026-09-28进度100%）；未发现10/29新增批准CR。",
-      "key_change": "较10/29：未核实到新的Ambient IoT规范性里程碑。",
+      "key_change": "较10月30日：未核实到新Approved CR。",
       "sources": [
         {
           "name": "3GPP TS 23.370",
@@ -314,6 +314,19 @@
   ],
   "operators": [
     {
+      "title": "LG U+介绍用户与员工隐私保护教育实践",
+      "date": "2026-10-30",
+      "source_name": "LG U+",
+      "source_url": "https://news.lguplus.com/23219",
+      "source_type": "运营商官方企业实践文章",
+      "importance": "常规动态",
+      "summary": "LG U+介绍10月8日员工隐私教育活动和用户隐私风险宣传；没有披露新的AI-RAN、6G或Agent技术指标。",
+      "technical_significance": "属于AI服务可信运营的组织实践，不是新网络技术或标准。",
+      "impact_for_korean_telco": "将隐私最小化、权限审计与人员培训纳入Agent上线管理。",
+      "topic": "AI治理 / 隐私保护",
+      "company_or_org": "LG U+"
+    },
+    {
       "title": "中兴与du在商用5G-A网络激活6775—7125MHz U6GHz端到端连接",
       "date": "2026-10-29",
       "source_name": "ZTE",
@@ -455,19 +468,6 @@
       "technical_significance": "多模态语音Agent将响应速度、用户状态感知和安全控制结合；尚非网络性能验证。",
       "impact_for_korean_telco": "关注语音交互端到端时延、上行音视频突发、边缘推理成本和隐私合规。",
       "source_name": "NTT DOCOMO"
-    },
-    {
-      "title": "LG U+公布Wi-Fi 8 NPU家庭网关边缘AI PoC",
-      "date": "2026-10-16",
-      "company_or_org": "LG U+",
-      "source_url": "https://news.lguplus.com/23061",
-      "source_type": "运营商官方PoC公告",
-      "importance": "值得关注",
-      "topic": "Edge AI / 家庭网络",
-      "summary": "NPU网关本地分析并优化Wi-Fi质量，目标是降低云端依赖；未公开量化KPI。",
-      "technical_significance": "家庭网络自治下沉到CPE，Wi-Fi 8尚未商用。",
-      "impact_for_korean_telco": "比较故障预测准确率、MTTR、功耗与CPE成本。",
-      "source_name": "LG U+"
     }
   ],
   "ai_companies": [
@@ -642,6 +642,19 @@
     }
   ],
   "timeline15d": [
+    {
+      "title": "LG U+介绍用户与员工隐私保护教育实践",
+      "date": "2026-10-30",
+      "source_name": "LG U+",
+      "source_url": "https://news.lguplus.com/23219",
+      "source_type": "运营商官方企业实践文章",
+      "importance": "常规动态",
+      "summary": "LG U+介绍10月8日员工隐私教育活动和用户隐私风险宣传；没有披露新的AI-RAN、6G或Agent技术指标。",
+      "technical_significance": "属于AI服务可信运营的组织实践，不是新网络技术或标准。",
+      "impact_for_korean_telco": "将隐私最小化、权限审计与人员培训纳入Agent上线管理。",
+      "topic": "AI治理 / 隐私保护",
+      "company_or_org": "LG U+"
+    },
     {
       "title": "中兴与du在商用5G-A网络激活6775—7125MHz U6GHz端到端连接",
       "date": "2026-10-29",
@@ -1057,32 +1070,6 @@
       "impact_for_korean_telco": "韩国AN PoC应建立跨rApp策略冲突检测、KPI契约、审批和回滚测试。",
       "topic": "自治网络 / SMO-rAPP",
       "company_or_org": "Haiyuan Li等（布里斯托大学）"
-    },
-    {
-      "title": "ScaleRAN：Green Contexts支持时隙级GPU弹性共享",
-      "date": "2026-10-16",
-      "source_name": "arXiv",
-      "source_url": "https://arxiv.org/abs/2610.23072",
-      "source_type": "arXiv预印本·研究论文",
-      "importance": "值得关注",
-      "summary": "通过预建SM分区、LightGBM分位数预测和Conformal校准动态分配GPU；论文报告0.5ms时隙场景中预测方案约99.96%截止时间满足率。",
-      "technical_significance": "提供比静态MIG/MPS更细粒度的RAN优先调度研究路径；基于研究测试，非运营商商用SLA。",
-      "impact_for_korean_telco": "建议以RAN时隙deadline miss、AI任务吞吐、SM占用、内存干扰和P99做压力测试。",
-      "topic": "AI-RAN / GPU编排",
-      "company_or_org": "Arthur Hamard等研究者"
-    },
-    {
-      "title": "LG U+公布Wi-Fi 8 NPU家庭网关边缘AI PoC",
-      "date": "2026-10-16",
-      "company_or_org": "LG U+",
-      "source_url": "https://news.lguplus.com/23061",
-      "source_type": "运营商官方PoC公告",
-      "importance": "值得关注",
-      "topic": "Edge AI / 家庭网络",
-      "summary": "NPU网关本地分析并优化Wi-Fi质量，目标是降低云端依赖；未公开量化KPI。",
-      "technical_significance": "家庭网络自治下沉到CPE，Wi-Fi 8尚未商用。",
-      "impact_for_korean_telco": "比较故障预测准确率、MTTR、功耗与CPE成本。",
-      "source_name": "LG U+"
     }
   ],
   "sources": [
@@ -1307,6 +1294,11 @@
       "date": "2026-09-28",
       "url": "https://portal.3gpp.org/desktopmodules/WorkItem/WorkItemDetails.aspx?workitemId=1110048",
       "source_type": "标准组织/设备商官方原始来源"
+    },
+    {
+      "name": "LG U+",
+      "url": "https://news.lguplus.com/23219",
+      "date": "2026-10-30"
     }
   ],
   "standards": {
