@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T08:56:43+09:00",
+  "updatedAt": "2026-11-01T08:50:53+09:00",
   "events": [
     {
       "id": "eu-korea-digital-partnership-2026",
@@ -3250,7 +3250,7 @@
       "endDate": "2026-11-14",
       "location": "Hanwha Resort, Gyeongju",
       "language": "Korean",
-      "status": "registration_closing",
+      "status": "upcoming",
       "priority": "B",
       "operatorRelevance": "low",
       "officialUrl": "https://cics.kiee.or.kr/",
@@ -3535,7 +3535,7 @@
       ],
       "location": "JW Marriott Dongdaemun Square Seoul",
       "language": "Korean / English",
-      "status": "registration_closing",
+      "status": "registration_open",
       "officialUrl": "https://gaif.edaily.co.kr/",
       "registrationUrl": "https://gaif.edaily.co.kr/",
       "registrationDeadline": "2026-10-31",
@@ -4138,7 +4138,7 @@
       "endDate": "2026-11-04",
       "location": "COEX 3F Conference Rooms E1–E4, Seoul, Korea",
       "language": "Korean (other languages not announced)",
-      "status": "registration_closing",
+      "status": "upcoming",
       "registrationDeadline": "2026-10-30",
       "registrationUrl": "https://www.aiotkorea.or.kr/2026/kor/conference/preregistration.asp",
       "registrationEligibility": "Member discount applies to Korea AI IoT Association and IoT Convergence Forum member organisations; pre-registration discount requires payment by Oct 30.",
