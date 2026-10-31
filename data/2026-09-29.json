@@ -1,0 +1,259 @@
+{
+  "date": "2026-09-29",
+  "title": "Korea Telco Advanced Technology Radar",
+  "top5": [
+    {
+      "title": "3GPP Ambient IoT Phase 2 APP Work Item进度由70%更新至100%",
+      "date": "2026-09-28",
+      "source_name": "3GPP",
+      "source_url": "https://portal.3gpp.org/desktopmodules/WorkItem/WorkItemDetails.aspx?workitemId=1110048",
+      "source_type": "3GPP Work Item门户",
+      "importance": "重大更新",
+      "summary": "3GPP Portal在9月28日新增备注“23/9/26: 70%->100”，显示Rel-20 AmbientIoT_Ph2-APP Work Item进度更新至100%。这代表应用使能工作项完成度更新，不等同于整个Ambient IoT Phase 2或相关TS冻结。",
+      "technical_significance": "应用使能层工作项到100%，但Architecture与Security等并未同步全部完成。",
+      "impact_for_korean_telco": "可把关注点从Tag/RAN进一步转向Application Enablement/API和产业平台对接。",
+      "topic": "Ambient IoT / 3GPP Rel-20",
+      "company_or_org": "3GPP SA6"
+    },
+    {
+      "title": "Samsung/SKT/Hana：韩国金融业首个Private 5G Smart Office，为Enterprise AI/AX建立安全无线底座",
+      "date": "2026-09-28",
+      "source_name": "Samsung Electronics",
+      "source_url": "https://news.samsung.com/global/samsung-sk-telecom-and-hana-financial-group-buildkoreas-first-private-5g-smart-office-in-the-financial-sector",
+      "source_type": "官方新闻稿",
+      "importance": "重大更新",
+      "summary": "Samsung作为唯一网络设备商，与SK Telecom在仁川Hana Financial Group新总部部署韩国金融业首个Private 5G Smart Office，覆盖16层、多个关联公司和数千员工，采用4.7GHz专网、5G SA Core、Network Slicing与多层安全。",
+      "technical_significance": "验证韩国Private 5G + SA Core + Slice + Enterprise AI商业路径。",
+      "impact_for_korean_telco": "金融、制造等高安全行业可成为Networks for AI商业入口；应观察AI Agent/AI PC流量、Slice SLA和按安全等级计费。",
+      "topic": "Networks for AI / Private 5G / Enterprise AI",
+      "company_or_org": "Samsung / SK Telecom / Hana Financial Group"
+    },
+    {
+      "title": "NVIDIA发布Open Agent Safety Platform：Agent安全扩展到Runtime与DPU硬件隔离",
+      "date": "2026-09-28",
+      "source_name": "NVIDIA",
+      "source_url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+      "source_type": "官方新闻稿",
+      "importance": "重大更新",
+      "summary": "NVIDIA发布Open Agent Safety Platform，由OpenShell安全Runtime和Sentry参考系统组成；Sentry运行于BlueField-4 DPU，可在独立硬件信任域持续监控并毫秒级隔离越界Agent。",
+      "technical_significance": "Agent安全形成模型之外的独立执行边界。",
+      "impact_for_korean_telco": "AION等Network Agent若拥有OSS/RAN/Core执行权限，应考虑Runtime隔离、零信任API权限、out-of-band watchdog和硬件级kill switch。",
+      "topic": "AI Governance / Autonomous Network",
+      "company_or_org": "NVIDIA / Anthropic"
+    },
+    {
+      "title": "Samsung/KT/SKT Hyper AI Network：10月工业AI-RAN现场验证仍是韩国AI-RAN主线",
+      "date": "2026-09-23",
+      "source_name": "Samsung Electronics",
+      "source_url": "https://news.samsung.com/global/samsung-at-the-forefront-of-koreas-ai-ran-projects-with-kt-and-sk-telecom",
+      "source_type": "官方新闻稿",
+      "importance": "重大更新",
+      "summary": "10月将在造船和石化现场部署5G SA专网，验证AI-RAN、Edge AI和Physical AI机器人。",
+      "technical_significance": "AI-RAN从算法优化进入Connectivity + Compute + Physical AI系统验证。",
+      "impact_for_korean_telco": "等待UL、P95/P99 latency、可靠性、资源隔离、GPU利用率、功耗与TCO等现场数据。",
+      "topic": "AI-RAN / Physical AI",
+      "company_or_org": "Samsung / KT / SK Telecom"
+    },
+    {
+      "title": "Ericsson Intelligent Fabric：AI-RAN、Physical AI、异构算力和自治网络收敛",
+      "date": "2026-09-24",
+      "source_name": "Ericsson",
+      "source_url": "https://www.ericsson.com/en/news/2026/9/ericsson-cto-technology-and-telecoms-trends-2026-report",
+      "source_type": "官方技术趋势报告",
+      "importance": "值得关注",
+      "summary": "Ericsson把未来网络描述为Intelligent Fabric。",
+      "technical_significance": "AI-RAN、ISAC、Physical AI与AN收敛为connect+sense+compute+act系统架构。",
+      "impact_for_korean_telco": "可作为韩国6G前置验证统一架构框架。",
+      "topic": "AI-RAN / 6G",
+      "company_or_org": "Ericsson"
+    }
+  ],
+  "trends": {
+    "AI-RAN": {
+      "direction": "↑↑↑",
+      "summary": "过去24小时无新的Radio AI算法突破；Samsung/SKT/Hana的Private 5G Smart Office进一步证明韩国Networks for AI正从工业Physical AI扩展到高安全Enterprise AI。",
+      "key_change": "新增金融业Private 5G+Enterprise AI商业落地；AI-RAN本身无新算法级拐点。"
+    },
+    "6G": {
+      "direction": "↑↑",
+      "summary": "过去24小时未发现新的3GPP 6G规范性里程碑。",
+      "key_change": "无新的6G标准状态变化。"
+    },
+    "Ambient IoT": {
+      "direction": "↑↑↑",
+      "summary": "Rel-20 AmbientIoT_Ph2-APP Work Item进度备注由70%更新至100%，但不等于整体Phase 2或TS冻结。",
+      "key_change": "较上一期由无变化升级为应用使能Work Item到100%；Architecture仍95%，Security仍50%。"
+    }
+  },
+  "vendors": [
+    {
+      "title": "Samsung/SKT/Hana：韩国金融业首个Private 5G Smart Office，为Enterprise AI/AX建立安全无线底座",
+      "date": "2026-09-28",
+      "source_name": "Samsung Electronics",
+      "source_url": "https://news.samsung.com/global/samsung-sk-telecom-and-hana-financial-group-buildkoreas-first-private-5g-smart-office-in-the-financial-sector",
+      "source_type": "官方新闻稿",
+      "importance": "重大更新",
+      "summary": "Samsung作为唯一网络设备商，与SK Telecom在仁川Hana Financial Group新总部部署韩国金融业首个Private 5G Smart Office，覆盖16层、多个关联公司和数千员工，采用4.7GHz专网、5G SA Core、Network Slicing与多层安全。",
+      "technical_significance": "验证韩国Private 5G + SA Core + Slice + Enterprise AI商业路径。",
+      "impact_for_korean_telco": "金融、制造等高安全行业可成为Networks for AI商业入口；应观察AI Agent/AI PC流量、Slice SLA和按安全等级计费。",
+      "topic": "Networks for AI / Private 5G / Enterprise AI",
+      "company_or_org": "Samsung / SK Telecom / Hana Financial Group"
+    },
+    {
+      "title": "Samsung/KT/SKT Hyper AI Network：10月工业AI-RAN现场验证仍是韩国AI-RAN主线",
+      "date": "2026-09-23",
+      "source_name": "Samsung Electronics",
+      "source_url": "https://news.samsung.com/global/samsung-at-the-forefront-of-koreas-ai-ran-projects-with-kt-and-sk-telecom",
+      "source_type": "官方新闻稿",
+      "importance": "重大更新",
+      "summary": "10月将在造船和石化现场部署5G SA专网，验证AI-RAN、Edge AI和Physical AI机器人。",
+      "technical_significance": "AI-RAN从算法优化进入Connectivity + Compute + Physical AI系统验证。",
+      "impact_for_korean_telco": "等待UL、P95/P99 latency、可靠性、资源隔离、GPU利用率、功耗与TCO等现场数据。",
+      "topic": "AI-RAN / Physical AI",
+      "company_or_org": "Samsung / KT / SK Telecom"
+    },
+    {
+      "title": "Ericsson Intelligent Fabric：AI-RAN、Physical AI、异构算力和自治网络收敛",
+      "date": "2026-09-24",
+      "source_name": "Ericsson",
+      "source_url": "https://www.ericsson.com/en/news/2026/9/ericsson-cto-technology-and-telecoms-trends-2026-report",
+      "source_type": "官方技术趋势报告",
+      "importance": "值得关注",
+      "summary": "Ericsson把未来网络描述为Intelligent Fabric。",
+      "technical_significance": "AI-RAN、ISAC、Physical AI与AN收敛为connect+sense+compute+act系统架构。",
+      "impact_for_korean_telco": "可作为韩国6G前置验证统一架构框架。",
+      "topic": "AI-RAN / 6G",
+      "company_or_org": "Ericsson"
+    }
+  ],
+  "operators": [
+    {
+      "title": "Samsung/SKT/Hana：韩国金融业首个Private 5G Smart Office，为Enterprise AI/AX建立安全无线底座",
+      "date": "2026-09-28",
+      "source_name": "Samsung Electronics",
+      "source_url": "https://news.samsung.com/global/samsung-sk-telecom-and-hana-financial-group-buildkoreas-first-private-5g-smart-office-in-the-financial-sector",
+      "source_type": "官方新闻稿",
+      "importance": "重大更新",
+      "summary": "Samsung作为唯一网络设备商，与SK Telecom在仁川Hana Financial Group新总部部署韩国金融业首个Private 5G Smart Office，覆盖16层、多个关联公司和数千员工，采用4.7GHz专网、5G SA Core、Network Slicing与多层安全。",
+      "technical_significance": "验证韩国Private 5G + SA Core + Slice + Enterprise AI商业路径。",
+      "impact_for_korean_telco": "金融、制造等高安全行业可成为Networks for AI商业入口；应观察AI Agent/AI PC流量、Slice SLA和按安全等级计费。",
+      "topic": "Networks for AI / Private 5G / Enterprise AI",
+      "company_or_org": "Samsung / SK Telecom / Hana Financial Group"
+    },
+    {
+      "title": "Samsung/KT/SKT Hyper AI Network：10月工业AI-RAN现场验证仍是韩国AI-RAN主线",
+      "date": "2026-09-23",
+      "source_name": "Samsung Electronics",
+      "source_url": "https://news.samsung.com/global/samsung-at-the-forefront-of-koreas-ai-ran-projects-with-kt-and-sk-telecom",
+      "source_type": "官方新闻稿",
+      "importance": "重大更新",
+      "summary": "10月将在造船和石化现场部署5G SA专网，验证AI-RAN、Edge AI和Physical AI机器人。",
+      "technical_significance": "AI-RAN从算法优化进入Connectivity + Compute + Physical AI系统验证。",
+      "impact_for_korean_telco": "等待UL、P95/P99 latency、可靠性、资源隔离、GPU利用率、功耗与TCO等现场数据。",
+      "topic": "AI-RAN / Physical AI",
+      "company_or_org": "Samsung / KT / SK Telecom"
+    }
+  ],
+  "ai_companies": [
+    {
+      "title": "NVIDIA发布Open Agent Safety Platform：Agent安全扩展到Runtime与DPU硬件隔离",
+      "date": "2026-09-28",
+      "source_name": "NVIDIA",
+      "source_url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+      "source_type": "官方新闻稿",
+      "importance": "重大更新",
+      "summary": "NVIDIA发布Open Agent Safety Platform，由OpenShell安全Runtime和Sentry参考系统组成；Sentry运行于BlueField-4 DPU，可在独立硬件信任域持续监控并毫秒级隔离越界Agent。",
+      "technical_significance": "Agent安全形成模型之外的独立执行边界。",
+      "impact_for_korean_telco": "AION等Network Agent若拥有OSS/RAN/Core执行权限，应考虑Runtime隔离、零信任API权限、out-of-band watchdog和硬件级kill switch。",
+      "topic": "AI Governance / Autonomous Network",
+      "company_or_org": "NVIDIA / Anthropic"
+    }
+  ],
+  "timeline15d": [
+    {
+      "title": "3GPP Ambient IoT Phase 2 APP Work Item进度由70%更新至100%",
+      "date": "2026-09-28",
+      "source_name": "3GPP",
+      "source_url": "https://portal.3gpp.org/desktopmodules/WorkItem/WorkItemDetails.aspx?workitemId=1110048",
+      "source_type": "3GPP Work Item门户",
+      "importance": "重大更新",
+      "summary": "3GPP Portal在9月28日新增备注“23/9/26: 70%->100”，显示Rel-20 AmbientIoT_Ph2-APP Work Item进度更新至100%。这代表应用使能工作项完成度更新，不等同于整个Ambient IoT Phase 2或相关TS冻结。",
+      "technical_significance": "应用使能层工作项到100%，但Architecture与Security等并未同步全部完成。",
+      "impact_for_korean_telco": "可把关注点从Tag/RAN进一步转向Application Enablement/API和产业平台对接。",
+      "topic": "Ambient IoT / 3GPP Rel-20",
+      "company_or_org": "3GPP SA6"
+    },
+    {
+      "title": "Samsung/SKT/Hana：韩国金融业首个Private 5G Smart Office，为Enterprise AI/AX建立安全无线底座",
+      "date": "2026-09-28",
+      "source_name": "Samsung Electronics",
+      "source_url": "https://news.samsung.com/global/samsung-sk-telecom-and-hana-financial-group-buildkoreas-first-private-5g-smart-office-in-the-financial-sector",
+      "source_type": "官方新闻稿",
+      "importance": "重大更新",
+      "summary": "Samsung作为唯一网络设备商，与SK Telecom在仁川Hana Financial Group新总部部署韩国金融业首个Private 5G Smart Office，覆盖16层、多个关联公司和数千员工，采用4.7GHz专网、5G SA Core、Network Slicing与多层安全。",
+      "technical_significance": "验证韩国Private 5G + SA Core + Slice + Enterprise AI商业路径。",
+      "impact_for_korean_telco": "金融、制造等高安全行业可成为Networks for AI商业入口；应观察AI Agent/AI PC流量、Slice SLA和按安全等级计费。",
+      "topic": "Networks for AI / Private 5G / Enterprise AI",
+      "company_or_org": "Samsung / SK Telecom / Hana Financial Group"
+    },
+    {
+      "title": "NVIDIA发布Open Agent Safety Platform：Agent安全扩展到Runtime与DPU硬件隔离",
+      "date": "2026-09-28",
+      "source_name": "NVIDIA",
+      "source_url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+      "source_type": "官方新闻稿",
+      "importance": "重大更新",
+      "summary": "NVIDIA发布Open Agent Safety Platform，由OpenShell安全Runtime和Sentry参考系统组成；Sentry运行于BlueField-4 DPU，可在独立硬件信任域持续监控并毫秒级隔离越界Agent。",
+      "technical_significance": "Agent安全形成模型之外的独立执行边界。",
+      "impact_for_korean_telco": "AION等Network Agent若拥有OSS/RAN/Core执行权限，应考虑Runtime隔离、零信任API权限、out-of-band watchdog和硬件级kill switch。",
+      "topic": "AI Governance / Autonomous Network",
+      "company_or_org": "NVIDIA / Anthropic"
+    },
+    {
+      "title": "Samsung/KT/SKT Hyper AI Network：10月工业AI-RAN现场验证仍是韩国AI-RAN主线",
+      "date": "2026-09-23",
+      "source_name": "Samsung Electronics",
+      "source_url": "https://news.samsung.com/global/samsung-at-the-forefront-of-koreas-ai-ran-projects-with-kt-and-sk-telecom",
+      "source_type": "官方新闻稿",
+      "importance": "重大更新",
+      "summary": "10月将在造船和石化现场部署5G SA专网，验证AI-RAN、Edge AI和Physical AI机器人。",
+      "technical_significance": "AI-RAN从算法优化进入Connectivity + Compute + Physical AI系统验证。",
+      "impact_for_korean_telco": "等待UL、P95/P99 latency、可靠性、资源隔离、GPU利用率、功耗与TCO等现场数据。",
+      "topic": "AI-RAN / Physical AI",
+      "company_or_org": "Samsung / KT / SK Telecom"
+    },
+    {
+      "title": "Ericsson Intelligent Fabric：AI-RAN、Physical AI、异构算力和自治网络收敛",
+      "date": "2026-09-24",
+      "source_name": "Ericsson",
+      "source_url": "https://www.ericsson.com/en/news/2026/9/ericsson-cto-technology-and-telecoms-trends-2026-report",
+      "source_type": "官方技术趋势报告",
+      "importance": "值得关注",
+      "summary": "Ericsson把未来网络描述为Intelligent Fabric。",
+      "technical_significance": "AI-RAN、ISAC、Physical AI与AN收敛为connect+sense+compute+act系统架构。",
+      "impact_for_korean_telco": "可作为韩国6G前置验证统一架构框架。",
+      "topic": "AI-RAN / 6G",
+      "company_or_org": "Ericsson"
+    }
+  ],
+  "sources": [
+    {
+      "name": "3GPP",
+      "url": "https://portal.3gpp.org/desktopmodules/WorkItem/WorkItemDetails.aspx?workitemId=1110048",
+      "date": "2026-09-28",
+      "type": "Work Item门户"
+    },
+    {
+      "name": "Samsung Electronics",
+      "url": "https://news.samsung.com/global/samsung-sk-telecom-and-hana-financial-group-buildkoreas-first-private-5g-smart-office-in-the-financial-sector",
+      "date": "2026-09-28",
+      "type": "官方新闻稿"
+    },
+    {
+      "name": "NVIDIA",
+      "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+      "date": "2026-09-28",
+      "type": "官方新闻稿"
+    }
+  ]
+}

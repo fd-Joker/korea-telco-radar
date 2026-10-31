@@ -1,0 +1,347 @@
+{
+  "date": "2026-10-01",
+  "title": "Korea Telco Advanced Technology Radar",
+  "top5": [
+    {
+      "title": "3GPP Ambient IoT：TS 23.370已进入Under Change Control，APP Phase 2 Work Item进度100%",
+      "date": "2026-09-24/28",
+      "source_name": "3GPP",
+      "source_url": "https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=5530",
+      "source_type": "3GPP规范正文+Work Item状态核验",
+      "importance": "重大更新",
+      "summary": "TS 23.370于9月24日进入Under Change Control；关联Rel-20 AmbientIoT_Ph2-APP Work Item于9月28日记录70%→100%。这不等同于整个Rel-20 Ambient IoT Phase 2冻结。",
+      "technical_significance": "应用使能规范进入受控维护阶段，APP工作项完成度100%；仍需分别核验Architecture、Security及相关CR。",
+      "impact_for_korean_telco": "韩国运营商可更积极推进Tag-RAN-Platform-API-Application端到端PoC并基于TS 23.370做API/应用适配。",
+      "topic": "Ambient IoT / 3GPP Rel-20",
+      "company_or_org": "3GPP SA6"
+    },
+    {
+      "title": "OpenAI Dots：Always-on Agent进入持续自主执行形态",
+      "date": "2026-09-29",
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/index/introducing-dots/",
+      "source_type": "官方产品发布",
+      "importance": "值得关注",
+      "summary": "Dots基于GPT-6 Astra，具备独立云电脑、浏览器，可连接4000+应用并长期执行任务；企业版specialist dots支持独立身份和访问管理。",
+      "technical_significance": "Agent从一次性任务走向长期驻留和多Agent协作，身份、权限、审批、审计与持续监督成为生产基础能力。",
+      "impact_for_korean_telco": "韩国运营商AN/AION应建立Agent独立身份、最小权限、action review、trajectory log和kill/rollback。",
+      "topic": "Autonomous Network / Agentic AI",
+      "company_or_org": "OpenAI"
+    },
+    {
+      "title": "Anthropic量化Physical AI任务暴露：成本与开放环境能力仍是瓶颈",
+      "date": "2026-09-30",
+      "source_name": "Anthropic",
+      "source_url": "https://www.anthropic.com/research/what-work-can-robots-do",
+      "source_type": "官方研究",
+      "importance": "值得关注",
+      "summary": "Anthropic提出Robot Exposure Index：机器人可执行大量物理任务，但多数能力仍集中于受控环境，成本和开放环境泛化是主要瓶颈。",
+      "technical_significance": "Physical AI近期更可能先在结构化工业、物流、巡检等环境规模化，与韩国AI-RAN项目选择造船、石化场景一致。",
+      "impact_for_korean_telco": "韩国运营商应优先选择高重复度、高安全价值、环境可控的Physical AI场景，并联合评估网络KPI、任务成功率与人工替代成本。",
+      "topic": "Physical AI / Networks for AI",
+      "company_or_org": "Anthropic"
+    },
+    {
+      "title": "Samsung/SKT/Hana：Private 5G成为韩国金融Enterprise AI安全底座",
+      "date": "2026-09-28",
+      "source_name": "Samsung Electronics",
+      "source_url": "https://news.samsung.com/global/samsung-sk-telecom-and-hana-financial-group-buildkoreas-first-private-5g-smart-office-in-the-financial-sector",
+      "source_type": "官方新闻稿",
+      "importance": "重大更新",
+      "summary": "韩国金融业首个Private 5G Smart Office覆盖16层和数千员工，采用4.7GHz、5G SA Core、Network Slicing及多层安全机制。",
+      "technical_significance": "Networks for AI从工业Physical AI扩展到高安全Enterprise AI。",
+      "impact_for_korean_telco": "韩国运营商可将金融等强监管行业作为Networks for AI商业入口，探索按企业、应用、Slice SLA和安全等级计费。",
+      "topic": "Networks for AI / Private 5G",
+      "company_or_org": "Samsung / SK Telecom / Hana Financial Group"
+    },
+    {
+      "title": "Samsung/KT/SKT Hyper AI Network：10月工业AI-RAN现场验证进入观察窗口",
+      "date": "2026-09-23",
+      "source_name": "Samsung Electronics",
+      "source_url": "https://news.samsung.com/global/samsung-at-the-forefront-of-koreas-ai-ran-projects-with-kt-and-sk-telecom",
+      "source_type": "官方新闻稿",
+      "importance": "重大更新",
+      "summary": "10月将在造船和石化现场部署5G SA专网，验证AI-RAN、Edge AI、Physical AI机器人和自治运维。",
+      "technical_significance": "AI-RAN从算法优化进入Connectivity + Compute + Physical AI系统验证。",
+      "impact_for_korean_telco": "重点跟踪UL吞吐、P95/P99时延、可靠性、资源隔离、GPU利用率、功耗、任务成功率与TCO。",
+      "topic": "AI-RAN / Physical AI",
+      "company_or_org": "Samsung / KT / SK Telecom"
+    }
+  ],
+  "trends": {
+    "AI-RAN": {
+      "direction": "↑↑↑",
+      "summary": "过去24小时无新的Radio AI算法突破；10月开始后，韩国Hyper AI Network进入现场验证观察窗口。Anthropic研究进一步支持Physical AI短期优先落地结构化工业、物流和巡检场景。",
+      "key_change": "较上一期：AI-RAN本身无新算法拐点，但Physical AI场景选择依据更清晰。",
+      "sources": [
+        {
+          "date": "2026-09-23",
+          "name": "Samsung/KT/SKT",
+          "url": "https://news.samsung.com/global/samsung-at-the-forefront-of-koreas-ai-ran-projects-with-kt-and-sk-telecom"
+        },
+        {
+          "date": "2026-09-30",
+          "name": "Anthropic",
+          "url": "https://www.anthropic.com/research/what-work-can-robots-do"
+        }
+      ]
+    },
+    "6G": {
+      "direction": "↑↑",
+      "summary": "过去24小时未发现新的3GPP 6G规范性里程碑；近期仍以AI-native network、ISAC、Physical AI和开放/自治RAN前置验证为主。",
+      "key_change": "无新的6G标准状态变化。",
+      "sources": [
+        {
+          "date": "2026-09-11",
+          "name": "NTT DOCOMO",
+          "url": "https://www.docomo.ne.jp/english/info/media_center/pr/2026/0911_00.html"
+        },
+        {
+          "date": "2026-09-23",
+          "name": "Samsung/KT/SKT",
+          "url": "https://news.samsung.com/global/samsung-at-the-forefront-of-koreas-ai-ran-projects-with-kt-and-sk-telecom"
+        }
+      ]
+    },
+    "Ambient IoT": {
+      "direction": "↑↑↑",
+      "summary": "重要状态校正：TS 23.370已于9月24日进入Under Change Control；关联AmbientIoT_Ph2-APP Work Item于9月28日记录完成度100%。",
+      "key_change": "不应再写成Draft；但仍不能据此宣称整个Rel-20 Ambient IoT Phase 2冻结。",
+      "sources": [
+        {
+          "date": "2026-09-24/28",
+          "name": "3GPP TS 23.370 / AmbientIoT_Ph2-APP",
+          "url": "https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=5530"
+        }
+      ]
+    }
+  },
+  "vendors": [
+    {
+      "title": "Samsung/SKT/Hana：Private 5G成为韩国金融Enterprise AI安全底座",
+      "date": "2026-09-28",
+      "source_name": "Samsung Electronics",
+      "source_url": "https://news.samsung.com/global/samsung-sk-telecom-and-hana-financial-group-buildkoreas-first-private-5g-smart-office-in-the-financial-sector",
+      "source_type": "官方新闻稿",
+      "importance": "重大更新",
+      "summary": "韩国金融业首个Private 5G Smart Office覆盖16层和数千员工，采用4.7GHz、5G SA Core、Network Slicing及多层安全机制。",
+      "technical_significance": "Networks for AI从工业Physical AI扩展到高安全Enterprise AI。",
+      "impact_for_korean_telco": "韩国运营商可将金融等强监管行业作为Networks for AI商业入口，探索按企业、应用、Slice SLA和安全等级计费。",
+      "topic": "Networks for AI / Private 5G",
+      "company_or_org": "Samsung / SK Telecom / Hana Financial Group"
+    },
+    {
+      "title": "Samsung/KT/SKT Hyper AI Network：10月工业AI-RAN现场验证进入观察窗口",
+      "date": "2026-09-23",
+      "source_name": "Samsung Electronics",
+      "source_url": "https://news.samsung.com/global/samsung-at-the-forefront-of-koreas-ai-ran-projects-with-kt-and-sk-telecom",
+      "source_type": "官方新闻稿",
+      "importance": "重大更新",
+      "summary": "10月将在造船和石化现场部署5G SA专网，验证AI-RAN、Edge AI、Physical AI机器人和自治运维。",
+      "technical_significance": "AI-RAN从算法优化进入Connectivity + Compute + Physical AI系统验证。",
+      "impact_for_korean_telco": "重点跟踪UL吞吐、P95/P99时延、可靠性、资源隔离、GPU利用率、功耗、任务成功率与TCO。",
+      "topic": "AI-RAN / Physical AI",
+      "company_or_org": "Samsung / KT / SK Telecom"
+    },
+    {
+      "title": "NTT DOCOMO多厂商O-RAN商用化：开放RAN与AI-Centric/Autonomous Network路线汇合",
+      "date": "2026-09-11",
+      "source_name": "NTT DOCOMO",
+      "source_url": "https://www.docomo.ne.jp/english/info/media_center/pr/2026/0911_00.html",
+      "source_type": "运营商官方新闻稿",
+      "importance": "值得关注",
+      "summary": "DOCOMO商用部署Nokia O-RAN基站并可连接多厂商RU，同时推进vRAN/Cloud RAN、AI-Centric Network、SON/RIC和Autonomous Network。",
+      "technical_significance": "开放接口正从采购灵活性演进为跨厂商自动化和AI控制基础。",
+      "impact_for_korean_telco": "韩国多Vendor AI-RAN需提前定义数据模型、RIC/rApp治理、闭环责任边界和性能归因。",
+      "topic": "Open RAN / Autonomous RAN / 6G",
+      "company_or_org": "NTT DOCOMO / Nokia"
+    }
+  ],
+  "operators": [
+    {
+      "title": "Samsung/SKT/Hana：Private 5G成为韩国金融Enterprise AI安全底座",
+      "date": "2026-09-28",
+      "source_name": "Samsung Electronics",
+      "source_url": "https://news.samsung.com/global/samsung-sk-telecom-and-hana-financial-group-buildkoreas-first-private-5g-smart-office-in-the-financial-sector",
+      "source_type": "官方新闻稿",
+      "importance": "重大更新",
+      "summary": "韩国金融业首个Private 5G Smart Office覆盖16层和数千员工，采用4.7GHz、5G SA Core、Network Slicing及多层安全机制。",
+      "technical_significance": "Networks for AI从工业Physical AI扩展到高安全Enterprise AI。",
+      "impact_for_korean_telco": "韩国运营商可将金融等强监管行业作为Networks for AI商业入口，探索按企业、应用、Slice SLA和安全等级计费。",
+      "topic": "Networks for AI / Private 5G",
+      "company_or_org": "Samsung / SK Telecom / Hana Financial Group"
+    },
+    {
+      "title": "Samsung/KT/SKT Hyper AI Network：10月工业AI-RAN现场验证进入观察窗口",
+      "date": "2026-09-23",
+      "source_name": "Samsung Electronics",
+      "source_url": "https://news.samsung.com/global/samsung-at-the-forefront-of-koreas-ai-ran-projects-with-kt-and-sk-telecom",
+      "source_type": "官方新闻稿",
+      "importance": "重大更新",
+      "summary": "10月将在造船和石化现场部署5G SA专网，验证AI-RAN、Edge AI、Physical AI机器人和自治运维。",
+      "technical_significance": "AI-RAN从算法优化进入Connectivity + Compute + Physical AI系统验证。",
+      "impact_for_korean_telco": "重点跟踪UL吞吐、P95/P99时延、可靠性、资源隔离、GPU利用率、功耗、任务成功率与TCO。",
+      "topic": "AI-RAN / Physical AI",
+      "company_or_org": "Samsung / KT / SK Telecom"
+    },
+    {
+      "title": "NTT DOCOMO多厂商O-RAN商用化：开放RAN与AI-Centric/Autonomous Network路线汇合",
+      "date": "2026-09-11",
+      "source_name": "NTT DOCOMO",
+      "source_url": "https://www.docomo.ne.jp/english/info/media_center/pr/2026/0911_00.html",
+      "source_type": "运营商官方新闻稿",
+      "importance": "值得关注",
+      "summary": "DOCOMO商用部署Nokia O-RAN基站并可连接多厂商RU，同时推进vRAN/Cloud RAN、AI-Centric Network、SON/RIC和Autonomous Network。",
+      "technical_significance": "开放接口正从采购灵活性演进为跨厂商自动化和AI控制基础。",
+      "impact_for_korean_telco": "韩国多Vendor AI-RAN需提前定义数据模型、RIC/rApp治理、闭环责任边界和性能归因。",
+      "topic": "Open RAN / Autonomous RAN / 6G",
+      "company_or_org": "NTT DOCOMO / Nokia"
+    }
+  ],
+  "ai_companies": [
+    {
+      "title": "OpenAI Dots：Always-on Agent进入持续自主执行形态",
+      "date": "2026-09-29",
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/index/introducing-dots/",
+      "source_type": "官方产品发布",
+      "importance": "值得关注",
+      "summary": "Dots基于GPT-6 Astra，具备独立云电脑、浏览器，可连接4000+应用并长期执行任务；企业版specialist dots支持独立身份和访问管理。",
+      "technical_significance": "Agent从一次性任务走向长期驻留和多Agent协作，身份、权限、审批、审计与持续监督成为生产基础能力。",
+      "impact_for_korean_telco": "韩国运营商AN/AION应建立Agent独立身份、最小权限、action review、trajectory log和kill/rollback。",
+      "topic": "Autonomous Network / Agentic AI",
+      "company_or_org": "OpenAI"
+    },
+    {
+      "title": "Anthropic量化Physical AI任务暴露：成本与开放环境能力仍是瓶颈",
+      "date": "2026-09-30",
+      "source_name": "Anthropic",
+      "source_url": "https://www.anthropic.com/research/what-work-can-robots-do",
+      "source_type": "官方研究",
+      "importance": "值得关注",
+      "summary": "Anthropic提出Robot Exposure Index：机器人可执行大量物理任务，但多数能力仍集中于受控环境，成本和开放环境泛化是主要瓶颈。",
+      "technical_significance": "Physical AI近期更可能先在结构化工业、物流、巡检等环境规模化，与韩国AI-RAN项目选择造船、石化场景一致。",
+      "impact_for_korean_telco": "韩国运营商应优先选择高重复度、高安全价值、环境可控的Physical AI场景，并联合评估网络KPI、任务成功率与人工替代成本。",
+      "topic": "Physical AI / Networks for AI",
+      "company_or_org": "Anthropic"
+    }
+  ],
+  "timeline15d": [
+    {
+      "title": "3GPP Ambient IoT：TS 23.370已进入Under Change Control，APP Phase 2 Work Item进度100%",
+      "date": "2026-09-24/28",
+      "source_name": "3GPP",
+      "source_url": "https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=5530",
+      "source_type": "3GPP规范正文+Work Item状态核验",
+      "importance": "重大更新",
+      "summary": "TS 23.370于9月24日进入Under Change Control；关联Rel-20 AmbientIoT_Ph2-APP Work Item于9月28日记录70%→100%。这不等同于整个Rel-20 Ambient IoT Phase 2冻结。",
+      "technical_significance": "应用使能规范进入受控维护阶段，APP工作项完成度100%；仍需分别核验Architecture、Security及相关CR。",
+      "impact_for_korean_telco": "韩国运营商可更积极推进Tag-RAN-Platform-API-Application端到端PoC并基于TS 23.370做API/应用适配。",
+      "topic": "Ambient IoT / 3GPP Rel-20",
+      "company_or_org": "3GPP SA6"
+    },
+    {
+      "title": "OpenAI Dots：Always-on Agent进入持续自主执行形态",
+      "date": "2026-09-29",
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/index/introducing-dots/",
+      "source_type": "官方产品发布",
+      "importance": "值得关注",
+      "summary": "Dots基于GPT-6 Astra，具备独立云电脑、浏览器，可连接4000+应用并长期执行任务；企业版specialist dots支持独立身份和访问管理。",
+      "technical_significance": "Agent从一次性任务走向长期驻留和多Agent协作，身份、权限、审批、审计与持续监督成为生产基础能力。",
+      "impact_for_korean_telco": "韩国运营商AN/AION应建立Agent独立身份、最小权限、action review、trajectory log和kill/rollback。",
+      "topic": "Autonomous Network / Agentic AI",
+      "company_or_org": "OpenAI"
+    },
+    {
+      "title": "Anthropic量化Physical AI任务暴露：成本与开放环境能力仍是瓶颈",
+      "date": "2026-09-30",
+      "source_name": "Anthropic",
+      "source_url": "https://www.anthropic.com/research/what-work-can-robots-do",
+      "source_type": "官方研究",
+      "importance": "值得关注",
+      "summary": "Anthropic提出Robot Exposure Index：机器人可执行大量物理任务，但多数能力仍集中于受控环境，成本和开放环境泛化是主要瓶颈。",
+      "technical_significance": "Physical AI近期更可能先在结构化工业、物流、巡检等环境规模化，与韩国AI-RAN项目选择造船、石化场景一致。",
+      "impact_for_korean_telco": "韩国运营商应优先选择高重复度、高安全价值、环境可控的Physical AI场景，并联合评估网络KPI、任务成功率与人工替代成本。",
+      "topic": "Physical AI / Networks for AI",
+      "company_or_org": "Anthropic"
+    },
+    {
+      "title": "Samsung/SKT/Hana：Private 5G成为韩国金融Enterprise AI安全底座",
+      "date": "2026-09-28",
+      "source_name": "Samsung Electronics",
+      "source_url": "https://news.samsung.com/global/samsung-sk-telecom-and-hana-financial-group-buildkoreas-first-private-5g-smart-office-in-the-financial-sector",
+      "source_type": "官方新闻稿",
+      "importance": "重大更新",
+      "summary": "韩国金融业首个Private 5G Smart Office覆盖16层和数千员工，采用4.7GHz、5G SA Core、Network Slicing及多层安全机制。",
+      "technical_significance": "Networks for AI从工业Physical AI扩展到高安全Enterprise AI。",
+      "impact_for_korean_telco": "韩国运营商可将金融等强监管行业作为Networks for AI商业入口，探索按企业、应用、Slice SLA和安全等级计费。",
+      "topic": "Networks for AI / Private 5G",
+      "company_or_org": "Samsung / SK Telecom / Hana Financial Group"
+    },
+    {
+      "title": "Samsung/KT/SKT Hyper AI Network：10月工业AI-RAN现场验证进入观察窗口",
+      "date": "2026-09-23",
+      "source_name": "Samsung Electronics",
+      "source_url": "https://news.samsung.com/global/samsung-at-the-forefront-of-koreas-ai-ran-projects-with-kt-and-sk-telecom",
+      "source_type": "官方新闻稿",
+      "importance": "重大更新",
+      "summary": "10月将在造船和石化现场部署5G SA专网，验证AI-RAN、Edge AI、Physical AI机器人和自治运维。",
+      "technical_significance": "AI-RAN从算法优化进入Connectivity + Compute + Physical AI系统验证。",
+      "impact_for_korean_telco": "重点跟踪UL吞吐、P95/P99时延、可靠性、资源隔离、GPU利用率、功耗、任务成功率与TCO。",
+      "topic": "AI-RAN / Physical AI",
+      "company_or_org": "Samsung / KT / SK Telecom"
+    },
+    {
+      "title": "NTT DOCOMO多厂商O-RAN商用化：开放RAN与AI-Centric/Autonomous Network路线汇合",
+      "date": "2026-09-11",
+      "source_name": "NTT DOCOMO",
+      "source_url": "https://www.docomo.ne.jp/english/info/media_center/pr/2026/0911_00.html",
+      "source_type": "运营商官方新闻稿",
+      "importance": "值得关注",
+      "summary": "DOCOMO商用部署Nokia O-RAN基站并可连接多厂商RU，同时推进vRAN/Cloud RAN、AI-Centric Network、SON/RIC和Autonomous Network。",
+      "technical_significance": "开放接口正从采购灵活性演进为跨厂商自动化和AI控制基础。",
+      "impact_for_korean_telco": "韩国多Vendor AI-RAN需提前定义数据模型、RIC/rApp治理、闭环责任边界和性能归因。",
+      "topic": "Open RAN / Autonomous RAN / 6G",
+      "company_or_org": "NTT DOCOMO / Nokia"
+    }
+  ],
+  "sources": [
+    {
+      "name": "3GPP",
+      "url": "https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=5530",
+      "date": "2026-09-24/28",
+      "type": "规范门户/Work Item"
+    },
+    {
+      "name": "OpenAI",
+      "url": "https://openai.com/index/introducing-dots/",
+      "date": "2026-09-29",
+      "type": "官方产品发布"
+    },
+    {
+      "name": "Anthropic",
+      "url": "https://www.anthropic.com/research/what-work-can-robots-do",
+      "date": "2026-09-30",
+      "type": "官方研究"
+    },
+    {
+      "name": "Samsung Electronics",
+      "url": "https://news.samsung.com/global/samsung-sk-telecom-and-hana-financial-group-buildkoreas-first-private-5g-smart-office-in-the-financial-sector",
+      "date": "2026-09-28",
+      "type": "官方新闻稿"
+    },
+    {
+      "name": "Samsung Electronics",
+      "url": "https://news.samsung.com/global/samsung-at-the-forefront-of-koreas-ai-ran-projects-with-kt-and-sk-telecom",
+      "date": "2026-09-23",
+      "type": "官方新闻稿"
+    },
+    {
+      "name": "NTT DOCOMO",
+      "url": "https://www.docomo.ne.jp/english/info/media_center/pr/2026/0911_00.html",
+      "date": "2026-09-11",
+      "type": "运营商官方新闻稿"
+    }
+  ]
+}
