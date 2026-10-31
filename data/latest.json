@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "title": "Korea Telco Advanced Technology Radar",
-  "edition_time": "08:33 KST",
-  "editorial_note": "过去24小时核实LG U+隐私教育实践（常规动态）；未核实到AI-RAN、6G、Ambient IoT新的重大一手技术里程碑。Top 5保留10月28—29日重要进展，明确标注原始发布日期。",
+  "edition_time": "08:30 KST",
+  "editorial_note": "截至2026-11-01 08:30 KST，尚未核实到过去24小时内AI-RAN、6G、Ambient IoT新的重大一手技术里程碑。本期保留10月28—30日已确认重要事件作为趋势基线；所有日期为原始发布日期，不作为11月1日新消息。",
   "top5": [
     {
       "title": "中兴与du在商用5G-A网络激活6775—7125MHz U6GHz端到端连接",
@@ -57,24 +57,24 @@
       "company_or_org": "ETSI"
     },
     {
-      "title": "LG U+介绍用户与员工隐私保护教育实践",
-      "date": "2026-10-30",
-      "source_name": "LG U+",
-      "source_url": "https://news.lguplus.com/23219",
-      "source_type": "运营商官方企业实践文章",
-      "importance": "常规动态",
-      "summary": "LG U+介绍10月8日员工隐私教育活动和用户隐私风险宣传；没有披露新的AI-RAN、6G或Agent技术指标。",
-      "technical_significance": "属于AI服务可信运营的组织实践，不是新网络技术或标准。",
-      "impact_for_korean_telco": "将隐私最小化、权限审计与人员培训纳入Agent上线管理。",
-      "topic": "AI治理 / 隐私保护",
-      "company_or_org": "LG U+"
+      "title": "中兴AIR RAN披露17万站部署及多项运营KPI",
+      "date": "2026-10-28",
+      "source_name": "ZTE",
+      "source_url": "https://www.zte.com.cn/global/about/news/zte-air-ran-solution-wins-gca-best-hardware-innovation-award.html",
+      "source_type": "设备商官方产品/获奖公告",
+      "importance": "重大更新",
+      "summary": "中兴称AIR RAN全球部署超过17万站，并分别报告差异化体验ARPU最高+20%、频谱利用率峰值+20%、AI节能15%、零接触工单解决率20%；未披露样本、基线和统计口径。",
+      "technical_significance": "提供现网规模与多维KPI线索，但均为厂商自报，且不应理解为所有站点同时获得上述收益。",
+      "impact_for_korean_telco": "要求按运营商、频段、站型、功能拆分部署数量和KPI基线；与GPU加速AI-RAN方案比较增量硬件成本。",
+      "topic": "AI-RAN / 规模部署",
+      "company_or_org": "ZTE"
     }
   ],
   "trends": {
     "AI-RAN": {
       "direction": "→ 无新增空口性能KPI",
       "summary": "10/28华为披露U6GHz VitaAAU、UBBPi与RANSpirit：覆盖提升约30%、体验约1.3倍及功耗-40%均为厂商自报；10/28中兴AIR RAN超过17万站亦缺独立对照。10/29中兴/du U6GHz商用连接属于5G-A，不是6G。",
-      "key_change": "较10月30日：暂无新无线实测；延续华为与中兴厂商口径。",
+      "key_change": "与10月31日相比：未核实到新增重大技术里程碑；沿用已确认的一手资料。",
       "sources": [
         {
           "name": "Huawei",
@@ -91,7 +91,7 @@
     "6G": {
       "direction": "→ U6GHz 5G-A验证延续，非6G商用",
       "summary": "中兴/du于10/29披露在6775—7125MHz、350MHz带宽完成5G-A商用CPE端到端连接；华为10/28称VitaAAU U6GHz已在阿联酋等商用。二者均非6G商用，且未公开足够的边缘覆盖数据；韩国7125—7400MHz不与测试频段完全相同。",
-      "key_change": "较10月30日：未核实到新的6G批准CR。",
+      "key_change": "与10月31日相比：未核实到新增重大技术里程碑；沿用已确认的一手资料。",
       "sources": [
         {
           "name": "ZTE",
@@ -108,7 +108,7 @@
     "Ambient IoT": {
       "direction": "→ Rel-20规范状态未见新的已核实变化",
       "summary": "继续区分TS 23.370 Rel-20正式规范（2026-09-28 v20.0.0，Under Change Control）、TS 29.568 Stage 3 Draft（已确认2026-09-14 v0.1.0）和AmbientIoT_Ph2-APP已批准Work Item（2026-09-28进度100%）；未发现10/29新增批准CR。",
-      "key_change": "较10月30日：未核实到新Approved CR。",
+      "key_change": "与10月31日相比：未核实到新增重大技术里程碑；沿用已确认的一手资料。",
       "sources": [
         {
           "name": "3GPP TS 23.370",
@@ -1057,19 +1057,6 @@
       "technical_significance": "Physical AI需要可信定位，不只是平均定位误差；尚无试验结果。",
       "impact_for_korean_telco": "设计P95定位误差、可靠性、时延和遮挡鲁棒性指标。",
       "source_name": "Ericsson"
-    },
-    {
-      "title": "多Agent冲突感知rApp编排：提升KPI合规与意图接纳",
-      "date": "2026-10-17",
-      "source_name": "arXiv",
-      "source_url": "https://arxiv.org/abs/2610.24688",
-      "source_type": "arXiv预印本·研究论文",
-      "importance": "值得关注",
-      "summary": "提出Reasoning Agent与Diagnosis Agent协调rApp/xApp；论文报告GPT-OSS 120B方案KPI合规案例提升28.6%，意图接纳数量超过基线15倍，并报告符合O-RAN架构的现场部署。",
-      "technical_significance": "多意图冲突治理比单一Agent自动化更接近多厂商SMO现实，但数值依赖作者测试集与基线。",
-      "impact_for_korean_telco": "韩国AN PoC应建立跨rApp策略冲突检测、KPI契约、审批和回滚测试。",
-      "topic": "自治网络 / SMO-rAPP",
-      "company_or_org": "Haiyuan Li等（布里斯托大学）"
     }
   ],
   "sources": [
@@ -1334,13 +1321,12 @@
     ],
     "note": "覆盖主体逐一检查，未找到符合本期门槛的新一手公告者不填充旧新闻；KT Token Factory 10/27公开发布会暂未核实官方原文链接，不计入主事件。"
   },
-  "timeline_window": {
-    "start": "2026-10-16",
-    "end": "2026-10-30"
-  },
+  "timeline_window": "2026-10-18 至 2026-11-01",
   "research": {
     "editorial_policy": "优先一手；5G-A商用不等于6G；ETSI TS不等于3GPP CR；厂商自报指标需独立验证；工作项100%不等于规范冻结。",
     "not_confirmed": "截至2026-10-30 08:30 KST未核实到新的6G或Ambient IoT Approved CR；未核实KT Token Factory的官方新闻稿固定URL。",
-    "priority_for_korea": "U6GHz 6775—7125MHz与韩国7125—7400MHz的链路预算、AAU阵元与功耗对标；AI-RAN KPI复算；端云AI流量与能耗；AI Agent治理。"
+    "priority_for_korea": "U6GHz 6775—7125MHz与韩国7125—7400MHz的链路预算、AAU阵元与功耗对标；AI-RAN KPI复算；端云AI流量与能耗；AI Agent治理。",
+    "as_of": "2026-11-01 08:30 KST",
+    "verification_note": "本期未能独立确认过去24小时新公告，所有保留事件均按原始发布日期列示。"
   }
 }
