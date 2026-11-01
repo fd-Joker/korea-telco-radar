@@ -1,8 +1,8 @@
 {
-  "date": "2026-11-01",
+  "date": "2026-11-02",
   "title": "Korea Telco Advanced Technology Radar",
   "edition_time": "08:30 KST",
-  "editorial_note": "截至2026-11-01 08:30 KST，尚未核实到过去24小时内AI-RAN、6G、Ambient IoT新的重大一手技术里程碑。本期保留10月28—30日已确认重要事件作为趋势基线；所有日期为原始发布日期，不作为11月1日新消息。",
+  "editorial_note": "截至2026-11-02 08:30 KST，公开检索未确认过去24小时内AI-RAN、6G、Ambient IoT新的重大一手技术里程碑。本期以10月28—29日已核实公告为趋势基线，不将历史事件当作11月2日新消息。",
   "top5": [
     {
       "title": "中兴与du在商用5G-A网络激活6775—7125MHz U6GHz端到端连接",
@@ -74,7 +74,7 @@
     "AI-RAN": {
       "direction": "→ 无新增空口性能KPI",
       "summary": "10/28华为披露U6GHz VitaAAU、UBBPi与RANSpirit：覆盖提升约30%、体验约1.3倍及功耗-40%均为厂商自报；10/28中兴AIR RAN超过17万站亦缺独立对照。10/29中兴/du U6GHz商用连接属于5G-A，不是6G。",
-      "key_change": "与10月31日相比：未核实到新增重大技术里程碑；沿用已确认的一手资料。",
+      "key_change": "与11月1日相比：未核实到新的重大一手技术里程碑；维持上一期判断。",
       "sources": [
         {
           "name": "Huawei",
@@ -91,7 +91,7 @@
     "6G": {
       "direction": "→ U6GHz 5G-A验证延续，非6G商用",
       "summary": "中兴/du于10/29披露在6775—7125MHz、350MHz带宽完成5G-A商用CPE端到端连接；华为10/28称VitaAAU U6GHz已在阿联酋等商用。二者均非6G商用，且未公开足够的边缘覆盖数据；韩国7125—7400MHz不与测试频段完全相同。",
-      "key_change": "与10月31日相比：未核实到新增重大技术里程碑；沿用已确认的一手资料。",
+      "key_change": "与11月1日相比：未核实到新的重大一手技术里程碑；维持上一期判断。",
       "sources": [
         {
           "name": "ZTE",
@@ -107,8 +107,8 @@
     },
     "Ambient IoT": {
       "direction": "→ Rel-20规范状态未见新的已核实变化",
-      "summary": "继续区分TS 23.370 Rel-20正式规范（2026-09-28 v20.0.0，Under Change Control）、TS 29.568 Stage 3 Draft（已确认2026-09-14 v0.1.0）和AmbientIoT_Ph2-APP已批准Work Item（2026-09-28进度100%）；未发现10/29新增批准CR。",
-      "key_change": "与10月31日相比：未核实到新增重大技术里程碑；沿用已确认的一手资料。",
+      "summary": "继续区分TS 23.370 Rel-20正式规范（2026-09-28 v20.0.0，Under Change Control）、TS 29.568 Stage 3 Draft（已确认2026-09-14 v0.1.0）和AmbientIoT_Ph2-APP已批准Work Item（2026-09-28进度100%）；未核实到11/2新增批准CR。",
+      "key_change": "与11月1日相比：未核实到新的重大一手技术里程碑；维持上一期判断。",
       "sources": [
         {
           "name": "3GPP TS 23.370",
