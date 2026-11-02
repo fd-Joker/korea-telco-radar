@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T08:33:08+09:00",
+  "updatedAt": "2026-11-03T08:33:51+09:00",
   "events": [
     {
       "id": "eu-korea-digital-partnership-2026",
@@ -1247,7 +1247,7 @@
       "endDate": "2026-11-05",
       "location": "COEX 3F Hall D / Conference Rooms E1-E4, Seoul",
       "language": "Korean / English",
-      "status": "registration_closing",
+      "status": "ongoing",
       "registrationDeadline": "2026-11-02T18:00:00+09:00",
       "registrationUrl": "https://www.aiotkorea.or.kr/2026/kor/about/information.asp",
       "registrationEligibility": "Business exhibition; high-school students or younger restricted. Conference registration separate.",
@@ -1296,7 +1296,7 @@
       "endDate": "2026-11-05",
       "location": "COEX 3F Hall D / Conference Room E, Seoul",
       "language": "Korean / English",
-      "status": "announced",
+      "status": "ongoing",
       "registrationEligibility": "Public participation announced; detailed 2026 registration method not yet confirmed.",
       "fee": "暂未公布",
       "officialUrl": "https://www.hscity.go.kr/www/user/bbs/BD_selectBbs.do?q_bbsCode=1019&q_bbscttSn=20260826140731869",
@@ -2064,7 +2064,7 @@
       "endDate": "2026-11-03",
       "location": "Embassy of Canada, 21 Jeongdong-gil, Jung-gu, Seoul",
       "language": "Korean / English (simultaneous interpretation in morning only)",
-      "status": "upcoming",
+      "status": "ongoing",
       "registrationDeadline": "2026-10-21",
       "registrationUrl": "https://koraia.org/base/mp5/sub2.php?com_board_basic=read_form&com_board_category_code=c2&com_board_id=11&com_board_idx=1136&sub=02",
       "registrationEligibility": "Korean industry stakeholders seeking Physical AI partnerships with Canadian companies; advance application and pre-matched B2B meetings.",
@@ -2699,7 +2699,7 @@
       "endDate": "2026-11-02",
       "location": "COEX South Conference Rooms 4F, Seoul",
       "language": "Korean",
-      "status": "ongoing",
+      "status": "completed",
       "priority": "A",
       "operatorRelevance": "medium",
       "registrationEligibility": "Industry practitioners; registration details/deadline 暂未公布.",
