@@ -1,8 +1,8 @@
 {
-  "date": "2026-11-03",
+  "date": "2026-11-04",
   "title": "Korea Telco Advanced Technology Radar",
   "edition_time": "08:30 KST",
-  "editorial_note": "截至2026-11-03 08:30 KST，未找到足以核实的过去24小时AI-RAN、6G、Ambient IoT重大一手新进展。今日Top 5为过去7天延续事件，全部保留原始发布日期；与11月2日相比，技术成熟度判断不变。",
+  "editorial_note": "截至2026-11-04 08:30 KST，过去24小时未核实到AI-RAN、6G或Ambient IoT新的重大一手里程碑。今日Top 5沿用最近7天经一手来源支持的进展，均保留原始发布日期；与11月3日相比技术成熟度判断未变。",
   "top5": [
     {
       "title": "中兴与du在商用5G-A网络激活6775—7125MHz U6GHz端到端连接",
@@ -74,7 +74,7 @@
     "AI-RAN": {
       "direction": "→ 无新增空口性能KPI",
       "summary": "10/28华为披露U6GHz VitaAAU、UBBPi与RANSpirit：覆盖提升约30%、体验约1.3倍及功耗-40%均为厂商自报；10/28中兴AIR RAN超过17万站亦缺独立对照。10/29中兴/du U6GHz商用连接属于5G-A，不是6G。",
-      "key_change": "与2026-11-02相比：未核实到新的重大一手技术里程碑；维持上一期判断。",
+      "key_change": "与2026-11-03相比：未确认过去24小时新的重大技术里程碑；维持上一期判断。",
       "sources": [
         {
           "name": "Huawei",
@@ -91,7 +91,7 @@
     "6G": {
       "direction": "→ U6GHz 5G-A验证延续，非6G商用",
       "summary": "中兴/du于10/29披露在6775—7125MHz、350MHz带宽完成5G-A商用CPE端到端连接；华为10/28称VitaAAU U6GHz已在阿联酋等商用。二者均非6G商用，且未公开足够的边缘覆盖数据；韩国7125—7400MHz不与测试频段完全相同。",
-      "key_change": "与2026-11-02相比：未核实到新的重大一手技术里程碑；维持上一期判断。",
+      "key_change": "与2026-11-03相比：未确认过去24小时新的重大技术里程碑；维持上一期判断。",
       "sources": [
         {
           "name": "ZTE",
@@ -108,7 +108,7 @@
     "Ambient IoT": {
       "direction": "→ Rel-20规范状态未见新的已核实变化",
       "summary": "继续区分TS 23.370 Rel-20正式规范（2026-09-28 v20.0.0，Under Change Control）、TS 29.568 Stage 3 Draft（已确认2026-09-14 v0.1.0）和AmbientIoT_Ph2-APP已批准Work Item（2026-09-28进度100%）；未核实到11/3新增批准CR。",
-      "key_change": "与2026-11-02相比：未核实到新的重大一手技术里程碑；维持上一期判断。",
+      "key_change": "与2026-11-03相比：未确认过去24小时新的重大技术里程碑；维持上一期判断。",
       "sources": [
         {
           "name": "3GPP TS 23.370",
@@ -786,32 +786,6 @@
       "source_name": "Elisa"
     },
     {
-      "title": "Ericsson/Singtel披露AI无线优化现网吞吐提升19%",
-      "date": "2026-10-20",
-      "company_or_org": "Ericsson / Singtel",
-      "source_url": "https://www.ericsson.com/en/press-releases/2/2026/singtel-and-ericsson-deepen-partnership-to-scale-5g-innovation-and-build-ai-native-networks-for-consumers-and-enterprises-in-singapore",
-      "source_type": "设备商官方新闻稿",
-      "importance": "重大更新",
-      "topic": "AI-RAN / 现网优化",
-      "summary": "双方在新加坡现网AI无线能力试验报告吞吐提升19%，未披露完整算法和对照环境。",
-      "technical_significance": "属于AI优化无线资源的现场收益，不等于GPU共池收益。",
-      "impact_for_korean_telco": "韩国应要求负载分布、频段、用户数、基线和峰均值/边缘增益。",
-      "source_name": "Ericsson"
-    },
-    {
-      "title": "Nokia/SoftBank规划2027年AI-RAN商用流量试验",
-      "date": "2026-10-20",
-      "company_or_org": "Nokia / SoftBank",
-      "source_url": "https://www.softbank.jp/corp/news/press/sbkk/2026/20261020_01/",
-      "source_type": "运营商官方新闻稿",
-      "importance": "重大更新",
-      "topic": "AI-RAN / 资源编排",
-      "summary": "SoftBank 10月20日正式公告：计划2027年在商用网络验证AITRAS、Nokia anyRAN和MantaRay的跨厂商AI/RAN协同编排；尚无试验结果。",
-      "technical_significance": "跨厂商编排验证计划，不是已完成现场KPI。",
-      "impact_for_korean_telco": "关注RAN优先级调度、GPU利用率、跨域管理接口与TCO。",
-      "source_name": "SoftBank"
-    },
-    {
       "title": "LG U+公布端侧ixi-sLM：速度约4.5倍、电池消耗减少约77%",
       "date": "2026-10-29",
       "source_name": "LG U+",
@@ -1005,45 +979,6 @@
       "technical_significance": "Agent由单点自动化转向跨域操作，但尚无独立验证的AN L4闭环。",
       "impact_for_korean_telco": "重点验证R1/O1数据治理、权限、审计、回滚及多厂商适配。",
       "source_name": "Nokia"
-    },
-    {
-      "title": "NTT DOCOMO/NTT启动vRAN工作负载迁移与站点能源联合控制试验",
-      "date": "2026-10-20",
-      "company_or_org": "NTT DOCOMO / NTT",
-      "source_url": "https://www.docomo.ne.jp/binary/pdf/info/news_release/topics_261020_c1.pdf",
-      "source_type": "运营商官方联合试验公告PDF",
-      "importance": "值得关注",
-      "topic": "AI-RAN / Energy-aware vRAN",
-      "summary": "10月20日启动AI联合控制试验：在OSS模拟vRAN处理环境中跨站迁移负载，并协调太阳能和储能；计划年底完成验证，目前未公布节能增益。",
-      "technical_significance": "将RAN计算池调度与电力系统需求响应联动，面向6G/IOWN站点韧性。",
-      "impact_for_korean_telco": "韩国应对比跨站处理迁移时延、同步、业务连续性、节能和电池续航增益。",
-      "source_name": "NTT DOCOMO"
-    },
-    {
-      "title": "6G物理层Agent将OTFS检测器编译并验证到基带SoC",
-      "date": "2026-10-20",
-      "source_name": "arXiv",
-      "source_url": "https://arxiv.org/abs/2610.27797",
-      "source_type": "arXiv预印本·研究论文",
-      "importance": "值得关注",
-      "summary": "LLM Agent在商用基带SoC上实现12个OTFS检测内核，优化后每帧约30—660μs；面向芯片成本优化的新检测器周期数比移植方案少13.9%。",
-      "technical_significance": "把AI算法发现延伸至真实芯片约束下的可执行实现与验证；并非3GPP规范或商用6G产品。",
-      "impact_for_korean_telco": "关注模型开发到基带板部署的内存、周期、功耗与可验证性，建立AI生成代码硬件验收流程。",
-      "topic": "6G / Agentic PHY",
-      "company_or_org": "Eric Mittag等研究者"
-    },
-    {
-      "title": "Ericsson/Telstra推动自治网络Knowledge Plane",
-      "date": "2026-10-20",
-      "company_or_org": "Ericsson / Telstra",
-      "source_url": "https://www.ericsson.com/en/news/2026/10/telstra-and-ericsson-expand-collaboration-to-accelerate-autonomous-networks",
-      "source_type": "设备商官方研究合作公告",
-      "importance": "值得关注",
-      "topic": "Autonomous Network / Knowledge Plane",
-      "summary": "联合研究知识分类、跨域交换与溯源，以及可信知识支撑的Agent决策；尚非标准批准。",
-      "technical_significance": "跨厂商AN需要统一知识可信度与行动边界。",
-      "impact_for_korean_telco": "在SMO/rAPP/OSS验证知识溯源、授权及故障回滚。",
-      "source_name": "Ericsson"
     }
   ],
   "sources": [
