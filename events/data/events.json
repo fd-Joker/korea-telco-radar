@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T08:33:51+09:00",
+  "updatedAt": "2026-11-04T08:19:54+09:00",
   "events": [
     {
       "id": "eu-korea-digital-partnership-2026",
@@ -1375,7 +1375,7 @@
       "title": "AI-RAN Summit 2026",
       "titleKo": "AI-RAN Summit 2026",
       "titleZh": "AI-RAN Summit 2026 首尔峰会",
-      "summary": "AI-RAN Summit 2026于11月9–10日首尔Mondrian举行；官网最新议程为政府政策、AI-x-RAN、Open Source、Platform/Testbed、OCUDU WG、AI Networks in Action和K-Consortium。11月10日14:50–16:05为SKT/KT/Newgens/WIZCORE/GNTEL联合项目，16:20–17:50为Samsung、SKT、KT、LG U+、ETRI、NVIDIA、Yonsei联合专题；11月11–12日联盟会议官方现列27项AI-RAN系统演示。",
+      "summary": "AI-RAN Summit 2026于11月9–10日首尔Mondrian举行；官网最新议程为政府政策、AI-x-RAN、Open Source、Platform/Testbed、OCUDU WG、AI Networks in Action和K-Consortium。11月10日14:50–16:10为SKT/KT/Newgens/WIZCORE/GNTEL联合项目，16:20–17:50为Samsung、SKT、KT、LG U+、ETRI、NVIDIA、Yonsei联合专题；11月11–12日联盟会议官方现列29项AI-RAN系统演示。",
       "topics": [
         "AI-RAN",
         "6G",
@@ -1432,7 +1432,8 @@
         "Jihong Park (SUTD)",
         "Ranny Haiby (Linux Foundation)",
         "Dongwook Kim (SKT Consortium)",
-        "Kwang Soon Kim (Yonsei/Newgens)"
+        "Kwang Soon Kim (Yonsei/Newgens)",
+        "Sangheon Lee (LG U+, NW Advanced Development)"
       ],
       "startDate": "2026-11-09",
       "endDate": "2026-11-10",
@@ -1443,7 +1444,7 @@
       "fee": "Members up to 5 free; nonmembers KRW 500,000 on-site / 200,000 online; online students KRW 150,000.",
       "officialUrl": "https://ai-ran-summit.org/",
       "publishedAt": "2026-06-11",
-      "sourceType": "confirmed · official summit detailed agenda and registration, rechecked 2026-10-30",
+      "sourceType": "confirmed · official summit detailed agenda and registration, rechecked 2026-11-04",
       "priority": "S",
       "operatorRelevance": "high",
       "whyItMatters": "这是韩国 2026 年最核心的 AI-RAN 技术活动之一，直接连接 6G、AI Infrastructure 与 Physical AI，并由韩国运营商/设备商/ETRI/NVIDIA 生态支撑。",
@@ -1485,8 +1486,8 @@
         },
         {
           "time": "2026-11-10 16:20–17:50 KST",
-          "title": "K-Consortium: Korean AI-RAN industrial and academic initiatives",
-          "speaker": "Kuntal Chowdhury (NVIDIA), Chan-Byoung Chae (Yonsei), Samsung (TBA), SKT (TBA), Je-Min Jeong (KT), LG U+ (TBA), Hoon Lee (ETRI)"
+          "title": "K-Consortium: Korean AI-RAN initiatives; LG U+’s Path toward AI-RAN (17:30–17:40)",
+          "speaker": "Kuntal Chowdhury (NVIDIA), Chan-Byoung Chae (Yonsei), Samsung (TBA), SKT (TBA), Je-Min Jeong (KT), Sangheon Lee (LG U+), Hoon Lee (ETRI)"
         }
       ],
       "insights": [],
@@ -1769,7 +1770,7 @@
       "endDate": "2026-11-07",
       "location": "KINTEX Exhibition Center 1, Halls 3–5, Goyang, South Korea",
       "language": "暂未公布",
-      "status": "upcoming",
+      "status": "ongoing",
       "registrationUrl": "https://www.robotworld.or.kr/",
       "registrationEligibility": "Reported free advance registration deadline Oct 24 has passed; organizer website must be checked for any extended or alternate registration. Onsite admission may be available.",
       "fee": "Free with preregistration or exhibitor invitation; on-site fee to verify",
@@ -2064,7 +2065,7 @@
       "endDate": "2026-11-03",
       "location": "Embassy of Canada, 21 Jeongdong-gil, Jung-gu, Seoul",
       "language": "Korean / English (simultaneous interpretation in morning only)",
-      "status": "ongoing",
+      "status": "completed",
       "registrationDeadline": "2026-10-21",
       "registrationUrl": "https://koraia.org/base/mp5/sub2.php?com_board_basic=read_form&com_board_category_code=c2&com_board_id=11&com_board_idx=1136&sub=02",
       "registrationEligibility": "Korean industry stakeholders seeking Physical AI partnerships with Canadian companies; advance application and pre-matched B2B meetings.",
@@ -2995,7 +2996,7 @@
       "endDate": "2026-11-05",
       "location": "KINTEX, Goyang",
       "language": "Not announced",
-      "status": "upcoming",
+      "status": "ongoing",
       "officialUrl": "https://event-us.kr/irbc2026/event/137772",
       "sourceType": "confirmed · organizer Event-us event and closed application, checked 2026-10-27",
       "priority": "A",
@@ -3041,7 +3042,7 @@
       "endDate": "2026-11-06",
       "location": "aT Center, Seoul",
       "language": "Korean (selected English/Japanese sessions)",
-      "status": "registration_open",
+      "status": "ongoing",
       "registrationDeadline": "2026-11-03",
       "registrationUrl": "https://datacenterkorea.kr/conference-2026/",
       "officialUrl": "https://datacenterkorea.kr/conference-2026/",
@@ -4048,7 +4049,7 @@
       "endDate": "2026-11-05",
       "location": "Rolling Hills Hotel, 290 Sicheong-ro, Namyang-eup, Hwaseong-si, Gyeonggi-do, Korea",
       "language": "English (other languages not announced)",
-      "status": "registration_open",
+      "status": "ongoing",
       "registrationUrl": "https://events.fisita.com/event/5f19ae83-a2b0-41b6-a2bd-8d57502f7861/summary",
       "registrationEligibility": "Exclusive invitational leadership forum; registration/request through FISITA event page or organiser; admission eligibility subject to organiser.",
       "fee": "Official summit fee on registration page not independently confirmed; contact organiser (member society discounts may apply).",
@@ -4138,7 +4139,7 @@
       "endDate": "2026-11-04",
       "location": "COEX 3F Conference Rooms E1–E4, Seoul, Korea",
       "language": "Korean (other languages not announced)",
-      "status": "upcoming",
+      "status": "ongoing",
       "registrationDeadline": "2026-10-30",
       "registrationUrl": "https://www.aiotkorea.or.kr/2026/kor/conference/preregistration.asp",
       "registrationEligibility": "Member discount applies to Korea AI IoT Association and IoT Convergence Forum member organisations; pre-registration discount requires payment by Oct 30.",
@@ -4494,7 +4495,7 @@
       "endDate": "2026-11-04",
       "location": "The Westin Seoul Parnas, Harmony Ballroom, 524 Bongeunsa-ro, Gangnam-gu, Seoul",
       "language": "Korean / English (individual delivery languages not fully specified)",
-      "status": "registration_open",
+      "status": "ongoing",
       "registrationUrl": "https://amd.cventevents.com/event/75972aa2-6895-437c-b1e3-572c6cc0c4b6/register",
       "registrationEligibility": "Developer/Customer/Partner/Media categories; company email required; personal email submissions may be denied; workshop and ROCm certification track selection required.",
       "fee": "Free (event partner and developer listings; organizer form does not show payment at initial step)",
