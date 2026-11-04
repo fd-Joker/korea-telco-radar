@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T08:19:54+09:00",
+  "updatedAt": "2026-11-05T08:35:36+09:00",
   "events": [
     {
       "id": "eu-korea-digital-partnership-2026",
@@ -1146,7 +1146,7 @@
       "endDate": "2026-11-04",
       "location": "EL Tower, Seoul",
       "language": "Korean / English",
-      "status": "ongoing",
+      "status": "completed",
       "registrationUrl": "https://gisc.or.kr/en",
       "registrationEligibility": "Industry, academia, research and standards stakeholders.",
       "fee": "Free / not publicly stated",
@@ -4139,7 +4139,7 @@
       "endDate": "2026-11-04",
       "location": "COEX 3F Conference Rooms E1–E4, Seoul, Korea",
       "language": "Korean (other languages not announced)",
-      "status": "ongoing",
+      "status": "completed",
       "registrationDeadline": "2026-10-30",
       "registrationUrl": "https://www.aiotkorea.or.kr/2026/kor/conference/preregistration.asp",
       "registrationEligibility": "Member discount applies to Korea AI IoT Association and IoT Convergence Forum member organisations; pre-registration discount requires payment by Oct 30.",
@@ -4495,7 +4495,7 @@
       "endDate": "2026-11-04",
       "location": "The Westin Seoul Parnas, Harmony Ballroom, 524 Bongeunsa-ro, Gangnam-gu, Seoul",
       "language": "Korean / English (individual delivery languages not fully specified)",
-      "status": "ongoing",
+      "status": "completed",
       "registrationUrl": "https://amd.cventevents.com/event/75972aa2-6895-437c-b1e3-572c6cc0c4b6/register",
       "registrationEligibility": "Developer/Customer/Partner/Media categories; company email required; personal email submissions may be denied; workshop and ROCm certification track selection required.",
       "fee": "Free (event partner and developer listings; organizer form does not show payment at initial step)",
