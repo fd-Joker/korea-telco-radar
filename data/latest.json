@@ -1,8 +1,8 @@
 {
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "title": "Korea Telco Advanced Technology Radar",
   "edition_time": "08:30 KST",
-  "editorial_note": "截至2026-11-04 08:30 KST，过去24小时未核实到AI-RAN、6G或Ambient IoT新的重大一手里程碑。今日Top 5沿用最近7天经一手来源支持的进展，均保留原始发布日期；与11月3日相比技术成熟度判断未变。",
+  "editorial_note": "截至2026-11-05 08:30 KST，对主要厂商、运营商、AI企业及标准组织过去24小时的一手公开资料进行检索，未确认AI-RAN、6G或Ambient IoT新增重大技术里程碑；Top 5为近期重要延续事项，保留原始发布日期。相较11月4日，技术成熟度判断不变。未核实到的新发布不作事实陈述。",
   "top5": [
     {
       "title": "中兴与du在商用5G-A网络激活6775—7125MHz U6GHz端到端连接",
@@ -74,7 +74,7 @@
     "AI-RAN": {
       "direction": "→ 无新增空口性能KPI",
       "summary": "10/28华为披露U6GHz VitaAAU、UBBPi与RANSpirit：覆盖提升约30%、体验约1.3倍及功耗-40%均为厂商自报；10/28中兴AIR RAN超过17万站亦缺独立对照。10/29中兴/du U6GHz商用连接属于5G-A，不是6G。",
-      "key_change": "与2026-11-03相比：未确认过去24小时新的重大技术里程碑；维持上一期判断。",
+      "key_change": "与2026-11-04相比：过去24小时未核实到改变成熟度判断的新一手里程碑。",
       "sources": [
         {
           "name": "Huawei",
@@ -91,7 +91,7 @@
     "6G": {
       "direction": "→ U6GHz 5G-A验证延续，非6G商用",
       "summary": "中兴/du于10/29披露在6775—7125MHz、350MHz带宽完成5G-A商用CPE端到端连接；华为10/28称VitaAAU U6GHz已在阿联酋等商用。二者均非6G商用，且未公开足够的边缘覆盖数据；韩国7125—7400MHz不与测试频段完全相同。",
-      "key_change": "与2026-11-03相比：未确认过去24小时新的重大技术里程碑；维持上一期判断。",
+      "key_change": "与2026-11-04相比：过去24小时未核实到改变成熟度判断的新一手里程碑。",
       "sources": [
         {
           "name": "ZTE",
@@ -107,8 +107,8 @@
     },
     "Ambient IoT": {
       "direction": "→ Rel-20规范状态未见新的已核实变化",
-      "summary": "继续区分TS 23.370 Rel-20正式规范（2026-09-28 v20.0.0，Under Change Control）、TS 29.568 Stage 3 Draft（已确认2026-09-14 v0.1.0）和AmbientIoT_Ph2-APP已批准Work Item（2026-09-28进度100%）；未核实到11/3新增批准CR。",
-      "key_change": "与2026-11-03相比：未确认过去24小时新的重大技术里程碑；维持上一期判断。",
+      "summary": "继续区分TS 23.370 Rel-20正式规范（2026-09-28 v20.0.0，Under Change Control）、TS 29.568 Stage 3 Draft（已确认2026-09-14 v0.1.0）和AmbientIoT_Ph2-APP已批准Work Item（2026-09-28进度100%）；截至11月5日08:30 KST未核实到新增批准CR；此前标准状态须以3GPP实时版本为准。",
+      "key_change": "与2026-11-04相比：过去24小时未核实到改变成熟度判断的新一手里程碑。",
       "sources": [
         {
           "name": "3GPP TS 23.370",
@@ -747,45 +747,6 @@
       "source_name": "Nokia"
     },
     {
-      "title": "德国电信AI-PUSCH信道估计实验室上行吞吐提升10%—15%",
-      "date": "2026-10-21",
-      "company_or_org": "Deutsche Telekom / Nokia / NVIDIA",
-      "source_url": "https://www.telekom.com/en/newsroom/latest-updates/media-information/2026/10/ai-ran-lab-tests",
-      "source_type": "运营商官方实验室公告",
-      "importance": "重大更新",
-      "topic": "AI-RAN / AI-for-RAN",
-      "summary": "Bonn与Oulu实验室采用AI实时PUSCH信道估计，典型上行吞吐提升10%—15%；复杂信道收益更高；现网试验尚待开展。",
-      "technical_significance": "直接证实特定AI接收机算法收益，不能混同GPU共享算力收益。",
-      "impact_for_korean_telco": "韩国应索取信道模型、UE速度、SNR、PRB、BLER及推理时延，形成同条件对标。",
-      "source_name": "Deutsche Telekom"
-    },
-    {
-      "title": "Nokia/T-Mobile/NVIDIA在商用站址完成AI-RAN呼叫",
-      "date": "2026-10-21",
-      "company_or_org": "Nokia / T-Mobile / NVIDIA",
-      "source_url": "https://www.nokia.com/blog/from-the-lab-to-the-live-network-nokia-t-mobile-and-nvidia-complete-worlds-first-ai-ran-call/",
-      "source_type": "设备商官方技术博客",
-      "importance": "重大更新",
-      "topic": "AI-RAN / 商用站址PoC",
-      "summary": "Bellevue商用站址使用Nokia Massive MIMO、anyRAN、NVIDIA Aerial RAN Computer、商用5G核心网及终端完成呼叫；尚无并发AI负载下的商用KPI。",
-      "technical_significance": "GPU加速RAN走出实验室，但呼叫成功不等于大规模SLA和成本优势已证实。",
-      "impact_for_korean_telco": "优先验证小区吞吐、BLER、P99基带时延、功耗与每站TCO。",
-      "source_name": "Nokia"
-    },
-    {
-      "title": "Elisa在5G空口验证RAN与视觉AI并发",
-      "date": "2026-10-21",
-      "company_or_org": "Elisa / Nokia / NVIDIA",
-      "source_url": "https://nvidianews.nvidia.com/news/nvidia-nokia-and-leading-telecom-operators-turn-networks-into-distributed-intelligence-platforms",
-      "source_type": "AI公司官方新闻稿",
-      "importance": "重大更新",
-      "topic": "AI-RAN / 共享算力",
-      "summary": "Elisa在赫尔辛基5G环境同时运行语音、移动数据和视频分析；计划2027年进一步评估分布式部署与商业服务。",
-      "technical_significance": "验证RAN和AI任务共存可行性，但尚未公布GPU资源隔离、负载波动与SLA结果。",
-      "impact_for_korean_telco": "制定并发负载和故障注入测试，不以演示替代运营级验收。",
-      "source_name": "Elisa"
-    },
-    {
       "title": "LG U+公布端侧ixi-sLM：速度约4.5倍、电池消耗减少约77%",
       "date": "2026-10-29",
       "source_name": "LG U+",
@@ -966,19 +927,6 @@
       "technical_significance": "多模态语音Agent将响应速度、用户状态感知和安全控制结合；尚非网络性能验证。",
       "impact_for_korean_telco": "关注语音交互端到端时延、上行音视频突发、边缘推理成本和隐私合规。",
       "source_name": "NTT DOCOMO"
-    },
-    {
-      "title": "Nokia/NVIDIA公布电信跨域主权Agent平台",
-      "date": "2026-10-21",
-      "company_or_org": "Nokia / NVIDIA",
-      "source_url": "https://www.nokia.com/newsroom/nokia-advances-ai-ran-toward-commercial-deployment-and-physical-ai-launches-sovereign-agentic-ai-platform-for-telco-autonomy-with-nvidia/",
-      "source_type": "设备商官方新闻稿",
-      "importance": "值得关注",
-      "topic": "Autonomous Network / Agent",
-      "summary": "结合NVIDIA Nemotron与AI Enterprise，面向无线、核心、传输、云提供受治理Agent与本地/混合部署选项。",
-      "technical_significance": "Agent由单点自动化转向跨域操作，但尚无独立验证的AN L4闭环。",
-      "impact_for_korean_telco": "重点验证R1/O1数据治理、权限、审计、回滚及多厂商适配。",
-      "source_name": "Nokia"
     }
   ],
   "sources": [
