@@ -1,8 +1,8 @@
 {
-  "date": "2026-11-05",
+  "date": "2026-11-06",
   "title": "Korea Telco Advanced Technology Radar",
   "edition_time": "08:30 KST",
-  "editorial_note": "截至2026-11-05 08:30 KST，对主要厂商、运营商、AI企业及标准组织过去24小时的一手公开资料进行检索，未确认AI-RAN、6G或Ambient IoT新增重大技术里程碑；Top 5为近期重要延续事项，保留原始发布日期。相较11月4日，技术成熟度判断不变。未核实到的新发布不作事实陈述。",
+  "editorial_note": "截至2026-11-06 08:30 KST，本轮一手资料检索未确认过去24小时AI-RAN、6G、Ambient IoT新增重大技术里程碑；Top 5为近期重要延续事项，均保留原始发布日期。覆盖名单中的未发现新消息不代表相关公司没有活动。",
   "top5": [
     {
       "title": "中兴与du在商用5G-A网络激活6775—7125MHz U6GHz端到端连接",
@@ -74,7 +74,7 @@
     "AI-RAN": {
       "direction": "→ 无新增空口性能KPI",
       "summary": "10/28华为披露U6GHz VitaAAU、UBBPi与RANSpirit：覆盖提升约30%、体验约1.3倍及功耗-40%均为厂商自报；10/28中兴AIR RAN超过17万站亦缺独立对照。10/29中兴/du U6GHz商用连接属于5G-A，不是6G。",
-      "key_change": "与2026-11-04相比：过去24小时未核实到改变成熟度判断的新一手里程碑。",
+      "key_change": "与2026-11-05相比：本次公开检索未确认新的AI-RAN、6G或Ambient IoT规范性或可复算性能里程碑；继续保留既有证据，不将历史公告标记为今日新增。",
       "sources": [
         {
           "name": "Huawei",
@@ -91,7 +91,7 @@
     "6G": {
       "direction": "→ U6GHz 5G-A验证延续，非6G商用",
       "summary": "中兴/du于10/29披露在6775—7125MHz、350MHz带宽完成5G-A商用CPE端到端连接；华为10/28称VitaAAU U6GHz已在阿联酋等商用。二者均非6G商用，且未公开足够的边缘覆盖数据；韩国7125—7400MHz不与测试频段完全相同。",
-      "key_change": "与2026-11-04相比：过去24小时未核实到改变成熟度判断的新一手里程碑。",
+      "key_change": "与2026-11-05相比：本次公开检索未确认新的AI-RAN、6G或Ambient IoT规范性或可复算性能里程碑；继续保留既有证据，不将历史公告标记为今日新增。",
       "sources": [
         {
           "name": "ZTE",
@@ -108,7 +108,7 @@
     "Ambient IoT": {
       "direction": "→ Rel-20规范状态未见新的已核实变化",
       "summary": "继续区分TS 23.370 Rel-20正式规范（2026-09-28 v20.0.0，Under Change Control）、TS 29.568 Stage 3 Draft（已确认2026-09-14 v0.1.0）和AmbientIoT_Ph2-APP已批准Work Item（2026-09-28进度100%）；截至11月5日08:30 KST未核实到新增批准CR；此前标准状态须以3GPP实时版本为准。",
-      "key_change": "与2026-11-04相比：过去24小时未核实到改变成熟度判断的新一手里程碑。",
+      "key_change": "与2026-11-05相比：本次公开检索未确认新的AI-RAN、6G或Ambient IoT规范性或可复算性能里程碑；继续保留既有证据，不将历史公告标记为今日新增。",
       "sources": [
         {
           "name": "3GPP TS 23.370",
@@ -719,32 +719,6 @@
       "impact_for_korean_telco": "在SMO/rAPP/Network Agent中实施最小权限、网络隔离、人工审批、审计和可回滚机制。",
       "topic": "Agentic AI / Safety",
       "company_or_org": "Anthropic / UK AISI"
-    },
-    {
-      "title": "NVIDIA发布Minerva：跨GPU、网络与作业的AI工厂AIOps",
-      "date": "2026-10-22",
-      "company_or_org": "NVIDIA",
-      "source_url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/",
-      "source_type": "官方技术博客",
-      "importance": "重大更新",
-      "topic": "Network for AI / AIOps",
-      "summary": "Minerva汇集GPU、交换网络、存储、调度器及工作负载遥测，构建动态知识图谱，进行异常检测、根因关联与Agent辅助排障；官方未披露可比较的MTTR数值。",
-      "technical_significance": "把AI工厂运维从设备告警转向跨层因果定位，衡量GPU小时、goodput、集群可用性与Token产出。",
-      "impact_for_korean_telco": "SKT/KT/LG U+评估AIDC与边缘GPU池时，应将GPU-网络联合可观测性及告警治理纳入SMO/OSS方案。",
-      "source_name": "NVIDIA"
-    },
-    {
-      "title": "Nokia Q3：AI与云客户销售同比+123%，IP网络+43%",
-      "date": "2026-10-22",
-      "company_or_org": "Nokia",
-      "source_url": "https://www.nokia.com/newsroom/nokia-corporation-interim-report-for-q3-2026/",
-      "source_type": "官方季度财报",
-      "importance": "重大更新",
-      "topic": "Network for AI / IP与光网络",
-      "summary": "Q3集团AI与云客户净销售同比+123%、订单同比+118%；网络基础设施按固定汇率+15%，其中IP网络+43%、光网络+18%；移动基础设施+5%。",
-      "technical_significance": "AI投资增长直接拉动IP/光互联需求；这些财务增速不等于AI-RAN收入或技术性能提升。",
-      "impact_for_korean_telco": "韩国运营商应优先测算AIDC互联、城域IP和光网络容量与低时延路径需求。",
-      "source_name": "Nokia"
     },
     {
       "title": "LG U+公布端侧ixi-sLM：速度约4.5倍、电池消耗减少约77%",
