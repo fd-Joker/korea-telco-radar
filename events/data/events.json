@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T08:10:13+09:00",
+  "updatedAt": "2026-11-07T08:51:39+09:00",
   "events": [
     {
       "id": "eu-korea-digital-partnership-2026",
@@ -3042,7 +3042,7 @@
       "endDate": "2026-11-06",
       "location": "aT Center, Seoul",
       "language": "Korean (selected English/Japanese sessions)",
-      "status": "ongoing",
+      "status": "completed",
       "registrationDeadline": "2026-11-03",
       "registrationUrl": "https://datacenterkorea.kr/conference-2026/",
       "officialUrl": "https://datacenterkorea.kr/conference-2026/",
@@ -4412,7 +4412,7 @@
       "endDate": "2026-11-06",
       "location": "Eliena Hotel Seoul, 3F Imperial Hall, 645 Nonhyeon-ro, Gangnam-gu, Seoul",
       "language": "Korean (session language not separately specified)",
-      "status": "ongoing",
+      "status": "completed",
       "registrationOpen": "2026-10-12",
       "registrationDeadline": "2026-11-05T18:00:00+09:00",
       "registrationUrl": "https://akr-go.advantech.com/EdgeAIDay",
@@ -4568,7 +4568,7 @@
       "endDate": "2026-11-12",
       "location": "COEX Grand Ballroom 1F & Auditorium 3F, 513 Yeongdong-daero, Gangnam-gu, Seoul",
       "language": "Korean (individual sessions not confirmed)",
-      "status": "registration_open",
+      "status": "upcoming",
       "registrationOpen": "2026-09-12",
       "registrationDeadline": "2026-11-06T09:00:00+09:00",
       "registrationUrl": "https://event-us.kr/intelseminar/event/131490",
@@ -4928,7 +4928,7 @@
       "endDate": "2026-11-10",
       "location": "POSCO Tower Yeoksam, 3F Event Hall, Seoul",
       "language": "Korean",
-      "status": "registration_open",
+      "status": "upcoming",
       "registrationDeadline": "2026-11-06",
       "registrationUrl": "https://page.stibee.com/subscriptions/524426?groupIds=525002",
       "registrationEligibility": "Free advance registration; 250-person capacity; industrial robotics professionals prioritized; no on-site registration; may close early; confirmation email sent.",
