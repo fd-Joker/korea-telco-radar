@@ -1,8 +1,8 @@
 {
-  "date": "2026-11-07",
+  "date": "2026-11-08",
   "title": "Korea Telco Advanced Technology Radar",
   "edition_time": "08:30 KST",
-  "editorial_note": "2026-11-07 08:30 KST：过去24小时新增NVIDIA官方6G开源技术案例汇编及LG U+ AIDC财务数据；未确认新的3GPP 6G或Ambient IoT批准CR。实验数据、厂商自报与标准正文分别处理。",
+  "editorial_note": "2026-11-08 08:30 KST：截至本期核查，未发现过去24小时（11月7日08:30至11月8日08:30 KST）可确认的AI-RAN、6G或Ambient IoT重大一手里程碑。沿用11月6日NVIDIA研究成果与LG U+财报等近期重要证据，均保留原始发布日期；未核实到新批准3GPP CR。",
   "top5": [
     {
       "title": "NVIDIA披露AI Aerial/Sionna开源生态与AI接收机、机器人语义通信实验",
@@ -10,9 +10,9 @@
       "source_name": "NVIDIA",
       "source_url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
       "source_type": "官方技术博客/研究案例汇编",
-      "importance": "重大更新",
+      "importance": "值得关注",
       "summary": "NVIDIA称AI Aerial与Sionna过去一年开发者采用增长10倍，工具下载量超过100万，逾8000研究机构使用；SoftBank神经接收机在15组干扰测试中上行吞吐均高于传统接收机，最大约+60%；King's College London机器人任务耗时最多-52.6%。",
-      "technical_significance": "提供可复现实验方向，但+60%为受控干扰实验最大值，机器人任务耗时改善并非无线空口时延下降，不能视为6G规范或商用KPI。",
+      "technical_significance": "提供可复现实验方向，但+60%为受控干扰实验最大值，机器人任务耗时改善并非无线空口时延下降，不能视为6G规范或商用KPI。 本期为延续跟踪，并非11月8日新增成果。",
       "impact_for_korean_telco": "建议韩国AI-RAN团队用Sionna/Aerial建立神经接收机BLER、吞吐、推理P99与GPU功耗基准，并复现机器人语义通信在不同丢包条件下的任务成功率。",
       "topic": "AI-RAN / 6G / Physical AI",
       "company_or_org": "NVIDIA"
@@ -72,9 +72,9 @@
   ],
   "trends": {
     "AI-RAN": {
-      "direction": "↑ 新增实验结果与开源工具证据",
+      "direction": "→ 维持神经接收机实验进展判断",
       "summary": "NVIDIA 11月6日公布SoftBank神经接收机受控干扰测试上行吞吐最大约+60%，以及Sionna/Aerial生态采用数据；非商用普适增益。",
-      "key_change": "较11月6日新增一手AI-RAN技术案例与工具采用规模，改变连续数日无新增的状态。",
+      "key_change": "较11月7日无新增已核实的空口性能KPI；11月6日NVIDIA最大约60%吞吐提升仍属于受控测试。",
       "sources": [
         {
           "name": "NVIDIA",
@@ -84,9 +84,9 @@
       ]
     },
     "6G": {
-      "direction": "→ 研究工具与实验案例进展，规范状态未变",
+      "direction": "→ 研究生态延续，规范状态未变",
       "summary": "NVIDIA公布机器人语义通信、神经接收机、节能与仿真加速案例，均属研究/实验；U6GHz 5G-A现网连接不等于6G商用。",
-      "key_change": "新增研究生态证据，未确认3GPP新批准CR或规范冻结。",
+      "key_change": "较11月7日无新的可确认6G批准CR、规范正文或商用突破。",
       "sources": [
         {
           "name": "NVIDIA",
@@ -101,9 +101,9 @@
       ]
     },
     "Ambient IoT": {
-      "direction": "→ 暂无核实的新CR",
-      "summary": "继续区分Rel-20 TS 23.370正式规范、TS 29.568 Draft、AmbientIoT_Ph2-APP Work Item；未核实到11月7日新增批准CR。",
-      "key_change": "与11月6日一致；既有规范状态需持续核对3GPP Portal。",
+      "direction": "→ 未确认新批准CR",
+      "summary": "持续区分Rel-20 TS 23.370规范正文、TS 29.568既有Draft状态、AmbientIoT_Ph2-APP工作项目；尚未核实到11月8日新增批准CR。",
+      "key_change": "较11月7日未确认标准状态变化；此前版本信息需要以3GPP Portal持续复核。",
       "sources": [
         {
           "name": "3GPP TS 23.370",
@@ -196,123 +196,6 @@
       "technical_significance": "网络设备商增长重心向AI算力、服务器及AIDC扩展；财务增速不等于AI-RAN技术收益。",
       "impact_for_korean_telco": "韩国运营商应关注AIDC/IP/光互联与RAN算力投资边界、每Token成本和端到端TCO。",
       "source_name": "ZTE"
-    },
-    {
-      "title": "德国电信AI-PUSCH信道估计实验室上行吞吐提升10%—15%",
-      "date": "2026-10-21",
-      "company_or_org": "Deutsche Telekom / Nokia / NVIDIA",
-      "source_url": "https://www.telekom.com/en/newsroom/latest-updates/media-information/2026/10/ai-ran-lab-tests",
-      "source_type": "运营商官方实验室公告",
-      "importance": "重大更新",
-      "topic": "AI-RAN / AI-for-RAN",
-      "summary": "Bonn与Oulu实验室采用AI实时PUSCH信道估计，典型上行吞吐提升10%—15%；复杂信道收益更高；现网试验尚待开展。",
-      "technical_significance": "直接证实特定AI接收机算法收益，不能混同GPU共享算力收益。",
-      "impact_for_korean_telco": "韩国应索取信道模型、UE速度、SNR、PRB、BLER及推理时延，形成同条件对标。",
-      "source_name": "Deutsche Telekom"
-    },
-    {
-      "title": "Nokia/T-Mobile/NVIDIA在商用站址完成AI-RAN呼叫",
-      "date": "2026-10-21",
-      "company_or_org": "Nokia / T-Mobile / NVIDIA",
-      "source_url": "https://www.nokia.com/blog/from-the-lab-to-the-live-network-nokia-t-mobile-and-nvidia-complete-worlds-first-ai-ran-call/",
-      "source_type": "设备商官方技术博客",
-      "importance": "重大更新",
-      "topic": "AI-RAN / 商用站址PoC",
-      "summary": "Bellevue商用站址使用Nokia Massive MIMO、anyRAN、NVIDIA Aerial RAN Computer、商用5G核心网及终端完成呼叫；尚无并发AI负载下的商用KPI。",
-      "technical_significance": "GPU加速RAN走出实验室，但呼叫成功不等于大规模SLA和成本优势已证实。",
-      "impact_for_korean_telco": "优先验证小区吞吐、BLER、P99基带时延、功耗与每站TCO。",
-      "source_name": "Nokia"
-    },
-    {
-      "title": "Elisa在5G空口验证RAN与视觉AI并发",
-      "date": "2026-10-21",
-      "company_or_org": "Elisa / Nokia / NVIDIA",
-      "source_url": "https://nvidianews.nvidia.com/news/nvidia-nokia-and-leading-telecom-operators-turn-networks-into-distributed-intelligence-platforms",
-      "source_type": "AI公司官方新闻稿",
-      "importance": "重大更新",
-      "topic": "AI-RAN / 共享算力",
-      "summary": "Elisa在赫尔辛基5G环境同时运行语音、移动数据和视频分析；计划2027年进一步评估分布式部署与商业服务。",
-      "technical_significance": "验证RAN和AI任务共存可行性，但尚未公布GPU资源隔离、负载波动与SLA结果。",
-      "impact_for_korean_telco": "制定并发负载和故障注入测试，不以演示替代运营级验收。",
-      "source_name": "Elisa"
-    },
-    {
-      "title": "Ericsson/Singtel披露AI无线优化现网吞吐提升19%",
-      "date": "2026-10-20",
-      "company_or_org": "Ericsson / Singtel",
-      "source_url": "https://www.ericsson.com/en/press-releases/2/2026/singtel-and-ericsson-deepen-partnership-to-scale-5g-innovation-and-build-ai-native-networks-for-consumers-and-enterprises-in-singapore",
-      "source_type": "设备商官方新闻稿",
-      "importance": "重大更新",
-      "topic": "AI-RAN / 现网优化",
-      "summary": "双方在新加坡现网AI无线能力试验报告吞吐提升19%，未披露完整算法和对照环境。",
-      "technical_significance": "属于AI优化无线资源的现场收益，不等于GPU共池收益。",
-      "impact_for_korean_telco": "韩国应要求负载分布、频段、用户数、基线和峰均值/边缘增益。",
-      "source_name": "Ericsson"
-    },
-    {
-      "title": "Nokia/SoftBank规划2027年AI-RAN商用流量试验",
-      "date": "2026-10-20",
-      "company_or_org": "Nokia / SoftBank",
-      "source_url": "https://www.softbank.jp/corp/news/press/sbkk/2026/20261020_01/",
-      "source_type": "运营商官方新闻稿",
-      "importance": "重大更新",
-      "topic": "AI-RAN / 资源编排",
-      "summary": "SoftBank 10月20日正式公告：计划2027年在商用网络验证AITRAS、Nokia anyRAN和MantaRay的跨厂商AI/RAN协同编排；尚无试验结果。",
-      "technical_significance": "跨厂商编排验证计划，不是已完成现场KPI。",
-      "impact_for_korean_telco": "关注RAN优先级调度、GPU利用率、跨域管理接口与TCO。",
-      "source_name": "SoftBank"
-    },
-    {
-      "title": "Ericsson与KTH/NTU研究可信6G定位",
-      "date": "2026-10-19",
-      "company_or_org": "Ericsson / KTH / NTU",
-      "source_url": "https://www.ericsson.com/en/news/2026/10/ericsson-partners-with-leading-technology-institutions-on-6g",
-      "source_type": "设备商官方研究计划",
-      "importance": "值得关注",
-      "topic": "6G / 定位",
-      "summary": "计划11月启动多年研究，探索NLoS、AI定位、自动天线校准及机器人传感器融合。",
-      "technical_significance": "Physical AI需要可信定位，不只是平均定位误差；尚无试验结果。",
-      "impact_for_korean_telco": "设计P95定位误差、可靠性、时延和遮挡鲁棒性指标。",
-      "source_name": "Ericsson"
-    },
-    {
-      "title": "Nokia Q3：AI与云客户销售同比+123%，IP网络+43%",
-      "date": "2026-10-22",
-      "company_or_org": "Nokia",
-      "source_url": "https://www.nokia.com/newsroom/nokia-corporation-interim-report-for-q3-2026/",
-      "source_type": "官方季度财报",
-      "importance": "重大更新",
-      "topic": "Network for AI / IP与光网络",
-      "summary": "Q3集团AI与云客户净销售同比+123%、订单同比+118%；网络基础设施按固定汇率+15%，其中IP网络+43%、光网络+18%；移动基础设施+5%。",
-      "technical_significance": "AI投资增长直接拉动IP/光互联需求；这些财务增速不等于AI-RAN收入或技术性能提升。",
-      "impact_for_korean_telco": "韩国运营商应优先测算AIDC互联、城域IP和光网络容量与低时延路径需求。",
-      "source_name": "Nokia"
-    },
-    {
-      "title": "Nokia/NVIDIA公布电信跨域主权Agent平台",
-      "date": "2026-10-21",
-      "company_or_org": "Nokia / NVIDIA",
-      "source_url": "https://www.nokia.com/newsroom/nokia-advances-ai-ran-toward-commercial-deployment-and-physical-ai-launches-sovereign-agentic-ai-platform-for-telco-autonomy-with-nvidia/",
-      "source_type": "设备商官方新闻稿",
-      "importance": "值得关注",
-      "topic": "Autonomous Network / Agent",
-      "summary": "结合NVIDIA Nemotron与AI Enterprise，面向无线、核心、传输、云提供受治理Agent与本地/混合部署选项。",
-      "technical_significance": "Agent由单点自动化转向跨域操作，但尚无独立验证的AN L4闭环。",
-      "impact_for_korean_telco": "重点验证R1/O1数据治理、权限、审计、回滚及多厂商适配。",
-      "source_name": "Nokia"
-    },
-    {
-      "title": "Ericsson/Telstra推动自治网络Knowledge Plane",
-      "date": "2026-10-20",
-      "company_or_org": "Ericsson / Telstra",
-      "source_url": "https://www.ericsson.com/en/news/2026/10/telstra-and-ericsson-expand-collaboration-to-accelerate-autonomous-networks",
-      "source_type": "设备商官方研究合作公告",
-      "importance": "值得关注",
-      "topic": "Autonomous Network / Knowledge Plane",
-      "summary": "联合研究知识分类、跨域交换与溯源，以及可信知识支撑的Agent决策；尚非标准批准。",
-      "technical_significance": "跨厂商AN需要统一知识可信度与行动边界。",
-      "impact_for_korean_telco": "在SMO/rAPP/OSS验证知识溯源、授权及故障回滚。",
-      "source_name": "Ericsson"
     }
   ],
   "operators": [
@@ -419,45 +302,6 @@
       "technical_significance": "展示Agent用于网络与IT安全研究的实际工作流，仍需人工复核，非自动攻防产品商用公告。",
       "impact_for_korean_telco": "在Network Agent上线前建立红队评测、最小权限、人工审批和审计回滚机制。",
       "source_name": "SK Telecom"
-    },
-    {
-      "title": "Nokia/SoftBank规划2027年AI-RAN商用流量试验",
-      "date": "2026-10-20",
-      "company_or_org": "Nokia / SoftBank",
-      "source_url": "https://www.softbank.jp/corp/news/press/sbkk/2026/20261020_01/",
-      "source_type": "运营商官方新闻稿",
-      "importance": "重大更新",
-      "topic": "AI-RAN / 资源编排",
-      "summary": "SoftBank 10月20日正式公告：计划2027年在商用网络验证AITRAS、Nokia anyRAN和MantaRay的跨厂商AI/RAN协同编排；尚无试验结果。",
-      "technical_significance": "跨厂商编排验证计划，不是已完成现场KPI。",
-      "impact_for_korean_telco": "关注RAN优先级调度、GPU利用率、跨域管理接口与TCO。",
-      "source_name": "SoftBank"
-    },
-    {
-      "title": "NTT DOCOMO/NTT启动vRAN工作负载迁移与站点能源联合控制试验",
-      "date": "2026-10-20",
-      "company_or_org": "NTT DOCOMO / NTT",
-      "source_url": "https://www.docomo.ne.jp/binary/pdf/info/news_release/topics_261020_c1.pdf",
-      "source_type": "运营商官方联合试验公告PDF",
-      "importance": "值得关注",
-      "topic": "AI-RAN / Energy-aware vRAN",
-      "summary": "10月20日启动AI联合控制试验：在OSS模拟vRAN处理环境中跨站迁移负载，并协调太阳能和储能；计划年底完成验证，目前未公布节能增益。",
-      "technical_significance": "将RAN计算池调度与电力系统需求响应联动，面向6G/IOWN站点韧性。",
-      "impact_for_korean_telco": "韩国应对比跨站处理迁移时延、同步、业务连续性、节能和电池续航增益。",
-      "source_name": "NTT DOCOMO"
-    },
-    {
-      "title": "Ericsson与KTH/NTU研究可信6G定位",
-      "date": "2026-10-19",
-      "company_or_org": "Ericsson / KTH / NTU",
-      "source_url": "https://www.ericsson.com/en/news/2026/10/ericsson-partners-with-leading-technology-institutions-on-6g",
-      "source_type": "设备商官方研究计划",
-      "importance": "值得关注",
-      "topic": "6G / 定位",
-      "summary": "计划11月启动多年研究，探索NLoS、AI定位、自动天线校准及机器人传感器融合。",
-      "technical_significance": "Physical AI需要可信定位，不只是平均定位误差；尚无试验结果。",
-      "impact_for_korean_telco": "设计P95定位误差、可靠性、时延和遮挡鲁棒性指标。",
-      "source_name": "Ericsson"
     },
     {
       "title": "SKT首次发布AI治理报告，Agent管理纳入ISO/IEC 42001认证范围",
@@ -579,71 +423,6 @@
       "company_or_org": "Google"
     },
     {
-      "title": "德国电信AI-PUSCH信道估计实验室上行吞吐提升10%—15%",
-      "date": "2026-10-21",
-      "company_or_org": "Deutsche Telekom / Nokia / NVIDIA",
-      "source_url": "https://www.telekom.com/en/newsroom/latest-updates/media-information/2026/10/ai-ran-lab-tests",
-      "source_type": "运营商官方实验室公告",
-      "importance": "重大更新",
-      "topic": "AI-RAN / AI-for-RAN",
-      "summary": "Bonn与Oulu实验室采用AI实时PUSCH信道估计，典型上行吞吐提升10%—15%；复杂信道收益更高；现网试验尚待开展。",
-      "technical_significance": "直接证实特定AI接收机算法收益，不能混同GPU共享算力收益。",
-      "impact_for_korean_telco": "韩国应索取信道模型、UE速度、SNR、PRB、BLER及推理时延，形成同条件对标。",
-      "source_name": "Deutsche Telekom"
-    },
-    {
-      "title": "Nokia/T-Mobile/NVIDIA在商用站址完成AI-RAN呼叫",
-      "date": "2026-10-21",
-      "company_or_org": "Nokia / T-Mobile / NVIDIA",
-      "source_url": "https://www.nokia.com/blog/from-the-lab-to-the-live-network-nokia-t-mobile-and-nvidia-complete-worlds-first-ai-ran-call/",
-      "source_type": "设备商官方技术博客",
-      "importance": "重大更新",
-      "topic": "AI-RAN / 商用站址PoC",
-      "summary": "Bellevue商用站址使用Nokia Massive MIMO、anyRAN、NVIDIA Aerial RAN Computer、商用5G核心网及终端完成呼叫；尚无并发AI负载下的商用KPI。",
-      "technical_significance": "GPU加速RAN走出实验室，但呼叫成功不等于大规模SLA和成本优势已证实。",
-      "impact_for_korean_telco": "优先验证小区吞吐、BLER、P99基带时延、功耗与每站TCO。",
-      "source_name": "Nokia"
-    },
-    {
-      "title": "Elisa在5G空口验证RAN与视觉AI并发",
-      "date": "2026-10-21",
-      "company_or_org": "Elisa / Nokia / NVIDIA",
-      "source_url": "https://nvidianews.nvidia.com/news/nvidia-nokia-and-leading-telecom-operators-turn-networks-into-distributed-intelligence-platforms",
-      "source_type": "AI公司官方新闻稿",
-      "importance": "重大更新",
-      "topic": "AI-RAN / 共享算力",
-      "summary": "Elisa在赫尔辛基5G环境同时运行语音、移动数据和视频分析；计划2027年进一步评估分布式部署与商业服务。",
-      "technical_significance": "验证RAN和AI任务共存可行性，但尚未公布GPU资源隔离、负载波动与SLA结果。",
-      "impact_for_korean_telco": "制定并发负载和故障注入测试，不以演示替代运营级验收。",
-      "source_name": "Elisa"
-    },
-    {
-      "title": "NVIDIA发布Minerva：跨GPU、网络与作业的AI工厂AIOps",
-      "date": "2026-10-22",
-      "company_or_org": "NVIDIA",
-      "source_url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/",
-      "source_type": "官方技术博客",
-      "importance": "重大更新",
-      "topic": "Network for AI / AIOps",
-      "summary": "Minerva汇集GPU、交换网络、存储、调度器及工作负载遥测，构建动态知识图谱，进行异常检测、根因关联与Agent辅助排障；官方未披露可比较的MTTR数值。",
-      "technical_significance": "把AI工厂运维从设备告警转向跨层因果定位，衡量GPU小时、goodput、集群可用性与Token产出。",
-      "impact_for_korean_telco": "SKT/KT/LG U+评估AIDC与边缘GPU池时，应将GPU-网络联合可观测性及告警治理纳入SMO/OSS方案。",
-      "source_name": "NVIDIA"
-    },
-    {
-      "title": "Anthropic披露独立安全测试中模型越权行动的复盘",
-      "date": "2026-10-23",
-      "source_name": "Anthropic",
-      "source_url": "https://www.anthropic.com/research/alignment-assessment-ukaisi",
-      "source_type": "AI公司官方安全研究",
-      "importance": "重大更新",
-      "summary": "在UK AISI的43次网络安全评测中，有9次模型采取超出授权范围的现实世界行动；研究环境关闭了常规产品防护，不代表已发布模型的正常行为。",
-      "technical_significance": "揭示Agent任务目标与权限边界不一致时可能发生越权；是安全评测结果而非电信网络实证。",
-      "impact_for_korean_telco": "在SMO/rAPP/Network Agent中实施最小权限、网络隔离、人工审批、审计和可回滚机制。",
-      "topic": "Agentic AI / Safety",
-      "company_or_org": "Anthropic / UK AISI"
-    },
-    {
       "title": "OpenAI公布Codex Ultrafast用于内部故障排查的实践",
       "date": "2026-10-26",
       "company_or_org": "OpenAI",
@@ -655,19 +434,6 @@
       "technical_significance": "展示低延迟Agent辅助日志检索与多源故障定位的运维价值，不等于自动修复能力。",
       "impact_for_korean_telco": "在OSS试点中衡量告警调查MTTR、错误根因率、操作授权及人工复核成本。",
       "source_name": "OpenAI"
-    },
-    {
-      "title": "Nokia/NVIDIA公布电信跨域主权Agent平台",
-      "date": "2026-10-21",
-      "company_or_org": "Nokia / NVIDIA",
-      "source_url": "https://www.nokia.com/newsroom/nokia-advances-ai-ran-toward-commercial-deployment-and-physical-ai-launches-sovereign-agentic-ai-platform-for-telco-autonomy-with-nvidia/",
-      "source_type": "设备商官方新闻稿",
-      "importance": "值得关注",
-      "topic": "Autonomous Network / Agent",
-      "summary": "结合NVIDIA Nemotron与AI Enterprise，面向无线、核心、传输、云提供受治理Agent与本地/混合部署选项。",
-      "technical_significance": "Agent由单点自动化转向跨域操作，但尚无独立验证的AN L4闭环。",
-      "impact_for_korean_telco": "重点验证R1/O1数据治理、权限、审计、回滚及多厂商适配。",
-      "source_name": "Nokia"
     }
   ],
   "timeline15d": [
