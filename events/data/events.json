@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T08:41:39+09:00",
+  "updatedAt": "2026-11-09T08:25:00+09:00",
   "events": [
     {
       "id": "eu-korea-digital-partnership-2026",
@@ -1342,7 +1342,7 @@
       "endDate": "2026-11-10",
       "location": "COEX, Seoul",
       "language": "Korean",
-      "status": "upcoming",
+      "status": "ongoing",
       "registrationUrl": "https://www.nvidia.com/ko-kr/ai-days/",
       "registrationEligibility": "NVIDIA official site says main AI Day Seoul event is at capacity and registration closed. Nov 10 special events (including Physical AI Startup Connect) are invitation-only; no verified public waitlist.",
       "fee": "Workshop regular USD 500; Early Bird USD 199 ended Oct 19",
@@ -1439,7 +1439,7 @@
       "endDate": "2026-11-10",
       "location": "Mondrian Seoul Itaewon, Seoul",
       "language": "English / Korean",
-      "status": "upcoming",
+      "status": "ongoing",
       "registrationEligibility": "Registration until Nov 4 (may close early); no onsite registration. AINA/AI-RAN Alliance member organizations up to 5 free seats subject to organizer confirmation; paid registration requires emailed payment link and payment.",
       "fee": "Members up to 5 free; nonmembers KRW 500,000 on-site / 200,000 online; online students KRW 150,000.",
       "officialUrl": "https://ai-ran-summit.org/",
@@ -5159,6 +5159,42 @@
       "priority": "B",
       "operatorRelevance": "low",
       "whyItMatters": "HBM带宽和封装是AI Factory算力硬件的基础瓶颈，对运营商AI数据中心成本研究有间接参考；无通信网络或Physical AI应用实证议程。",
+      "agenda": [],
+      "insights": []
+    },
+    {
+      "id": "physical-ai-hyperconnectivity-ics-2026",
+      "title": "The Future of Hyperconnectivity in the Physical AI Era",
+      "titleKo": "피지컬 AI 시대, 초연결 기술의 미래",
+      "titleZh": "Physical AI时代的超连接技术未来",
+      "summary": "韩国信息通信设施学会秋季研讨会，围绕Physical AI时代的连接基础设施，讨论AI-RAN、BCI、自主网络优化与智能基础设施融合。",
+      "topics": [
+        "Physical AI",
+        "AI-RAN",
+        "Autonomous Network",
+        "BCI",
+        "Hyperconnectivity",
+        "Telecom Infrastructure"
+      ],
+      "organizer": [
+        "한국정보통신설비학회 (Korea Information & Communication Facilities Society)"
+      ],
+      "participants": [],
+      "speakers": [],
+      "startDate": "2026-11-12",
+      "endDate": "2026-11-12",
+      "location": "서울관광플라자 4층 다목적홀, 서울 종로구 청계천로 85",
+      "language": "Korean",
+      "status": "registration_closing",
+      "registrationDeadline": "2026-11-11 15:00 KST",
+      "registrationUrl": "https://onoffmix.com/event/352769",
+      "registrationEligibility": "First come first served; capacity 30; OnOffMix registration",
+      "fee": "Free",
+      "officialUrl": "https://onoffmix.com/event/352769",
+      "sourceType": "confirmed · organizer's OnOffMix registration page (verified 2026-11-09)",
+      "priority": "A",
+      "operatorRelevance": "high",
+      "whyItMatters": "AI-RAN与Physical AI连接需求直接交叉，适合获取自主网络、机器人通信和AI基础设施融合的技术观点；尚无公开实测指标。",
       "agenda": [],
       "insights": []
     }
