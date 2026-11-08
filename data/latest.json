@@ -1,8 +1,8 @@
 {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "title": "Korea Telco Advanced Technology Radar",
   "edition_time": "08:30 KST",
-  "editorial_note": "2026-11-08 08:30 KST：截至本期核查，未发现过去24小时（11月7日08:30至11月8日08:30 KST）可确认的AI-RAN、6G或Ambient IoT重大一手里程碑。沿用11月6日NVIDIA研究成果与LG U+财报等近期重要证据，均保留原始发布日期；未核实到新批准3GPP CR。",
+  "editorial_note": "2026-11-09 08:30 KST：本次针对过去24小时的一手来源检索未确认AI-RAN、6G、Ambient IoT新的重大技术里程碑。延续11月6日NVIDIA与LG U+、10月29日ZTE等已核实事件；均保留原始发布日期。未完成3GPP批准CR的全面逐项核验，不等于确认不存在。",
   "top5": [
     {
       "title": "NVIDIA披露AI Aerial/Sionna开源生态与AI接收机、机器人语义通信实验",
@@ -74,7 +74,7 @@
     "AI-RAN": {
       "direction": "→ 维持神经接收机实验进展判断",
       "summary": "NVIDIA 11月6日公布SoftBank神经接收机受控干扰测试上行吞吐最大约+60%，以及Sionna/Aerial生态采用数据；非商用普适增益。",
-      "key_change": "较11月7日无新增已核实的空口性能KPI；11月6日NVIDIA最大约60%吞吐提升仍属于受控测试。",
+      "key_change": "较11月8日未确认新增空口实测KPI；11月6日SoftBank神经接收机最大约60%吞吐增益仍属受控实验。",
       "sources": [
         {
           "name": "NVIDIA",
@@ -86,7 +86,7 @@
     "6G": {
       "direction": "→ 研究生态延续，规范状态未变",
       "summary": "NVIDIA公布机器人语义通信、神经接收机、节能与仿真加速案例，均属研究/实验；U6GHz 5G-A现网连接不等于6G商用。",
-      "key_change": "较11月7日无新的可确认6G批准CR、规范正文或商用突破。",
+      "key_change": "较11月8日未确认新规范性里程碑；U6GHz 5G-A验证和开源工具采用不能视为6G商用。",
       "sources": [
         {
           "name": "NVIDIA",
@@ -102,8 +102,8 @@
     },
     "Ambient IoT": {
       "direction": "→ 未确认新批准CR",
-      "summary": "持续区分Rel-20 TS 23.370规范正文、TS 29.568既有Draft状态、AmbientIoT_Ph2-APP工作项目；尚未核实到11月8日新增批准CR。",
-      "key_change": "较11月7日未确认标准状态变化；此前版本信息需要以3GPP Portal持续复核。",
+      "summary": "沿用此前核实的TS 23.370规范正文、TS 29.568 Draft及AmbientIoT_Ph2-APP工作项目分类；本次未完成3GPP Portal所有批准CR的逐项核验。",
+      "key_change": "较11月8日没有经本次核实的标准状态变化；Approved CR尚未完成逐项复核。",
       "sources": [
         {
           "name": "3GPP TS 23.370",
@@ -985,7 +985,7 @@
     ],
     "note": "覆盖主体逐一检查，未找到符合本期门槛的新一手公告者不填充旧新闻；KT Token Factory 10/27公开发布会暂未核实官方原文链接，不计入主事件。"
   },
-  "timeline_window": "2026-10-18 至 2026-11-01",
+  "timeline_window": "2026-10-26 至 2026-11-09",
   "research": {
     "editorial_policy": "优先一手；5G-A商用不等于6G；ETSI TS不等于3GPP CR；厂商自报指标需独立验证；工作项100%不等于规范冻结。",
     "not_confirmed": "截至2026-10-30 08:30 KST未核实到新的6G或Ambient IoT Approved CR；未核实KT Token Factory的官方新闻稿固定URL。",
