@@ -1,9 +1,35 @@
 {
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "title": "Korea Telco Advanced Technology Radar",
   "edition_time": "08:30 KST",
-  "editorial_note": "2026-11-10 08:30 KST：过去24小时定向公开检索尚未核实AI-RAN、6G、Ambient IoT新重大一手公告；补充核实11月2—3日Ericsson/Telia、Verizon、Swisscom此前未收录的官方原始资料。与11月9日相比新增可复算现网rApp收益和核心网GitOps效率数据，均按原始发布日期标记。3GPP CR尚未逐项核查。",
+  "editorial_note": "2026-11-11 08:30 KST：新增核实11月10日NVIDIA开源Agent/GPU基础设施公告，涉及SKT集成计划；补录11月9日Ericsson/Vodafone Egypt AI链路自适应现网试验与11月8日NVIDIA Dynamo韩国模型配方。过去24小时未核实6G或Ambient IoT新的批准CR；3GPP CR未完成逐项核查。与11月10日相比，AI-RAN从rApp网络闭环进一步补充L2链路自适应现场KPI。",
   "top5": [
+    {
+      "title": "Ericsson与Vodafone Egypt现网测试AI-native链路自适应调度：频谱效率最高+14%",
+      "date": "2026-11-09",
+      "source_name": "Ericsson",
+      "source_url": "https://www.ericsson.com/en/press-releases/5/2026/vodafone-egypt-trials-ai-native-ran-scheduler",
+      "source_type": "设备商官方新闻稿/5G现网试验",
+      "importance": "重大更新",
+      "summary": "在埃及2600MHz 5G现网测试AI-native Scheduler for Link Adaptation，报告频谱效率最高+14%、下行吞吐最高+50%。",
+      "technical_significance": "证明AI链路自适应调度在现网可产生性能收益；两项均为最高值，未提供全网平均、算力成本与统计分布。",
+      "impact_for_korean_telco": "SKT/KT/LG U+可按小区负载、干扰、MCS、BLER、P99时延和能耗复现实验，与L1神经接收机、rApp优化分层比较。",
+      "topic": "AI-RAN / L2链路自适应",
+      "company_or_org": "Ericsson / Vodafone Egypt"
+    },
+    {
+      "title": "NVIDIA向CNCF贡献OpenShell并公布AI Factory Kubernetes开源组件，SKT列入集成计划",
+      "date": "2026-11-10",
+      "source_name": "NVIDIA",
+      "source_url": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
+      "source_type": "AI公司官方技术博客/开源基础设施公告",
+      "importance": "值得关注",
+      "summary": "NVIDIA宣布OpenShell进入CNCF Sandbox，参与Google主导Agent Substrate，并推出NVKE、NVKR、Snapshot；SK Telecom列于NVKE/NVKR生态集成计划。",
+      "technical_significance": "提供Agent执行安全边界、GPU集群管理和弹性推理基础，但不属于AI-RAN空口KPI，也不等于SKT已生产部署。",
+      "impact_for_korean_telco": "韩国运营商可验证Agent权限隔离、Kubernetes多租户GPU调度、推理弹性与云边协同；需区分合作计划与实际部署。",
+      "topic": "Network for AI / Agent基础设施",
+      "company_or_org": "NVIDIA / Google / SK Telecom"
+    },
     {
       "title": "Verizon与Ericsson部署AI-native rApps：AAS Cell Shaper下行最高+8.9%、上行最高+8%",
       "date": "2026-11-03",
@@ -16,19 +42,6 @@
       "impact_for_korean_telco": "韩国SKT/KT/LG U+应比较rApp闭环周期、O-RAN接口、回退安全、MIMO权重及不同负载下P95/P99 KPI。",
       "topic": "AI-RAN / 自治网络",
       "company_or_org": "Ericsson / Verizon"
-    },
-    {
-      "title": "Ericsson与Swisscom采用GitOps声明式5G Core运维，升级时间缩短60%",
-      "date": "2026-11-03",
-      "source_name": "Ericsson",
-      "source_url": "https://www.ericsson.com/en/press-releases/2026/11/ericsson-advances-autonomous-networks-with-a-faster-simpler-software-approach",
-      "source_type": "设备商官方新闻稿/运营商部署",
-      "importance": "值得关注",
-      "summary": "Ericsson公布面向云原生双模5G Core的GitOps软件包与配置管理；Swisscom报告升级时间减少60%，网络服务建立时间减少97%。",
-      "technical_significance": "声明式目标状态、Git版本控制和自动调谐为Agent闭环执行提供基础，但不代表AI自主决策本身达到L4。",
-      "impact_for_korean_telco": "韩国运营商可评估CNF配置漂移、回滚、变更审计及跨厂商核心网CI/CD可迁移性。",
-      "topic": "自治网络 / 5G Core / GitOps",
-      "company_or_org": "Ericsson / Swisscom"
     },
     {
       "title": "NVIDIA披露AI Aerial/Sionna开源生态与AI接收机、机器人语义通信实验",
@@ -44,54 +57,41 @@
       "company_or_org": "NVIDIA"
     },
     {
-      "title": "Ericsson与Telia完成U6GHz预标准6G空口演示并签署合作备忘录",
-      "date": "2026-11-02",
-      "source_name": "Ericsson",
-      "source_url": "https://www.ericsson.com/en/news/2026/11/telia_sweden_and_ericsson_collaborate_on_the_path_to_6g",
-      "source_type": "设备商官方新闻/预标准现场演示",
+      "title": "NVIDIA为SKT A.X K2等韩国开源模型发布Dynamo推理部署配方",
+      "date": "2026-11-08",
+      "source_name": "NVIDIA",
+      "source_url": "https://blogs.nvidia.com/blog/nvidia-dynamo-korea-open-models/",
+      "source_type": "AI公司官方技术博客/开发者工具发布",
       "importance": "值得关注",
-      "summary": "双方在瑞典完成upper-6GHz预标准6G OTA演示并签署合作备忘录；另用改造5G无线设备展示无人机ISAC探测。",
-      "technical_significance": "这是预标准空口演示，不是3GPP 6G规范正文、批准CR或商用网络。",
-      "impact_for_korean_telco": "韩国可对比U6GHz候选频段与预标准原型的带宽、上行能力、覆盖及软硬件可复用性。",
-      "topic": "6G / U6GHz / 预标准演示",
-      "company_or_org": "Ericsson / Telia"
-    },
-    {
-      "title": "LG U+第三季度AIDC收入同比增长27.7%，达1317亿韩元",
-      "date": "2026-11-06",
-      "source_name": "LG U+",
-      "source_url": "https://news.lguplus.com/23259",
-      "source_type": "运营商官方季度财务公告",
-      "importance": "值得关注",
-      "summary": "LG U+披露Q3 AIDC收入1317亿韩元，同比+27.7%；企业基础设施收入4722亿韩元，同比+10.4%；独立口径CAPEX 5698亿韩元，同比+30.1%。",
-      "technical_significance": "AI数据中心收入增长和资本投入提供Network for AI商业证据，但并非AI-RAN部署规模或技术收益。",
-      "impact_for_korean_telco": "研究AIDC增长对城域IP/光承载、算力网络调度与液冷电力规划的拉动，区分AIDC财务增长与RAN投资回报。",
-      "topic": "Network for AI / AIDC",
-      "company_or_org": "LG U+"
+      "summary": "Dynamo提供面向SKT A.X K2、LG AI Research K-EXAONE 2.0等模型的B200优化部署配方，官方称开箱性能最高可达2倍。",
+      "technical_significance": "分布式推理路由与GPU资源管理是运营商AI服务成本关键；最高2倍为厂商宣称，缺乏跨硬件基线。",
+      "impact_for_korean_telco": "建议SKT/KT/LG U+对比tokens/s、TTFT、P99、GPU利用率和单位Token成本；不应推断无线侧性能提升。",
+      "topic": "Network for AI / 推理服务",
+      "company_or_org": "NVIDIA / SK Telecom"
     }
   ],
   "trends": {
     "AI-RAN": {
-      "direction": "↑ 补充现网自治rApp证据",
-      "summary": "Ericsson/Verizon于11月3日披露现网闭环AAS Cell Shaper下行DRB吞吐最高+8.9%、上行UE吞吐最高+8%；与NVIDIA/SoftBank神经接收机受控实验最大+60%属于不同层级，不可横比。",
-      "key_change": "较11月9日新增此前未收录的网络级闭环现场KPI，非11月10日新发布。",
+      "direction": "↑ 新增L2链路自适应现网试验证据",
+      "summary": "Ericsson/Vodafone Egypt 11月9日官方公告称2600MHz 5G现网AI-native Scheduler最高提升频谱效率14%、下行吞吐50%；与Verizon rApp和SoftBank神经接收机处于不同层级。",
+      "key_change": "较11月10日新增L2实时链路自适应实测；仍缺平均收益、P99和成本数据。",
       "sources": [
         {
           "name": "Ericsson",
-          "url": "https://www.ericsson.com/en/press-releases/6/2026/verizon-and-ericsson-partner-to-transform-ai-native-autonomous-networks",
-          "date": "2026-11-03"
+          "url": "https://www.ericsson.com/en/press-releases/5/2026/vodafone-egypt-trials-ai-native-ran-scheduler",
+          "date": "2026-11-09"
         },
         {
-          "name": "NVIDIA",
-          "url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
-          "date": "2026-11-06"
+          "name": "Ericsson/Verizon",
+          "url": "https://www.ericsson.com/en/press-releases/6/2026/verizon-and-ericsson-partner-to-transform-ai-native-autonomous-networks",
+          "date": "2026-11-03"
         }
       ]
     },
     "6G": {
       "direction": "→ 预标准OTA证据增加",
       "summary": "Ericsson/Telia于11月2日展示U6GHz预标准6G OTA；中兴/du的U6GHz现网连接则为5G-A，二者均不能认定为已冻结的6G标准商用。",
-      "key_change": "较11月9日补录瑞典预标准OTA演示，未核实新Approved CR。",
+      "key_change": "较11月10日未核实新增规范性里程碑；继续区分预标准OTA和5G-A U6GHz现网试验。",
       "sources": [
         {
           "name": "Ericsson",
@@ -103,7 +103,7 @@
     "Ambient IoT": {
       "direction": "→ 未确认新批准CR",
       "summary": "沿用此前核实的TS 23.370规范正文、TS 29.568 Draft及AmbientIoT_Ph2-APP工作项目分类；本次未完成3GPP Portal所有批准CR的逐项核验。",
-      "key_change": "较11月9日未核实新的Ambient IoT标准状态变化；未完成批准CR逐项核验。",
+      "key_change": "较11月10日未核实新的规范状态变化；批准CR未完成逐项核验。",
       "sources": [
         {
           "name": "3GPP TS 23.370",
@@ -119,6 +119,19 @@
     }
   },
   "vendors": [
+    {
+      "title": "Ericsson与Vodafone Egypt现网测试AI-native链路自适应调度：频谱效率最高+14%",
+      "date": "2026-11-09",
+      "source_name": "Ericsson",
+      "source_url": "https://www.ericsson.com/en/press-releases/5/2026/vodafone-egypt-trials-ai-native-ran-scheduler",
+      "source_type": "设备商官方新闻稿/5G现网试验",
+      "importance": "重大更新",
+      "summary": "在埃及2600MHz 5G现网测试AI-native Scheduler for Link Adaptation，报告频谱效率最高+14%、下行吞吐最高+50%。",
+      "technical_significance": "证明AI链路自适应调度在现网可产生性能收益；两项均为最高值，未提供全网平均、算力成本与统计分布。",
+      "impact_for_korean_telco": "SKT/KT/LG U+可按小区负载、干扰、MCS、BLER、P99时延和能耗复现实验，与L1神经接收机、rApp优化分层比较。",
+      "topic": "AI-RAN / L2链路自适应",
+      "company_or_org": "Ericsson / Vodafone Egypt"
+    },
     {
       "title": "NVIDIA披露AI Aerial/Sionna开源生态与AI接收机、机器人语义通信实验",
       "date": "2026-11-06",
@@ -199,6 +212,32 @@
     }
   ],
   "operators": [
+    {
+      "title": "Ericsson与Vodafone Egypt现网测试AI-native链路自适应调度：频谱效率最高+14%",
+      "date": "2026-11-09",
+      "source_name": "Ericsson",
+      "source_url": "https://www.ericsson.com/en/press-releases/5/2026/vodafone-egypt-trials-ai-native-ran-scheduler",
+      "source_type": "设备商官方新闻稿/5G现网试验",
+      "importance": "重大更新",
+      "summary": "在埃及2600MHz 5G现网测试AI-native Scheduler for Link Adaptation，报告频谱效率最高+14%、下行吞吐最高+50%。",
+      "technical_significance": "证明AI链路自适应调度在现网可产生性能收益；两项均为最高值，未提供全网平均、算力成本与统计分布。",
+      "impact_for_korean_telco": "SKT/KT/LG U+可按小区负载、干扰、MCS、BLER、P99时延和能耗复现实验，与L1神经接收机、rApp优化分层比较。",
+      "topic": "AI-RAN / L2链路自适应",
+      "company_or_org": "Ericsson / Vodafone Egypt"
+    },
+    {
+      "title": "NVIDIA向CNCF贡献OpenShell并公布AI Factory Kubernetes开源组件，SKT列入集成计划",
+      "date": "2026-11-10",
+      "source_name": "NVIDIA",
+      "source_url": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
+      "source_type": "AI公司官方技术博客/开源基础设施公告",
+      "importance": "值得关注",
+      "summary": "NVIDIA宣布OpenShell进入CNCF Sandbox，参与Google主导Agent Substrate，并推出NVKE、NVKR、Snapshot；SK Telecom列于NVKE/NVKR生态集成计划。",
+      "technical_significance": "提供Agent执行安全边界、GPU集群管理和弹性推理基础，但不属于AI-RAN空口KPI，也不等于SKT已生产部署。",
+      "impact_for_korean_telco": "韩国运营商可验证Agent权限隔离、Kubernetes多租户GPU调度、推理弹性与云边协同；需区分合作计划与实际部署。",
+      "topic": "Network for AI / Agent基础设施",
+      "company_or_org": "NVIDIA / Google / SK Telecom"
+    },
     {
       "title": "LG U+第三季度AIDC收入同比增长27.7%，达1317亿韩元",
       "date": "2026-11-06",
@@ -332,6 +371,32 @@
   ],
   "ai_companies": [
     {
+      "title": "NVIDIA向CNCF贡献OpenShell并公布AI Factory Kubernetes开源组件，SKT列入集成计划",
+      "date": "2026-11-10",
+      "source_name": "NVIDIA",
+      "source_url": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
+      "source_type": "AI公司官方技术博客/开源基础设施公告",
+      "importance": "值得关注",
+      "summary": "NVIDIA宣布OpenShell进入CNCF Sandbox，参与Google主导Agent Substrate，并推出NVKE、NVKR、Snapshot；SK Telecom列于NVKE/NVKR生态集成计划。",
+      "technical_significance": "提供Agent执行安全边界、GPU集群管理和弹性推理基础，但不属于AI-RAN空口KPI，也不等于SKT已生产部署。",
+      "impact_for_korean_telco": "韩国运营商可验证Agent权限隔离、Kubernetes多租户GPU调度、推理弹性与云边协同；需区分合作计划与实际部署。",
+      "topic": "Network for AI / Agent基础设施",
+      "company_or_org": "NVIDIA / Google / SK Telecom"
+    },
+    {
+      "title": "NVIDIA为SKT A.X K2等韩国开源模型发布Dynamo推理部署配方",
+      "date": "2026-11-08",
+      "source_name": "NVIDIA",
+      "source_url": "https://blogs.nvidia.com/blog/nvidia-dynamo-korea-open-models/",
+      "source_type": "AI公司官方技术博客/开发者工具发布",
+      "importance": "值得关注",
+      "summary": "Dynamo提供面向SKT A.X K2、LG AI Research K-EXAONE 2.0等模型的B200优化部署配方，官方称开箱性能最高可达2倍。",
+      "technical_significance": "分布式推理路由与GPU资源管理是运营商AI服务成本关键；最高2倍为厂商宣称，缺乏跨硬件基线。",
+      "impact_for_korean_telco": "建议SKT/KT/LG U+对比tokens/s、TTFT、P99、GPU利用率和单位Token成本；不应推断无线侧性能提升。",
+      "topic": "Network for AI / 推理服务",
+      "company_or_org": "NVIDIA / SK Telecom"
+    },
+    {
       "title": "NVIDIA披露AI Aerial/Sionna开源生态与AI接收机、机器人语义通信实验",
       "date": "2026-11-06",
       "source_name": "NVIDIA",
@@ -438,43 +503,17 @@
   ],
   "timeline15d": [
     {
-      "title": "Verizon与Ericsson部署AI-native rApps：AAS Cell Shaper下行最高+8.9%、上行最高+8%",
-      "date": "2026-11-03",
+      "title": "Ericsson与Vodafone Egypt现网测试AI-native链路自适应调度：频谱效率最高+14%",
+      "date": "2026-11-09",
       "source_name": "Ericsson",
-      "source_url": "https://www.ericsson.com/en/press-releases/6/2026/verizon-and-ericsson-partner-to-transform-ai-native-autonomous-networks",
-      "source_type": "设备商官方新闻稿/现网rApp验证",
+      "source_url": "https://www.ericsson.com/en/press-releases/5/2026/vodafone-egypt-trials-ai-native-ran-scheduler",
+      "source_type": "设备商官方新闻稿/5G现网试验",
       "importance": "重大更新",
-      "summary": "Verizon/Ericsson报告24×7闭环AAS Cell Shaper现网部署，下行DRB吞吐最高+8.9%，上行UE吞吐最高+8%；计划全国推广EIC。",
-      "technical_significance": "AI-RAN的网络级闭环优化已提供现场KPI；最大值不能当作全网平均，也不属于AI-PUSCH物理层算法增益。",
-      "impact_for_korean_telco": "韩国SKT/KT/LG U+应比较rApp闭环周期、O-RAN接口、回退安全、MIMO权重及不同负载下P95/P99 KPI。",
-      "topic": "AI-RAN / 自治网络",
-      "company_or_org": "Ericsson / Verizon"
-    },
-    {
-      "title": "Ericsson与Swisscom采用GitOps声明式5G Core运维，升级时间缩短60%",
-      "date": "2026-11-03",
-      "source_name": "Ericsson",
-      "source_url": "https://www.ericsson.com/en/press-releases/2026/11/ericsson-advances-autonomous-networks-with-a-faster-simpler-software-approach",
-      "source_type": "设备商官方新闻稿/运营商部署",
-      "importance": "值得关注",
-      "summary": "Ericsson公布面向云原生双模5G Core的GitOps软件包与配置管理；Swisscom报告升级时间减少60%，网络服务建立时间减少97%。",
-      "technical_significance": "声明式目标状态、Git版本控制和自动调谐为Agent闭环执行提供基础，但不代表AI自主决策本身达到L4。",
-      "impact_for_korean_telco": "韩国运营商可评估CNF配置漂移、回滚、变更审计及跨厂商核心网CI/CD可迁移性。",
-      "topic": "自治网络 / 5G Core / GitOps",
-      "company_or_org": "Ericsson / Swisscom"
-    },
-    {
-      "title": "Ericsson与Telia完成U6GHz预标准6G空口演示并签署合作备忘录",
-      "date": "2026-11-02",
-      "source_name": "Ericsson",
-      "source_url": "https://www.ericsson.com/en/news/2026/11/telia_sweden_and_ericsson_collaborate_on_the_path_to_6g",
-      "source_type": "设备商官方新闻/预标准现场演示",
-      "importance": "值得关注",
-      "summary": "双方在瑞典完成upper-6GHz预标准6G OTA演示并签署合作备忘录；另用改造5G无线设备展示无人机ISAC探测。",
-      "technical_significance": "这是预标准空口演示，不是3GPP 6G规范正文、批准CR或商用网络。",
-      "impact_for_korean_telco": "韩国可对比U6GHz候选频段与预标准原型的带宽、上行能力、覆盖及软硬件可复用性。",
-      "topic": "6G / U6GHz / 预标准演示",
-      "company_or_org": "Ericsson / Telia"
+      "summary": "在埃及2600MHz 5G现网测试AI-native Scheduler for Link Adaptation，报告频谱效率最高+14%、下行吞吐最高+50%。",
+      "technical_significance": "证明AI链路自适应调度在现网可产生性能收益；两项均为最高值，未提供全网平均、算力成本与统计分布。",
+      "impact_for_korean_telco": "SKT/KT/LG U+可按小区负载、干扰、MCS、BLER、P99时延和能耗复现实验，与L1神经接收机、rApp优化分层比较。",
+      "topic": "AI-RAN / L2链路自适应",
+      "company_or_org": "Ericsson / Vodafone Egypt"
     },
     {
       "title": "NVIDIA披露AI Aerial/Sionna开源生态与AI接收机、机器人语义通信实验",
@@ -488,6 +527,19 @@
       "impact_for_korean_telco": "建议韩国AI-RAN团队用Sionna/Aerial建立神经接收机BLER、吞吐、推理P99与GPU功耗基准，并复现机器人语义通信在不同丢包条件下的任务成功率。",
       "topic": "AI-RAN / 6G / Physical AI",
       "company_or_org": "NVIDIA"
+    },
+    {
+      "title": "Verizon与Ericsson部署AI-native rApps：AAS Cell Shaper下行最高+8.9%、上行最高+8%",
+      "date": "2026-11-03",
+      "source_name": "Ericsson",
+      "source_url": "https://www.ericsson.com/en/press-releases/6/2026/verizon-and-ericsson-partner-to-transform-ai-native-autonomous-networks",
+      "source_type": "设备商官方新闻稿/现网rApp验证",
+      "importance": "重大更新",
+      "summary": "Verizon/Ericsson报告24×7闭环AAS Cell Shaper现网部署，下行DRB吞吐最高+8.9%，上行UE吞吐最高+8%；计划全国推广EIC。",
+      "technical_significance": "AI-RAN的网络级闭环优化已提供现场KPI；最大值不能当作全网平均，也不属于AI-PUSCH物理层算法增益。",
+      "impact_for_korean_telco": "韩国SKT/KT/LG U+应比较rApp闭环周期、O-RAN接口、回退安全、MIMO权重及不同负载下P95/P99 KPI。",
+      "topic": "AI-RAN / 自治网络",
+      "company_or_org": "Ericsson / Verizon"
     },
     {
       "title": "中兴与du在商用5G-A网络激活6775—7125MHz U6GHz端到端连接",
@@ -529,6 +581,32 @@
       "company_or_org": "ZTE"
     },
     {
+      "title": "NVIDIA向CNCF贡献OpenShell并公布AI Factory Kubernetes开源组件，SKT列入集成计划",
+      "date": "2026-11-10",
+      "source_name": "NVIDIA",
+      "source_url": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
+      "source_type": "AI公司官方技术博客/开源基础设施公告",
+      "importance": "值得关注",
+      "summary": "NVIDIA宣布OpenShell进入CNCF Sandbox，参与Google主导Agent Substrate，并推出NVKE、NVKR、Snapshot；SK Telecom列于NVKE/NVKR生态集成计划。",
+      "technical_significance": "提供Agent执行安全边界、GPU集群管理和弹性推理基础，但不属于AI-RAN空口KPI，也不等于SKT已生产部署。",
+      "impact_for_korean_telco": "韩国运营商可验证Agent权限隔离、Kubernetes多租户GPU调度、推理弹性与云边协同；需区分合作计划与实际部署。",
+      "topic": "Network for AI / Agent基础设施",
+      "company_or_org": "NVIDIA / Google / SK Telecom"
+    },
+    {
+      "title": "NVIDIA为SKT A.X K2等韩国开源模型发布Dynamo推理部署配方",
+      "date": "2026-11-08",
+      "source_name": "NVIDIA",
+      "source_url": "https://blogs.nvidia.com/blog/nvidia-dynamo-korea-open-models/",
+      "source_type": "AI公司官方技术博客/开发者工具发布",
+      "importance": "值得关注",
+      "summary": "Dynamo提供面向SKT A.X K2、LG AI Research K-EXAONE 2.0等模型的B200优化部署配方，官方称开箱性能最高可达2倍。",
+      "technical_significance": "分布式推理路由与GPU资源管理是运营商AI服务成本关键；最高2倍为厂商宣称，缺乏跨硬件基线。",
+      "impact_for_korean_telco": "建议SKT/KT/LG U+对比tokens/s、TTFT、P99、GPU利用率和单位Token成本；不应推断无线侧性能提升。",
+      "topic": "Network for AI / 推理服务",
+      "company_or_org": "NVIDIA / SK Telecom"
+    },
+    {
       "title": "LG U+第三季度AIDC收入同比增长27.7%，达1317亿韩元",
       "date": "2026-11-06",
       "source_name": "LG U+",
@@ -540,6 +618,32 @@
       "impact_for_korean_telco": "研究AIDC增长对城域IP/光承载、算力网络调度与液冷电力规划的拉动，区分AIDC财务增长与RAN投资回报。",
       "topic": "Network for AI / AIDC",
       "company_or_org": "LG U+"
+    },
+    {
+      "title": "Ericsson与Swisscom采用GitOps声明式5G Core运维，升级时间缩短60%",
+      "date": "2026-11-03",
+      "source_name": "Ericsson",
+      "source_url": "https://www.ericsson.com/en/press-releases/2026/11/ericsson-advances-autonomous-networks-with-a-faster-simpler-software-approach",
+      "source_type": "设备商官方新闻稿/运营商部署",
+      "importance": "值得关注",
+      "summary": "Ericsson公布面向云原生双模5G Core的GitOps软件包与配置管理；Swisscom报告升级时间减少60%，网络服务建立时间减少97%。",
+      "technical_significance": "声明式目标状态、Git版本控制和自动调谐为Agent闭环执行提供基础，但不代表AI自主决策本身达到L4。",
+      "impact_for_korean_telco": "韩国运营商可评估CNF配置漂移、回滚、变更审计及跨厂商核心网CI/CD可迁移性。",
+      "topic": "自治网络 / 5G Core / GitOps",
+      "company_or_org": "Ericsson / Swisscom"
+    },
+    {
+      "title": "Ericsson与Telia完成U6GHz预标准6G空口演示并签署合作备忘录",
+      "date": "2026-11-02",
+      "source_name": "Ericsson",
+      "source_url": "https://www.ericsson.com/en/news/2026/11/telia_sweden_and_ericsson_collaborate_on_the_path_to_6g",
+      "source_type": "设备商官方新闻/预标准现场演示",
+      "importance": "值得关注",
+      "summary": "双方在瑞典完成upper-6GHz预标准6G OTA演示并签署合作备忘录；另用改造5G无线设备展示无人机ISAC探测。",
+      "technical_significance": "这是预标准空口演示，不是3GPP 6G规范正文、批准CR或商用网络。",
+      "impact_for_korean_telco": "韩国可对比U6GHz候选频段与预标准原型的带宽、上行能力、覆盖及软硬件可复用性。",
+      "topic": "6G / U6GHz / 预标准演示",
+      "company_or_org": "Ericsson / Telia"
     },
     {
       "title": "LG U+公布端侧ixi-sLM：速度约4.5倍、电池消耗减少约77%",
@@ -659,32 +763,6 @@
       "company_or_org": "Google"
     },
     {
-      "title": "LG U+ U+one月活峰值610万，AI Agent支持漫游订购与缴费",
-      "date": "2026-10-27",
-      "company_or_org": "LG U+",
-      "source_url": "https://news.lguplus.com/23179",
-      "source_type": "运营商官方业务新闻稿",
-      "importance": "值得关注",
-      "topic": "Mobile AI / Actionable Agent",
-      "summary": "U+one 2026年8月MAU峰值6,096,384，较2025年10月约508万增长20.2%；平台融合客服与会员，AI Agent支持经客户确认的漫游推荐订购及账单缴费。该MAU为整个平台用户，非AI Agent独立用户数。",
-      "technical_significance": "提供运营商Actionable Agent平台使用规模与业务流程落地证据；不能据此推断AI渗透率或网络流量增长。",
-      "impact_for_korean_telco": "韩国运营商应分开跟踪平台MAU、Agent使用率、交易转化、每任务成本和上/下行流量。",
-      "source_name": "LG U+"
-    },
-    {
-      "title": "SKT红队披露AI Agent辅助代码补丁分析和安全评测实践",
-      "date": "2026-10-27",
-      "company_or_org": "SK Telecom",
-      "source_url": "https://news.sktelecom.com/232401",
-      "source_type": "运营商官方一手采访",
-      "importance": "值得关注",
-      "topic": "Agentic AI / Security",
-      "summary": "SKT红队成员介绍在DEF CON 34 CTF中使用AI Agent分析代码与补丁、提出潜在攻击路径，再由人类验证；相关方法正按实际安全工作要求改造。未披露效率提升百分比。",
-      "technical_significance": "展示Agent用于网络与IT安全研究的实际工作流，仍需人工复核，非自动攻防产品商用公告。",
-      "impact_for_korean_telco": "在Network Agent上线前建立红队评测、最小权限、人工审批和审计回滚机制。",
-      "source_name": "SK Telecom"
-    },
-    {
       "title": "LG U+介绍用户与员工隐私保护教育实践",
       "date": "2026-10-30",
       "source_name": "LG U+",
@@ -699,6 +777,24 @@
     }
   ],
   "sources": [
+    {
+      "name": "NVIDIA",
+      "url": "https://blogs.nvidia.com/blog/nvidia-dynamo-korea-open-models/",
+      "date": "2026-11-08",
+      "type": "AI公司官方技术博客/开发者工具发布"
+    },
+    {
+      "name": "NVIDIA",
+      "url": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
+      "date": "2026-11-10",
+      "type": "AI公司官方技术博客/开源基础设施公告"
+    },
+    {
+      "name": "Ericsson",
+      "url": "https://www.ericsson.com/en/press-releases/5/2026/vodafone-egypt-trials-ai-native-ran-scheduler",
+      "date": "2026-11-09",
+      "type": "设备商官方新闻稿/5G现网试验"
+    },
     {
       "name": "LG U+",
       "url": "https://news.lguplus.com/23259",
@@ -988,17 +1084,17 @@
       "Google",
       "NVIDIA"
     ],
-    "note": "覆盖主体逐一检查，未找到符合本期门槛的新一手公告者不填充旧新闻；KT Token Factory 10/27公开发布会暂未核实官方原文链接，不计入主事件。"
+    "note": "覆盖指定设备商、运营商和AI公司；未核实符合门槛的一手更新者不填充旧消息。SKT列入NVKE/NVKR集成计划不代表已部署。"
   },
   "timeline_window": {
-    "start": "2026-10-27",
-    "end": "2026-11-10"
+    "start": "2026-10-28",
+    "end": "2026-11-11"
   },
   "research": {
     "editorial_policy": "优先一手；5G-A商用不等于6G；ETSI TS不等于3GPP CR；厂商自报指标需独立验证；工作项100%不等于规范冻结。",
     "not_confirmed": "截至2026-10-30 08:30 KST未核实到新的6G或Ambient IoT Approved CR；未核实KT Token Factory的官方新闻稿固定URL。",
     "priority_for_korea": "U6GHz 6775—7125MHz与韩国7125—7400MHz的链路预算、AAU阵元与功耗对标；AI-RAN KPI复算；端云AI流量与能耗；AI Agent治理。",
-    "as_of": "2026-11-01 08:30 KST",
-    "verification_note": "本期未能独立确认过去24小时新公告，所有保留事件均按原始发布日期列示。"
+    "as_of": "2026-11-11 08:30 KST",
+    "verification_note": "11月10日NVIDIA与11月9日Ericsson为一手公告；Ambient IoT CR未逐项核查。"
   }
 }
