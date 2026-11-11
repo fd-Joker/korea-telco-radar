@@ -1,9 +1,22 @@
 {
-  "date": "2026-11-11",
+  "date": "2026-11-12",
   "title": "Korea Telco Advanced Technology Radar",
   "edition_time": "08:30 KST",
-  "editorial_note": "2026-11-11 08:30 KST：新增核实11月10日NVIDIA开源Agent/GPU基础设施公告，涉及SKT集成计划；补录11月9日Ericsson/Vodafone Egypt AI链路自适应现网试验与11月8日NVIDIA Dynamo韩国模型配方。过去24小时未核实6G或Ambient IoT新的批准CR；3GPP CR未完成逐项核查。与11月10日相比，AI-RAN从rApp网络闭环进一步补充L2链路自适应现场KPI。",
+  "editorial_note": "截至2026-11-12 08:30 KST，公开一手检索未确认过去24小时内新的AI-RAN、6G或Ambient IoT重大规范性里程碑。补录三星/KT 11月2日商用网数字孪生闭环验证、Nokia 11月4日AI流量预测。与11月11日相比新增证据覆盖，不是11月12日新发布。3GPP CR未逐项核验。",
   "top5": [
+    {
+      "title": "Samsung与KT在商用网络验证AI与数字孪生闭环自治",
+      "date": "2026-11-02",
+      "source_name": "Samsung Newsroom Korea",
+      "source_url": "https://news.samsung.com/kr/%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90-kt-ai%C2%B7%EB%94%94%EC%A7%80%ED%84%B8-%ED%8A%B8%EC%9C%88-%EA%B8%B0%EB%B0%98-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%9E%90%EC%9C%A8-%EC%9A%B4%EC%9A%A9-%EA%B8%B0",
+      "source_type": "设备商官方新闻/商用网验证",
+      "importance": "重大更新",
+      "summary": "三星与KT结合AI决策及数字孪生预验证，在商用网络验证网络配置自治流程；未披露可复算的全网平均吞吐或成本收益。",
+      "technical_significance": "将数字孪生用于执行前安全验证，是从优化算法走向可信闭环的关键步骤；不等于全自动L4商用。",
+      "impact_for_korean_telco": "韩国团队应重点核查数字孪生保真度、闭环频率、配置回滚、故障保护及跨厂商兼容性。",
+      "topic": "AI-RAN / 自治网络",
+      "company_or_org": "Samsung / KT"
+    },
     {
       "title": "Ericsson与Vodafone Egypt现网测试AI-native链路自适应调度：频谱效率最高+14%",
       "date": "2026-11-09",
@@ -31,19 +44,6 @@
       "company_or_org": "NVIDIA / Google / SK Telecom"
     },
     {
-      "title": "Verizon与Ericsson部署AI-native rApps：AAS Cell Shaper下行最高+8.9%、上行最高+8%",
-      "date": "2026-11-03",
-      "source_name": "Ericsson",
-      "source_url": "https://www.ericsson.com/en/press-releases/6/2026/verizon-and-ericsson-partner-to-transform-ai-native-autonomous-networks",
-      "source_type": "设备商官方新闻稿/现网rApp验证",
-      "importance": "重大更新",
-      "summary": "Verizon/Ericsson报告24×7闭环AAS Cell Shaper现网部署，下行DRB吞吐最高+8.9%，上行UE吞吐最高+8%；计划全国推广EIC。",
-      "technical_significance": "AI-RAN的网络级闭环优化已提供现场KPI；最大值不能当作全网平均，也不属于AI-PUSCH物理层算法增益。",
-      "impact_for_korean_telco": "韩国SKT/KT/LG U+应比较rApp闭环周期、O-RAN接口、回退安全、MIMO权重及不同负载下P95/P99 KPI。",
-      "topic": "AI-RAN / 自治网络",
-      "company_or_org": "Ericsson / Verizon"
-    },
-    {
       "title": "NVIDIA披露AI Aerial/Sionna开源生态与AI接收机、机器人语义通信实验",
       "date": "2026-11-06",
       "source_name": "NVIDIA",
@@ -57,44 +57,49 @@
       "company_or_org": "NVIDIA"
     },
     {
-      "title": "NVIDIA为SKT A.X K2等韩国开源模型发布Dynamo推理部署配方",
-      "date": "2026-11-08",
-      "source_name": "NVIDIA",
-      "source_url": "https://blogs.nvidia.com/blog/nvidia-dynamo-korea-open-models/",
-      "source_type": "AI公司官方技术博客/开发者工具发布",
+      "title": "Nokia预测2035年AI相关流量将接近全球网络流量一半",
+      "date": "2026-11-04",
+      "source_name": "Nokia",
+      "source_url": "https://www.nokia.com/newsroom/",
+      "source_type": "设备商官方研究预测/非实测",
       "importance": "值得关注",
-      "summary": "Dynamo提供面向SKT A.X K2、LG AI Research K-EXAONE 2.0等模型的B200优化部署配方，官方称开箱性能最高可达2倍。",
-      "technical_significance": "分布式推理路由与GPU资源管理是运营商AI服务成本关键；最高2倍为厂商宣称，缺乏跨硬件基线。",
-      "impact_for_korean_telco": "建议SKT/KT/LG U+对比tokens/s、TTFT、P99、GPU利用率和单位Token成本；不应推断无线侧性能提升。",
-      "topic": "Network for AI / 推理服务",
-      "company_or_org": "NVIDIA / SK Telecom"
+      "summary": "Nokia全球网络流量报告预测2035年AI将驱动接近全球流量的一半，Physical AI与Agentic AI为增长较快的类别；这是模型预测而非运营商实测。",
+      "technical_significance": "AI业务流量模式可能从下行消费转向双向、低时延和突发式机器流量；预测值存在假设不确定性。",
+      "impact_for_korean_telco": "韩国应分场景建模上行占比、边缘计算与P99 SLA，不将2035年预测作为近期扩容事实。",
+      "topic": "6G / Network for AI / 流量预测",
+      "company_or_org": "Nokia"
     }
   ],
   "trends": {
     "AI-RAN": {
-      "direction": "↑ 新增L2链路自适应现网试验证据",
-      "summary": "Ericsson/Vodafone Egypt 11月9日官方公告称2600MHz 5G现网AI-native Scheduler最高提升频谱效率14%、下行吞吐50%；与Verizon rApp和SoftBank神经接收机处于不同层级。",
-      "key_change": "较11月10日新增L2实时链路自适应实测；仍缺平均收益、P99和成本数据。",
+      "direction": "→ 现网闭环证据补强",
+      "summary": "补录Samsung/KT 11月2日AI与数字孪生商用网自治验证；结合Ericsson/Vodafone 11月9日L2链路自适应试验，算法收益与变更安全需分别评价。",
+      "key_change": "较11月11日补充执行前数字孪生验证路径；没有确认11月12日新空口KPI。",
       "sources": [
+        {
+          "name": "Samsung/KT",
+          "url": "https://news.samsung.com/kr/%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90-kt-ai%C2%B7%EB%94%94%EC%A7%80%ED%84%B8-%ED%8A%B8%EC%9C%88-%EA%B8%B0%EB%B0%98-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%9E%90%EC%9C%A8-%EC%9A%B4%EC%9A%A9-%EA%B8%B0",
+          "date": "2026-11-02"
+        },
         {
           "name": "Ericsson",
           "url": "https://www.ericsson.com/en/press-releases/5/2026/vodafone-egypt-trials-ai-native-ran-scheduler",
           "date": "2026-11-09"
-        },
-        {
-          "name": "Ericsson/Verizon",
-          "url": "https://www.ericsson.com/en/press-releases/6/2026/verizon-and-ericsson-partner-to-transform-ai-native-autonomous-networks",
-          "date": "2026-11-03"
         }
       ]
     },
     "6G": {
-      "direction": "→ 预标准OTA证据增加",
-      "summary": "Ericsson/Telia于11月2日展示U6GHz预标准6G OTA；中兴/du的U6GHz现网连接则为5G-A，二者均不能认定为已冻结的6G标准商用。",
-      "key_change": "较11月10日未核实新增规范性里程碑；继续区分预标准OTA和5G-A U6GHz现网试验。",
+      "direction": "→ AI流量需求预测补充",
+      "summary": "Nokia 11月4日报告预测AI相关流量到2035年接近全球流量一半；这属于预测而非6G实测。Ericsson/Telia 11月2日U6GHz OTA为预标准演示。",
+      "key_change": "较11月11日补录需求侧预测，未确认新增规范正文或批准CR。",
       "sources": [
         {
-          "name": "Ericsson",
+          "name": "Nokia",
+          "url": "https://www.nokia.com/newsroom/",
+          "date": "2026-11-04"
+        },
+        {
+          "name": "Ericsson/Telia",
           "url": "https://www.ericsson.com/en/news/2026/11/telia_sweden_and_ericsson_collaborate_on_the_path_to_6g",
           "date": "2026-11-02"
         }
@@ -103,7 +108,7 @@
     "Ambient IoT": {
       "direction": "→ 未确认新批准CR",
       "summary": "沿用此前核实的TS 23.370规范正文、TS 29.568 Draft及AmbientIoT_Ph2-APP工作项目分类；本次未完成3GPP Portal所有批准CR的逐项核验。",
-      "key_change": "较11月10日未核实新的规范状态变化；批准CR未完成逐项核验。",
+      "key_change": "较11月11日未核实新增规范性变化；批准CR仍未逐项核验。",
       "sources": [
         {
           "name": "3GPP TS 23.370",
@@ -119,6 +124,32 @@
     }
   },
   "vendors": [
+    {
+      "title": "Samsung与KT在商用网络验证AI与数字孪生闭环自治",
+      "date": "2026-11-02",
+      "source_name": "Samsung Newsroom Korea",
+      "source_url": "https://news.samsung.com/kr/%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90-kt-ai%C2%B7%EB%94%94%EC%A7%80%ED%84%B8-%ED%8A%B8%EC%9C%88-%EA%B8%B0%EB%B0%98-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%9E%90%EC%9C%A8-%EC%9A%B4%EC%9A%A9-%EA%B8%B0",
+      "source_type": "设备商官方新闻/商用网验证",
+      "importance": "重大更新",
+      "summary": "三星与KT结合AI决策及数字孪生预验证，在商用网络验证网络配置自治流程；未披露可复算的全网平均吞吐或成本收益。",
+      "technical_significance": "将数字孪生用于执行前安全验证，是从优化算法走向可信闭环的关键步骤；不等于全自动L4商用。",
+      "impact_for_korean_telco": "韩国团队应重点核查数字孪生保真度、闭环频率、配置回滚、故障保护及跨厂商兼容性。",
+      "topic": "AI-RAN / 自治网络",
+      "company_or_org": "Samsung / KT"
+    },
+    {
+      "title": "Nokia预测2035年AI相关流量将接近全球网络流量一半",
+      "date": "2026-11-04",
+      "source_name": "Nokia",
+      "source_url": "https://www.nokia.com/newsroom/",
+      "source_type": "设备商官方研究预测/非实测",
+      "importance": "值得关注",
+      "summary": "Nokia全球网络流量报告预测2035年AI将驱动接近全球流量的一半，Physical AI与Agentic AI为增长较快的类别；这是模型预测而非运营商实测。",
+      "technical_significance": "AI业务流量模式可能从下行消费转向双向、低时延和突发式机器流量；预测值存在假设不确定性。",
+      "impact_for_korean_telco": "韩国应分场景建模上行占比、边缘计算与P99 SLA，不将2035年预测作为近期扩容事实。",
+      "topic": "6G / Network for AI / 流量预测",
+      "company_or_org": "Nokia"
+    },
     {
       "title": "Ericsson与Vodafone Egypt现网测试AI-native链路自适应调度：频谱效率最高+14%",
       "date": "2026-11-09",
@@ -146,32 +177,6 @@
       "company_or_org": "NVIDIA"
     },
     {
-      "title": "华为发布VitaAAU U6GHz、UBBPi与RANSpirit新进展",
-      "date": "2026-10-28",
-      "source_name": "Huawei",
-      "source_url": "https://www.huawei.com/en/news/2026/10/communications-network-wireless",
-      "source_type": "设备商官方技术及产品公告",
-      "importance": "重大更新",
-      "summary": "华为发布基于RetinaMIMO的U6GHz VitaAAU，称相较1024阵元类似产品覆盖扩大约30%，阿联酋等市场已有商用应用；UBBPi用户体验约1.3倍、功耗降低约40%；RANSpirit服务25个网络超120万小区。以上均为厂商口径。",
-      "technical_significance": "U6GHz AAU、基带实时资源调度与Agent自治三条技术路线并进，但缺少独立同条件验证；不可将产品公告等同6G标准商用。",
-      "impact_for_korean_telco": "重点索取VitaAAU具体频率、收发通道、阵元、AAU体积/重量/功耗、覆盖基线，以及UBBPi算力板升级成本。",
-      "topic": "AI-RAN / U6GHz / 6G射频 / 自治网络",
-      "company_or_org": "Huawei"
-    },
-    {
-      "title": "中兴AIR RAN披露17万站部署及多项运营KPI",
-      "date": "2026-10-28",
-      "source_name": "ZTE",
-      "source_url": "https://www.zte.com.cn/global/about/news/zte-air-ran-solution-wins-gca-best-hardware-innovation-award.html",
-      "source_type": "设备商官方产品/获奖公告",
-      "importance": "重大更新",
-      "summary": "中兴称AIR RAN全球部署超过17万站，并分别报告差异化体验ARPU最高+20%、频谱利用率峰值+20%、AI节能15%、零接触工单解决率20%；未披露样本、基线和统计口径。",
-      "technical_significance": "提供现网规模与多维KPI线索，但均为厂商自报，且不应理解为所有站点同时获得上述收益。",
-      "impact_for_korean_telco": "要求按运营商、频段、站型、功能拆分部署数量和KPI基线；与GPU加速AI-RAN方案比较增量硬件成本。",
-      "topic": "AI-RAN / 规模部署",
-      "company_or_org": "ZTE"
-    },
-    {
       "title": "中兴与du在商用5G-A网络激活6775—7125MHz U6GHz端到端连接",
       "date": "2026-10-29",
       "source_name": "ZTE",
@@ -183,35 +188,22 @@
       "impact_for_korean_telco": "韩国7.125—7.4GHz候选频段不等同于本次6775—7125MHz；应比较天线尺寸、链路预算、室内穿透、站址复用与350MHz带宽收益。",
       "topic": "6G候选频谱 / U6GHz / 5G-A",
       "company_or_org": "ZTE / du"
-    },
-    {
-      "title": "Ericsson将Intelligent Automation Platform从RAN扩展到核心网cApps",
-      "date": "2026-10-28",
-      "source_name": "Ericsson",
-      "source_url": "https://www.ericsson.com/en/blog/2026/10/intelligent-core-automation-network-experience",
-      "source_type": "设备商官方技术博客",
-      "importance": "值得关注",
-      "summary": "Ericsson提出在EIAP共同自动化基础上增加非实时核心网cApps，与RAN rApps共享开发环境，支持网络韧性、服务体验和受控操作；文章未披露新商用KPI。",
-      "technical_significance": "从RAN域自治延伸到RAN/Core跨域协同，强调实时控制留在网元附近、非实时编排集中执行。",
-      "impact_for_korean_telco": "在韩国SMO与5GC自治架构中评估cApp/rApp权限、跨域意图、数据模型、操作回滚与开放性。",
-      "topic": "Autonomous Network / Core cApps",
-      "company_or_org": "Ericsson"
-    },
-    {
-      "title": "中兴前三季度计算业务收入占比38%，同比增长逾70%",
-      "date": "2026-10-26",
-      "company_or_org": "ZTE",
-      "source_url": "https://www.zte.com.cn/global/about/news/ztes-connectivity-computing-strategy-drives-growth-with-nine-month-revenue-up-16-yoy-to-rmb-116%2C84-billion-and-computing-revenue-share-reaching-38.html",
-      "source_type": "设备商官方经营公告",
-      "importance": "重大更新",
-      "topic": "Network for AI / Computing",
-      "summary": "2026年前三季度营业收入人民币1168.4亿元，同比增长16.2%；计算业务收入同比增长超过70%，占总收入38%；服务器与存储同比增长超过70%，数据中心解决方案增长近130%。",
-      "technical_significance": "网络设备商增长重心向AI算力、服务器及AIDC扩展；财务增速不等于AI-RAN技术收益。",
-      "impact_for_korean_telco": "韩国运营商应关注AIDC/IP/光互联与RAN算力投资边界、每Token成本和端到端TCO。",
-      "source_name": "ZTE"
     }
   ],
   "operators": [
+    {
+      "title": "Samsung与KT在商用网络验证AI与数字孪生闭环自治",
+      "date": "2026-11-02",
+      "source_name": "Samsung Newsroom Korea",
+      "source_url": "https://news.samsung.com/kr/%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90-kt-ai%C2%B7%EB%94%94%EC%A7%80%ED%84%B8-%ED%8A%B8%EC%9C%88-%EA%B8%B0%EB%B0%98-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%9E%90%EC%9C%A8-%EC%9A%B4%EC%9A%A9-%EA%B8%B0",
+      "source_type": "设备商官方新闻/商用网验证",
+      "importance": "重大更新",
+      "summary": "三星与KT结合AI决策及数字孪生预验证，在商用网络验证网络配置自治流程；未披露可复算的全网平均吞吐或成本收益。",
+      "technical_significance": "将数字孪生用于执行前安全验证，是从优化算法走向可信闭环的关键步骤；不等于全自动L4商用。",
+      "impact_for_korean_telco": "韩国团队应重点核查数字孪生保真度、闭环频率、配置回滚、故障保护及跨厂商兼容性。",
+      "topic": "AI-RAN / 自治网络",
+      "company_or_org": "Samsung / KT"
+    },
     {
       "title": "Ericsson与Vodafone Egypt现网测试AI-native链路自适应调度：频谱效率最高+14%",
       "date": "2026-11-09",
@@ -302,71 +294,6 @@
       "impact_for_korean_telco": "韩国AIDC与城域承载规划可评估跨机房推理路由、P95延迟、电价/电力容量、GPU负载与链路成本联合优化。",
       "topic": "Network for AI / Energy-aware routing",
       "company_or_org": "Lumen / Emerald AI"
-    },
-    {
-      "title": "LG U+与Ecolab Korea共研AIDC液冷运维标准",
-      "date": "2026-10-28",
-      "source_name": "LG U+",
-      "source_url": "https://news.lguplus.com/23184",
-      "source_type": "运营商官方合作新闻稿",
-      "importance": "值得关注",
-      "summary": "LG U+在平村第二数据中心规划液冷验证环境，双方拟联合验证冷却液质量、TCS回路监测及AI预测性维护；目前为MOU和验证计划。",
-      "technical_significance": "AI基础设施运维从GPU/网络延伸到液冷系统可靠性，尚无PUE改善或故障率实测数据。",
-      "impact_for_korean_telco": "AIDC规划需把液冷监测、热负载、GPU功率与网络负载纳入统一运维指标。",
-      "topic": "Network for AI / AIDC",
-      "company_or_org": "LG U+ / Ecolab Korea"
-    },
-    {
-      "title": "LG U+ U+one月活峰值610万，AI Agent支持漫游订购与缴费",
-      "date": "2026-10-27",
-      "company_or_org": "LG U+",
-      "source_url": "https://news.lguplus.com/23179",
-      "source_type": "运营商官方业务新闻稿",
-      "importance": "值得关注",
-      "topic": "Mobile AI / Actionable Agent",
-      "summary": "U+one 2026年8月MAU峰值6,096,384，较2025年10月约508万增长20.2%；平台融合客服与会员，AI Agent支持经客户确认的漫游推荐订购及账单缴费。该MAU为整个平台用户，非AI Agent独立用户数。",
-      "technical_significance": "提供运营商Actionable Agent平台使用规模与业务流程落地证据；不能据此推断AI渗透率或网络流量增长。",
-      "impact_for_korean_telco": "韩国运营商应分开跟踪平台MAU、Agent使用率、交易转化、每任务成本和上/下行流量。",
-      "source_name": "LG U+"
-    },
-    {
-      "title": "SKT红队披露AI Agent辅助代码补丁分析和安全评测实践",
-      "date": "2026-10-27",
-      "company_or_org": "SK Telecom",
-      "source_url": "https://news.sktelecom.com/232401",
-      "source_type": "运营商官方一手采访",
-      "importance": "值得关注",
-      "topic": "Agentic AI / Security",
-      "summary": "SKT红队成员介绍在DEF CON 34 CTF中使用AI Agent分析代码与补丁、提出潜在攻击路径，再由人类验证；相关方法正按实际安全工作要求改造。未披露效率提升百分比。",
-      "technical_significance": "展示Agent用于网络与IT安全研究的实际工作流，仍需人工复核，非自动攻防产品商用公告。",
-      "impact_for_korean_telco": "在Network Agent上线前建立红队评测、最小权限、人工审批和审计回滚机制。",
-      "source_name": "SK Telecom"
-    },
-    {
-      "title": "SKT首次发布AI治理报告，Agent管理纳入ISO/IEC 42001认证范围",
-      "date": "2026-10-26",
-      "company_or_org": "SK Telecom",
-      "source_url": "https://news.sktelecom.com/232386",
-      "source_type": "运营商官方新闻稿",
-      "importance": "值得关注",
-      "topic": "Autonomous Network / Agent Governance",
-      "summary": "SKT公布AI治理原则、责任体系与AI Agent开发、测试、运行、退出管理标准；2026年10月其内部AI Agent管理体系取得ISO/IEC 42001认证。",
-      "technical_significance": "从Agent功能展示转向覆盖生命周期的管理与审计；不等于已达到AN L4。",
-      "impact_for_korean_telco": "韩国运营商应将SMO/rAPP Agent的身份、权限、变更审批、日志、退出机制纳入治理评测。",
-      "source_name": "SK Telecom"
-    },
-    {
-      "title": "NTT DOCOMO公布高EQ语音Agent架构及约40人试验",
-      "date": "2026-10-26",
-      "company_or_org": "NTT DOCOMO",
-      "source_url": "https://www.docomo.ne.jp/info/news_release/2026/10/26_01.html",
-      "source_type": "运营商官方技术新闻稿",
-      "importance": "值得关注",
-      "topic": "Mobile AI / Voice Agent",
-      "summary": "发布AI EQ+1 Framework与EQ参考架构，包含用户状态识别、低停顿响应、安全护栏、基于对话日志的自我改进；约40名成人试验显示持续使用意愿提升趋势，未披露可复算时延或网络流量KPI。",
-      "technical_significance": "多模态语音Agent将响应速度、用户状态感知和安全控制结合；尚非网络性能验证。",
-      "impact_for_korean_telco": "关注语音交互端到端时延、上行音视频突发、边缘推理成本和隐私合规。",
-      "source_name": "NTT DOCOMO"
     }
   ],
   "ai_companies": [
@@ -542,6 +469,19 @@
       "company_or_org": "Ericsson / Verizon"
     },
     {
+      "title": "Samsung与KT在商用网络验证AI与数字孪生闭环自治",
+      "date": "2026-11-02",
+      "source_name": "Samsung Newsroom Korea",
+      "source_url": "https://news.samsung.com/kr/%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90-kt-ai%C2%B7%EB%94%94%EC%A7%80%ED%84%B8-%ED%8A%B8%EC%9C%88-%EA%B8%B0%EB%B0%98-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%9E%90%EC%9C%A8-%EC%9A%B4%EC%9A%A9-%EA%B8%B0",
+      "source_type": "设备商官方新闻/商用网验证",
+      "importance": "重大更新",
+      "summary": "三星与KT结合AI决策及数字孪生预验证，在商用网络验证网络配置自治流程；未披露可复算的全网平均吞吐或成本收益。",
+      "technical_significance": "将数字孪生用于执行前安全验证，是从优化算法走向可信闭环的关键步骤；不等于全自动L4商用。",
+      "impact_for_korean_telco": "韩国团队应重点核查数字孪生保真度、闭环频率、配置回滚、故障保护及跨厂商兼容性。",
+      "topic": "AI-RAN / 自治网络",
+      "company_or_org": "Samsung / KT"
+    },
+    {
       "title": "中兴与du在商用5G-A网络激活6775—7125MHz U6GHz端到端连接",
       "date": "2026-10-29",
       "source_name": "ZTE",
@@ -553,32 +493,6 @@
       "impact_for_korean_telco": "韩国7.125—7.4GHz候选频段不等同于本次6775—7125MHz；应比较天线尺寸、链路预算、室内穿透、站址复用与350MHz带宽收益。",
       "topic": "6G候选频谱 / U6GHz / 5G-A",
       "company_or_org": "ZTE / du"
-    },
-    {
-      "title": "华为发布VitaAAU U6GHz、UBBPi与RANSpirit新进展",
-      "date": "2026-10-28",
-      "source_name": "Huawei",
-      "source_url": "https://www.huawei.com/en/news/2026/10/communications-network-wireless",
-      "source_type": "设备商官方技术及产品公告",
-      "importance": "重大更新",
-      "summary": "华为发布基于RetinaMIMO的U6GHz VitaAAU，称相较1024阵元类似产品覆盖扩大约30%，阿联酋等市场已有商用应用；UBBPi用户体验约1.3倍、功耗降低约40%；RANSpirit服务25个网络超120万小区。以上均为厂商口径。",
-      "technical_significance": "U6GHz AAU、基带实时资源调度与Agent自治三条技术路线并进，但缺少独立同条件验证；不可将产品公告等同6G标准商用。",
-      "impact_for_korean_telco": "重点索取VitaAAU具体频率、收发通道、阵元、AAU体积/重量/功耗、覆盖基线，以及UBBPi算力板升级成本。",
-      "topic": "AI-RAN / U6GHz / 6G射频 / 自治网络",
-      "company_or_org": "Huawei"
-    },
-    {
-      "title": "中兴AIR RAN披露17万站部署及多项运营KPI",
-      "date": "2026-10-28",
-      "source_name": "ZTE",
-      "source_url": "https://www.zte.com.cn/global/about/news/zte-air-ran-solution-wins-gca-best-hardware-innovation-award.html",
-      "source_type": "设备商官方产品/获奖公告",
-      "importance": "重大更新",
-      "summary": "中兴称AIR RAN全球部署超过17万站，并分别报告差异化体验ARPU最高+20%、频谱利用率峰值+20%、AI节能15%、零接触工单解决率20%；未披露样本、基线和统计口径。",
-      "technical_significance": "提供现网规模与多维KPI线索，但均为厂商自报，且不应理解为所有站点同时获得上述收益。",
-      "impact_for_korean_telco": "要求按运营商、频段、站型、功能拆分部署数量和KPI基线；与GPU加速AI-RAN方案比较增量硬件成本。",
-      "topic": "AI-RAN / 规模部署",
-      "company_or_org": "ZTE"
     },
     {
       "title": "NVIDIA向CNCF贡献OpenShell并公布AI Factory Kubernetes开源组件，SKT列入集成计划",
@@ -620,6 +534,19 @@
       "company_or_org": "LG U+"
     },
     {
+      "title": "Nokia预测2035年AI相关流量将接近全球网络流量一半",
+      "date": "2026-11-04",
+      "source_name": "Nokia",
+      "source_url": "https://www.nokia.com/newsroom/",
+      "source_type": "设备商官方研究预测/非实测",
+      "importance": "值得关注",
+      "summary": "Nokia全球网络流量报告预测2035年AI将驱动接近全球流量的一半，Physical AI与Agentic AI为增长较快的类别；这是模型预测而非运营商实测。",
+      "technical_significance": "AI业务流量模式可能从下行消费转向双向、低时延和突发式机器流量；预测值存在假设不确定性。",
+      "impact_for_korean_telco": "韩国应分场景建模上行占比、边缘计算与P99 SLA，不将2035年预测作为近期扩容事实。",
+      "topic": "6G / Network for AI / 流量预测",
+      "company_or_org": "Nokia"
+    },
+    {
       "title": "Ericsson与Swisscom采用GitOps声明式5G Core运维，升级时间缩短60%",
       "date": "2026-11-03",
       "source_name": "Ericsson",
@@ -659,19 +586,6 @@
       "company_or_org": "LG U+ / OptAI"
     },
     {
-      "title": "ETSI公布TS 104 275生成式AI Deepfake风险控制规范",
-      "date": "2026-10-29",
-      "source_name": "ETSI",
-      "source_url": "https://www.etsi.org/newsroom/press-releases/etsi-unveils-new-standard-to-reduce-production-of-harmful-deepfakes/",
-      "source_type": "标准组织官方规范发布公告",
-      "importance": "值得关注",
-      "summary": "ETSI于10月29日宣布发布TS 104 275，针对有害Deepfake提出部署前风险评估、人工监督、过滤/标识、持续监控及可测试的合格判据；规范版本封面日期为2026-09。",
-      "technical_significance": "这是ETSI TC SAI正式Technical Specification，不是3GPP CR，也不代表欧盟强制法律要求；强调生成式AI全生命周期控制。",
-      "impact_for_korean_telco": "运营商语音Agent、合成语音客服、Network Agent及反诈系统应纳入深度伪造风险评测、人工复核、日志和可验证的安全控制。",
-      "topic": "Agent安全 / ETSI标准",
-      "company_or_org": "ETSI"
-    },
-    {
       "title": "Lumen与Emerald AI研究电力感知的跨站点AI负载路由",
       "date": "2026-10-29",
       "source_name": "Lumen",
@@ -685,82 +599,17 @@
       "company_or_org": "Lumen / Emerald AI"
     },
     {
-      "title": "Ericsson将Intelligent Automation Platform从RAN扩展到核心网cApps",
-      "date": "2026-10-28",
-      "source_name": "Ericsson",
-      "source_url": "https://www.ericsson.com/en/blog/2026/10/intelligent-core-automation-network-experience",
-      "source_type": "设备商官方技术博客",
+      "title": "ETSI公布TS 104 275生成式AI Deepfake风险控制规范",
+      "date": "2026-10-29",
+      "source_name": "ETSI",
+      "source_url": "https://www.etsi.org/newsroom/press-releases/etsi-unveils-new-standard-to-reduce-production-of-harmful-deepfakes/",
+      "source_type": "标准组织官方规范发布公告",
       "importance": "值得关注",
-      "summary": "Ericsson提出在EIAP共同自动化基础上增加非实时核心网cApps，与RAN rApps共享开发环境，支持网络韧性、服务体验和受控操作；文章未披露新商用KPI。",
-      "technical_significance": "从RAN域自治延伸到RAN/Core跨域协同，强调实时控制留在网元附近、非实时编排集中执行。",
-      "impact_for_korean_telco": "在韩国SMO与5GC自治架构中评估cApp/rApp权限、跨域意图、数据模型、操作回滚与开放性。",
-      "topic": "Autonomous Network / Core cApps",
-      "company_or_org": "Ericsson"
-    },
-    {
-      "title": "Google与XREAL发布Android XR AURA，韩国开放订购",
-      "date": "2026-10-28",
-      "source_name": "Google",
-      "source_url": "https://blog.google/products-and-platforms/platforms/android/xreal-aura/",
-      "source_type": "AI公司官方产品公告",
-      "importance": "值得关注",
-      "summary": "Android XR有线眼镜AURA搭载Gemini，可理解用户所见与当前应用；10月28日起美国、加拿大、韩国开放订购。设备使用有线连接的便携计算单元，并非独立蜂窝眼镜。",
-      "technical_significance": "AI眼镜应用进入韩国消费者渠道，为多模态AI需求提供可观察终端，但未公开蜂窝网络流量、时延或边缘推理数据。",
-      "impact_for_korean_telco": "设计XR视觉/语音任务的上下行流量与交互时延测量，不将设备发布等同于5G SA切片需求已证实。",
-      "topic": "Mobile AI / XR / Network for AI",
-      "company_or_org": "Google / XREAL"
-    },
-    {
-      "title": "LG U+与Ecolab Korea共研AIDC液冷运维标准",
-      "date": "2026-10-28",
-      "source_name": "LG U+",
-      "source_url": "https://news.lguplus.com/23184",
-      "source_type": "运营商官方合作新闻稿",
-      "importance": "值得关注",
-      "summary": "LG U+在平村第二数据中心规划液冷验证环境，双方拟联合验证冷却液质量、TCS回路监测及AI预测性维护；目前为MOU和验证计划。",
-      "technical_significance": "AI基础设施运维从GPU/网络延伸到液冷系统可靠性，尚无PUE改善或故障率实测数据。",
-      "impact_for_korean_telco": "AIDC规划需把液冷监测、热负载、GPU功率与网络负载纳入统一运维指标。",
-      "topic": "Network for AI / AIDC",
-      "company_or_org": "LG U+ / Ecolab Korea"
-    },
-    {
-      "title": "Google推出Connected Apps Platform预览，统一Gemini与Search工具接入",
-      "date": "2026-10-28",
-      "source_name": "Google",
-      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/connected-apps-one-place/",
-      "source_type": "AI公司官方开发者公告",
-      "importance": "值得关注",
-      "summary": "Google推出Connected Apps Platform预览，支持通过云端MCP服务或Android MCP/AppFunctions将第三方应用接入Gemini和Search，并由统一控制台管理。",
-      "technical_significance": "移动Agent服务入口进一步平台化，但不是网络切片或5G SA商用公告。",
-      "impact_for_korean_telco": "韩国运营商可评估资费查询、漫游购买、故障申告等API的鉴权、交易确认和第三方渠道分发。",
-      "topic": "Mobile AI / Actionable Agent",
-      "company_or_org": "Google"
-    },
-    {
-      "title": "OpenAI与ServiceNow扩展Agent工作流和受权限约束的执行",
-      "date": "2026-10-28",
-      "source_name": "OpenAI",
-      "source_url": "https://openai.com/index/openai-servicenow-partnership-expansion/",
-      "source_type": "AI公司官方合作公告",
-      "importance": "值得关注",
-      "summary": "双方宣布扩展ChatGPT与ServiceNow工作流集成，可在权限约束下调查IT事件、评估变更风险和更新记录；部分交互与安全能力为预览或规划。",
-      "technical_significance": "Agent与企业工作流/权限系统结合，是从问答走向受治理执行的重要路径，非运营商网络自治已商用证据。",
-      "impact_for_korean_telco": "研究与OSS/ITSM集成的告警关联、变更审批、权限传递、审计及人工确认。",
-      "topic": "Agentic AI / OSS AIOps",
-      "company_or_org": "OpenAI / ServiceNow"
-    },
-    {
-      "title": "Google发布Gemini 4 Carbon，强调长时任务与网络安全能力",
-      "date": "2026-10-28",
-      "source_name": "Google",
-      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
-      "source_type": "AI公司官方模型发布",
-      "importance": "值得关注",
-      "summary": "Google公布Gemini 4 Carbon，报告SEC-bench Pro 88.2%、ExploitGym 54.8%、CWE-bench 71.0%等安全评测成绩；这些是发布方披露的基准结果。",
-      "technical_significance": "模型能力增强可支持安全分析与Network Agent，但公开基准分数不等于网络设备操作的安全可靠性。",
-      "impact_for_korean_telco": "在受控环境测试漏洞研判、补丁建议、误报率与越权行为，不授予模型直接生产写权限。",
-      "topic": "AI / Cybersecurity / Agent",
-      "company_or_org": "Google"
+      "summary": "ETSI于10月29日宣布发布TS 104 275，针对有害Deepfake提出部署前风险评估、人工监督、过滤/标识、持续监控及可测试的合格判据；规范版本封面日期为2026-09。",
+      "technical_significance": "这是ETSI TC SAI正式Technical Specification，不是3GPP CR，也不代表欧盟强制法律要求；强调生成式AI全生命周期控制。",
+      "impact_for_korean_telco": "运营商语音Agent、合成语音客服、Network Agent及反诈系统应纳入深度伪造风险评测、人工复核、日志和可验证的安全控制。",
+      "topic": "Agent安全 / ETSI标准",
+      "company_or_org": "ETSI"
     },
     {
       "title": "LG U+介绍用户与员工隐私保护教育实践",
@@ -778,28 +627,10 @@
   ],
   "sources": [
     {
-      "name": "NVIDIA",
-      "url": "https://blogs.nvidia.com/blog/nvidia-dynamo-korea-open-models/",
-      "date": "2026-11-08",
-      "type": "AI公司官方技术博客/开发者工具发布"
-    },
-    {
-      "name": "NVIDIA",
-      "url": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
-      "date": "2026-11-10",
-      "type": "AI公司官方技术博客/开源基础设施公告"
-    },
-    {
       "name": "Ericsson",
       "url": "https://www.ericsson.com/en/press-releases/5/2026/vodafone-egypt-trials-ai-native-ran-scheduler",
       "date": "2026-11-09",
       "type": "设备商官方新闻稿/5G现网试验"
-    },
-    {
-      "name": "LG U+",
-      "url": "https://news.lguplus.com/23259",
-      "date": "2026-11-06",
-      "type": "运营商官方季度财务公告"
     },
     {
       "name": "NVIDIA",
@@ -808,34 +639,88 @@
       "type": "官方技术博客/研究案例汇编"
     },
     {
+      "name": "Ericsson",
+      "url": "https://www.ericsson.com/en/press-releases/6/2026/verizon-and-ericsson-partner-to-transform-ai-native-autonomous-networks",
+      "date": "2026-11-03",
+      "type": "设备商官方新闻稿/现网rApp验证"
+    },
+    {
+      "name": "Samsung Newsroom Korea",
+      "url": "https://news.samsung.com/kr/%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90-kt-ai%C2%B7%EB%94%94%EC%A7%80%ED%84%B8-%ED%8A%B8%EC%9C%88-%EA%B8%B0%EB%B0%98-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%9E%90%EC%9C%A8-%EC%9A%B4%EC%9A%A9-%EA%B8%B0",
+      "date": "2026-11-02",
+      "type": "设备商官方新闻/商用网验证"
+    },
+    {
       "name": "ZTE",
-      "date": "2026-10-29",
       "url": "https://www.zte.com.cn/global/about/news/zte-and-du-achieve-the-worlds-first-commercial-end-to-end-upper-6-ghz-connectivity-on-uae-live-network.html",
-      "source_type": "设备商官方商用部署公告"
+      "date": "2026-10-29",
+      "type": "设备商官方商用部署公告"
+    },
+    {
+      "name": "NVIDIA",
+      "url": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
+      "date": "2026-11-10",
+      "type": "AI公司官方技术博客/开源基础设施公告"
+    },
+    {
+      "name": "NVIDIA",
+      "url": "https://blogs.nvidia.com/blog/nvidia-dynamo-korea-open-models/",
+      "date": "2026-11-08",
+      "type": "AI公司官方技术博客/开发者工具发布"
+    },
+    {
+      "name": "LG U+",
+      "url": "https://news.lguplus.com/23259",
+      "date": "2026-11-06",
+      "type": "运营商官方季度财务公告"
+    },
+    {
+      "name": "Nokia",
+      "url": "https://www.nokia.com/newsroom/",
+      "date": "2026-11-04",
+      "type": "设备商官方研究预测/非实测"
+    },
+    {
+      "name": "Ericsson",
+      "url": "https://www.ericsson.com/en/press-releases/2026/11/ericsson-advances-autonomous-networks-with-a-faster-simpler-software-approach",
+      "date": "2026-11-03",
+      "type": "设备商官方新闻稿/运营商部署"
+    },
+    {
+      "name": "Ericsson",
+      "url": "https://www.ericsson.com/en/news/2026/11/telia_sweden_and_ericsson_collaborate_on_the_path_to_6g",
+      "date": "2026-11-02",
+      "type": "设备商官方新闻/预标准现场演示"
+    },
+    {
+      "name": "LG U+",
+      "url": "https://news.lguplus.com/23208",
+      "date": "2026-10-29",
+      "type": "运营商官方技术成果公告"
+    },
+    {
+      "name": "Lumen",
+      "url": "https://ir.lumen.com/news/news-details/2026/Lumen-is-Redefining-Networking-for-the-AI-and-Quantum-Eras/default.aspx",
+      "date": "2026-10-29",
+      "type": "运营商官方合作公告"
+    },
+    {
+      "name": "ETSI",
+      "url": "https://www.etsi.org/newsroom/press-releases/etsi-unveils-new-standard-to-reduce-production-of-harmful-deepfakes/",
+      "date": "2026-10-29",
+      "type": "标准组织官方规范发布公告"
+    },
+    {
+      "name": "LG U+",
+      "url": "https://news.lguplus.com/23219",
+      "date": "2026-10-30",
+      "type": "运营商官方企业实践文章"
     },
     {
       "name": "Huawei",
       "date": "2026-10-28",
       "url": "https://www.huawei.com/en/news/2026/10/communications-network-wireless",
       "source_type": "设备商官方技术及产品公告"
-    },
-    {
-      "name": "LG U+",
-      "date": "2026-10-29",
-      "url": "https://news.lguplus.com/23208",
-      "source_type": "运营商官方技术成果公告"
-    },
-    {
-      "name": "ETSI",
-      "date": "2026-10-29",
-      "url": "https://www.etsi.org/newsroom/press-releases/etsi-unveils-new-standard-to-reduce-production-of-harmful-deepfakes/",
-      "source_type": "标准组织官方规范发布公告"
-    },
-    {
-      "name": "Lumen",
-      "date": "2026-10-29",
-      "url": "https://ir.lumen.com/news/news-details/2026/Lumen-is-Redefining-Networking-for-the-AI-and-Quantum-Eras/default.aspx",
-      "source_type": "运营商官方合作公告"
     },
     {
       "name": "ZTE",
@@ -1028,29 +913,6 @@
       "date": "2026-09-28",
       "url": "https://portal.3gpp.org/desktopmodules/WorkItem/WorkItemDetails.aspx?workitemId=1110048",
       "source_type": "标准组织/设备商官方原始来源"
-    },
-    {
-      "name": "LG U+",
-      "url": "https://news.lguplus.com/23219",
-      "date": "2026-10-30"
-    },
-    {
-      "name": "Ericsson",
-      "url": "https://www.ericsson.com/en/press-releases/6/2026/verizon-and-ericsson-partner-to-transform-ai-native-autonomous-networks",
-      "date": "2026-11-03",
-      "type": "设备商官方新闻稿/现网rApp验证"
-    },
-    {
-      "name": "Ericsson",
-      "url": "https://www.ericsson.com/en/press-releases/2026/11/ericsson-advances-autonomous-networks-with-a-faster-simpler-software-approach",
-      "date": "2026-11-03",
-      "type": "设备商官方新闻稿/运营商部署"
-    },
-    {
-      "name": "Ericsson",
-      "url": "https://www.ericsson.com/en/news/2026/11/telia_sweden_and_ericsson_collaborate_on_the_path_to_6g",
-      "date": "2026-11-02",
-      "type": "设备商官方新闻/预标准现场演示"
     }
   ],
   "standards": {
