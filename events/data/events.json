@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11",
+  "updatedAt": "2026-11-12",
   "events": [
     {
       "id": "eu-korea-digital-partnership-2026",
@@ -2333,7 +2333,7 @@
       "endDate": "2026-11-11",
       "location": "Online (Korean TTA STEP e-learning)",
       "language": "Korean",
-      "status": "ongoing",
+      "status": "completed",
       "registrationDeadline": "2026-10-21",
       "registrationUrl": "https://edu.tta.or.kr/edu/educationWebView.do?key=21&prgNo=1421",
       "registrationEligibility": "TTA STEP account; 100 seats; for mobile communications standardization researchers.",
@@ -2380,7 +2380,7 @@
       "endDate": "2026-11-11",
       "location": "Online (Korean TTA STEP e-learning)",
       "language": "Korean",
-      "status": "ongoing",
+      "status": "completed",
       "registrationDeadline": "2026-10-21",
       "registrationUrl": "https://edu.tta.or.kr/edu/educationWebView.do?category=CT00000016&key=30&prgNo=1418",
       "registrationEligibility": "TTA STEP account; 100 seats; AI and metaverse standards researchers.",
@@ -2427,7 +2427,7 @@
       "endDate": "2026-11-11",
       "location": "Online (Korean TTA STEP e-learning)",
       "language": "Korean",
-      "status": "ongoing",
+      "status": "completed",
       "registrationDeadline": "2026-10-21",
       "registrationUrl": "https://edu.tta.or.kr/edu/educationWebView.do?key=21&prgNo=1422",
       "registrationEligibility": "TTA STEP account; 100 seats; autonomous vehicle standardization researchers.",
@@ -3251,7 +3251,7 @@
       "endDate": "2026-11-14",
       "location": "Hanwha Resort, Gyeongju",
       "language": "Korean",
-      "status": "upcoming",
+      "status": "ongoing",
       "priority": "B",
       "operatorRelevance": "low",
       "officialUrl": "https://cics.kiee.or.kr/",
@@ -3536,7 +3536,7 @@
       ],
       "location": "JW Marriott Dongdaemun Square Seoul",
       "language": "Korean / English",
-      "status": "registration_open",
+      "status": "ongoing",
       "officialUrl": "https://gaif.edaily.co.kr/",
       "registrationUrl": "https://gaif.edaily.co.kr/",
       "registrationDeadline": "2026-10-31",
@@ -3711,7 +3711,7 @@
       ],
       "location": "JW Marriott Seoul 3F, Seoul",
       "language": "Korean",
-      "status": "ongoing",
+      "status": "completed",
       "registrationUrl": "https://events.fortinet.com/otsummit2026-kr/home",
       "officialUrl": "https://events.fortinet.com/otsummit2026-kr/home",
       "sourceType": "confirmed · official Fortinet event",
@@ -3789,7 +3789,7 @@
       ],
       "location": "Seoul, Korea (venue not specified on official event page)",
       "language": "Korean / English (specific session languages not published)",
-      "status": "registration_open",
+      "status": "ongoing",
       "registrationUrl": "https://www.ptc.com/ko/events/innovation-exchange-korea-2026",
       "officialUrl": "https://www.ptc.com/ko/events/innovation-exchange-korea-2026",
       "registrationEligibility": "Registration request subject to organizer confirmation.",
@@ -4568,7 +4568,7 @@
       "endDate": "2026-11-12",
       "location": "COEX Grand Ballroom 1F & Auditorium 3F, 513 Yeongdong-daero, Gangnam-gu, Seoul",
       "language": "Korean (individual sessions not confirmed)",
-      "status": "upcoming",
+      "status": "ongoing",
       "registrationOpen": "2026-09-12",
       "registrationDeadline": "2026-11-06T09:00:00+09:00",
       "registrationUrl": "https://event-us.kr/intelseminar/event/131490",
@@ -5185,7 +5185,7 @@
       "endDate": "2026-11-12",
       "location": "서울관광플라자 4층 다목적홀, 서울 종로구 청계천로 85",
       "language": "Korean",
-      "status": "registration_closing",
+      "status": "ongoing",
       "registrationDeadline": "2026-11-11 15:00 KST",
       "registrationUrl": "https://onoffmix.com/event/352769",
       "registrationEligibility": "First come first served; capacity 30; OnOffMix registration",
@@ -5196,6 +5196,117 @@
       "operatorRelevance": "high",
       "whyItMatters": "AI-RAN与Physical AI连接需求直接交叉，适合获取自主网络、机器人通信和AI基础设施融合的技术观点；尚无公开实测指标。",
       "agenda": [],
+      "insights": []
+    },
+    {
+      "id": "robotis-open-lab-2026-h2",
+      "title": "ROBOTIS 2026 Second-Half Open Lab",
+      "titleKo": "로보티즈 2026 하반기 오픈랩",
+      "titleZh": "ROBOTIS 2026 下半年开放实验室",
+      "summary": "ROBOTIS开放实验室展示人形机器人、自主移动机器人、执行器与RX机器人技术。四组免费预约名额均已满，目前仅开放候补登记。",
+      "topics": [
+        "Humanoid Robotics",
+        "Autonomous Mobile Robots",
+        "Robot Actuators",
+        "Physical AI"
+      ],
+      "organizer": [
+        "ROBOTIS"
+      ],
+      "participants": [
+        "ROBOTIS"
+      ],
+      "speakers": [],
+      "startDate": "2026-11-13",
+      "endDate": "2026-11-13",
+      "location": "37, Magokjungang 5-ro 1-gil, Gangseo-gu, Seoul, South Korea",
+      "language": "Korean (event listing); presentation language not announced",
+      "status": "registration_closing",
+      "registrationDeadline": "2026-11-13T12:00:00+09:00",
+      "registrationUrl": "https://www.onoffmix.com/event/352100",
+      "registrationEligibility": "All four groups full; waitlist only. Humanoid 15, autonomous robots 10, actuators 10, RX 10.",
+      "fee": "Free",
+      "officialUrl": "https://www.onoffmix.com/event/352100",
+      "publishedAt": "2026-11-12",
+      "sourceType": "confirmed · organizer event listing · waitlist only",
+      "priority": "A",
+      "operatorRelevance": "medium",
+      "whyItMatters": "ROBOTIS一手机器人硬件与自主移动系统展示，适合验证机器人边缘算力、无线连接和工业移动性需求；不代表已验证5G/6G必要性。",
+      "agenda": [],
+      "insights": []
+    },
+    {
+      "id": "enerzai-ai-on-edge-2-seoul-2026",
+      "title": "ENERZAi AI on Edge #2 — From Bits to Real World",
+      "titleKo": "[에너자이 기술 세미나] AI on Edge #2",
+      "titleZh": "ENERZAi 第二届端侧 AI 技术研讨会",
+      "summary": "面向端侧模型优化、NPU编译器与真实设备推理落地的技术研讨会，邀请Kakao、Yonsei、Flysounds及ENERZAi专家分享。",
+      "topics": [
+        "Edge AI",
+        "On-Device AI",
+        "NPU Compiler",
+        "AI Inference",
+        "AI Agents"
+      ],
+      "organizer": [
+        "ENERZAi"
+      ],
+      "participants": [
+        "Kakao",
+        "Yonsei University",
+        "Flysounds",
+        "ENERZAi"
+      ],
+      "speakers": [
+        "Han-him Jang (ENERZAi CEO)",
+        "Kyung-min Kim (Flysounds)",
+        "Je-ho Lee (Yonsei University)",
+        "Jae-ho Kim (ENERZAi)",
+        "Gyu-sik Min (Kakao)"
+      ],
+      "startDate": "2026-11-21",
+      "endDate": "2026-11-21",
+      "location": "Dream Forest Hall, 3F, 138 Teheran-ro, Gangnam-gu, Seoul, South Korea",
+      "language": "Korean (program titles partly English)",
+      "status": "registration_open",
+      "registrationOpen": "2026-10-30T12:00:00+09:00",
+      "registrationDeadline": "2026-11-20T17:00:00+09:00",
+      "registrationUrl": "https://event-us.kr/m/138890/63964",
+      "registrationEligibility": "Students, researchers and industry practitioners; may close early due to capacity.",
+      "fee": "Free",
+      "officialUrl": "https://cse.skku.edu/sw/notice.do?article.offset=0&articleLimit=10&articleNo=228121&mode=view",
+      "publishedAt": "2026-11-05",
+      "sourceType": "confirmed · university announcement · organizer event listing",
+      "priority": "A",
+      "operatorRelevance": "medium",
+      "whyItMatters": "端侧推理优化和NPU编译器直接影响机器人/终端AI成本与端边云卸载边界，运营商可关注MEC推理服务而非默认6G需求。",
+      "agenda": [
+        {
+          "time": "13:20–13:50",
+          "title": "Optimizing Tiny Speech Models for Hearing Aids",
+          "speaker": "Kyung-min Kim (Flysounds)"
+        },
+        {
+          "time": "14:00–14:20",
+          "title": "Personal Agent Era and On-Device AI",
+          "speaker": "Han-him Jang (ENERZAi)"
+        },
+        {
+          "time": "14:20–14:50",
+          "title": "Systems for Efficient On-Device AI",
+          "speaker": "Je-ho Lee (Yonsei)"
+        },
+        {
+          "time": "15:00–15:30",
+          "title": "Building an Open-Source NPU Compiler: Synaptics Torq",
+          "speaker": "Jae-ho Kim (ENERZAi)"
+        },
+        {
+          "time": "15:30–16:00",
+          "title": "Kanana On-Device AI Agent Development",
+          "speaker": "Gyu-sik Min (Kakao)"
+        }
+      ],
       "insights": []
     }
   ]
