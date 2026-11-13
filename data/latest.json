@@ -1,8 +1,8 @@
 {
-  "date": "2026-11-13",
+  "date": "2026-11-14",
   "title": "Korea Telco Advanced Technology Radar",
   "edition_time": "08:30 KST",
-  "editorial_note": "截至2026-11-13 08:30 KST，有限公开检索未核实过去24小时AI-RAN、6G、Ambient IoT新的重大一手里程碑。Top 5为此前发布的延续事件，非今日新增。与11月12日相比暂无足以调整成熟度判断的新证据；3GPP批准CR未逐项审查。",
+  "editorial_note": "截至2026-11-14 08:30 KST，有限公开检索未确认11月13日至14日新增AI-RAN、6G或Ambient IoT重大一手技术里程碑。Top 5沿用近期已披露事件，不作为今日新发布。与11月13日相比成熟度判断不变。3GPP CR尚未逐项审查，未核实不代表没有。",
   "top5": [
     {
       "title": "Ericsson与Vodafone Egypt现网测试AI-native链路自适应调度：频谱效率最高+14%",
@@ -16,7 +16,7 @@
       "impact_for_korean_telco": "SKT/KT/LG U+可按小区负载、干扰、MCS、BLER、P99时延和能耗复现实验，与L1神经接收机、rApp优化分层比较。",
       "topic": "AI-RAN / L2链路自适应",
       "company_or_org": "Ericsson / Vodafone Egypt",
-      "tracking_status": "延续，非11月13日新发布"
+      "tracking_status": "延续，非11月14日新发布"
     },
     {
       "title": "Samsung与KT在商用网络验证AI与数字孪生闭环自治",
@@ -30,7 +30,7 @@
       "impact_for_korean_telco": "韩国团队应重点核查数字孪生保真度、闭环频率、配置回滚、故障保护及跨厂商兼容性。",
       "topic": "AI-RAN / 自治网络",
       "company_or_org": "Samsung / KT",
-      "tracking_status": "延续，非11月13日新发布"
+      "tracking_status": "延续，非11月14日新发布"
     },
     {
       "title": "NVIDIA向CNCF贡献OpenShell并公布AI Factory Kubernetes开源组件，SKT列入集成计划",
@@ -44,7 +44,7 @@
       "impact_for_korean_telco": "韩国运营商可验证Agent权限隔离、Kubernetes多租户GPU调度、推理弹性与云边协同；需区分合作计划与实际部署。",
       "topic": "Network for AI / Agent基础设施",
       "company_or_org": "NVIDIA / Google / SK Telecom",
-      "tracking_status": "延续，非11月13日新发布"
+      "tracking_status": "延续，非11月14日新发布"
     },
     {
       "title": "NVIDIA披露AI Aerial/Sionna开源生态与AI接收机、机器人语义通信实验",
@@ -58,7 +58,7 @@
       "impact_for_korean_telco": "建议韩国AI-RAN团队用Sionna/Aerial建立神经接收机BLER、吞吐、推理P99与GPU功耗基准，并复现机器人语义通信在不同丢包条件下的任务成功率。",
       "topic": "AI-RAN / 6G / Physical AI",
       "company_or_org": "NVIDIA",
-      "tracking_status": "延续，非11月13日新发布"
+      "tracking_status": "延续，非11月14日新发布"
     },
     {
       "title": "LG U+第三季度AIDC收入同比增长27.7%，达1317亿韩元",
@@ -72,14 +72,14 @@
       "impact_for_korean_telco": "研究AIDC增长对城域IP/光承载、算力网络调度与液冷电力规划的拉动，区分AIDC财务增长与RAN投资回报。",
       "topic": "Network for AI / AIDC",
       "company_or_org": "LG U+",
-      "tracking_status": "延续，非11月13日新发布"
+      "tracking_status": "延续，非11月14日新发布"
     }
   ],
   "trends": {
     "AI-RAN": {
       "direction": "→ 现场验证持续",
       "summary": "Ericsson/Vodafone Egypt L2链路自适应、Samsung/KT数字孪生闭环及NVIDIA/SoftBank神经接收机继续构成不同层级证据；厂商最高增益不能直接相加。",
-      "key_change": "较11月12日未确认新实测KPI，判断不变。",
+      "key_change": "较11月13日未确认新实测KPI，判断不变。",
       "sources": [
         {
           "name": "Ericsson",
@@ -101,7 +101,7 @@
     "6G": {
       "direction": "→ 预标准试验持续",
       "summary": "U6GHz预标准OTA演示及5G-A现网连接继续作为设备准备度线索，不代表6G规范冻结。",
-      "key_change": "较11月12日未确认新的6G规范正文或批准CR。",
+      "key_change": "较11月13日未确认新的6G规范正文或批准CR。",
       "sources": [
         {
           "name": "Ericsson/Telia",
@@ -118,7 +118,7 @@
     "Ambient IoT": {
       "direction": "→ 尚无核实的新变化",
       "summary": "区分3GPP研究项目、工作项目、单份提案、批准CR与规范正文。TS 23.370、TS 29.568沿用此前状态，未完成最新CR逐项核验。",
-      "key_change": "较11月12日未确认新规范性里程碑；不据此断言没有新增CR。",
+      "key_change": "较11月13日未确认新规范性里程碑；不据此断言没有新增CR。",
       "sources": [
         {
           "name": "3GPP TS 23.370",
@@ -490,19 +490,6 @@
       "impact_for_korean_telco": "韩国可对比U6GHz候选频段与预标准原型的带宽、上行能力、覆盖及软硬件可复用性。",
       "topic": "6G / U6GHz / 预标准演示",
       "company_or_org": "Ericsson / Telia"
-    },
-    {
-      "title": "LG U+介绍用户与员工隐私保护教育实践",
-      "date": "2026-10-30",
-      "source_name": "LG U+",
-      "source_url": "https://news.lguplus.com/23219",
-      "source_type": "运营商官方企业实践文章",
-      "importance": "常规动态",
-      "summary": "LG U+介绍10月8日员工隐私教育活动和用户隐私风险宣传；没有披露新的AI-RAN、6G或Agent技术指标。",
-      "technical_significance": "属于AI服务可信运营的组织实践，不是新网络技术或标准。",
-      "impact_for_korean_telco": "将隐私最小化、权限审计与人员培训纳入Agent上线管理。",
-      "topic": "AI治理 / 隐私保护",
-      "company_or_org": "LG U+"
     }
   ],
   "sources": [
@@ -615,5 +602,6 @@
     "priority_for_korea": "U6GHz 6775—7125MHz与韩国7125—7400MHz的链路预算、AAU阵元与功耗对标；AI-RAN KPI复算；端云AI流量与能耗；AI Agent治理。",
     "as_of": "2026-11-11 08:30 KST",
     "verification_note": "11月10日NVIDIA与11月9日Ericsson为一手公告；Ambient IoT CR未逐项核查。"
-  }
+  },
+  "coverage_note": "覆盖华为、中兴、爱立信、诺基亚、三星、中国移动、LG U+、SKT、KT、SoftBank、NTT DOCOMO、Rakuten、Anthropic、OpenAI、Google、NVIDIA；未逐家确认新增不代表无活动。2026-11-06 Samsung日文新闻为2026-09-23韩国原始公告的翻译，不计为新技术事件。"
 }
