@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14",
+  "updatedAt": "2026-11-15",
   "events": [
     {
       "id": "eu-korea-digital-partnership-2026",
@@ -3251,7 +3251,7 @@
       "endDate": "2026-11-14",
       "location": "Hanwha Resort, Gyeongju",
       "language": "Korean",
-      "status": "ongoing",
+      "status": "completed",
       "priority": "B",
       "operatorRelevance": "low",
       "officialUrl": "https://cics.kiee.or.kr/",
@@ -4623,7 +4623,7 @@
       "endDate": "2026-11-14",
       "location": "Sookmyung Women's University, Second Foundation Campus, Snowflake Plaza Hall, Yongsan-gu, Seoul",
       "language": "Korean",
-      "status": "upcoming",
+      "status": "completed",
       "registrationOpen": "2026-10-21T18:00:00+09:00",
       "registrationDeadline": "2026-11-12T23:59:00+09:00",
       "registrationUrl": "https://event-us.kr/naekyehs/event/137280",
@@ -4855,7 +4855,7 @@
       "endDate": "2026-11-19",
       "location": "Online live stream (offline venue not publicly announced)",
       "language": "暂未公布（韩文活动页）",
-      "status": "registration_open",
+      "status": "registration_closing",
       "registrationOpen": "2026-10-21",
       "registrationDeadline": "2026-11-18T18:00:00+09:00",
       "registrationUrl": "https://event-us.kr/lgupluswebinar/event/137697",
@@ -5041,7 +5041,7 @@
       "endDate": "2026-11-21",
       "location": "Centerfield East, 18F AWS Korea, 231 Teheran-ro, Gangnam-gu, Seoul",
       "language": "Korean",
-      "status": "registration_open",
+      "status": "registration_closing",
       "registrationOpen": "2026-10-16T09:30:00+09:00",
       "registrationDeadline": "2026-11-16T23:30:00+09:00",
       "registrationUrl": "https://event-us.kr/pytorchkr/event/136733",
@@ -5305,6 +5305,63 @@
           "time": "15:30–16:00",
           "title": "Kanana On-Device AI Agent Development",
           "speaker": "Gyu-sik Min (Kakao)"
+        }
+      ],
+      "insights": []
+    },
+    {
+      "id": "human-dexterity-networking-day-seoul-2026",
+      "title": "2026 Human Dexterity Networking Day",
+      "titleKo": "2026 휴먼 덱스터리티 네트워킹 데이",
+      "titleZh": "2026 机器人灵巧操作与 Physical AI 交流日",
+      "summary": "WHATs LAB 与 SYNERGY 举办的机器人灵巧操作、手部数据采集与 Physical AI 产业交流活动，包含机器人技术演示、产业政策讨论与 B2B 对接。",
+      "topics": [
+        "Physical AI",
+        "Robotics",
+        "Dexterous Manipulation",
+        "Robot Data",
+        "Humanoid",
+        "Teleoperation"
+      ],
+      "organizer": [
+        "WHATs LAB",
+        "SYNERGY"
+      ],
+      "participants": [],
+      "speakers": [
+        "Donghyun Shim (WHATs LAB CEO)",
+        "Kim Sun-min (National Assembly)"
+      ],
+      "startDate": "2026-11-16",
+      "endDate": "2026-11-16",
+      "location": "TIPSTOWN S6 1F, 168 Yeoksam-ro, Gangnam-gu, Seoul, South Korea",
+      "language": "Korean",
+      "status": "registration_closing",
+      "registrationDeadline": "2026-11-15T23:59:00+09:00",
+      "registrationUrl": "https://tally.so/r/5XBPLo",
+      "registrationEligibility": "Robot data / Physical AI industry practitioners; first-come-first-served, 30 places; registration confirmation by email.",
+      "fee": "Free",
+      "officialUrl": "https://luma.com/d6ogkjoy",
+      "publishedAt": "2026-11-15",
+      "sourceType": "confirmed · organizer registration page and OnOffMix",
+      "priority": "B",
+      "operatorRelevance": "medium",
+      "whyItMatters": "机器人手部数据、遥操作示教和灵巧操作可帮助识别远程操作上行视频、边缘推理和数据采集的潜在通信需求；活动本身未公布5G/6G实验结果。",
+      "agenda": [
+        {
+          "time": "14:05–14:25",
+          "title": "Robot hand data collection: challenges and solutions",
+          "speaker": "Donghyun Shim (WHATs LAB)"
+        },
+        {
+          "time": "14:25–14:40",
+          "title": "Physical AI policy town hall",
+          "speaker": "Kim Sun-min"
+        },
+        {
+          "time": "14:40–16:00",
+          "title": "Technology demos and B2B networking",
+          "speaker": "Industry participants"
         }
       ],
       "insights": []
