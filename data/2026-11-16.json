@@ -1,0 +1,580 @@
+{
+  "date": "2026-11-16",
+  "title": "Korea Telco Advanced Technology Radar",
+  "edition_time": "08:30 KST",
+  "editorial_note": "截至11月16日08:30 KST，有限检索未确认过去24小时重大新公告。补录11月13日Ericsson 6G AI Domain架构文章；它是厂商技术观点而非3GPP正式规范。其余为近期延续事件。",
+  "top5": [
+    {
+      "title": "Ericsson提出6G核心网独立AI Domain及AI Gateway架构",
+      "date": "2026-11-13",
+      "source_name": "Ericsson",
+      "source_url": "https://www.ericsson.com/en/blog/2026/11/ai-domain-6g-core-network",
+      "source_type": "厂商技术博客/研究架构观点",
+      "importance": "重大更新",
+      "summary": "提出PS Domain与AI Domain分离，AI Gateway、AI Handler、AI Support分别承担入口、意图处理、身份鉴权，面向UE和AF的AI1/AI2接口尚待标准化。",
+      "technical_significance": "为Agent身份、意图、数据和推理服务提供运营商可控入口；是厂商架构主张，不是3GPP批准的6G规范。",
+      "impact_for_korean_telco": "韩国运营商应评估AI Gateway收费、Agent实名鉴权、CAMARA/NEF复用及AI域与5GC的接口边界。",
+      "topic": "6G / AI-native Core",
+      "company_or_org": "Ericsson",
+      "tracking_status": "新增收录，11月13日发布"
+    },
+    {
+      "title": "Ericsson与Vodafone Egypt测试AI-native链路自适应调度",
+      "date": "2026-11-09",
+      "source_name": "Ericsson",
+      "source_url": "https://www.ericsson.com/en/press-releases/5/2026/vodafone-egypt-trials-ai-native-ran-scheduler",
+      "source_type": "官方新闻稿/5G现网试验",
+      "importance": "重大更新",
+      "summary": "2600MHz现网试验频谱效率最高+14%、下行吞吐最高+50%。",
+      "technical_significance": "验证L2 AI链路自适应潜力；均为最高值而非平均收益。",
+      "impact_for_korean_telco": "复现MCS、BLER、P99调度时延、算力与能耗。",
+      "topic": "AI-RAN / L2",
+      "company_or_org": "Ericsson / Vodafone Egypt",
+      "tracking_status": "延续"
+    },
+    {
+      "title": "NVIDIA与SoftBank神经接收机实验",
+      "date": "2026-11-06",
+      "source_name": "NVIDIA",
+      "source_url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
+      "source_type": "官方技术博客/受控实验",
+      "importance": "重大更新",
+      "summary": "15组干扰条件下上行吞吐均优于传统接收机，最高约+60%。",
+      "technical_significance": "L1 AI接收机性能证据；不代表现网平均增益。",
+      "impact_for_korean_telco": "对比BLER、GPU功耗、P99处理时延与CPU/专用AI基带成本。",
+      "topic": "AI-RAN / L1",
+      "company_or_org": "NVIDIA / SoftBank",
+      "tracking_status": "延续"
+    },
+    {
+      "title": "Ericsson与Verizon部署AAS Cell Shaper rApp",
+      "date": "2026-11-03",
+      "source_name": "Ericsson",
+      "source_url": "https://www.ericsson.com/en/press-releases/6/2026/verizon-and-ericsson-partner-to-transform-ai-native-autonomous-networks",
+      "source_type": "官方新闻稿/现网验证",
+      "importance": "重大更新",
+      "summary": "24×7闭环优化，下行DRB吞吐最高+8.9%、上行UE吞吐最高+8%。",
+      "technical_significance": "证明网络级rApp优化可在现网产生增益；不等于L1/L2收益。",
+      "impact_for_korean_telco": "验证rApp接口、闭环周期、异常回退与统计收益。",
+      "topic": "AI-RAN / rApp",
+      "company_or_org": "Ericsson / Verizon",
+      "tracking_status": "延续"
+    },
+    {
+      "title": "NVIDIA开源OpenShell与GPU Kubernetes基础设施",
+      "date": "2026-11-10",
+      "source_name": "NVIDIA",
+      "source_url": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
+      "source_type": "官方技术博客/开源公告",
+      "importance": "值得关注",
+      "summary": "OpenShell进入CNCF Sandbox，NVKE/NVKR公开预览，SKT列入集成计划。",
+      "technical_significance": "Agent权限隔离和推理资源调度基础设施；不等于SKT生产部署。",
+      "impact_for_korean_telco": "评估多租户GPU调度、Agent安全和推理弹性。",
+      "topic": "Network for AI",
+      "company_or_org": "NVIDIA / Google / SKT",
+      "tracking_status": "延续"
+    }
+  ],
+  "trends": {
+    "AI-RAN": {
+      "direction": "→ 现场验证延续",
+      "summary": "L1神经接收机、L2调度、rApp闭环分别有实验或现网证据，但最大增益不可相加。",
+      "key_change": "较11月15日无新核实KPI；关注跨层TCO与P99。",
+      "sources": [
+        {
+          "name": "Ericsson",
+          "url": "https://www.ericsson.com/en/press-releases/5/2026/vodafone-egypt-trials-ai-native-ran-scheduler",
+          "date": "2026-11-09"
+        },
+        {
+          "name": "NVIDIA",
+          "url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
+          "date": "2026-11-06"
+        }
+      ]
+    },
+    "6G": {
+      "direction": "↑ AI-native Core架构观点补录",
+      "summary": "Ericsson提出独立AI Domain、AIGW/AISF/AIHF及Agent身份、意图服务；这是厂商研究观点，AI1/AI2尚待标准化。",
+      "key_change": "较11月15日补录11月13日Ericsson技术文章；非过去24小时新发布，也非Approved CR。",
+      "sources": [
+        {
+          "name": "Ericsson",
+          "url": "https://www.ericsson.com/en/blog/2026/11/ai-domain-6g-core-network",
+          "date": "2026-11-13"
+        },
+        {
+          "name": "Ericsson/Telia",
+          "url": "https://www.ericsson.com/en/news/2026/11/telia_sweden_and_ericsson_collaborate_on_the_path_to_6g",
+          "date": "2026-11-02"
+        }
+      ]
+    },
+    "Ambient IoT": {
+      "direction": "→ 未确认新增规范性进展",
+      "summary": "TS 23.370/29.568仍须以3GPP Portal核查；未完成逐项CR审核，不宣称无新增。",
+      "key_change": "较11月15日无已核实状态改变。",
+      "sources": [
+        {
+          "name": "3GPP TS 23.370（此前核查）",
+          "url": "https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=5530",
+          "date": "2026-09-28"
+        },
+        {
+          "name": "3GPP TS 29.568（此前核查）",
+          "url": "https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=5537",
+          "date": "2026-09-14"
+        }
+      ]
+    }
+  },
+  "vendors": [
+    {
+      "title": "Ericsson提出6G核心网独立AI Domain及AI Gateway架构",
+      "date": "2026-11-13",
+      "source_name": "Ericsson",
+      "source_url": "https://www.ericsson.com/en/blog/2026/11/ai-domain-6g-core-network",
+      "source_type": "厂商技术博客/研究架构观点",
+      "importance": "重大更新",
+      "summary": "提出PS Domain与AI Domain分离，AI Gateway、AI Handler、AI Support分别承担入口、意图处理、身份鉴权，面向UE和AF的AI1/AI2接口尚待标准化。",
+      "technical_significance": "为Agent身份、意图、数据和推理服务提供运营商可控入口；是厂商架构主张，不是3GPP批准的6G规范。",
+      "impact_for_korean_telco": "韩国运营商应评估AI Gateway收费、Agent实名鉴权、CAMARA/NEF复用及AI域与5GC的接口边界。",
+      "topic": "6G / AI-native Core",
+      "company_or_org": "Ericsson",
+      "tracking_status": "新增收录，11月13日发布"
+    },
+    {
+      "title": "Ericsson与Vodafone Egypt测试AI-native链路自适应调度",
+      "date": "2026-11-09",
+      "source_name": "Ericsson",
+      "source_url": "https://www.ericsson.com/en/press-releases/5/2026/vodafone-egypt-trials-ai-native-ran-scheduler",
+      "source_type": "官方新闻稿/5G现网试验",
+      "importance": "重大更新",
+      "summary": "2600MHz现网试验频谱效率最高+14%、下行吞吐最高+50%。",
+      "technical_significance": "验证L2 AI链路自适应潜力；均为最高值而非平均收益。",
+      "impact_for_korean_telco": "复现MCS、BLER、P99调度时延、算力与能耗。",
+      "topic": "AI-RAN / L2",
+      "company_or_org": "Ericsson / Vodafone Egypt",
+      "tracking_status": "延续"
+    },
+    {
+      "title": "Ericsson与Verizon部署AAS Cell Shaper rApp",
+      "date": "2026-11-03",
+      "source_name": "Ericsson",
+      "source_url": "https://www.ericsson.com/en/press-releases/6/2026/verizon-and-ericsson-partner-to-transform-ai-native-autonomous-networks",
+      "source_type": "官方新闻稿/现网验证",
+      "importance": "重大更新",
+      "summary": "24×7闭环优化，下行DRB吞吐最高+8.9%、上行UE吞吐最高+8%。",
+      "technical_significance": "证明网络级rApp优化可在现网产生增益；不等于L1/L2收益。",
+      "impact_for_korean_telco": "验证rApp接口、闭环周期、异常回退与统计收益。",
+      "topic": "AI-RAN / rApp",
+      "company_or_org": "Ericsson / Verizon",
+      "tracking_status": "延续"
+    },
+    {
+      "title": "Ericsson与Telia完成U6GHz预标准OTA演示",
+      "date": "2026-11-02",
+      "source_name": "Ericsson",
+      "source_url": "https://www.ericsson.com/en/news/2026/11/telia_sweden_and_ericsson_collaborate_on_the_path_to_6g",
+      "source_type": "官方新闻/预标准演示",
+      "importance": "值得关注",
+      "summary": "瑞典Upper-6GHz预标准6G OTA演示。",
+      "technical_significance": "原型验证不是规范冻结或商用6G。",
+      "impact_for_korean_telco": "核实7GHz覆盖、带宽与AAU复用。",
+      "topic": "6G / U6GHz",
+      "company_or_org": "Ericsson / Telia",
+      "tracking_status": "延续"
+    },
+    {
+      "title": "Ericsson与Swisscom推进5GC GitOps运维",
+      "date": "2026-11-03",
+      "source_name": "Ericsson",
+      "source_url": "https://www.ericsson.com/en/press-releases/2026/11/ericsson-advances-autonomous-networks-with-a-faster-simpler-software-approach",
+      "source_type": "官方新闻稿/部署案例",
+      "importance": "值得关注",
+      "summary": "Swisscom报告软件升级时间减少60%、服务建立时间减少97%。",
+      "technical_significance": "声明式运维是自治执行基础，不等于L4自治。",
+      "impact_for_korean_telco": "核实配置漂移、回滚和变更审计。",
+      "topic": "自治网络",
+      "company_or_org": "Ericsson / Swisscom",
+      "tracking_status": "延续"
+    }
+  ],
+  "operators": [
+    {
+      "title": "Ericsson与Vodafone Egypt测试AI-native链路自适应调度",
+      "date": "2026-11-09",
+      "source_name": "Ericsson",
+      "source_url": "https://www.ericsson.com/en/press-releases/5/2026/vodafone-egypt-trials-ai-native-ran-scheduler",
+      "source_type": "官方新闻稿/5G现网试验",
+      "importance": "重大更新",
+      "summary": "2600MHz现网试验频谱效率最高+14%、下行吞吐最高+50%。",
+      "technical_significance": "验证L2 AI链路自适应潜力；均为最高值而非平均收益。",
+      "impact_for_korean_telco": "复现MCS、BLER、P99调度时延、算力与能耗。",
+      "topic": "AI-RAN / L2",
+      "company_or_org": "Ericsson / Vodafone Egypt",
+      "tracking_status": "延续"
+    },
+    {
+      "title": "NVIDIA与SoftBank神经接收机实验",
+      "date": "2026-11-06",
+      "source_name": "NVIDIA",
+      "source_url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
+      "source_type": "官方技术博客/受控实验",
+      "importance": "重大更新",
+      "summary": "15组干扰条件下上行吞吐均优于传统接收机，最高约+60%。",
+      "technical_significance": "L1 AI接收机性能证据；不代表现网平均增益。",
+      "impact_for_korean_telco": "对比BLER、GPU功耗、P99处理时延与CPU/专用AI基带成本。",
+      "topic": "AI-RAN / L1",
+      "company_or_org": "NVIDIA / SoftBank",
+      "tracking_status": "延续"
+    },
+    {
+      "title": "Ericsson与Verizon部署AAS Cell Shaper rApp",
+      "date": "2026-11-03",
+      "source_name": "Ericsson",
+      "source_url": "https://www.ericsson.com/en/press-releases/6/2026/verizon-and-ericsson-partner-to-transform-ai-native-autonomous-networks",
+      "source_type": "官方新闻稿/现网验证",
+      "importance": "重大更新",
+      "summary": "24×7闭环优化，下行DRB吞吐最高+8.9%、上行UE吞吐最高+8%。",
+      "technical_significance": "证明网络级rApp优化可在现网产生增益；不等于L1/L2收益。",
+      "impact_for_korean_telco": "验证rApp接口、闭环周期、异常回退与统计收益。",
+      "topic": "AI-RAN / rApp",
+      "company_or_org": "Ericsson / Verizon",
+      "tracking_status": "延续"
+    },
+    {
+      "title": "NVIDIA开源OpenShell与GPU Kubernetes基础设施",
+      "date": "2026-11-10",
+      "source_name": "NVIDIA",
+      "source_url": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
+      "source_type": "官方技术博客/开源公告",
+      "importance": "值得关注",
+      "summary": "OpenShell进入CNCF Sandbox，NVKE/NVKR公开预览，SKT列入集成计划。",
+      "technical_significance": "Agent权限隔离和推理资源调度基础设施；不等于SKT生产部署。",
+      "impact_for_korean_telco": "评估多租户GPU调度、Agent安全和推理弹性。",
+      "topic": "Network for AI",
+      "company_or_org": "NVIDIA / Google / SKT",
+      "tracking_status": "延续"
+    },
+    {
+      "title": "LG U+公布第三季度AIDC收入增长",
+      "date": "2026-11-06",
+      "source_name": "LG U+",
+      "source_url": "https://news.lguplus.com/23259",
+      "source_type": "官方财务公告",
+      "importance": "值得关注",
+      "summary": "AIDC收入1317亿韩元，同比+27.7%。",
+      "technical_significance": "AI基础设施商业需求增强，不能推导AI-RAN回报。",
+      "impact_for_korean_telco": "评估城域承载、供电、液冷与算力调度。",
+      "topic": "Network for AI",
+      "company_or_org": "LG U+",
+      "tracking_status": "延续"
+    },
+    {
+      "title": "Ericsson与Telia完成U6GHz预标准OTA演示",
+      "date": "2026-11-02",
+      "source_name": "Ericsson",
+      "source_url": "https://www.ericsson.com/en/news/2026/11/telia_sweden_and_ericsson_collaborate_on_the_path_to_6g",
+      "source_type": "官方新闻/预标准演示",
+      "importance": "值得关注",
+      "summary": "瑞典Upper-6GHz预标准6G OTA演示。",
+      "technical_significance": "原型验证不是规范冻结或商用6G。",
+      "impact_for_korean_telco": "核实7GHz覆盖、带宽与AAU复用。",
+      "topic": "6G / U6GHz",
+      "company_or_org": "Ericsson / Telia",
+      "tracking_status": "延续"
+    },
+    {
+      "title": "Ericsson与Swisscom推进5GC GitOps运维",
+      "date": "2026-11-03",
+      "source_name": "Ericsson",
+      "source_url": "https://www.ericsson.com/en/press-releases/2026/11/ericsson-advances-autonomous-networks-with-a-faster-simpler-software-approach",
+      "source_type": "官方新闻稿/部署案例",
+      "importance": "值得关注",
+      "summary": "Swisscom报告软件升级时间减少60%、服务建立时间减少97%。",
+      "technical_significance": "声明式运维是自治执行基础，不等于L4自治。",
+      "impact_for_korean_telco": "核实配置漂移、回滚和变更审计。",
+      "topic": "自治网络",
+      "company_or_org": "Ericsson / Swisscom",
+      "tracking_status": "延续"
+    },
+    {
+      "title": "NVIDIA为SKT A.X K2发布Dynamo推理配方",
+      "date": "2026-11-08",
+      "source_name": "NVIDIA",
+      "source_url": "https://blogs.nvidia.com/blog/nvidia-dynamo-korea-open-models/",
+      "source_type": "官方技术博客/开发者资料",
+      "importance": "值得关注",
+      "summary": "B200优化配方官方宣称性能最高2倍。",
+      "technical_significance": "模型部署效率改善，不等于网络空口增益。",
+      "impact_for_korean_telco": "测试TTFT、tokens/s、P99与单位Token成本。",
+      "topic": "AI推理",
+      "company_or_org": "NVIDIA / SKT",
+      "tracking_status": "延续"
+    }
+  ],
+  "ai_companies": [
+    {
+      "title": "NVIDIA与SoftBank神经接收机实验",
+      "date": "2026-11-06",
+      "source_name": "NVIDIA",
+      "source_url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
+      "source_type": "官方技术博客/受控实验",
+      "importance": "重大更新",
+      "summary": "15组干扰条件下上行吞吐均优于传统接收机，最高约+60%。",
+      "technical_significance": "L1 AI接收机性能证据；不代表现网平均增益。",
+      "impact_for_korean_telco": "对比BLER、GPU功耗、P99处理时延与CPU/专用AI基带成本。",
+      "topic": "AI-RAN / L1",
+      "company_or_org": "NVIDIA / SoftBank",
+      "tracking_status": "延续"
+    },
+    {
+      "title": "NVIDIA开源OpenShell与GPU Kubernetes基础设施",
+      "date": "2026-11-10",
+      "source_name": "NVIDIA",
+      "source_url": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
+      "source_type": "官方技术博客/开源公告",
+      "importance": "值得关注",
+      "summary": "OpenShell进入CNCF Sandbox，NVKE/NVKR公开预览，SKT列入集成计划。",
+      "technical_significance": "Agent权限隔离和推理资源调度基础设施；不等于SKT生产部署。",
+      "impact_for_korean_telco": "评估多租户GPU调度、Agent安全和推理弹性。",
+      "topic": "Network for AI",
+      "company_or_org": "NVIDIA / Google / SKT",
+      "tracking_status": "延续"
+    },
+    {
+      "title": "NVIDIA为SKT A.X K2发布Dynamo推理配方",
+      "date": "2026-11-08",
+      "source_name": "NVIDIA",
+      "source_url": "https://blogs.nvidia.com/blog/nvidia-dynamo-korea-open-models/",
+      "source_type": "官方技术博客/开发者资料",
+      "importance": "值得关注",
+      "summary": "B200优化配方官方宣称性能最高2倍。",
+      "technical_significance": "模型部署效率改善，不等于网络空口增益。",
+      "impact_for_korean_telco": "测试TTFT、tokens/s、P99与单位Token成本。",
+      "topic": "AI推理",
+      "company_or_org": "NVIDIA / SKT",
+      "tracking_status": "延续"
+    }
+  ],
+  "timeline15d": [
+    {
+      "title": "Ericsson提出6G核心网独立AI Domain及AI Gateway架构",
+      "date": "2026-11-13",
+      "source_name": "Ericsson",
+      "source_url": "https://www.ericsson.com/en/blog/2026/11/ai-domain-6g-core-network",
+      "source_type": "厂商技术博客/研究架构观点",
+      "importance": "重大更新",
+      "summary": "提出PS Domain与AI Domain分离，AI Gateway、AI Handler、AI Support分别承担入口、意图处理、身份鉴权，面向UE和AF的AI1/AI2接口尚待标准化。",
+      "technical_significance": "为Agent身份、意图、数据和推理服务提供运营商可控入口；是厂商架构主张，不是3GPP批准的6G规范。",
+      "impact_for_korean_telco": "韩国运营商应评估AI Gateway收费、Agent实名鉴权、CAMARA/NEF复用及AI域与5GC的接口边界。",
+      "topic": "6G / AI-native Core",
+      "company_or_org": "Ericsson",
+      "tracking_status": "新增收录，11月13日发布"
+    },
+    {
+      "title": "Ericsson与Vodafone Egypt测试AI-native链路自适应调度",
+      "date": "2026-11-09",
+      "source_name": "Ericsson",
+      "source_url": "https://www.ericsson.com/en/press-releases/5/2026/vodafone-egypt-trials-ai-native-ran-scheduler",
+      "source_type": "官方新闻稿/5G现网试验",
+      "importance": "重大更新",
+      "summary": "2600MHz现网试验频谱效率最高+14%、下行吞吐最高+50%。",
+      "technical_significance": "验证L2 AI链路自适应潜力；均为最高值而非平均收益。",
+      "impact_for_korean_telco": "复现MCS、BLER、P99调度时延、算力与能耗。",
+      "topic": "AI-RAN / L2",
+      "company_or_org": "Ericsson / Vodafone Egypt",
+      "tracking_status": "延续"
+    },
+    {
+      "title": "NVIDIA与SoftBank神经接收机实验",
+      "date": "2026-11-06",
+      "source_name": "NVIDIA",
+      "source_url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
+      "source_type": "官方技术博客/受控实验",
+      "importance": "重大更新",
+      "summary": "15组干扰条件下上行吞吐均优于传统接收机，最高约+60%。",
+      "technical_significance": "L1 AI接收机性能证据；不代表现网平均增益。",
+      "impact_for_korean_telco": "对比BLER、GPU功耗、P99处理时延与CPU/专用AI基带成本。",
+      "topic": "AI-RAN / L1",
+      "company_or_org": "NVIDIA / SoftBank",
+      "tracking_status": "延续"
+    },
+    {
+      "title": "Ericsson与Verizon部署AAS Cell Shaper rApp",
+      "date": "2026-11-03",
+      "source_name": "Ericsson",
+      "source_url": "https://www.ericsson.com/en/press-releases/6/2026/verizon-and-ericsson-partner-to-transform-ai-native-autonomous-networks",
+      "source_type": "官方新闻稿/现网验证",
+      "importance": "重大更新",
+      "summary": "24×7闭环优化，下行DRB吞吐最高+8.9%、上行UE吞吐最高+8%。",
+      "technical_significance": "证明网络级rApp优化可在现网产生增益；不等于L1/L2收益。",
+      "impact_for_korean_telco": "验证rApp接口、闭环周期、异常回退与统计收益。",
+      "topic": "AI-RAN / rApp",
+      "company_or_org": "Ericsson / Verizon",
+      "tracking_status": "延续"
+    },
+    {
+      "title": "NVIDIA开源OpenShell与GPU Kubernetes基础设施",
+      "date": "2026-11-10",
+      "source_name": "NVIDIA",
+      "source_url": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
+      "source_type": "官方技术博客/开源公告",
+      "importance": "值得关注",
+      "summary": "OpenShell进入CNCF Sandbox，NVKE/NVKR公开预览，SKT列入集成计划。",
+      "technical_significance": "Agent权限隔离和推理资源调度基础设施；不等于SKT生产部署。",
+      "impact_for_korean_telco": "评估多租户GPU调度、Agent安全和推理弹性。",
+      "topic": "Network for AI",
+      "company_or_org": "NVIDIA / Google / SKT",
+      "tracking_status": "延续"
+    },
+    {
+      "title": "LG U+公布第三季度AIDC收入增长",
+      "date": "2026-11-06",
+      "source_name": "LG U+",
+      "source_url": "https://news.lguplus.com/23259",
+      "source_type": "官方财务公告",
+      "importance": "值得关注",
+      "summary": "AIDC收入1317亿韩元，同比+27.7%。",
+      "technical_significance": "AI基础设施商业需求增强，不能推导AI-RAN回报。",
+      "impact_for_korean_telco": "评估城域承载、供电、液冷与算力调度。",
+      "topic": "Network for AI",
+      "company_or_org": "LG U+",
+      "tracking_status": "延续"
+    },
+    {
+      "title": "Ericsson与Telia完成U6GHz预标准OTA演示",
+      "date": "2026-11-02",
+      "source_name": "Ericsson",
+      "source_url": "https://www.ericsson.com/en/news/2026/11/telia_sweden_and_ericsson_collaborate_on_the_path_to_6g",
+      "source_type": "官方新闻/预标准演示",
+      "importance": "值得关注",
+      "summary": "瑞典Upper-6GHz预标准6G OTA演示。",
+      "technical_significance": "原型验证不是规范冻结或商用6G。",
+      "impact_for_korean_telco": "核实7GHz覆盖、带宽与AAU复用。",
+      "topic": "6G / U6GHz",
+      "company_or_org": "Ericsson / Telia",
+      "tracking_status": "延续"
+    },
+    {
+      "title": "Ericsson与Swisscom推进5GC GitOps运维",
+      "date": "2026-11-03",
+      "source_name": "Ericsson",
+      "source_url": "https://www.ericsson.com/en/press-releases/2026/11/ericsson-advances-autonomous-networks-with-a-faster-simpler-software-approach",
+      "source_type": "官方新闻稿/部署案例",
+      "importance": "值得关注",
+      "summary": "Swisscom报告软件升级时间减少60%、服务建立时间减少97%。",
+      "technical_significance": "声明式运维是自治执行基础，不等于L4自治。",
+      "impact_for_korean_telco": "核实配置漂移、回滚和变更审计。",
+      "topic": "自治网络",
+      "company_or_org": "Ericsson / Swisscom",
+      "tracking_status": "延续"
+    },
+    {
+      "title": "NVIDIA为SKT A.X K2发布Dynamo推理配方",
+      "date": "2026-11-08",
+      "source_name": "NVIDIA",
+      "source_url": "https://blogs.nvidia.com/blog/nvidia-dynamo-korea-open-models/",
+      "source_type": "官方技术博客/开发者资料",
+      "importance": "值得关注",
+      "summary": "B200优化配方官方宣称性能最高2倍。",
+      "technical_significance": "模型部署效率改善，不等于网络空口增益。",
+      "impact_for_korean_telco": "测试TTFT、tokens/s、P99与单位Token成本。",
+      "topic": "AI推理",
+      "company_or_org": "NVIDIA / SKT",
+      "tracking_status": "延续"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Ericsson",
+      "url": "https://www.ericsson.com/en/blog/2026/11/ai-domain-6g-core-network",
+      "date": "2026-11-13",
+      "type": "厂商技术博客/研究架构观点"
+    },
+    {
+      "name": "Ericsson",
+      "url": "https://www.ericsson.com/en/press-releases/5/2026/vodafone-egypt-trials-ai-native-ran-scheduler",
+      "date": "2026-11-09",
+      "type": "官方新闻稿/5G现网试验"
+    },
+    {
+      "name": "NVIDIA",
+      "url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
+      "date": "2026-11-06",
+      "type": "官方技术博客/受控实验"
+    },
+    {
+      "name": "Ericsson",
+      "url": "https://www.ericsson.com/en/press-releases/6/2026/verizon-and-ericsson-partner-to-transform-ai-native-autonomous-networks",
+      "date": "2026-11-03",
+      "type": "官方新闻稿/现网验证"
+    },
+    {
+      "name": "NVIDIA",
+      "url": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
+      "date": "2026-11-10",
+      "type": "官方技术博客/开源公告"
+    },
+    {
+      "name": "LG U+",
+      "url": "https://news.lguplus.com/23259",
+      "date": "2026-11-06",
+      "type": "官方财务公告"
+    },
+    {
+      "name": "Ericsson",
+      "url": "https://www.ericsson.com/en/news/2026/11/telia_sweden_and_ericsson_collaborate_on_the_path_to_6g",
+      "date": "2026-11-02",
+      "type": "官方新闻/预标准演示"
+    },
+    {
+      "name": "Ericsson",
+      "url": "https://www.ericsson.com/en/press-releases/2026/11/ericsson-advances-autonomous-networks-with-a-faster-simpler-software-approach",
+      "date": "2026-11-03",
+      "type": "官方新闻稿/部署案例"
+    },
+    {
+      "name": "NVIDIA",
+      "url": "https://blogs.nvidia.com/blog/nvidia-dynamo-korea-open-models/",
+      "date": "2026-11-08",
+      "type": "官方技术博客/开发者资料"
+    },
+    {
+      "name": "3GPP TS 23.370（此前核查）",
+      "url": "https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=5530",
+      "date": "2026-09-28"
+    },
+    {
+      "name": "3GPP TS 29.568（此前核查）",
+      "url": "https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=5537",
+      "date": "2026-09-14"
+    }
+  ],
+  "coverage": {
+    "vendors": [
+      "Huawei",
+      "ZTE",
+      "Ericsson",
+      "Nokia",
+      "Samsung"
+    ],
+    "operators": [
+      "China Mobile",
+      "LG U+",
+      "SKT",
+      "KT",
+      "SoftBank",
+      "NTT DOCOMO",
+      "Rakuten"
+    ],
+    "ai_companies": [
+      "Anthropic",
+      "OpenAI",
+      "Google",
+      "NVIDIA"
+    ],
+    "note": "覆盖名单不等于每家公司均有新增；未核实事项不制造事件。"
+  }
+}
