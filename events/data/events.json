@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16",
+  "updatedAt": "2026-11-17",
   "events": [
     {
       "id": "eu-korea-digital-partnership-2026",
@@ -1560,7 +1560,7 @@
       "endDate": "2026-11-19",
       "location": "Yonsei University, Seoul, Korea",
       "language": "English",
-      "status": "announced",
+      "status": "ongoing",
       "registrationEligibility": "Internal face-to-face meeting; no public registration channel found.",
       "fee": "Not publicly announced",
       "officialUrl": "https://6garrow.com/events/6g-arrow-f2f-meeting/",
@@ -5336,7 +5336,7 @@
       "endDate": "2026-11-16",
       "location": "TIPSTOWN S6 1F, 168 Yeoksam-ro, Gangnam-gu, Seoul, South Korea",
       "language": "Korean",
-      "status": "ongoing",
+      "status": "completed",
       "registrationDeadline": "2026-11-15T23:59:00+09:00",
       "registrationUrl": "https://tally.so/r/5XBPLo",
       "registrationEligibility": "Robot data / Physical AI industry practitioners; first-come-first-served, 30 places; registration confirmation by email.",
