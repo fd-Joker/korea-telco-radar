@@ -1,8 +1,8 @@
 {
-  "date": "2026-11-16",
+  "date": "2026-11-17",
   "title": "Korea Telco Advanced Technology Radar",
   "edition_time": "08:30 KST",
-  "editorial_note": "截至11月16日08:30 KST，有限检索未确认过去24小时重大新公告。补录11月13日Ericsson 6G AI Domain架构文章；它是厂商技术观点而非3GPP正式规范。其余为近期延续事件。",
+  "editorial_note": "截至2026-11-17 08:30 KST，定向检索未确认过去24小时三大专题新的重大一手技术里程碑。Top 5为11月3日至13日既有事件的延续，不冒充当日新闻；未对全部追踪企业和3GPP CR完成穷尽核验。",
   "top5": [
     {
       "title": "Ericsson提出6G核心网独立AI Domain及AI Gateway架构",
@@ -16,7 +16,7 @@
       "impact_for_korean_telco": "韩国运营商应评估AI Gateway收费、Agent实名鉴权、CAMARA/NEF复用及AI域与5GC的接口边界。",
       "topic": "6G / AI-native Core",
       "company_or_org": "Ericsson",
-      "tracking_status": "新增收录，11月13日发布"
+      "tracking_status": "延续（非11月17日新发布）"
     },
     {
       "title": "Ericsson与Vodafone Egypt测试AI-native链路自适应调度",
@@ -30,7 +30,7 @@
       "impact_for_korean_telco": "复现MCS、BLER、P99调度时延、算力与能耗。",
       "topic": "AI-RAN / L2",
       "company_or_org": "Ericsson / Vodafone Egypt",
-      "tracking_status": "延续"
+      "tracking_status": "延续（非11月17日新发布）"
     },
     {
       "title": "NVIDIA与SoftBank神经接收机实验",
@@ -44,7 +44,7 @@
       "impact_for_korean_telco": "对比BLER、GPU功耗、P99处理时延与CPU/专用AI基带成本。",
       "topic": "AI-RAN / L1",
       "company_or_org": "NVIDIA / SoftBank",
-      "tracking_status": "延续"
+      "tracking_status": "延续（非11月17日新发布）"
     },
     {
       "title": "Ericsson与Verizon部署AAS Cell Shaper rApp",
@@ -58,7 +58,7 @@
       "impact_for_korean_telco": "验证rApp接口、闭环周期、异常回退与统计收益。",
       "topic": "AI-RAN / rApp",
       "company_or_org": "Ericsson / Verizon",
-      "tracking_status": "延续"
+      "tracking_status": "延续（非11月17日新发布）"
     },
     {
       "title": "NVIDIA开源OpenShell与GPU Kubernetes基础设施",
@@ -72,14 +72,14 @@
       "impact_for_korean_telco": "评估多租户GPU调度、Agent安全和推理弹性。",
       "topic": "Network for AI",
       "company_or_org": "NVIDIA / Google / SKT",
-      "tracking_status": "延续"
+      "tracking_status": "延续（非11月17日新发布）"
     }
   ],
   "trends": {
     "AI-RAN": {
-      "direction": "→ 现场验证延续",
+      "direction": "→ 分层现网验证延续",
       "summary": "L1神经接收机、L2调度、rApp闭环分别有实验或现网证据，但最大增益不可相加。",
-      "key_change": "较11月15日无新核实KPI；关注跨层TCO与P99。",
+      "key_change": "较11月16日未核实新增KPI；L1、L2和rApp收益不可直接叠加。",
       "sources": [
         {
           "name": "Ericsson",
@@ -94,9 +94,9 @@
       ]
     },
     "6G": {
-      "direction": "↑ AI-native Core架构观点补录",
+      "direction": "→ AI-native Core研究延续",
       "summary": "Ericsson提出独立AI Domain、AIGW/AISF/AIHF及Agent身份、意图服务；这是厂商研究观点，AI1/AI2尚待标准化。",
-      "key_change": "较11月15日补录11月13日Ericsson技术文章；非过去24小时新发布，也非Approved CR。",
+      "key_change": "较11月16日未核实新增规范性突破；11月13日AI Domain仍属厂商观点。",
       "sources": [
         {
           "name": "Ericsson",
@@ -113,7 +113,7 @@
     "Ambient IoT": {
       "direction": "→ 未确认新增规范性进展",
       "summary": "TS 23.370/29.568仍须以3GPP Portal核查；未完成逐项CR审核，不宣称无新增。",
-      "key_change": "较11月15日无已核实状态改变。",
+      "key_change": "较11月16日无已核实变化；3GPP批准CR未逐项审查。",
       "sources": [
         {
           "name": "3GPP TS 23.370（此前核查）",
@@ -444,20 +444,6 @@
       "tracking_status": "延续"
     },
     {
-      "title": "Ericsson与Telia完成U6GHz预标准OTA演示",
-      "date": "2026-11-02",
-      "source_name": "Ericsson",
-      "source_url": "https://www.ericsson.com/en/news/2026/11/telia_sweden_and_ericsson_collaborate_on_the_path_to_6g",
-      "source_type": "官方新闻/预标准演示",
-      "importance": "值得关注",
-      "summary": "瑞典Upper-6GHz预标准6G OTA演示。",
-      "technical_significance": "原型验证不是规范冻结或商用6G。",
-      "impact_for_korean_telco": "核实7GHz覆盖、带宽与AAU复用。",
-      "topic": "6G / U6GHz",
-      "company_or_org": "Ericsson / Telia",
-      "tracking_status": "延续"
-    },
-    {
       "title": "Ericsson与Swisscom推进5GC GitOps运维",
       "date": "2026-11-03",
       "source_name": "Ericsson",
@@ -576,5 +562,6 @@
       "NVIDIA"
     ],
     "note": "覆盖名单不等于每家公司均有新增；未核实事项不制造事件。"
-  }
+  },
+  "coverage_note": "追踪Huawei、ZTE、Ericsson、Nokia、Samsung；China Mobile、LG U+、SKT、KT、SoftBank、NTT DOCOMO、Rakuten；Anthropic、OpenAI、Google、NVIDIA。无已核实事件不代表无活动。"
 }
