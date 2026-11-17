@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17",
+  "updatedAt": "2026-11-18",
   "events": [
     {
       "id": "eu-korea-digital-partnership-2026",
@@ -3287,7 +3287,7 @@
       "endDate": "2026-11-20",
       "location": "aT Center Exhibition Hall 2, Yangjae, Seoul",
       "language": "Korean",
-      "status": "upcoming",
+      "status": "ongoing",
       "priority": "B",
       "operatorRelevance": "medium",
       "officialUrl": "https://smikorea.kr/Exhibition-Overview",
@@ -3319,7 +3319,7 @@
       "endDate": "2026-11-18",
       "location": "Suwon Convention Center, 2F Rooms 202–203, Suwon",
       "language": "Korean",
-      "status": "upcoming",
+      "status": "ongoing",
       "priority": "B",
       "operatorRelevance": "medium",
       "officialUrl": "https://www.onoffmix.com/event/351050",
@@ -3945,7 +3945,7 @@
       "endDate": "2026-11-20",
       "location": "COEX THE PLATZ, Seoul, Korea",
       "language": "Korean (other languages not announced)",
-      "status": "registration_closing",
+      "status": "ongoing",
       "registrationDeadline": "2026-11-17T18:00:00+09:00",
       "registrationUrl": "https://krshow.co.kr/kor/enroll/regist_form.asp",
       "registrationEligibility": "Online advance visitor registration: one attendee per identity; university students and older, minors may enter with guardian. Conference admission terms not separately announced.",
