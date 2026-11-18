@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18",
+  "updatedAt": "2026-11-19",
   "events": [
     {
       "id": "eu-korea-digital-partnership-2026",
@@ -1576,7 +1576,7 @@
       "title": "6G Vision Fest 2026",
       "titleKo": "6G Vision Fest 2026",
       "titleZh": "6G Vision Fest 2026 韩国 6G 愿景大会",
-      "summary": "韩国国家级 6G 活动，将发布“6G-based Hyper-AI Network”愿景，包含6G技术展、服务Demo和国际会议/VIP Summit；官方参展商目录已列ETRI、Samsung、SKT、KT、LG U+、Ericsson、Huawei、Keysight、VIAVI、Rohde & Schwarz、RFHIC、HFR等，展商名单不等于确认Speaker。",
+      "summary": "韩国国家级 6G 活动，将发布“6G-based Hyper-AI Network”愿景，包含6G技术展、服务Demo和国际会议/VIP Summit；官方参展商目录已列ETRI、Samsung、SKT、KT、LG U+、Ericsson、Huawei、Keysight、VIAVI、Rohde & Schwarz、RFHIC、HFR等，展商名单不等于确认Speaker。 官方确认公众展览免费，2026-12-09 13:00–18:00、12-10 10:00–18:00、12-11 10:00–17:00；Mobile Korea会议另行收费。",
       "topics": [
         "6G",
         "Hyper-AI Network",
@@ -3319,7 +3319,7 @@
       "endDate": "2026-11-18",
       "location": "Suwon Convention Center, 2F Rooms 202–203, Suwon",
       "language": "Korean",
-      "status": "ongoing",
+      "status": "completed",
       "priority": "B",
       "operatorRelevance": "medium",
       "officialUrl": "https://www.onoffmix.com/event/351050",
@@ -3353,7 +3353,7 @@
       "endDate": "2026-11-19",
       "location": "Suwon Convention Center, 2F Rooms 202–203, Suwon",
       "language": "Korean",
-      "status": "upcoming",
+      "status": "ongoing",
       "priority": "B",
       "operatorRelevance": "medium",
       "officialUrl": "https://www.onoffmix.com/event/351046",
@@ -4855,7 +4855,7 @@
       "endDate": "2026-11-19",
       "location": "Online live stream (offline venue not publicly announced)",
       "language": "暂未公布（韩文活动页）",
-      "status": "registration_closing",
+      "status": "ongoing",
       "registrationOpen": "2026-10-21",
       "registrationDeadline": "2026-11-18T18:00:00+09:00",
       "registrationUrl": "https://event-us.kr/lgupluswebinar/event/137697",
