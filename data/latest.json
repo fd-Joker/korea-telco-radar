@@ -1,8 +1,8 @@
 {
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "title": "Korea Telco Advanced Technology Radar",
   "edition_time": "08:30 KST",
-  "editorial_note": "截至11月19日08:30 KST，定向一手来源检索未确认过去24小时新的重大AI-RAN、6G或Ambient IoT技术里程碑。相较11月18日，已核实的三大技术趋势无实质变化；Top 5为11月9—17日发布的延续事件，不应当作今日新公告。检索非穷尽，3GPP批准CR未逐项核验。",
+  "editorial_note": "截至2026年11月20日08:30 KST，定向一手来源检索尚未确认过去24小时AI-RAN、6G、Ambient IoT新的重大技术或3GPP规范性里程碑。与11月19日相比无可核实的重大变化。Top 5为11月9—17日延续事件，非今日新增。未对全部公司及3GPP批准CR完成穷尽核查。",
   "top5": [
     {
       "title": "DNB与Ericsson获得TM Forum三类RAN故障管理L4自治验证",
@@ -16,7 +16,7 @@
       "impact_for_korean_telco": "SKT/KT/LG U+应要求按故障类别拆分自动修复率、MTTR、人工介入、误操作和回退，参考TM Forum评估方法。",
       "topic": "AI-RAN / 自治运维",
       "company_or_org": "Ericsson / DNB",
-      "tracking_status": "延续（非11月19日新增）"
+      "tracking_status": "延续（非11月20日新增）"
     },
     {
       "title": "Nokia牵头参与北欧波罗的海联邦AI Gigafactory联盟",
@@ -30,7 +30,7 @@
       "impact_for_korean_telco": "韩国运营商可研究AIDC联邦组网、跨域调度、供电约束和主权AI服务，但不可按已建算力计入。",
       "topic": "Network for AI / AI基础设施",
       "company_or_org": "Nokia / Telia / 联盟",
-      "tracking_status": "延续（非11月19日新增）"
+      "tracking_status": "延续（非11月20日新增）"
     },
     {
       "title": "One New Zealand选用Nokia自治网络数据与保障平台",
@@ -44,7 +44,7 @@
       "impact_for_korean_telco": "韩国应比较Nokia透明化glass-box与Ericsson DNB已验证场景的成熟度和可审计性。",
       "topic": "AI-RAN / 自治网络",
       "company_or_org": "Nokia / One New Zealand",
-      "tracking_status": "延续（非11月19日新增）"
+      "tracking_status": "延续（非11月20日新增）"
     },
     {
       "title": "Ericsson提出6G Core AI Domain及AI Gateway研究架构",
@@ -58,7 +58,7 @@
       "impact_for_korean_telco": "评估Agent身份、NEF/CAMARA复用和AI Gateway潜在商业模式。",
       "topic": "6G / AI-native Core",
       "company_or_org": "Ericsson",
-      "tracking_status": "延续（非11月19日新增）"
+      "tracking_status": "延续（非11月20日新增）"
     },
     {
       "title": "Ericsson与Vodafone Egypt验证AI链路自适应",
@@ -72,7 +72,7 @@
       "impact_for_korean_telco": "复现BLER、MCS、P99调度时延、算力与能耗。",
       "topic": "AI-RAN / L2",
       "company_or_org": "Ericsson / Vodafone Egypt",
-      "tracking_status": "延续（非11月19日新增）"
+      "tracking_status": "延续（非11月20日新增）"
     }
   ],
   "trends": {
