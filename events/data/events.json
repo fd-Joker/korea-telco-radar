@@ -2567,7 +2567,12 @@
         "Satoshi Konishi (KDDI Research)",
         "Jihye Lee (KT)",
         "Dongwook Kim (SKT)",
-        "Youngouk Kim (KETI)"
+        "Youngouk Kim (KETI)",
+        "Barbara Pareglio (GSMA)",
+        "Joonsung Lee (LG Electronics)",
+        "Kyusoon Hwang (Wizcore)",
+        "Jihong Park (SUTD)",
+        "Byungyong You (Autonomous A2Z)"
       ],
       "startDate": "2026-12-11",
       "endDate": "2026-12-11",
@@ -2584,14 +2589,39 @@
       "whyItMatters": "韩国运营商、NVIDIA、KDDI的AI-RAN及Network AX PoC直接交流，且专设6G+机器人应用议题。",
       "agenda": [
         {
-          "time": "2026-12-11 11:15–12:25",
-          "title": "AI-RAN & Agentic AI Network",
-          "speaker": "Satoshi Konishi (KDDI); CC Chong (NVIDIA); Sangheon Lee (LG U+)"
+          "time": "2026-12-11 10:10–10:40",
+          "title": "Why KDDI needs AI-RAN and RAN Digital Twin",
+          "speaker": "Satoshi Konishi (KDDI Research)"
+        },
+        {
+          "time": "2026-12-11 10:40–11:10",
+          "title": "AI-Native Networks: From AI-RAN to Industrial Transformation",
+          "speaker": "Joonsung Lee (LG Electronics)"
+        },
+        {
+          "time": "2026-12-11 11:25–11:45",
+          "title": "Transforming networks into intelligent platforms",
+          "speaker": "Barbara Pareglio (GSMA)"
+        },
+        {
+          "time": "2026-12-11 11:45–12:05",
+          "title": "From RAN Data to Agentic Networks",
+          "speaker": "CC Chong (NVIDIA)"
+        },
+        {
+          "time": "2026-12-11 12:05–12:25",
+          "title": "LG Uplus' Journey Toward an AI-Driven Autonomous Network",
+          "speaker": "Sangheon Lee (LG U+)"
         },
         {
           "time": "2026-12-11 13:35–14:55",
-          "title": "Network AX Proof of Concept",
+          "title": "Network AX Proof of Concept: shipyards, Physical AI, autonomous manufacturing",
           "speaker": "Jihye Lee (KT); Dongwook Kim (SKT); Kyusoon Hwang (Wizcore); Jihong Park (SUTD)"
+        },
+        {
+          "time": "2026-12-11 15:50–16:10",
+          "title": "A2Z’s E2E AI Strategy for Real-World Deployment",
+          "speaker": "Byungyong You (Autonomous A2Z)"
         },
         {
           "time": "2026-12-11 16:10–16:30",
