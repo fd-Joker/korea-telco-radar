@@ -1,8 +1,8 @@
 {
-  "date": "2026-11-21",
+  "date": "2026-11-22",
   "title": "Korea Telco Advanced Technology Radar",
   "edition_time": "08:30 KST",
-  "editorial_note": "截至2026年11月21日08:30 KST，定向检索尚未确认过去24小时AI-RAN、6G、Ambient IoT新的重大一手技术公告。与11月20日相比无已核实重大新增；补充核对11月18日华为/Vodacom U6GHz实验室验证。Top 5为历史重要事件延续，非今日发布。3GPP CR与全部覆盖企业未完成穷尽审查。",
+  "editorial_note": "截至2026-11-22 08:30 KST，过去24小时定向一手检索未确认AI-RAN、6G或Ambient IoT新的重大技术里程碑；Top 5为11月9—18日的已核实重点事件延续，非当日新公告。11月20日Anthropic上市相关公告属于公司资本事件，不计入无线技术突破。与11月21日相比，三大专题没有新确认的技术或3GPP规范性进展；未穷尽逐项检查全部TDoc/CR。",
   "top5": [
     {
       "title": "DNB与Ericsson获得TM Forum三类RAN故障管理L4自治验证",
@@ -16,7 +16,7 @@
       "impact_for_korean_telco": "SKT/KT/LG U+应要求按故障类别拆分自动修复率、MTTR、人工介入、误操作和回退，参考TM Forum评估方法。",
       "topic": "AI-RAN / 自治运维",
       "company_or_org": "Ericsson / DNB",
-      "tracking_status": "延续/补充（非2026-11-21新增）"
+      "tracking_status": "延续跟踪（非2026-11-22新增）"
     },
     {
       "title": "Vodacom与华为完成U6GHz VitaAAU/RetinaMIMO端到端实验室验证",
@@ -30,7 +30,7 @@
       "impact_for_korean_telco": "韩国运营商应在实际候选频段、站址和终端条件下复算覆盖、射频功耗及CAPEX，要求提供1024-AE对照基线。",
       "topic": "6G / U6GHz / 5G-Advanced",
       "company_or_org": "Huawei / Vodacom",
-      "tracking_status": "延续/补充（非2026-11-21新增）"
+      "tracking_status": "延续跟踪（非2026-11-22新增）"
     },
     {
       "title": "Nokia牵头参与北欧波罗的海联邦AI Gigafactory联盟",
@@ -44,7 +44,7 @@
       "impact_for_korean_telco": "韩国运营商可研究AIDC联邦组网、跨域调度、供电约束和主权AI服务，但不可按已建算力计入。",
       "topic": "Network for AI / AI基础设施",
       "company_or_org": "Nokia / Telia / 联盟",
-      "tracking_status": "延续/补充（非2026-11-21新增）"
+      "tracking_status": "延续跟踪（非2026-11-22新增）"
     },
     {
       "title": "One New Zealand选用Nokia自治网络数据与保障平台",
@@ -58,7 +58,7 @@
       "impact_for_korean_telco": "韩国应比较Nokia透明化glass-box与Ericsson DNB已验证场景的成熟度和可审计性。",
       "topic": "AI-RAN / 自治网络",
       "company_or_org": "Nokia / One New Zealand",
-      "tracking_status": "延续/补充（非2026-11-21新增）"
+      "tracking_status": "延续跟踪（非2026-11-22新增）"
     },
     {
       "title": "Ericsson提出6G Core AI Domain及AI Gateway研究架构",
@@ -72,14 +72,14 @@
       "impact_for_korean_telco": "评估Agent身份、NEF/CAMARA复用和AI Gateway潜在商业模式。",
       "topic": "6G / AI-native Core",
       "company_or_org": "Ericsson",
-      "tracking_status": "延续/补充（非2026-11-21新增）"
+      "tracking_status": "延续跟踪（非2026-11-22新增）"
     }
   ],
   "trends": {
     "AI-RAN": {
       "direction": "→ 从L1/L2性能试验延伸至生产网络自治验证",
       "summary": "DNB/Ericsson在三类故障管理场景获得L4验证；Vodafone Egypt L2链路自适应继续提供现网收益样本。",
-      "key_change": "与11月20日相比，未确认过去24小时新一手技术里程碑；延续故障自治与无线性能两条验证路线。",
+      "key_change": "相较11月21日未确认新增L1/L2实测KPI或生产网L4认证；DNB故障自治和Vodafone Egypt链路自适应持续跟踪。",
       "sources": [
         {
           "name": "Ericsson/DNB",
@@ -96,7 +96,7 @@
     "6G": {
       "direction": "→ U6GHz预商用验证与AI-native Core研究并行",
       "summary": "华为/Vodacom U6GHz实验室端到端验证、Ericsson AI Domain架构研究均为标准前准备；尚不等于6G已商用。",
-      "key_change": "补充核对11月18日华为/Vodacom官方材料；并非11月21日新发布。",
+      "key_change": "相较11月21日未确认新6G规范性突破；U6GHz实验室验证与6G Core厂商架构仍是既有事件。",
       "sources": [
         {
           "name": "Huawei/Vodacom",
@@ -113,7 +113,7 @@
     "Ambient IoT": {
       "direction": "→ 3GPP规范及互操作状态继续观察",
       "summary": "本轮未确认过去24小时新增批准CR；未完成3GPP门户所有TDoc/CR逐项审查，不能据此断言没有更新。",
-      "key_change": "与11月20日相比没有已独立核实的新规范性事件。",
+      "key_change": "相较11月21日未确认新的Approved CR；未逐项核查全部3GPP会议TDoc，不能断言没有变更。",
       "sources": [
         {
           "name": "3GPP TS 23.370",
