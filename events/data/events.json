@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21",
+  "updatedAt": "2026-11-22",
   "events": [
     {
       "id": "eu-korea-digital-partnership-2026",
@@ -5071,7 +5071,7 @@
       "endDate": "2026-11-21",
       "location": "Centerfield East, 18F AWS Korea, 231 Teheran-ro, Gangnam-gu, Seoul",
       "language": "Korean",
-      "status": "ongoing",
+      "status": "completed",
       "registrationOpen": "2026-10-16T09:30:00+09:00",
       "registrationDeadline": "2026-11-16T23:30:00+09:00",
       "registrationUrl": "https://event-us.kr/pytorchkr/event/136733",
@@ -5132,7 +5132,7 @@
       "endDate": "2026-11-22",
       "location": "SpaceShare Samseong Station Center, B1F, 20 Yeongdong-daero 96-gil, Gangnam-gu, Seoul",
       "language": "Korean",
-      "status": "upcoming",
+      "status": "ongoing",
       "registrationOpen": "2026-10-19T18:00:00+09:00",
       "registrationDeadline": "2026-11-19T18:00:00+09:00",
       "registrationUrl": "https://event-us.kr/awskrug/event/137627",
@@ -5298,7 +5298,7 @@
       "endDate": "2026-11-21",
       "location": "Dream Forest Hall, 3F, 138 Teheran-ro, Gangnam-gu, Seoul, South Korea",
       "language": "Korean (program titles partly English)",
-      "status": "ongoing",
+      "status": "completed",
       "registrationOpen": "2026-10-30T12:00:00+09:00",
       "registrationDeadline": "2026-11-20T17:00:00+09:00",
       "registrationUrl": "https://event-us.kr/m/138890/63964",
