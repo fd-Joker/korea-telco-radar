@@ -1,9 +1,23 @@
 {
-  "date": "2026-11-22",
+  "date": "2026-11-23",
   "title": "Korea Telco Advanced Technology Radar",
   "edition_time": "08:30 KST",
-  "editorial_note": "截至2026-11-22 08:30 KST，过去24小时定向一手检索未确认AI-RAN、6G或Ambient IoT新的重大技术里程碑；Top 5为11月9—18日的已核实重点事件延续，非当日新公告。11月20日Anthropic上市相关公告属于公司资本事件，不计入无线技术突破。与11月21日相比，三大专题没有新确认的技术或3GPP规范性进展；未穷尽逐项检查全部TDoc/CR。",
+  "editorial_note": "截至2026-11-23 08:30 KST，过去24小时（11月22日08:30—23日08:30）定向一手来源检索未确认AI-RAN、6G、Ambient IoT新增重大技术或标准里程碑。本期新增核实并纳入SKT于11月18日发布的Physical AI/AI-RAN AVM工业场景路线（此前日报未列入），其2027年KG Mobility工厂部署属于计划。Top 5均非过去24小时新公告。未穷尽核对全部公司公告及3GPP TDoc/Approved CR。",
   "top5": [
+    {
+      "title": "SKT公布AI-RAN无人车辆移送验证及2027年工厂实地部署计划",
+      "date": "2026-11-18",
+      "source_name": "SK Telecom",
+      "source_url": "https://news.sktelecom.com/233180",
+      "source_type": "运营商官方新闻稿/既有PoC及未来部署计划",
+      "importance": "值得关注",
+      "summary": "SKT的AI-RAN AVM方案由LiDAR采集点云，边缘侧构建数字孪生并计算路径，通过5G SA控制不具备自动驾驶功能的车辆；2026年板桥Physical AI Living Lab验证，计划2027年在KG Mobility平泽工厂使用Ericsson AI-RAN先导网络开展工业场景验证。11月18日获得韩国电波广播技术大奖部长奖。",
+      "technical_significance": "将AI-RAN定位为Physical AI的感知-推理-控制执行基础设施；已完成停车设施PoC，但2027年工厂项目仍是计划，未公布可复现的P99闭环时延、任务成功率或商业合同。",
+      "impact_for_korean_telco": "建议对SKT/KT/LG U+的机器人项目建立统一任务SLA：LiDAR上行带宽、感知-推理-控制P99、切换连续性、故障安全、推理功耗及工业客户付费意愿；重点跟踪2027年平泽工厂验收。",
+      "topic": "AI-RAN / Physical AI / 运营商",
+      "company_or_org": "SK Telecom / HFR / Seoul Robotics / Ericsson",
+      "tracking_status": "11月18日官方发布；本期新纳入核实，非11月23日新增"
+    },
     {
       "title": "DNB与Ericsson获得TM Forum三类RAN故障管理L4自治验证",
       "date": "2026-11-17",
@@ -47,20 +61,6 @@
       "tracking_status": "延续跟踪（非2026-11-22新增）"
     },
     {
-      "title": "One New Zealand选用Nokia自治网络数据与保障平台",
-      "date": "2026-11-11",
-      "source_name": "Nokia",
-      "source_url": "https://www.nokia.com/newsroom/one-new-zealand-expands-nokia-partnership-to-accelerate-its-autonomous-networks-transformation/",
-      "source_type": "官方新闻稿/部署协议",
-      "importance": "值得关注",
-      "summary": "选择Nokia Assurance Center和Autonomous Networks Data Suite，目标逐步迈向TM Forum L3/L4。",
-      "technical_significance": "数据、保障、可解释决策构成自治基础；签约和目标不等于已获得L4认证。",
-      "impact_for_korean_telco": "韩国应比较Nokia透明化glass-box与Ericsson DNB已验证场景的成熟度和可审计性。",
-      "topic": "AI-RAN / 自治网络",
-      "company_or_org": "Nokia / One New Zealand",
-      "tracking_status": "延续跟踪（非2026-11-22新增）"
-    },
-    {
       "title": "Ericsson提出6G Core AI Domain及AI Gateway研究架构",
       "date": "2026-11-13",
       "source_name": "Ericsson",
@@ -77,26 +77,26 @@
   ],
   "trends": {
     "AI-RAN": {
-      "direction": "→ 从L1/L2性能试验延伸至生产网络自治验证",
-      "summary": "DNB/Ericsson在三类故障管理场景获得L4验证；Vodafone Egypt L2链路自适应继续提供现网收益样本。",
-      "key_change": "相较11月21日未确认新增L1/L2实测KPI或生产网L4认证；DNB故障自治和Vodafone Egypt链路自适应持续跟踪。",
+      "direction": "↗ 从无线性能和故障自治延伸至工业Physical AI任务闭环",
+      "summary": "SKT 11月18日披露AI-RAN通过LiDAR、边缘数字孪生和5G SA控制普通车辆，并规划2027年平泽工厂验证；Ericsson/DNB的L4限定场景故障自治仍为近期重要证据。",
+      "key_change": "相较11月22日新增核实SKT 11月18日官方工业Physical AI路线，属于旧事件补充，不是11月23日新公告。",
       "sources": [
+        {
+          "name": "SK Telecom",
+          "url": "https://news.sktelecom.com/233180",
+          "date": "2026-11-18"
+        },
         {
           "name": "Ericsson/DNB",
           "url": "https://www.ericsson.com/en/news/2026/11/dnb-achieves-l4-autonomy",
           "date": "2026-11-17"
-        },
-        {
-          "name": "Ericsson/Vodafone Egypt",
-          "url": "https://www.ericsson.com/en/press-releases/5/2026/vodafone-egypt-trials-ai-native-ran-scheduler",
-          "date": "2026-11-09"
         }
       ]
     },
     "6G": {
       "direction": "→ U6GHz预商用验证与AI-native Core研究并行",
       "summary": "华为/Vodacom U6GHz实验室端到端验证、Ericsson AI Domain架构研究均为标准前准备；尚不等于6G已商用。",
-      "key_change": "相较11月21日未确认新6G规范性突破；U6GHz实验室验证与6G Core厂商架构仍是既有事件。",
+      "key_change": "相较11月22日未确认新的6G规范性突破；U6GHz实验室验证及AI Domain仍是既有研究或预标准工程证据。",
       "sources": [
         {
           "name": "Huawei/Vodacom",
@@ -113,7 +113,7 @@
     "Ambient IoT": {
       "direction": "→ 3GPP规范及互操作状态继续观察",
       "summary": "本轮未确认过去24小时新增批准CR；未完成3GPP门户所有TDoc/CR逐项审查，不能据此断言没有更新。",
-      "key_change": "相较11月21日未确认新的Approved CR；未逐项核查全部3GPP会议TDoc，不能断言没有变更。",
+      "key_change": "相较11月22日未确认新的Approved CR；3GPP门户TDoc与CR并未逐项穷尽检查。",
       "sources": [
         {
           "name": "3GPP TS 23.370",
@@ -241,6 +241,20 @@
       }
     ],
     "SKT": [
+      {
+        "title": "SKT公布AI-RAN无人车辆移送验证及2027年工厂实地部署计划",
+        "date": "2026-11-18",
+        "source_name": "SK Telecom",
+        "source_url": "https://news.sktelecom.com/233180",
+        "source_type": "运营商官方新闻稿/既有PoC及未来部署计划",
+        "importance": "值得关注",
+        "summary": "SKT的AI-RAN AVM方案由LiDAR采集点云，边缘侧构建数字孪生并计算路径，通过5G SA控制不具备自动驾驶功能的车辆；2026年板桥Physical AI Living Lab验证，计划2027年在KG Mobility平泽工厂使用Ericsson AI-RAN先导网络开展工业场景验证。11月18日获得韩国电波广播技术大奖部长奖。",
+        "technical_significance": "将AI-RAN定位为Physical AI的感知-推理-控制执行基础设施；已完成停车设施PoC，但2027年工厂项目仍是计划，未公布可复现的P99闭环时延、任务成功率或商业合同。",
+        "impact_for_korean_telco": "建议对SKT/KT/LG U+的机器人项目建立统一任务SLA：LiDAR上行带宽、感知-推理-控制P99、切换连续性、故障安全、推理功耗及工业客户付费意愿；重点跟踪2027年平泽工厂验收。",
+        "topic": "AI-RAN / Physical AI / 运营商",
+        "company_or_org": "SK Telecom / HFR / Seoul Robotics / Ericsson",
+        "tracking_status": "11月18日官方发布；本期新纳入核实，非11月23日新增"
+      },
       {
         "title": "NVIDIA OpenShell与GPU Kubernetes基础设施",
         "date": "2026-11-10",
@@ -421,6 +435,20 @@
       "tracking_status": "延续（非11月20日新增）"
     },
     {
+      "title": "SKT公布AI-RAN无人车辆移送验证及2027年工厂实地部署计划",
+      "date": "2026-11-18",
+      "source_name": "SK Telecom",
+      "source_url": "https://news.sktelecom.com/233180",
+      "source_type": "运营商官方新闻稿/既有PoC及未来部署计划",
+      "importance": "值得关注",
+      "summary": "SKT的AI-RAN AVM方案由LiDAR采集点云，边缘侧构建数字孪生并计算路径，通过5G SA控制不具备自动驾驶功能的车辆；2026年板桥Physical AI Living Lab验证，计划2027年在KG Mobility平泽工厂使用Ericsson AI-RAN先导网络开展工业场景验证。11月18日获得韩国电波广播技术大奖部长奖。",
+      "technical_significance": "将AI-RAN定位为Physical AI的感知-推理-控制执行基础设施；已完成停车设施PoC，但2027年工厂项目仍是计划，未公布可复现的P99闭环时延、任务成功率或商业合同。",
+      "impact_for_korean_telco": "建议对SKT/KT/LG U+的机器人项目建立统一任务SLA：LiDAR上行带宽、感知-推理-控制P99、切换连续性、故障安全、推理功耗及工业客户付费意愿；重点跟踪2027年平泽工厂验收。",
+      "topic": "AI-RAN / Physical AI / 运营商",
+      "company_or_org": "SK Telecom / HFR / Seoul Robotics / Ericsson",
+      "tracking_status": "11月18日官方发布；本期新纳入核实，非11月23日新增"
+    },
+    {
       "title": "Vodacom与华为完成U6GHz VitaAAU/RetinaMIMO端到端实验室验证",
       "date": "2026-11-18",
       "source_name": "Huawei",
@@ -539,6 +567,12 @@
       "name": "3GPP TS 29.568",
       "url": "https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=5537",
       "date": "持续维护；本次版本未核实"
+    },
+    {
+      "name": "SK Telecom官方新闻",
+      "url": "https://news.sktelecom.com/233180",
+      "date": "2026-11-18",
+      "type": "运营商官方新闻稿"
     }
   ]
 }
