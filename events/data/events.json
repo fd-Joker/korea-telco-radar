@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23",
+  "updatedAt": "2026-11-24",
   "events": [
     {
       "id": "eu-korea-digital-partnership-2026",
@@ -4123,7 +4123,7 @@
       "endDate": "2026-12-03",
       "location": "Cheongju OSCO, 250 Osongsaengmyeong-ro, Osong-eup, Cheongju, Chungcheongbuk-do, Korea",
       "language": "Korean (other languages not announced)",
-      "status": "registration_open",
+      "status": "registration_closing",
       "registrationDeadline": "2026-11-30",
       "registrationUrl": "https://c-uas.ai.kr/registration/",
       "registrationEligibility": "Individual free visitor pre-registration until Nov 30; group pre-registration for 10+ people; military, public officials, veterans and partner staff may qualify for free entry with proof.",
@@ -4357,7 +4357,15 @@
         "Ryu Yo-el / 류요엘 (KIRIA Humanoid Center)",
         "Seo Seung-ho / 서승호 (Korea University)",
         "Oh Ji-woo / 오지우 (Nota AI)",
-        "Ryu Jae-hyeong / 류제형 (E8 CTO)"
+        "Ryu Jae-hyeong / 류제형 (E8 CTO)",
+        "신민용 (PwC Consulting)",
+        "남경태 (KITECH)",
+        "류요엘 (KIRIA)",
+        "허영진 (Neuromeka CTO)",
+        "박양호 (MICUBE Solution)",
+        "성민수 (IVEX)",
+        "서승호 (Korea University)",
+        "오지우 (Nota AI)"
       ],
       "startDate": "2026-12-08",
       "endDate": "2026-12-08",
@@ -4837,7 +4845,7 @@
       "endDate": "2026-11-26",
       "location": "FKI Conference Center 2F Sapphire Hall, 24 Yeoui-daero, Yeongdeungpo-gu, Seoul / Online",
       "language": "Korean",
-      "status": "registration_open",
+      "status": "registration_closing",
       "registrationOpen": "2026-10-01",
       "registrationDeadline": "2026-11-26T17:00:00+09:00",
       "registrationUrl": "https://event-us.kr/kecft/event/136462",
@@ -5394,6 +5402,88 @@
           "speaker": "Industry participants"
         }
       ],
+      "insights": []
+    },
+    {
+      "id": "ieee-icra-seoul-2027",
+      "title": "IEEE International Conference on Robotics and Automation (ICRA) 2027",
+      "titleZh": "IEEE国际机器人与自动化大会",
+      "topics": [
+        "Robotics",
+        "Physical AI",
+        "Automation"
+      ],
+      "organizer": [
+        "IEEE Robotics and Automation Society"
+      ],
+      "startDate": "2027-05-24",
+      "endDate": "2027-05-28",
+      "location": "COEX, Seoul, Korea",
+      "status": "announced",
+      "priority": "A",
+      "operatorRelevance": "medium",
+      "officialUrl": "https://2027.ieee-icra.org/",
+      "sourceType": "confirmed · IEEE official",
+      "summary": "旗舰机器人会议，含技术论文、Workshop、产业展览与机器人竞赛。普通参会报名尚未核实；作者注册截止2027-03-05。",
+      "whyItMatters": "关注机器人感知、控制、协同及边缘推理需求；不预设蜂窝网络为必要条件。",
+      "agenda": [],
+      "insights": []
+    },
+    {
+      "id": "physical-ai-expo-korea-2027",
+      "title": "Physical AI EXPO KOREA 2027",
+      "titleZh": "韩国Physical AI展览",
+      "topics": [
+        "Physical AI",
+        "Robotics",
+        "Autonomous Driving",
+        "Digital Twin",
+        "AI Factory"
+      ],
+      "organizer": [
+        "Incheon Metropolitan City",
+        "Korea Physical AI Association",
+        "SeoulMESSE",
+        "Incheon Tourism Organization",
+        "AI Times"
+      ],
+      "startDate": "2027-09-09",
+      "endDate": "2027-09-11",
+      "location": "Songdo Convensia Hall 4, Incheon, Korea",
+      "status": "announced",
+      "priority": "A",
+      "operatorRelevance": "medium",
+      "officialUrl": "https://p-aiexpokorea.com/en/visitor-info/",
+      "sourceType": "confirmed · organizer official",
+      "summary": "10:00–17:00，覆盖机器人、工业自主制造、物流、感知控制与数字孪生；报名实际开放状态待核实。",
+      "agenda": [],
+      "insights": []
+    },
+    {
+      "id": "ai-summit-seoul-expo-2027",
+      "title": "AI Summit Seoul & Expo 2027",
+      "titleZh": "首尔AI峰会与展览2027",
+      "topics": [
+        "Physical AI",
+        "Robotics",
+        "AI Infrastructure",
+        "AI Agents"
+      ],
+      "organizer": [
+        "DMK Global",
+        "COEX",
+        "KITA"
+      ],
+      "startDate": "2027-08-11",
+      "endDate": "2027-08-13",
+      "location": "COEX, Seoul, Korea",
+      "status": "announced",
+      "priority": "A",
+      "operatorRelevance": "medium",
+      "officialUrl": "https://www.aisummit.co.kr/",
+      "sourceType": "confirmed · organizer official",
+      "summary": "官方公布2027展览日期与Physical AI、机器人、AI基础设施主题；具体议程及报名条件待核实。",
+      "agenda": [],
       "insights": []
     }
   ]
