@@ -1,8 +1,8 @@
 {
-  "date": "2026-11-24",
+  "date": "2026-11-25",
   "title": "Korea Telco Advanced Technology Radar",
   "edition_time": "08:30 KST",
-  "editorial_note": "11月23日OpenAI/Cisco发布Shirudo，新增云原生安全方向；补录11月18日Google Gemini 4 Neon（23日更新）。定向检索未确认新的直接AI-RAN、6G、Ambient IoT重大里程碑；未穷尽16家公司及3GPP CR。历史事件沿用11月23日报告，未逐条重新核验。",
+  "editorial_note": "本期定向检索未确认过去24小时新的直接AI-RAN、6G或Ambient IoT重大一手里程碑。较11月24日无已核实新增技术事件；Top 5为历史跟踪，未逐条重新核验。检索未穷尽16家公司及3GPP TDoc/CR。",
   "top5": [
     {
       "title": "OpenAI与Cisco发布Shirudo开源运行时安全方案",
@@ -16,7 +16,7 @@
       "impact_for_korean_telco": "在非生产vRAN/CNF环境评估防护开销、P99时延、内核兼容性、审批及回滚。",
       "topic": "AI-RAN / 云原生安全（间接相关）",
       "company_or_org": "OpenAI / Cisco",
-      "tracking_status": "本期新增，11月23日发布，具体时刻未核实"
+      "tracking_status": "历史跟踪，非今日新增"
     },
     {
       "title": "SKT公布AI-RAN无人车辆移送验证及2027年工厂实地部署计划",
@@ -72,14 +72,14 @@
       "impact_for_korean_telco": "以任务成功率、成本、时延和权限控制对比现有模型。",
       "topic": "AI / 网络研发辅助",
       "company_or_org": "Google",
-      "tracking_status": "本期补录，非今日首次发布"
+      "tracking_status": "历史跟踪，非今日新增"
     }
   ],
   "trends": {
     "AI-RAN": {
       "direction": "↗ 从无线性能和故障自治延伸至工业Physical AI任务闭环",
       "summary": "SKT 11月18日披露AI-RAN通过LiDAR、边缘数字孪生和5G SA控制普通车辆，并规划2027年平泽工厂验证；Ericsson/DNB的L4限定场景故障自治仍为近期重要证据。",
-      "key_change": "较11月23日新增Shirudo云原生安全技术，间接相关；未确认新增无线性能或自治认证。",
+      "key_change": "较11月24日未确认新的重大技术或规范变化；非穷尽核验。",
       "sources": [
         {
           "name": "SK Telecom",
@@ -101,7 +101,7 @@
     "6G": {
       "direction": "→ U6GHz预商用验证与AI-native Core研究并行",
       "summary": "华为/Vodacom U6GHz实验室端到端验证、Ericsson AI Domain架构研究均为标准前准备；尚不等于6G已商用。",
-      "key_change": "较11月23日未确认新的规范性突破。",
+      "key_change": "较11月24日未确认新的重大技术或规范变化；非穷尽核验。",
       "sources": [
         {
           "name": "Huawei/Vodacom",
@@ -118,7 +118,7 @@
     "Ambient IoT": {
       "direction": "→ 3GPP规范及互操作状态继续观察",
       "summary": "本轮未确认过去24小时新增批准CR；未完成3GPP门户所有TDoc/CR逐项审查，不能据此断言没有更新。",
-      "key_change": "较11月23日未确认新增批准CR；未完成逐项核验。",
+      "key_change": "较11月24日未确认新的重大技术或规范变化；非穷尽核验。",
       "sources": [
         {
           "name": "3GPP TS 23.370",
@@ -331,7 +331,7 @@
         "impact_for_korean_telco": "在非生产vRAN/CNF环境评估防护开销、P99时延、内核兼容性、审批及回滚。",
         "topic": "AI-RAN / 云原生安全（间接相关）",
         "company_or_org": "OpenAI / Cisco",
-        "tracking_status": "本期新增，11月23日发布，具体时刻未核实"
+        "tracking_status": "历史跟踪，非今日新增"
       }
     ],
     "Google": [
@@ -347,7 +347,7 @@
         "impact_for_korean_telco": "以任务成功率、成本、时延和权限控制对比现有模型。",
         "topic": "AI / 网络研发辅助",
         "company_or_org": "Google",
-        "tracking_status": "本期补录，非今日首次发布"
+        "tracking_status": "历史跟踪，非今日新增"
       }
     ],
     "NVIDIA": [
@@ -453,20 +453,6 @@
       "tracking_status": "历史跟踪，非今日新增"
     },
     {
-      "title": "NVIDIA OpenShell与GPU Kubernetes基础设施",
-      "date": "2026-11-10",
-      "source_name": "NVIDIA",
-      "source_url": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
-      "source_type": "官方技术博客/开源公告",
-      "importance": "值得关注",
-      "summary": "发布Agent安全和GPU基础设施信息，SKT列入生态集成计划。",
-      "technical_significance": "集成计划不是生产部署或空口KPI。",
-      "impact_for_korean_telco": "研究Agent安全隔离与推理资源调度。",
-      "topic": "Network for AI",
-      "company_or_org": "NVIDIA / SKT",
-      "tracking_status": "历史跟踪，非今日新增"
-    },
-    {
       "title": "OpenAI与Cisco发布Shirudo开源运行时安全方案",
       "date": "2026-11-23",
       "source_name": "OpenAI",
@@ -478,7 +464,7 @@
       "impact_for_korean_telco": "在非生产vRAN/CNF环境评估防护开销、P99时延、内核兼容性、审批及回滚。",
       "topic": "AI-RAN / 云原生安全（间接相关）",
       "company_or_org": "OpenAI / Cisco",
-      "tracking_status": "本期新增，11月23日发布，具体时刻未核实"
+      "tracking_status": "历史跟踪，非今日新增"
     },
     {
       "title": "Google发布Gemini 4 Neon",
@@ -492,7 +478,7 @@
       "impact_for_korean_telco": "以任务成功率、成本、时延和权限控制对比现有模型。",
       "topic": "AI / 网络研发辅助",
       "company_or_org": "Google",
-      "tracking_status": "本期补录，非今日首次发布"
+      "tracking_status": "历史跟踪，非今日新增"
     }
   ],
   "sources": [
