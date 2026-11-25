@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25",
+  "updatedAt": "2026-11-26",
   "events": [
     {
       "id": "eu-korea-digital-partnership-2026",
@@ -4327,7 +4327,7 @@
       "title": "Physical AI Era — AI Factory & Autonomous Manufacturing Seminar (Dec 8 Edition)",
       "titleKo": "[12.8] 피지컬 AI 시대를 여는 AI팩토리·자율제조 핵심 기술과 산업 적용 방안",
       "titleZh": "12月8日 Physical AI工厂与自主制造技术研讨会",
-      "summary": "SeminarHub当前官方活动页面显示12月8日09:50–17:10、首尔汝矣岛FKI Tower。包含Neuromeka CTO的Foundation Model/Sim2Real、KIRIA Humanoid实证、KITECH机器人流程、Nota AI VLM工业监控、数字孪生与制造Agent等。主办方复用原10月20日活动商品页面；是否改期或另开场次未明，故单独记录本次明确公布的12月日期并保留旧历史记录。",
+      "summary": "SeminarHub当前官方活动页面显示12月8日09:50–16:55、首尔汝矣岛FKI Tower。包含Neuromeka CTO的Foundation Model/Sim2Real、KIRIA Humanoid实证、KITECH机器人流程、Nota AI VLM工业监控、数字孪生与制造Agent等。主办方复用原10月20日活动商品页面；是否改期或另开场次未明，故单独记录本次明确公布的12月日期并保留旧历史记录。",
       "topics": [
         "Physical AI",
         "Robotics",
@@ -4352,30 +4352,25 @@
         "IBEX"
       ],
       "speakers": [
-        "Heo Young-jin / 허영진 (Neuromeka CTO)",
-        "Nam Kyung-tae / 남경태 (KITECH)",
-        "Ryu Yo-el / 류요엘 (KIRIA Humanoid Center)",
-        "Seo Seung-ho / 서승호 (Korea University)",
-        "Oh Ji-woo / 오지우 (Nota AI)",
-        "Ryu Jae-hyeong / 류제형 (E8 CTO)",
         "신민용 (PwC Consulting)",
         "남경태 (KITECH)",
         "류요엘 (KIRIA)",
         "허영진 (Neuromeka CTO)",
         "박양호 (MICUBE Solution)",
-        "성민수 (IVEX)",
+        "곽순석 (IVEX)",
         "서승호 (Korea University)",
-        "오지우 (Nota AI)"
+        "이준혁 (Nota AI)",
+        "류제형 (E8 CTO)"
       ],
       "startDate": "2026-12-08",
       "endDate": "2026-12-08",
       "location": "FKI Tower Conference Center 2F, Yeouido, Seoul (specific hall not announced on current page)",
       "language": "Korean",
-      "status": "registration_open",
+      "status": "registration_closing",
       "registrationDeadline": "2026-12-03T17:00:00+09:00",
       "registrationUrl": "https://seminarhub.co.kr/product/item.php?it_id=1786515415",
       "officialUrl": "https://seminarhub.co.kr/product/item.php?it_id=1786515415",
-      "registrationEligibility": "Manufacturing/automation, robotics, AI and digital-twin R&D professionals; online/offline options shown on organizer homepage. Early-registration discount through Dec 3 17:00.",
+      "registrationEligibility": "Manufacturing/automation, robotics, AI and digital-twin R&D professionals; online/offline options shown on organizer homepage. Early-registration discount through Dec 3 17:00. Seats limited, first come first served.",
       "fee": "KRW 396,000 early registration (VAT included); KRW 33,000 surcharge after early deadline; lunch/materials included.",
       "sourceType": "confirmed · organizer current Dec 8 agenda; legacy Oct 20 Event-us page remains and postponement vs repeat is not explicitly clarified",
       "priority": "A",
@@ -4383,24 +4378,49 @@
       "whyItMatters": "韩国机器人制造与AI工厂部署的Physical AI/Sim2Real/VLM/数字孪生实证，适合寻找Private 5G、MEC推理、多机器人协同及工业B2B的可量化需求；未确认网络KPI。",
       "agenda": [
         {
-          "time": "2026-12-08 10:40–11:20",
-          "title": "Physical AI Robot Processes and Industrial Demonstrations",
-          "speaker": "Nam Kyung-tae (KITECH)"
+          "time": "2026-12-08 09:50–10:30",
+          "title": "Physical AI adoption strategy",
+          "speaker": "신민용"
         },
         {
-          "time": "2026-12-08 11:30–12:10",
-          "title": "Humanoid Robot Demonstrations and Adoption Strategy",
-          "speaker": "Ryu Yo-el (KIRIA)"
+          "time": "2026-12-08 10:30–11:10",
+          "title": "Robot processes and industrial demonstrations",
+          "speaker": "남경태"
         },
         {
-          "time": "2026-12-08 14:00–14:35",
-          "title": "Foundation Model and Sim2Real for Robot Automation",
-          "speaker": "Heo Young-jin (Neuromeka CTO)"
+          "time": "2026-12-08 11:20–12:00",
+          "title": "Humanoid demonstrations and adoption",
+          "speaker": "류요엘"
         },
         {
-          "time": "2026-12-08 15:55–16:30",
-          "title": "VLM-based Industrial AI Monitoring",
-          "speaker": "Oh Ji-woo (Nota AI)"
+          "time": "2026-12-08 12:00–12:40",
+          "title": "Foundation Model and Sim2Real",
+          "speaker": "허영진"
+        },
+        {
+          "time": "2026-12-08 13:40–14:15",
+          "title": "Standards-based digital twin",
+          "speaker": "박양호"
+        },
+        {
+          "time": "2026-12-08 14:25–15:00",
+          "title": "Autonomous manufacturing platform",
+          "speaker": "곽순석"
+        },
+        {
+          "time": "2026-12-08 15:00–15:35",
+          "title": "Multimodal human-robot collaboration",
+          "speaker": "서승호"
+        },
+        {
+          "time": "2026-12-08 15:45–16:20",
+          "title": "VLM industrial monitoring",
+          "speaker": "이준혁"
+        },
+        {
+          "time": "2026-12-08 16:20–16:55",
+          "title": "Ontology and AI agents",
+          "speaker": "류제형"
         }
       ],
       "insights": []
