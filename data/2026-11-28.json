@@ -1,0 +1,507 @@
+{
+  "date": "2026-11-28",
+  "title": "Korea Telco Advanced Technology Radar",
+  "edition_time": "08:30 KST",
+  "editorial_note": "本期未确认过去24小时新增直接AI-RAN、6G或Ambient IoT重大里程碑。新增核对OpenAI Private Inference Alpha官方页面（发布日期未标注），补录Google Cloud 11月20日Agent延迟服务层。较11月27日，新增可信推理和非实时Agent调度观察；其余历史记录未逐条复核。检索未穷尽16家公司及3GPP TDoc/CR。",
+  "top5": [
+    {
+      "title": "OpenAI Private Inference Alpha：推理期间数据保护",
+      "date": "未标注（2026-11-28核对）",
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/business/private-intelligence/",
+      "source_type": "官方产品页面/Alpha",
+      "importance": "值得关注",
+      "summary": "结合机密计算与严格控制保护推理期间的提示和响应；官方页面标记Alpha。",
+      "technical_significance": "区别于推理后零保留；尚无电信实时性或商用规模证据。",
+      "impact_for_korean_telco": "评估网络日志和配置的可信推理、证明机制、P99时延及数据驻留。",
+      "topic": "AI / 可信推理",
+      "company_or_org": "OpenAI",
+      "tracking_status": "本期新核对，发布日期未确认"
+    },
+    {
+      "title": "SKT公布AI-RAN无人车辆移送验证及2027年工厂实地部署计划",
+      "date": "2026-11-18",
+      "source_name": "SK Telecom",
+      "source_url": "https://news.sktelecom.com/233180",
+      "source_type": "运营商官方新闻稿/既有PoC及未来部署计划",
+      "importance": "值得关注",
+      "summary": "SKT的AI-RAN AVM方案由LiDAR采集点云，边缘侧构建数字孪生并计算路径，通过5G SA控制不具备自动驾驶功能的车辆；2026年板桥Physical AI Living Lab验证，计划2027年在KG Mobility平泽工厂使用Ericsson AI-RAN先导网络开展工业场景验证。11月18日获得韩国电波广播技术大奖部长奖。 官方公告还明确计划12月9—11日在仁川6G Vision Fest展示AVM。",
+      "technical_significance": "将AI-RAN定位为Physical AI的感知-推理-控制执行基础设施；已完成停车设施PoC，但2027年工厂项目仍是计划，未公布可复现的P99闭环时延、任务成功率或商业合同。",
+      "impact_for_korean_telco": "建议对SKT/KT/LG U+的机器人项目建立统一任务SLA：LiDAR上行带宽、感知-推理-控制P99、切换连续性、故障安全、推理功耗及工业客户付费意愿；重点跟踪2027年平泽工厂验收。",
+      "topic": "AI-RAN / Physical AI / 运营商",
+      "company_or_org": "SK Telecom / HFR / Seoul Robotics / Ericsson",
+      "tracking_status": "本期复核官方原文，非今日发布"
+    },
+    {
+      "title": "DNB与Ericsson获得TM Forum三类RAN故障管理L4自治验证",
+      "date": "2026-11-17",
+      "source_name": "Ericsson",
+      "source_url": "https://www.ericsson.com/en/news/2026/11/dnb-achieves-l4-autonomy",
+      "source_type": "官方新闻/第三方能力验证",
+      "importance": "重大更新",
+      "summary": "TM Forum验证设备、通信、环境三类故障的八项自治能力；评估期内覆盖98%故障事件，适用范围内事件成功处置，包含需要现场人员配合的情况。",
+      "technical_significance": "Agentic AI、意图驱动策略与故障诊断闭环在生产网络取得限定范围L4验证；不是全网全部故障L4，更不是98%完全无人修复。",
+      "impact_for_korean_telco": "SKT/KT/LG U+应要求按故障类别拆分自动修复率、MTTR、人工介入、误操作和回退，参考TM Forum评估方法。",
+      "topic": "AI-RAN / 自治运维",
+      "company_or_org": "Ericsson / DNB",
+      "tracking_status": "历史跟踪，非今日新增"
+    },
+    {
+      "title": "Vodacom与华为完成U6GHz VitaAAU/RetinaMIMO端到端实验室验证",
+      "date": "2026-11-18",
+      "source_name": "Huawei",
+      "source_url": "https://www.huawei.com/en/news/2026/11/u6ghz-vitaaau-retinamimo",
+      "source_type": "官方新闻稿/运营商实验室验证",
+      "importance": "值得关注",
+      "summary": "在Vodacom实验室验证6425–7125MHz U6GHz端到端方案。华为称相对1024-AE方案覆盖范围约扩大30%、能耗降低约30%，属于其披露的对比测试口径。",
+      "technical_significance": "RetinaMIMO和VitaAAU探索U6GHz高路径损耗下的共站覆盖可行性；尚不是6G商用部署，也不是韩国频谱已许可的证据。",
+      "impact_for_korean_telco": "韩国运营商应在实际候选频段、站址和终端条件下复算覆盖、射频功耗及CAPEX，要求提供1024-AE对照基线。",
+      "topic": "6G / U6GHz / 5G-Advanced",
+      "company_or_org": "Huawei / Vodacom",
+      "tracking_status": "历史跟踪，非今日新增"
+    },
+    {
+      "title": "Google Cloud：延迟容忍Agent服务层正式可用",
+      "date": "2026-11-20",
+      "source_name": "Google Cloud",
+      "source_url": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud",
+      "source_type": "官方技术周报/GA",
+      "importance": "值得关注",
+      "summary": "Deferred tier支持多轮后台Agent任务，完成的轮次按标准按量价格五折计费。",
+      "technical_significance": "通过延迟容忍调度降低后台任务成本，不适合实时RAN控制。",
+      "impact_for_korean_telco": "将离线网络分析、研发Agent与实时闭环分开调度，比较成本与任务完成时间。",
+      "topic": "AI / 算力调度",
+      "company_or_org": "Google",
+      "tracking_status": "本期补录，非今日发布"
+    }
+  ],
+  "trends": {
+    "AI-RAN": {
+      "direction": "↗ 从无线性能和故障自治延伸至工业Physical AI任务闭环",
+      "summary": "无线优化、自治运维和Physical AI并行；可信推理及后台Agent调度属于间接相关技术。",
+      "key_change": "较11月27日新增可信推理及非实时Agent调度观察；SKT展会计划已复核。",
+      "sources": [
+        {
+          "name": "SK Telecom",
+          "url": "https://news.sktelecom.com/233180",
+          "date": "2026-11-18"
+        },
+        {
+          "name": "Ericsson/DNB",
+          "url": "https://www.ericsson.com/en/news/2026/11/dnb-achieves-l4-autonomy",
+          "date": "2026-11-17"
+        },
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/index/introducing-shirudo/",
+          "date": "2026-11-23"
+        },
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/business/private-intelligence/",
+          "date": "未标注（2026-11-28核对）"
+        },
+        {
+          "name": "Google Cloud",
+          "url": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud",
+          "date": "2026-11-20"
+        }
+      ]
+    },
+    "6G": {
+      "direction": "→ U6GHz预商用验证与AI-native Core研究并行",
+      "summary": "华为/Vodacom U6GHz实验室端到端验证、Ericsson AI Domain架构研究均为标准前准备；尚不等于6G已商用。",
+      "key_change": "较11月27日未确认新增规范性突破；未完成SI、WI、TDoc、Approved CR及TS最新版本逐项核验。",
+      "sources": [
+        {
+          "name": "Huawei/Vodacom",
+          "url": "https://www.huawei.com/en/news/2026/11/u6ghz-vitaaau-retinamimo",
+          "date": "2026-11-18"
+        },
+        {
+          "name": "Ericsson",
+          "url": "https://www.ericsson.com/en/blog/2026/11/ai-domain-6g-core-network",
+          "date": "2026-11-13"
+        }
+      ]
+    },
+    "Ambient IoT": {
+      "direction": "→ 3GPP规范及互操作状态继续观察",
+      "summary": "本轮未确认过去24小时新增批准CR；未完成3GPP门户所有TDoc/CR逐项审查，不能据此断言没有更新。",
+      "key_change": "较11月27日未确认新增规范性突破；未完成SI、WI、TDoc、Approved CR及TS最新版本逐项核验。",
+      "sources": [
+        {
+          "name": "3GPP TS 23.370",
+          "url": "https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=5530",
+          "date": "持续维护；本次版本未核实"
+        },
+        {
+          "name": "3GPP TS 29.568",
+          "url": "https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=5537",
+          "date": "持续维护；本次版本未核实"
+        }
+      ]
+    }
+  },
+  "vendors": {
+    "Huawei": [
+      {
+        "title": "Vodacom与华为完成U6GHz VitaAAU/RetinaMIMO端到端实验室验证",
+        "date": "2026-11-18",
+        "source_name": "Huawei",
+        "source_url": "https://www.huawei.com/en/news/2026/11/u6ghz-vitaaau-retinamimo",
+        "source_type": "官方新闻稿/运营商实验室验证",
+        "importance": "值得关注",
+        "summary": "在Vodacom实验室验证6425–7125MHz U6GHz端到端方案。华为称相对1024-AE方案覆盖范围约扩大30%、能耗降低约30%，属于其披露的对比测试口径。",
+        "technical_significance": "RetinaMIMO和VitaAAU探索U6GHz高路径损耗下的共站覆盖可行性；尚不是6G商用部署，也不是韩国频谱已许可的证据。",
+        "impact_for_korean_telco": "韩国运营商应在实际候选频段、站址和终端条件下复算覆盖、射频功耗及CAPEX，要求提供1024-AE对照基线。",
+        "topic": "6G / U6GHz / 5G-Advanced",
+        "company_or_org": "Huawei / Vodacom",
+        "tracking_status": "历史跟踪，非今日新增"
+      }
+    ],
+    "ZTE": [],
+    "Ericsson": [
+      {
+        "title": "DNB与Ericsson获得TM Forum三类RAN故障管理L4自治验证",
+        "date": "2026-11-17",
+        "source_name": "Ericsson",
+        "source_url": "https://www.ericsson.com/en/news/2026/11/dnb-achieves-l4-autonomy",
+        "source_type": "官方新闻/第三方能力验证",
+        "importance": "重大更新",
+        "summary": "TM Forum验证设备、通信、环境三类故障的八项自治能力；评估期内覆盖98%故障事件，适用范围内事件成功处置，包含需要现场人员配合的情况。",
+        "technical_significance": "Agentic AI、意图驱动策略与故障诊断闭环在生产网络取得限定范围L4验证；不是全网全部故障L4，更不是98%完全无人修复。",
+        "impact_for_korean_telco": "SKT/KT/LG U+应要求按故障类别拆分自动修复率、MTTR、人工介入、误操作和回退，参考TM Forum评估方法。",
+        "topic": "AI-RAN / 自治运维",
+        "company_or_org": "Ericsson / DNB",
+        "tracking_status": "历史跟踪，非今日新增"
+      }
+    ],
+    "Nokia": [
+      {
+        "title": "Nokia牵头参与北欧波罗的海联邦AI Gigafactory联盟",
+        "date": "2026-11-16",
+        "source_name": "Nokia",
+        "source_url": "https://www.nokia.com/newsroom/european-technology-leaders-form-ai-gigafactory-northern-consortium-to-build-trusted-sustainable-ai-infrastructure/",
+        "source_type": "官方新闻稿/联盟及拟投标",
+        "importance": "值得关注",
+        "summary": "Nokia、Telia、Nscale、Verda、Skeleton成立多站点AI Gigafactory Northern联盟，计划申请EuroHPC项目，尚非建成或中标。",
+        "technical_significance": "把跨境高容量连接、算力、主权云和能源统一设计，显示运营商从连接向AI基础设施协同延伸。",
+        "impact_for_korean_telco": "韩国运营商可研究AIDC联邦组网、跨域调度、供电约束和主权AI服务，但不可按已建算力计入。",
+        "topic": "Network for AI / AI基础设施",
+        "company_or_org": "Nokia / Telia / 联盟",
+        "tracking_status": "历史跟踪，非今日新增"
+      }
+    ],
+    "Samsung": []
+  },
+  "operators": {
+    "China Mobile": [],
+    "LG U+": [],
+    "SKT": [
+      {
+        "title": "SKT公布AI-RAN无人车辆移送验证及2027年工厂实地部署计划",
+        "date": "2026-11-18",
+        "source_name": "SK Telecom",
+        "source_url": "https://news.sktelecom.com/233180",
+        "source_type": "运营商官方新闻稿/既有PoC及未来部署计划",
+        "importance": "值得关注",
+        "summary": "SKT的AI-RAN AVM方案由LiDAR采集点云，边缘侧构建数字孪生并计算路径，通过5G SA控制不具备自动驾驶功能的车辆；2026年板桥Physical AI Living Lab验证，计划2027年在KG Mobility平泽工厂使用Ericsson AI-RAN先导网络开展工业场景验证。11月18日获得韩国电波广播技术大奖部长奖。",
+        "technical_significance": "将AI-RAN定位为Physical AI的感知-推理-控制执行基础设施；已完成停车设施PoC，但2027年工厂项目仍是计划，未公布可复现的P99闭环时延、任务成功率或商业合同。",
+        "impact_for_korean_telco": "建议对SKT/KT/LG U+的机器人项目建立统一任务SLA：LiDAR上行带宽、感知-推理-控制P99、切换连续性、故障安全、推理功耗及工业客户付费意愿；重点跟踪2027年平泽工厂验收。",
+        "topic": "AI-RAN / Physical AI / 运营商",
+        "company_or_org": "SK Telecom / HFR / Seoul Robotics / Ericsson",
+        "tracking_status": "历史跟踪，非今日新增"
+      }
+    ],
+    "KT": [],
+    "SoftBank": [],
+    "NTT DOCOMO": [],
+    "Rakuten": [],
+    "DNB": [
+      {
+        "title": "DNB与Ericsson获得TM Forum三类RAN故障管理L4自治验证",
+        "date": "2026-11-17",
+        "source_name": "Ericsson",
+        "source_url": "https://www.ericsson.com/en/news/2026/11/dnb-achieves-l4-autonomy",
+        "source_type": "官方新闻/第三方能力验证",
+        "importance": "重大更新",
+        "summary": "TM Forum验证设备、通信、环境三类故障的八项自治能力；评估期内覆盖98%故障事件，适用范围内事件成功处置，包含需要现场人员配合的情况。",
+        "technical_significance": "Agentic AI、意图驱动策略与故障诊断闭环在生产网络取得限定范围L4验证；不是全网全部故障L4，更不是98%完全无人修复。",
+        "impact_for_korean_telco": "SKT/KT/LG U+应要求按故障类别拆分自动修复率、MTTR、人工介入、误操作和回退，参考TM Forum评估方法。",
+        "topic": "AI-RAN / 自治运维",
+        "company_or_org": "Ericsson / DNB",
+        "tracking_status": "历史跟踪，非今日新增"
+      }
+    ],
+    "Vodacom": [
+      {
+        "title": "Vodacom与华为完成U6GHz VitaAAU/RetinaMIMO端到端实验室验证",
+        "date": "2026-11-18",
+        "source_name": "Huawei",
+        "source_url": "https://www.huawei.com/en/news/2026/11/u6ghz-vitaaau-retinamimo",
+        "source_type": "官方新闻稿/运营商实验室验证",
+        "importance": "值得关注",
+        "summary": "在Vodacom实验室验证6425–7125MHz U6GHz端到端方案。华为称相对1024-AE方案覆盖范围约扩大30%、能耗降低约30%，属于其披露的对比测试口径。",
+        "technical_significance": "RetinaMIMO和VitaAAU探索U6GHz高路径损耗下的共站覆盖可行性；尚不是6G商用部署，也不是韩国频谱已许可的证据。",
+        "impact_for_korean_telco": "韩国运营商应在实际候选频段、站址和终端条件下复算覆盖、射频功耗及CAPEX，要求提供1024-AE对照基线。",
+        "topic": "6G / U6GHz / 5G-Advanced",
+        "company_or_org": "Huawei / Vodacom",
+        "tracking_status": "历史跟踪，非今日新增"
+      }
+    ],
+    "Telia": [
+      {
+        "title": "Nokia牵头参与北欧波罗的海联邦AI Gigafactory联盟",
+        "date": "2026-11-16",
+        "source_name": "Nokia",
+        "source_url": "https://www.nokia.com/newsroom/european-technology-leaders-form-ai-gigafactory-northern-consortium-to-build-trusted-sustainable-ai-infrastructure/",
+        "source_type": "官方新闻稿/联盟及拟投标",
+        "importance": "值得关注",
+        "summary": "Nokia、Telia、Nscale、Verda、Skeleton成立多站点AI Gigafactory Northern联盟，计划申请EuroHPC项目，尚非建成或中标。",
+        "technical_significance": "把跨境高容量连接、算力、主权云和能源统一设计，显示运营商从连接向AI基础设施协同延伸。",
+        "impact_for_korean_telco": "韩国运营商可研究AIDC联邦组网、跨域调度、供电约束和主权AI服务，但不可按已建算力计入。",
+        "topic": "Network for AI / AI基础设施",
+        "company_or_org": "Nokia / Telia / 联盟",
+        "tracking_status": "历史跟踪，非今日新增"
+      }
+    ],
+    "One New Zealand": [],
+    "Vodafone Egypt": []
+  },
+  "ai_companies": {
+    "Anthropic": [],
+    "OpenAI": [
+      {
+        "title": "OpenAI Private Inference Alpha：推理期间数据保护",
+        "date": "未标注（2026-11-28核对）",
+        "source_name": "OpenAI",
+        "source_url": "https://openai.com/business/private-intelligence/",
+        "source_type": "官方产品页面/Alpha",
+        "importance": "值得关注",
+        "summary": "结合机密计算与严格控制保护推理期间的提示和响应；官方页面标记Alpha。",
+        "technical_significance": "区别于推理后零保留；尚无电信实时性或商用规模证据。",
+        "impact_for_korean_telco": "评估网络日志和配置的可信推理、证明机制、P99时延及数据驻留。",
+        "topic": "AI / 可信推理",
+        "company_or_org": "OpenAI",
+        "tracking_status": "本期新核对，发布日期未确认"
+      },
+      {
+        "title": "OpenAI与Cisco发布Shirudo开源运行时安全方案",
+        "date": "2026-11-23",
+        "source_name": "OpenAI",
+        "source_url": "https://openai.com/index/introducing-shirudo/",
+        "source_type": "官方技术公告/受控安全测试",
+        "importance": "值得关注",
+        "summary": "通过eBPF对运行中的Linux系统施加临时防护，受控测试中阻止针对Elasticsearch的漏洞利用且无需重启。",
+        "technical_significance": "Agent生成并验证临时防护策略，安全团队控制部署；不是正式补丁替代品，也未证明RAN实时性。",
+        "impact_for_korean_telco": "在非生产vRAN/CNF环境评估防护开销、P99时延、内核兼容性、审批及回滚。",
+        "topic": "AI-RAN / 云原生安全（间接相关）",
+        "company_or_org": "OpenAI / Cisco",
+        "tracking_status": "历史跟踪，非今日新增"
+      }
+    ],
+    "Google": [
+      {
+        "title": "Google Cloud：延迟容忍Agent服务层正式可用",
+        "date": "2026-11-20",
+        "source_name": "Google Cloud",
+        "source_url": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud",
+        "source_type": "官方技术周报/GA",
+        "importance": "值得关注",
+        "summary": "Deferred tier支持多轮后台Agent任务，完成的轮次按标准按量价格五折计费。",
+        "technical_significance": "通过延迟容忍调度降低后台任务成本，不适合实时RAN控制。",
+        "impact_for_korean_telco": "将离线网络分析、研发Agent与实时闭环分开调度，比较成本与任务完成时间。",
+        "topic": "AI / 算力调度",
+        "company_or_org": "Google",
+        "tracking_status": "本期补录，非今日发布"
+      },
+      {
+        "title": "Google发布Gemini 4 Neon",
+        "date": "2026-11-18",
+        "source_name": "Google",
+        "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+        "source_type": "官方模型公告",
+        "importance": "值得关注",
+        "summary": "面向复杂编码、分析和企业工作流的模型，公告11月23日更新，具体修改未确认。",
+        "technical_significance": "可用于网络软件研发和运维Agent辅助，不是无线性能验证。",
+        "impact_for_korean_telco": "以任务成功率、成本、时延和权限控制对比现有模型。",
+        "topic": "AI / 网络研发辅助",
+        "company_or_org": "Google",
+        "tracking_status": "历史跟踪，非今日新增"
+      }
+    ],
+    "NVIDIA": []
+  },
+  "timeline15d": [
+    {
+      "title": "DNB与Ericsson获得TM Forum三类RAN故障管理L4自治验证",
+      "date": "2026-11-17",
+      "source_name": "Ericsson",
+      "source_url": "https://www.ericsson.com/en/news/2026/11/dnb-achieves-l4-autonomy",
+      "source_type": "官方新闻/第三方能力验证",
+      "importance": "重大更新",
+      "summary": "TM Forum验证设备、通信、环境三类故障的八项自治能力；评估期内覆盖98%故障事件，适用范围内事件成功处置，包含需要现场人员配合的情况。",
+      "technical_significance": "Agentic AI、意图驱动策略与故障诊断闭环在生产网络取得限定范围L4验证；不是全网全部故障L4，更不是98%完全无人修复。",
+      "impact_for_korean_telco": "SKT/KT/LG U+应要求按故障类别拆分自动修复率、MTTR、人工介入、误操作和回退，参考TM Forum评估方法。",
+      "topic": "AI-RAN / 自治运维",
+      "company_or_org": "Ericsson / DNB",
+      "tracking_status": "历史跟踪，非今日新增"
+    },
+    {
+      "title": "SKT公布AI-RAN无人车辆移送验证及2027年工厂实地部署计划",
+      "date": "2026-11-18",
+      "source_name": "SK Telecom",
+      "source_url": "https://news.sktelecom.com/233180",
+      "source_type": "运营商官方新闻稿/既有PoC及未来部署计划",
+      "importance": "值得关注",
+      "summary": "SKT的AI-RAN AVM方案由LiDAR采集点云，边缘侧构建数字孪生并计算路径，通过5G SA控制不具备自动驾驶功能的车辆；2026年板桥Physical AI Living Lab验证，计划2027年在KG Mobility平泽工厂使用Ericsson AI-RAN先导网络开展工业场景验证。11月18日获得韩国电波广播技术大奖部长奖。",
+      "technical_significance": "将AI-RAN定位为Physical AI的感知-推理-控制执行基础设施；已完成停车设施PoC，但2027年工厂项目仍是计划，未公布可复现的P99闭环时延、任务成功率或商业合同。",
+      "impact_for_korean_telco": "建议对SKT/KT/LG U+的机器人项目建立统一任务SLA：LiDAR上行带宽、感知-推理-控制P99、切换连续性、故障安全、推理功耗及工业客户付费意愿；重点跟踪2027年平泽工厂验收。",
+      "topic": "AI-RAN / Physical AI / 运营商",
+      "company_or_org": "SK Telecom / HFR / Seoul Robotics / Ericsson",
+      "tracking_status": "历史跟踪，非今日新增"
+    },
+    {
+      "title": "Vodacom与华为完成U6GHz VitaAAU/RetinaMIMO端到端实验室验证",
+      "date": "2026-11-18",
+      "source_name": "Huawei",
+      "source_url": "https://www.huawei.com/en/news/2026/11/u6ghz-vitaaau-retinamimo",
+      "source_type": "官方新闻稿/运营商实验室验证",
+      "importance": "值得关注",
+      "summary": "在Vodacom实验室验证6425–7125MHz U6GHz端到端方案。华为称相对1024-AE方案覆盖范围约扩大30%、能耗降低约30%，属于其披露的对比测试口径。",
+      "technical_significance": "RetinaMIMO和VitaAAU探索U6GHz高路径损耗下的共站覆盖可行性；尚不是6G商用部署，也不是韩国频谱已许可的证据。",
+      "impact_for_korean_telco": "韩国运营商应在实际候选频段、站址和终端条件下复算覆盖、射频功耗及CAPEX，要求提供1024-AE对照基线。",
+      "topic": "6G / U6GHz / 5G-Advanced",
+      "company_or_org": "Huawei / Vodacom",
+      "tracking_status": "历史跟踪，非今日新增"
+    },
+    {
+      "title": "Google Cloud：延迟容忍Agent服务层正式可用",
+      "date": "2026-11-20",
+      "source_name": "Google Cloud",
+      "source_url": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud",
+      "source_type": "官方技术周报/GA",
+      "importance": "值得关注",
+      "summary": "Deferred tier支持多轮后台Agent任务，完成的轮次按标准按量价格五折计费。",
+      "technical_significance": "通过延迟容忍调度降低后台任务成本，不适合实时RAN控制。",
+      "impact_for_korean_telco": "将离线网络分析、研发Agent与实时闭环分开调度，比较成本与任务完成时间。",
+      "topic": "AI / 算力调度",
+      "company_or_org": "Google",
+      "tracking_status": "本期补录，非今日发布"
+    },
+    {
+      "title": "Nokia牵头参与北欧波罗的海联邦AI Gigafactory联盟",
+      "date": "2026-11-16",
+      "source_name": "Nokia",
+      "source_url": "https://www.nokia.com/newsroom/european-technology-leaders-form-ai-gigafactory-northern-consortium-to-build-trusted-sustainable-ai-infrastructure/",
+      "source_type": "官方新闻稿/联盟及拟投标",
+      "importance": "值得关注",
+      "summary": "Nokia、Telia、Nscale、Verda、Skeleton成立多站点AI Gigafactory Northern联盟，计划申请EuroHPC项目，尚非建成或中标。",
+      "technical_significance": "把跨境高容量连接、算力、主权云和能源统一设计，显示运营商从连接向AI基础设施协同延伸。",
+      "impact_for_korean_telco": "韩国运营商可研究AIDC联邦组网、跨域调度、供电约束和主权AI服务，但不可按已建算力计入。",
+      "topic": "Network for AI / AI基础设施",
+      "company_or_org": "Nokia / Telia / 联盟",
+      "tracking_status": "历史跟踪，非今日新增"
+    },
+    {
+      "title": "OpenAI与Cisco发布Shirudo开源运行时安全方案",
+      "date": "2026-11-23",
+      "source_name": "OpenAI",
+      "source_url": "https://openai.com/index/introducing-shirudo/",
+      "source_type": "官方技术公告/受控安全测试",
+      "importance": "值得关注",
+      "summary": "通过eBPF对运行中的Linux系统施加临时防护，受控测试中阻止针对Elasticsearch的漏洞利用且无需重启。",
+      "technical_significance": "Agent生成并验证临时防护策略，安全团队控制部署；不是正式补丁替代品，也未证明RAN实时性。",
+      "impact_for_korean_telco": "在非生产vRAN/CNF环境评估防护开销、P99时延、内核兼容性、审批及回滚。",
+      "topic": "AI-RAN / 云原生安全（间接相关）",
+      "company_or_org": "OpenAI / Cisco",
+      "tracking_status": "历史跟踪，非今日新增"
+    },
+    {
+      "title": "Google发布Gemini 4 Neon",
+      "date": "2026-11-18",
+      "source_name": "Google",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "source_type": "官方模型公告",
+      "importance": "值得关注",
+      "summary": "面向复杂编码、分析和企业工作流的模型，公告11月23日更新，具体修改未确认。",
+      "technical_significance": "可用于网络软件研发和运维Agent辅助，不是无线性能验证。",
+      "impact_for_korean_telco": "以任务成功率、成本、时延和权限控制对比现有模型。",
+      "topic": "AI / 网络研发辅助",
+      "company_or_org": "Google",
+      "tracking_status": "历史跟踪，非今日新增"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Ericsson/DNB",
+      "url": "https://www.ericsson.com/en/news/2026/11/dnb-achieves-l4-autonomy",
+      "date": "2026-11-17"
+    },
+    {
+      "name": "Huawei/Vodacom",
+      "url": "https://www.huawei.com/en/news/2026/11/u6ghz-vitaaau-retinamimo",
+      "date": "2026-11-18"
+    },
+    {
+      "name": "Nokia",
+      "url": "https://www.nokia.com/newsroom/european-technology-leaders-form-ai-gigafactory-northern-consortium-to-build-trusted-sustainable-ai-infrastructure/",
+      "date": "2026-11-16",
+      "source_type": "官方新闻稿/联盟及拟投标"
+    },
+    {
+      "name": "Ericsson",
+      "url": "https://www.ericsson.com/en/blog/2026/11/ai-domain-6g-core-network",
+      "date": "2026-11-13"
+    },
+    {
+      "name": "Nokia",
+      "url": "https://www.nokia.com/newsroom/one-new-zealand-expands-nokia-partnership-to-accelerate-its-autonomous-networks-transformation/",
+      "date": "2026-11-11",
+      "source_type": "官方新闻稿/部署协议"
+    },
+    {
+      "name": "NVIDIA",
+      "url": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/",
+      "date": "2026-11-10",
+      "source_type": "官方技术博客/开源公告"
+    },
+    {
+      "name": "3GPP TS 23.370",
+      "url": "https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=5530",
+      "date": "持续维护；本次版本未核实"
+    },
+    {
+      "name": "3GPP TS 29.568",
+      "url": "https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=5537",
+      "date": "持续维护；本次版本未核实"
+    },
+    {
+      "name": "SK Telecom官方新闻",
+      "url": "https://news.sktelecom.com/233180",
+      "date": "2026-11-18",
+      "type": "运营商官方新闻稿"
+    },
+    {
+      "name": "OpenAI",
+      "url": "https://openai.com/index/introducing-shirudo/",
+      "date": "2026-11-23"
+    },
+    {
+      "name": "Google",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "date": "2026-11-18"
+    },
+    {
+      "name": "OpenAI",
+      "url": "https://openai.com/business/private-intelligence/",
+      "date": "未标注（2026-11-28核对）"
+    },
+    {
+      "name": "Google Cloud",
+      "url": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud",
+      "date": "2026-11-20"
+    }
+  ]
+}
